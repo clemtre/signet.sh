@@ -15,12 +15,12 @@ wanted something text based
 
 ## Bookmarks database format
 Only a Url is required, the rest of the fields are optional :
-URL : ...
-Name : grabs </title> from the bookmarked page
-Description : ...
-Tags : comma separated keywords
-Date :  posix time of the bookmarked link
-Color : css color (name, hex, rgb etc...)
+* URL : ...
+* Name : grabs </title> from the bookmarked page
+* Description : ...
+* Tags : comma separated keywords
+* Date :  posix time of the bookmarked link
+* Color : css color (name, hex, rgb etc...)
 
 For example, in a file called BOOKMARKS by default:
 ```
@@ -129,11 +129,10 @@ awful.util.spawn_with_shell("add.sh") end,
                   (default index.html)
 * style.css   → Stylesheet for index.html
 * script.js   → A bit of javascript for:
-                - search in the \<textarea>
-                - add background colors to entries that have them
-                - if the description field is empty, do not
-                display it
-                - format posix time dates to YY-MM-DD format
+··* search in the \<textarea>
+··* add background colors to entries that have them
+··* if the description field is empty, do not display it
+··* format posix time dates to YY-MM-DD format
 /!\ Soon /!\
 starred.sh  → curl from the github user api and format it in the same
 way as signet.sh without using jq
