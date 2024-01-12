@@ -1,5 +1,6 @@
 # Demo
-??
+![un gestionnaire de lien navigable](demo.png)
+**Quelque chose de plus lisible ici bientôt**
 
 # Presentation
 ## signet.sh
@@ -15,12 +16,12 @@ alternative pour archiver ses navigations internet.
 ## Format de la base de donné
 Seule une Url est requise, le reste des champs sont
 facultatifs, on compte les champs suivants :
-URL : ...
-Name : Par défaut la balise </title> de la page
-Description : ...
-Tags : mots-clés séparés d'une virgule
-Date : heure posix de l'ajout du lien
-Color : couleur css (nom, hex, rgb etc...)
+* URL : ...
+* Name : Par défaut la balise </title> de la page
+* Description : ...
+* Tags : mots-clés séparés d'une virgule
+* Date : heure posix de l'ajout du lien
+* Color : couleur css (nom, hex, rgb etc...)
 
 Par exemple, dans un fichier qui s'appelle par défaut BOOKMARKS :
 ```
@@ -120,20 +121,20 @@ awful.util.spawn_with_shell("add.sh") end,
 
 # Structure du répertoire
 
-BOOKMARKS   → Une base de donnée de liens 
-add.sh      → Un script pour rajouter un lien dans la base de donné
-                - dmenu
-                - ./signet.sh
-signet.sh   → Le script shell en lui-même 
-                - Il génère une nouvelle page html à partir de la base
-                  de donnés de liens (par défaut index.html)
-style.css   → La feuille de style pour styliser index.html
-script.js   → Un peu de javascript pour:
-                - rechercher dans la \<textarea>
-                - ajouter les couleurs de fond aux entrées qui en ont
-                - si le champs de description est vide, ne pas
-                  l'afficher
-                - formater les dates du temps posix au format AA-MM-JJ
+* BOOKMARKS   → Une base de donnée de liens 
+* add.sh      → Un script pour rajouter un lien dans la base de donné
+  * dmenu
+  * ./signet.sh
+* signet.sh   → Le script shell en lui-même 
+  * Il génère une nouvelle page html à partir de la base
+    de donnés de liens (par défaut index.html)
+* style.css   → La feuille de style pour styliser index.html
+* script.js   → Un peu de javascript pour:
+  * rechercher dans la \<textarea>
+  * ajouter les couleurs de fond aux entrées qui en ont
+  * si le champs de description est vide, ne pas
+                   l'afficher
+  * formater les dates du temps posix au format AA-MM-JJ
 /!\ Prochainement /!\
 starred.sh  → Un curl des repos de l'api github
 https://api.github.com/users/[user]/starred , formaté de json à une

@@ -1,7 +1,7 @@
 *FR → LISEZMOI.md*
 # Demo
 ![a browsable bookmark manager](demo.png)
-**Something more understendable to be released soon**
+**Something more understendable and browsable to be released soon**
 
 # Presentation
 ## signet.sh
@@ -11,7 +11,10 @@ It uses awk inside a here-doc declaration redirected to an html file.
 I have created this script because I found the bookmarks manager from
 firefox not great to use, to the point where I did not have the habit to
 bookmark my browsing. Firefox stores bookmarks in a sqlite format and I
-wanted something text based
+wanted something text based.
+
+I have been using the generated html page as a default landing page for
+three months, it has been a pleasing experience so far.
 
 ## Bookmarks database format
 Only a Url is required, the rest of the fields are optional :
@@ -118,7 +121,7 @@ awful.util.spawn_with_shell("add.sh") end,
 {description = "Enregistre le lien copié dans signet.sh"}),
 ```
 
-# Structure du répertoire
+# Repository structure :
 
 * BOOKMARKS   → A textual database of bookmarks
 * add.sh      → A script to add a link to the database
