@@ -49,9 +49,9 @@ Date: 1704712747
 # Dependances :
 Pour ajouter un lien via l'interface proposée, on aura besoin
 d'installer dmenu ~~et htmlq~~.
-    - dmenu https://tools.suckless.org/dmenu/ (MIT/X)
-    - ~~htmlq https://github.com/mgdm/htmlq (MIT)~~ remplacé par une
-      commande awk
+* dmenu https://tools.suckless.org/dmenu/ (MIT/X)
+* ~~htmlq https://github.com/mgdm/htmlq (MIT)~~ remplacé par une
+  commande awk
 ## dmenu
 Dmenu est un menu interactif qui permet de sélectionner et d'écrire des
 valeurs dans un menu. Ces valeurs peuvent provenir d'un programme
