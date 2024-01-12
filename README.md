@@ -73,7 +73,7 @@ tags=$(echo "" | dmenu -p "Enter comma-separated tags:")
 ```
 ## ~~htmlq~~
 Htmlq is an HTML parser written in Go. It doesn't matter which parser we
-uses, it seems that each language has its own.
+use, it seems that each language has its own.
 We give to the program an html string and it filters through it using css
 selectors returning the found html elements
 Using javascript, retrieving all the \<h1> children of a \<section> can
@@ -81,7 +81,8 @@ be done with :
 ```
 document.querySelectorAll('section h1')
 ```
-In shell, it's more complicated, htmlq is made for that:
+In shell, it's more complicated since we don't have document object
+model we can query. Htmlq is made for that:
 ```
 cat fichier.html | htmlq 'section h1'
 ```
@@ -146,4 +147,5 @@ Junicode (OFL-1.1)
 https://psb1558.github.io/Junicode-font/
 Dmenu License (MIT/X) 
 https://tools.suckless.org/dmenu/
+jquery
 
