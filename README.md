@@ -1,6 +1,7 @@
 *FR → LISEZMOI.md*
 # Demo
-??
+![a browsable bookmark manager](demo.png)
+**Something more understendable to be released soon**
 
 # Presentation
 ## signet.sh
