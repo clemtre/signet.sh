@@ -1,0 +1,11 @@
+- make a makefile in order to variabilize language in add.sh prompt and
+  make overall config easier
+- pin links
+- search select tags for filtering
+- a better way to capture url 
+    → something that grabs current page to clipboard
+- hardcode bookmark ids in awk rather than css so that ids are
+  persistant and don't slide if a link is removed
+    → add.sh id++
+- make other ways to edit and generate bookmarks if dmenu is too much of
+  a struggle to install.
