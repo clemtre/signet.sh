@@ -1,10 +1,14 @@
+# Demo
+??
+
 # Presentation
+## signet.sh
 Signet.sh est un script shell qui transforme une base de donnée de liens
-en une page html. La conversion est faite par une commande awk au sein
+en une page web. La conversion est faite par une commande awk au sein
 d'une déclaration here-doc qui est redirigé dans une page html.
 
 J'ai créé ce script car je trouve le gestionnaire de marque-page de
-firefox instatsifant, autant dans sa forme que dans le format utilisé
+firefox insatisfaisant, autant dans sa forme que dans le format utilisé
 (sqlite). Ce script et les utilitaires autours proposent une une
 alternative pour archiver ses navigations internet.
 
@@ -25,13 +29,13 @@ Name: Rosetta Code
 Description: 
 Tags: literacy, read
 Date: 1704675057
+Color: Purple
 
 URL: https://www.emigre.com/TypeSpecimens
 Name: Emigre: Type Specimens
 Description: 
 Tags: emigre, type
 Date: 1704680644
-Color: Purple
 
 URL: https://web.archive.org/web/20211025182257/http://len.falken.ink/
 Name: Wayback Machine
@@ -57,12 +61,12 @@ Dmenu est un menu interactif qui permet de sélectionner et d'écrire des
 valeurs dans un menu. Ces valeurs peuvent provenir d'un programme
 fournit en entrée un *pipe* "|", par exemple :
 ```
-    ls | dmenu
+ls | dmenu
 ```
 affiche un menu déroulant avec les fichiers de mon répertoire. Dans
 notre script, pour stocker le choix dans une variable, on peut faire :
 ```
-	tags=$(echo "" | dmenu -p "Enter comma-separated tags:")
+tags=$(echo "" | dmenu -p "Enter comma-separated tags:")
 ```
 ## ~~htmlq~~
 Htmlq est un parseur d'html écrit en go. Peu importe quel parseur on
@@ -71,7 +75,9 @@ Il s'agit ici de fournir au programme une chaîne de caractère en entrée
 et d'en filtrer des éléments html
 Si en javascript pour récupérer tous les \<h1> enfants d'une \<section> on
 peut faire 
+```
 document.querySelectorAll('section h1')
+```
 En shell, c'est plus compliqué, htmlq est fait pour ça :
 ```
 cat fichier.html | htmlq 'section h1'
@@ -132,3 +138,10 @@ script.js   → Un peu de javascript pour:
 starred.sh  → Un curl des repos de l'api github
 https://api.github.com/users/[user]/starred , formaté de json à une
 liste html sans jq !
+
+# Crédits 
+Junicode (OFL-1.1)
+https://psb1558.github.io/Junicode-font/
+Dmenu License (MIT/X) 
+https://tools.suckless.org/dmenu/
+
