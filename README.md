@@ -108,10 +108,14 @@ attempt to move to the next field in the script :/ sorry!
 # Add a bookmark : 
 
 To add a link, I select the URL of the page with Ctrl + l, the copy and
-run add.sh with Super + i. __If anyone knows how to retrieve the url of
+run add.sh with Super + i. 
+
+__If anyone knows how to retrieve the url of
 the current browser page without having to copy it, this would save two
 steps out of three.__
+
 In short : Ctrl + l, Ctrl + c, Super + i
+
 (or shorter : Ctrl + l + i, Super + i)
 
 Super + i because in my window manager configuration file located in
@@ -137,7 +141,9 @@ awful.util.spawn_with_shell("add.sh") end,
   * add background colors to entries that have them
   * if the description field is empty, do not display it
   * format posix time dates to YY-MM-DD format
+
 /!\ Soon /!\
+
 starred.sh  → curl from the github user api and format it in the same
 way as signet.sh without using jq
 https://api.github.com/users/[user]/starred
