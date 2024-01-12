@@ -11,15 +11,15 @@ alternative pour archiver ses navigations internet.
 ## Format de la base de donné
 Seule une Url est requise, le reste des champs sont
 facultatifs, on compte les champs suivants :
-URL :
+URL : ...
 Name : Par défaut la balise </title> de la page
-Description 
+Description : ...
 Tags : mots-clés séparés d'une virgule
 Date : heure posix de l'ajout du lien
 Color : couleur css (nom, hex, rgb etc...)
 
 Par exemple, dans un fichier qui s'appelle par défaut BOOKMARKS :
-...
+```
 URL: https://rosettacode.org/wiki/Rosetta_Code
 Name: Rosetta Code
 Description: 
@@ -38,15 +38,15 @@ Name: Wayback Machine
 Description: 
 Tags: read
 Date: 1704712747
-...
+```
 
 
-# Autres gestionnaires de signets de favoris :
+# Autres gestionnaires de marque-pages :
 - nb https://xwmx.github.io/nb/ (AGPL-3.0)
 - ??
 
 
-# Dependances :
+# Dependance~~s~~ :
 Pour ajouter un lien via l'interface proposée, on aura besoin
 d'installer dmenu ~~et htmlq~~.
 * dmenu https://tools.suckless.org/dmenu/ (MIT/X)
