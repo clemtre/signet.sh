@@ -105,11 +105,14 @@ la tentative de curl pour passer au prochain champs du script :/ sorry !
 
 # Usage : 
 Pour ajouter un lien, je séléctionne l'url de la page avec Ctrl + l, la
-copie et lance add.sh avec Super + i. _Si quelqu'un sait récupérer l'url
-de la page courante du navigateur sans avoir à la copier, ça
-économiserait deux étapes._
+copie et lance add.sh avec Super + i. 
+
+_Si quelqu'un sait récupérer l'url de la page courante du navigateur
+sans avoir à la copier, ça économiserait deux étapes._
+
 En résumé : Ctrl + l, Ctrl + c, Super + i
-(ou plus court : Ctrl + l + i, Super + i)
+
+(ou plus court : Ctrl + l + c, Super + i)
 
 Super + i car dans le fichier de configuration de mon gestionnaire de
 fenêtre situé dans ~/.config/awesome/rc.lua j'ai les lignes suivantes :
@@ -135,6 +138,7 @@ awful.util.spawn_with_shell("add.sh") end,
   * si le champs de description est vide, ne pas
                    l'afficher
   * formater les dates du temps posix au format AA-MM-JJ
+
 /!\ Prochainement /!\
 starred.sh  → Un curl des repos de l'api github
 https://api.github.com/users/[user]/starred , formaté de json à une

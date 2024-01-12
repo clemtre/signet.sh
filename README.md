@@ -116,7 +116,7 @@ steps out of three.__
 
 In short : Ctrl + l, Ctrl + c, Super + i
 
-(or shorter : Ctrl + l + i, Super + i)
+(or shorter : Ctrl + l + c, Super + i)
 
 Super + i because in my window manager configuration file located in
 ~/.config/awesome/rc.lua, I have the following lines:
