@@ -69,7 +69,9 @@ Si en javascript pour récupérer tous les \<h1> enfants d'une \<section> on
 peut faire 
 document.querySelectorAll('section h1')
 En shell, c'est plus compliqué, htmlq est fait pour ça :
+```
 cat fichier.html | htmlq 'section h1'
+```
 Et pour récurer seulement le texte -- l'équivalent en javascript de
 .innerHTML :
 cat fichier.html | htmlq 'section h1' --text
