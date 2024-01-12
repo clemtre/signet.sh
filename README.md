@@ -122,17 +122,17 @@ awful.util.spawn_with_shell("add.sh") end,
 
 * BOOKMARKS   → A textual database of bookmarks
 * add.sh      → A script to add a link to the database
-                - dmenu
-                - ./signet.sh
+  * dmenu
+  * ./signet.sh
 * bookmark.sh → The shell script itself
-                - It generates a new html page from the link database
-                  (default index.html)
+  * It generates a new html page from the link database
+    (default index.html)
 * style.css   → Stylesheet for index.html
 * script.js   → A bit of javascript for:
-··* search in the \<textarea>
-··* add background colors to entries that have them
-··* if the description field is empty, do not display it
-··* format posix time dates to YY-MM-DD format
+  * search in the \<textarea>
+  * add background colors to entries that have them
+  * if the description field is empty, do not display it
+  * format posix time dates to YY-MM-DD format
 /!\ Soon /!\
 starred.sh  → curl from the github user api and format it in the same
 way as signet.sh without using jq
