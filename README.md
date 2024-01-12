@@ -65,7 +65,7 @@ Htmlq est un parseur d'html écrit en go. Peu importe quel parseur on
 utilise, on dirait que chaque langage a le sien.
 Il s'agit ici de fournir au programme une chaîne de caractère en entrée
 et d'en filtrer des éléments html
-Si en javascript pour récupérer tous les <h1> enfants d'une <section> on
+Si en javascript pour récupérer tous les \<h1> enfants d'une \<section> on
 peut faire 
 document.querySelectorAll('section h1')
 En shell, c'est plus compliqué, htmlq est fait pour ça :
