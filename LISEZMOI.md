@@ -141,8 +141,10 @@ https://api.github.com/users/[user]/starred , formaté de json à une
 liste html sans jq !
 
 # Crédits 
-Junicode (OFL-1.1)
+* Junicode (OFL-1.1)
 https://psb1558.github.io/Junicode-font/
-Dmenu License (MIT/X) 
+* dmenu (MIT/X) 
 https://tools.suckless.org/dmenu/
+* jquery (MIT)
+https://jquery.com/ 
 

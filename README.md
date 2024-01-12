@@ -1,7 +1,7 @@
 *FR → LISEZMOI.md*
 # Demo
 ![a browsable bookmark manager](demo.png)
-**Something more understendable and browsable to be released soon**
+**A demo more understandable and browsable to be released soon**
 
 # Presentation
 ## signet.sh
@@ -143,9 +143,10 @@ way as signet.sh without using jq
 https://api.github.com/users/[user]/starred
 
 # Credits 
-Junicode (OFL-1.1)
+* Junicode (OFL-1.1)
 https://psb1558.github.io/Junicode-font/
-Dmenu License (MIT/X) 
+* dmenu (MIT/X) 
 https://tools.suckless.org/dmenu/
-jquery
+* jquery (MIT)
+https://jquery.com/ 
 
