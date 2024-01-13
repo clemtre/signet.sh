@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 dmenu_style() {
     local font='junicode-18'
@@ -6,46 +6,43 @@ dmenu_style() {
     local normal_fg='#FFFFFF'
     local selected_bg='#AAAAAA'
     local selected_fg='#000000'
-
     echo "-fn $font -nb $normal_bg -nf $normal_fg -sb $selected_bg -sf $selected_fg"
 }
 
-# Make it POSIX friendlier and run with #!/bin/sh
-
 BOOKMARKS="BOOKMARKS"
 
-url=$(xclip -o -selection clipboard)
+URL=$(xclip -o -selection clipboard)
 
-url_regex="^(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]*[-A-Za-z0-9+&@#/%=~_|]"
+# The curl for Name: is a blocking process and will pause the programm
+# in case internet shuts :^)
+
+# TODO : 
+# add description, tags and color in one field with symbols such as : 
+# § this is a description. § comma, separated, tags § color
 
 # If the given string ressembles to a url, continue.
-if [[ $url =~ $url_regex ]]; then
-    echo "The string is a URL: $url"
-    url=$(xclip -o -selection clipboard | dmenu -p "Enter the URL:" $(dmenu_style))
+# https://stackoverflow.com/questions/21115121/how-to-test-if-string-matches-a-regex-in-posix-shell-not-bash
+# URL_REGEX="^(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]*[-A-Za-z0-9+&@#/%=~_|]"
+if printf "$URL" | grep -q http; then
+# incrementing id soon to be implemented replacing <ol> counter
+#PREV_URL_COUNT=$(grep "URL: " $BOOKMARKS | wc -l)
+#ID: $((PREV_URL_COUNT + 1))
+cat <<- EOF >> $BOOKMARKS
 
-    # what we used to need htmlq for :
-    #name=$(curl $url | ~/.cargo/bin/htmlq title --text | sed -r '/^\s*$/d' | sed 's/^ *//g')
+URL: $(printf $URL)
+Name: $(curl $URL | awk -v RS='</title>' '\
+/<title>/ {gsub(/.*<title>/, ""); print}\
+' | tr -d '\n')
+Description: $(printf "" | dmenu -p "Enter a description: " $(dmenu_style))
+Tags: $(printf "" | dmenu -p "Enter comma separated tags: " $(dmenu_style))
+Date: $(date +%s)
 
-    # This is a blocking process and will pause the programm in case
-    # internet shuts :^)
-    name=$(curl $url awk -v RS='</title>' '
-    /<title>/ {gsub(/.*<title>/, ""); print}
-    ' $url | tr -d '\n')
-
-    description=$(echo "" | dmenu -p "Enter a description:" $(dmenu_style))
-    tags=$(echo "" | dmenu -p "Enter comma-separated tags:" $(dmenu_style))
-    
-    bookmark_file="$BOOKMARKS"
-
-    # Save the data to the file. 
-    echo "URL: $url" >> "$BOOKMARKS"
-    echo "Name: $name" >> "$BOOKMARKS"
-    echo "Description: $description" >> "$BOOKMARKS"
-    echo "Tags: $tags" >> "$BOOKMARKS"
-    echo "Date: $(date +%s)" >> "$BOOKMARKS"
-    echo  >> "$BOOKMARKS"
+EOF
 
 else
-    xclip -o -selection clipboard | dmenu -p "≉" $(dmenu_style)
+    printf "Text in clipboard is not a url"
+    exit
 fi
 
+# what we used to need htmlq for :
+# name=$(curl $url | ~/.cargo/bin/htmlq title --text | sed -r '/^\s*$/d' | sed 's/^ *//g')
