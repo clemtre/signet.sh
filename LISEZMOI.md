@@ -1,8 +1,52 @@
-# Demo
+index.html
 ![un gestionnaire de lien navigable](demo.png)
-**Quelque chose de plus lisible ici bientôt**
 
-# Presentation
+**Travail en cours, si vous rencontrez un soucis ennvoyez un mail à
+contact@martinlemaire.fr ou ouvrez une issue ici**
+
+Un gestionnaire de marque-page navigable généré à partir d'une base de
+donnée textuel que l'on peut utiliser en temps que page d'accueil de
+navigateur
+
+Un extrait de la base de donnée correspondante, composée d'entrées
+séparées par des sauts de lignes avec des champs clé/valeur :
+
+BOOKMARKS
+```
+...
+URL: http://fileformats.archiveteam.org/wiki/HEX_(Unifont)
+Name: HEX (Unifont) - Just Solve the File Format Problem
+Description: 
+Tags: bbb, hex
+Date: 1704636690
+
+URL: http://robhagemans.github.io/monobit/
+Name: Hoard of bitfonts
+Description: 
+Tags: bitmap, fonts
+Date: 1704639859
+
+URL: https://en.wikipedia.org/wiki/Wish_(Unix_shell)
+Name: wish (Unix shell) - Wikipedia
+Description: 
+Tags: gui, wish, tcl
+Date: 1704646543
+
+URL: https://en.wikipedia.org/wiki/Tk_(software)
+Name: Tk (software) - Wikipedia
+Description: 
+Tags: gui, bsd
+Date: 1704646583
+
+URL: https://www.kreativekorp.com/
+Name: Rebecca G. Bettencourt
+Description: 
+Tags: RGB, people,hide
+Date: 1704648764
+...
+```
+
+# Présentation
 ## signet.sh
 Signet.sh est un script shell qui transforme une base de donnée de liens
 en une page web. La conversion est faite par une commande awk au sein
@@ -10,7 +54,7 @@ d'une déclaration here-doc qui est redirigé dans une page html.
 
 J'ai créé ce script car je trouve le gestionnaire de marque-page de
 firefox insatisfaisant, autant dans sa forme que dans le format utilisé
-(sqlite). Ce script et les utilitaires autours proposent une une
+(sqlite). Ce script et les utilitaires autours proposent une 
 alternative pour archiver ses navigations internet.
 
 ## Format de la base de donné
@@ -22,29 +66,6 @@ facultatifs, on compte les champs suivants :
 * Tags : mots-clés séparés d'une virgule
 * Date : heure posix de l'ajout du lien
 * Color : couleur css (nom, hex, rgb etc...)
-
-Par exemple, dans un fichier qui s'appelle par défaut BOOKMARKS :
-```
-URL: https://rosettacode.org/wiki/Rosetta_Code
-Name: Rosetta Code
-Description: 
-Tags: literacy, read
-Date: 1704675057
-Color: Purple
-
-URL: https://www.emigre.com/TypeSpecimens
-Name: Emigre: Type Specimens
-Description: 
-Tags: emigre, type
-Date: 1704680644
-
-URL: https://web.archive.org/web/20211025182257/http://len.falken.ink/
-Name: Wayback Machine
-Description: 
-Tags: read
-Date: 1704712747
-```
-
 
 # Autres gestionnaires de marque-pages :
 - nb https://xwmx.github.io/nb/ (AGPL-3.0)
@@ -124,14 +145,22 @@ awful.util.spawn_with_shell("add.sh") end,
 
 # Structure du répertoire
 
-* BOOKMARKS   → Une base de donnée de liens 
-* add.sh      → Un script pour rajouter un lien dans la base de donné
+* BOOKMARKS   → Une base de données de liens 
+* add.sh      → Un script pour rajouter un lien dans la base de données
   * dmenu
   * ./signet.sh
-* signet.sh   → Le script shell en lui-même 
-  * Il génère une nouvelle page html à partir de la base
-    de donnés de liens (par défaut index.html)
+* signet.sh   → Le script shell qui lit BOOKMARKS et génère index.html
 * style.css   → La feuille de style pour styliser index.html
+* index.html  → C'est la page html générée. Elle est composée de :
+    * \<textarea> pour chercher dans les marque-pages (ctrl + f)
+    * \<section> de tags \<p> et leurs quantités rangés dans l'ordre décroissant
+    * liste ordonnée croissante \<ol> en flex column-reverse de liens <\li>
+        * \<a> lien (href)
+        * \<h1> Name
+        * \<h2> Description
+        * \<h3> Tags
+        * \<h4> Date
+        * \<h5> lien (texte)
 * script.js   → Un peu de javascript pour:
   * rechercher dans la \<textarea>
   * ajouter les couleurs de fond aux entrées qui en ont
