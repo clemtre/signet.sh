@@ -2,6 +2,7 @@ unsorted list of things that would be nice to have
 
 * *make a make*file in order to variabilize language in add.sh prompts
   and make overall config easier
+* write more structured css
 * pin links
     → add an optional boolean to the records implictly false if absent.
     if true, the link sits on top of the pile

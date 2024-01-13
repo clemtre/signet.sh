@@ -1,5 +1,4 @@
-index.html
-![un gestionnaire de lien navigable](demo.png)
+LISEZMOI est peut être en retard sur README
 
 **Travail en cours, si vous rencontrez un soucis ennvoyez un mail à
 contact@martinlemaire.fr ou ouvrez une issue ici**
@@ -8,21 +7,36 @@ Un gestionnaire de marque-page navigable généré à partir d'une base de
 donnée textuel que l'on peut utiliser en temps que page d'accueil de
 navigateur
 
+Pour essayer avec une base de données BOOKMARKS fourni en exemple :
+```
+curl -O https://martinlemaire.fr/signet.sh/BOOKMARKS
+```
+ensuite
+```
+chmod +x signet.sh
+./signet.sh
+```
+
+Le script produit le document html suivant :
+
+index.html
+![un gestionnaire de lien navigable](https://www.martinlemaire.fr/signet.sh/demo.png)
+
 Un extrait de la base de donnée correspondante, composée d'entrées
 séparées par des sauts de lignes avec des champs clé/valeur :
 
 BOOKMARKS
 ```
-...
 URL: http://fileformats.archiveteam.org/wiki/HEX_(Unifont)
 Name: HEX (Unifont) - Just Solve the File Format Problem
 Description: 
 Tags: bbb, hex
 Date: 1704636690
+Color: Pink
 
 URL: http://robhagemans.github.io/monobit/
 Name: Hoard of bitfonts
-Description: 
+Description: A python tool to manipulate bitmap fonts and do format conversions
 Tags: bitmap, fonts
 Date: 1704639859
 
@@ -32,19 +46,14 @@ Description:
 Tags: gui, wish, tcl
 Date: 1704646543
 
-URL: https://en.wikipedia.org/wiki/Tk_(software)
-Name: Tk (software) - Wikipedia
-Description: 
-Tags: gui, bsd
-Date: 1704646583
-
 URL: https://www.kreativekorp.com/
 Name: Rebecca G. Bettencourt
 Description: 
 Tags: RGB, people,hide
 Date: 1704648764
-...
 ```
+Avec cette base de données, signet colore le premier lien en rose et
+cache le dernier car il contient le tag "hide"
 
 # Présentation
 ## signet.sh
@@ -57,6 +66,12 @@ firefox insatisfaisant, autant dans sa forme que dans le format utilisé
 (sqlite). Ce script et les utilitaires autours proposent une 
 alternative pour archiver ses navigations internet.
 
+Lecture en lien :
+* FR
+  * 
+* EN
+  * https://www.inkandswitch.com/local-first/
+
 ## Format de la base de donné
 Seule une Url est requise, le reste des champs sont
 facultatifs, on compte les champs suivants :
@@ -67,10 +82,26 @@ facultatifs, on compte les champs suivants :
 * Date : heure posix de l'ajout du lien
 * Color : couleur css (nom, hex, rgb etc...)
 
-# Autres gestionnaires de marque-pages :
-- nb https://xwmx.github.io/nb/ (AGPL-3.0)
-- ??
+# Usage 
+## Ajouter un marque-page :
 
+Pour ajouter un lien, je séléctionne l'url de la page avec Ctrl + l, la
+copie et lance add.sh avec Super + i. 
+
+_Si quelqu'un sait récupérer l'url de la page courante du navigateur
+sans avoir à la copier, ça économiserait deux étapes sur trois._
+
+En résumé : Ctrl + l, Ctrl + c, Super + i
+
+(ou plus court : Ctrl + l + c, Super + i)
+
+Super + i car dans le fichier de configuration de mon gestionnaire de
+fenêtre situé dans ~/.config/awesome/rc.lua j'ai les lignes suivantes :
+```
+awful.key({modkey}, "i", function()
+awful.util.spawn_with_shell("add.sh") end, 
+{description = "Enregistre le lien copié dans signet.sh"}),
+```
 
 # Dependance~~s~~ :
 Pour ajouter un lien via l'interface proposée, on aura besoin
@@ -124,25 +155,6 @@ Pour l'instant cette étape est bloquante. Pour peu que la connection
 internet coupe lors de l'ajout d'un lien, il faudra attendre la fin de
 la tentative de curl pour passer au prochain champs du script :/ sorry !
 
-# Usage : 
-Pour ajouter un lien, je séléctionne l'url de la page avec Ctrl + l, la
-copie et lance add.sh avec Super + i. 
-
-_Si quelqu'un sait récupérer l'url de la page courante du navigateur
-sans avoir à la copier, ça économiserait deux étapes._
-
-En résumé : Ctrl + l, Ctrl + c, Super + i
-
-(ou plus court : Ctrl + l + c, Super + i)
-
-Super + i car dans le fichier de configuration de mon gestionnaire de
-fenêtre situé dans ~/.config/awesome/rc.lua j'ai les lignes suivantes :
-```
-awful.key({modkey}, "i", function()
-awful.util.spawn_with_shell("add.sh") end, 
-{description = "Enregistre le lien copié dans signet.sh"}),
-```
-
 # Structure du répertoire
 
 * BOOKMARKS   → Une base de données de liens 
@@ -172,6 +184,10 @@ awful.util.spawn_with_shell("add.sh") end,
 starred.sh  → Un curl des repos de l'api github
 https://api.github.com/users/[user]/starred , formaté de json à une
 liste html sans jq !
+
+# Autres gestionnaires de marque-pages :
+- nb https://xwmx.github.io/nb/ (AGPL-3.0)
+- ??
 
 # Crédits 
 * Junicode (OFL-1.1)

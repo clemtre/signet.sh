@@ -9,27 +9,39 @@
     --font-size-s:calc(var(--font-size) / 1.5);
     --line-height:24px;
     --gutter:0px;
+    --padding:2px;
     --height:auto;
     --color:black;
     --selection:purple;
     --background:#FFF;
     --background-2:#FEFEFE;
+    --background-bottom:black;
+}
+/* https://github.com/psb1558/Junicode-font/releases */
+@font-face {
+    font-family: Junicode;
+    src: url("Junicode-CondLight.otf") format("opentype");
 }
 @font-face {
     font-family: Junicode;
-    /* https://github.com/psb1558/Junicode-font/releases */
-    src: url("Junicode-CondLight.otf") format("opentype");
+    src: url("Junicode-CondLightItalic.otf") format("opentype");
+    font-style:italic;
 }
 * {
     font-family: Junicode;
+    font-variant-numeric: lining-nums;
 }
 h1,h2,h3,h4,h5,p, a {
+    word-break: break-all;
     width:fit-content;
     line-height:var(--line-height);
     padding:0;
     margin:0;
     font-weight:normal;
     font-size:var(--font-size);
+}
+nav, section, textarea {
+padding: var(--padding) 0;
 }
 a{
     width:100%;
@@ -53,16 +65,27 @@ textarea{
     z-index:10;
     width:calc(100vw - 10px);
     font-size:var(--font-size);
-    height:var(--line-height);
+    height:calc(var(--line-height) + var(--padding));
 }
 ol {
     margin:0;
     display:flex;
     gap:var(--gutter);
     flex-direction:column-reverse;
-    margin-bottom:50vh;
     padding-left: 34px;
 
+}
+body {
+
+}
+footer {
+height:100vh;
+margin-top:50vh;
+background:linear-gradient( var(--background), var(--background-bottom));
+width:calc(100% + 20px - 2px);
+margin-left:-10px;
+margin-bottom:-10px;
+overflow:hidden;
 }
 li {
     font-size:var(--font-size);
@@ -107,7 +130,7 @@ h5,h2,h3,h4 {
 }
 h3::before, h2::before, h1::after{content:'\00a0·\00a0'}
 h4 {
-    margin-left:auto
+    margin-left:auto;
 }
 html{background:white}
 nav p {display:inline;
@@ -124,8 +147,8 @@ nav p::after{
 nav {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-top:calc(var(--line-height) + 1px);
-    height:var(--line-height);
+    margin-top:calc(var(--line-height) + 1px + var(--padding));
+    height:calc(var(--line-height) + var(--padding) * 2);
     overflow:hidden;
 
 }

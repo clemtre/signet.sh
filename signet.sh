@@ -18,7 +18,7 @@ cat <<- EOF > $DEST
     </head>
     <body>
     <div id="cc"></div>
-    <textarea autofocus id=""></textarea>
+    <textarea autofocus></textarea>
     <nav>
     $(
 awk '/Tags: ./ {print tolower($0)}' $DB |\
@@ -29,7 +29,7 @@ awk '/Tags: ./ {print tolower($0)}' $DB |\
     </nav>
     <ol>
 $(
-awk -v RS= '!/Tags: .*hide/ {print $0 "\n"}' $DB | \
+awk -v RS= '!/Tags: .*hide/ {print $0 "\n"}' $DB |\
 awk -v RS= '
 {
     if ($0 != "") {
@@ -73,6 +73,7 @@ awk -v RS= '
 } ' 
 ) 
     </ol>
+    <footer></footer>
     </body>
 </html>
 EOF

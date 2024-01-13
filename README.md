@@ -11,8 +11,13 @@ called BOOKMARKS or by running the provided script called
 edit_bookmarks_dmenu.sh (requires dmenu). The script can be ran from the
 command line but I suggest to bind it to a keystroke combination.
 
-With the provided BOOKMARKS database :
+If you want to try with an example BOOKMARKS database :
 ```
+curl -O https://martinlemaire.fr/signet.sh/BOOKMARKS
+```
+then
+```
+git clone https://git.vvvvvvaria.org/clemtre/signet.sh.git
 chmod +x signet.sh
 ./signet.sh
 ```
@@ -20,9 +25,9 @@ chmod +x signet.sh
 It produces the following html document :
 
 index.html
-![a browsable bookmark manager](demo.png)
-A sample of its corresponding textual database, in the form of blankline separated
-records with key/value fields :
+![a browsable bookmark manager](https://www.martinlemaire.fr/signet.sh/demo.png)
+A sample of its corresponding textual database, in the form of blankline
+separated records with key/value fields :
 
 BOOKMARKS
 ```
@@ -35,7 +40,7 @@ Color: Pink
 
 URL: http://robhagemans.github.io/monobit/
 Name: Hoard of bitfonts
-Description: A python tool to manipulate bitmap fonts and do format conversions
+Description: Bitmap fonts collection
 Tags: bitmap, fonts
 Date: 1704639859
 

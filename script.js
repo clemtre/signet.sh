@@ -39,7 +39,7 @@ function formatDateFromEpoch(epochTime) {
         return `N/A`;
     }
 
-    return `${YY}-${MM}-${DD}`;
+    return `${YY}/${MM}/${DD}`;
 }
 
 const dates = document.querySelectorAll('h4')
