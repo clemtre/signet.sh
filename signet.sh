@@ -11,7 +11,7 @@ cat <<- EOF > $DEST
 <html>
     <head>
         <title>⛵ → $(date "+%g-%m-%d, %H:%M")</title>
-        <script defer src="jquery-3.6.4.js"></script>
+        <script defer src="jquery-3.7.1.slim.min.js"></script>
         <script defer src="script.js"></script>
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8" />
