@@ -11,9 +11,17 @@ called BOOKMARKS or by running the provided script called
 edit_bookmarks_dmenu.sh (requires dmenu). The script can be ran from the
 command line but I suggest to bind it to a keystroke combination.
 
+With the provided BOOKMARKS database :
+```
+chmod +x signet.sh
+./signet.sh
+```
+
+It produces the following html document :
+
 index.html
 ![a browsable bookmark manager](demo.png)
-Its corresponding textual database, in the form of blankline separated
+A sample of its corresponding textual database, in the form of blankline separated
 records with key/value fields :
 
 BOOKMARKS
