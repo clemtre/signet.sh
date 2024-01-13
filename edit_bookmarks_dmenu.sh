@@ -10,9 +10,11 @@ dmenu_style() {
     echo "-fn $font -nb $normal_bg -nf $normal_fg -sb $selected_bg -sf $selected_fg"
 }
 
+# Make it POSIX friendlier and run with #!/bin/sh
+
 BOOKMARKS="BOOKMARKS"
 
-local url=$(xclip -o -selection clipboard)
+url=$(xclip -o -selection clipboard)
 
 url_regex="^(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]*[-A-Za-z0-9+&@#/%=~_|]"
 

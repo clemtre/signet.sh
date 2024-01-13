@@ -11,7 +11,7 @@ called BOOKMARKS or by running the provided script called
 edit_bookmarks_dmenu.sh (requires dmenu). The script can be ran from the
 command line but I suggest to bind it to a keystroke combination.
 
-If you want to try with an example BOOKMARKS database :
+If you want to try with an example BOOKMARKS database (32kb) :
 ```
 curl -O https://martinlemaire.fr/signet.sh/BOOKMARKS
 ```
@@ -79,6 +79,26 @@ Only a Url is required, the rest of the fields are optional :
 * Date :  posix time of the bookmarked link 
 * Color : css color (name, hex, rgb etc...)
 
+## index.html structure
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>⛵ → $(date "+%g-%m-%d, %H:%M")</title>
+        <script defer src="jquery-3.6.4.js"></script>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8" />
+    </head>
+    <body>
+    <div id="cc"></div>
+    <textarea autofocus></textarea>
+    <nav>
+    <p>tag ()</p>
+    <p>tag ()</p>
+    <p>tag ()</p>
+    <p>tag ()</p>
+    <p>tag ()</p>
+    <p>tag ()</p>
 # Usage
 ## Add a bookmark : 
 

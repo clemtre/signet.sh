@@ -1056,25 +1056,18 @@ Tags: css, &nbsp;
 Date: 1704903444
 
 URL: https://constantvzw.org/wefts/cc4r.en.html
-Name: Signet.sh is released under CC4r license
+Name: signet.sh is released under CC4r license
 Description: Copyleft Attitude with a difference - version 1.0
 Tags: license
 Date: 0
 Color: pink
 
-URL: at the top of this page
+URL: on top of this page
 Name: The blank line is a search bar
 Description: 
 Tags: fzf
 Date: 0
 Color: darkkhaki
-
-URL: https://tools.suckless.org/dmenu/
-Name: It works with dmenu or your own integration
-Description: a fast and lightweight dynamic menu (MIT/X)
-Tags: interractive, dmenu
-Date: 0
-Color: darkseagreen
 
 URL: Paste URL from clipboard
 Name: Add a name or let the tool pick the title of the page for you
@@ -1090,18 +1083,26 @@ Tags: lightblue, #F2C500, rgb(0,255,0)
 Date: 0
 Color: lightblue
 
+URL: https://tools.suckless.org/dmenu/
+Name: It works with dmenu or your own integration
+Description: a fast and lightweight dynamic menu (MIT/X)
+Tags: interractive, dmenu
+Date: 0
+Color: darkseagreen
+
 URL: !
 Name: A text file based bookmark manager rendered as a web page
-Description: It is local first, the data lives on your computer and can be then shared elsewhere.
-Tags: text, shell, awk
+Description: The bookmarks live on your computer and can be then shared elsewhere.
+Tags: convivialist, local first
 Date: 0
-Color: fuchsia
+Color: plum
 
-URL: http://www.g-r-g.fr/
-Name: Garage de Recherches Graphiques | Home
+URL: https://git.vvvvvvaria.org/clemtre/signet.sh/
+Name: → signet.sh
 Description: 
-Tags: people
-Date: 1704903917
+Tags: text, shell, awk, html, css, js
+Date: 0
+Color: greenyellow
 
 URL: http://www.g-r-g.fr/lab/imprimantesanscontact
 Name: Garage de Recherches Graphiques | Imprimantesanscontact
