@@ -81,6 +81,41 @@ facultatifs, on compte les champs suivants :
 * Tags : mots-clés séparés d'une virgule
 * Date : heure posix de l'ajout du lien
 * Color : couleur css (nom, hex, rgb etc...)
+ 
+## structure de la page index.html générée par signet.sh 
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>⛵ → YY-MM-DD, H:M</title>
+        <script defer src="jquery-3.6.4.js"></script>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8" />
+    </head>
+    <body>
+    <div id="cc"></div>
+    <textarea autofocus></textarea>
+    <nav>
+        <p>tag (amount)</p>
+    </nav>
+    <ol>
+        <li>
+            <a href="URL">
+                <section color="Color">
+                    <h5>URL</h5>
+                    <h1>Name</h1>
+                    <h2>Description</h2>
+                    <h3>Tags</h3>
+                    <h4>Date</h4>
+                </section>
+            <a>
+        </li>
+    </ol>
+    <footer></footer>
+    </body>
+</html>
+```
 
 # Usage 
 ## Ajouter un marque-page :
