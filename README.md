@@ -163,8 +163,8 @@ Super + i because in my window manager (awesomewm) configuration file
 located in ~/.config/awesome/rc.lua, I have the following lines:
 ```
 awful.key({modkey}, "i", function()
-awful.util.spawn_with_shell("add.sh") end, 
-{description = "Sends the link in clipboard to add.sh"}),
+awful.util.spawn_with_shell("edit_bookmarks_dmenu.sh ~/BOOKMARKS") end, 
+{description = "Add a bookmark to my database of bookmarks"}),
 ```
 ## Edit a bookmark :
 
@@ -175,18 +175,9 @@ If you use vim, with BOOKMARKS opened you can press in normal mode m +
 B and it will save a mark to the file you can then access with ' + B
 
 # Installation
-Works on my machine : Ubuntu 20 LTS, it should work on any POSIX
-compliant machine, macOS, linux* or bsd*. I'm curious to know how it
+Works on Ubuntu 20 LTS, it should work on POSIX
+compliant machines, macOS, linux* or bsd*. I'm curious to know how it
 goes on windows :^)
-
-## this repo
-clone the repo
-
-```
-git clone https://git.vvvvvvaria.org/clemtre/signet.sh.git
-cd signet.sh
-chmod +x signet.sh
-```
 
 # Dependency :
 
@@ -248,31 +239,21 @@ attempt to move to the next field in the script :/ sorry!
 * BOOKMARKS   → A textual database of bookmarks
 * edit_bookmarks_dmenu.sh → A script to add a link to the database using
   dmenu
-  * dmenu
-  * ./signet.sh
-* bookmark.sh → The shell script itself
-  * It generates a new html page from the link database
-    (default index.html)
+  * Usage : ./edit_bookmarks_dmenu.sh BOOKMARKS
+* signet.sh → The shell script itself
+  * It generates a new html page from the database of bookmarks
+  * Usage : ./signet.sh BOOKMARKS > index.html
 * style.css   → Stylesheet for index.html
-* script.js   → A bit of javascript for:
+* script.js   → A bit of jquery for:
   * search in the \<textarea>
   * add background colors to entries that have them
   * if the description field is empty, do not display it
   * format posix time dates to YY-MM-DD format
 
-/!\ Soon /!\
-
-starred.sh  → curl from the github user api and format it in the same
-way as signet.sh without using jq
-https://api.github.com/users/[user]/starred
-
 # Naming
 The name is subject to change.
-I thought about naming it *boussole* which means compass, as in the tool
-you use to orient yourself in your navigation. This name puts the
-emphasis on the index.html page. On the other hand Victor suggested
-*signet*, it stands for the actual pieces of paper used as bookmarks
-inserted between the pages of a bound object →
+Victor suggested *signet*, it stands for the actual pieces of paper used
+as bookmarks inserted between the pages of a bound object →
 https://www.cnrtl.fr/definition/signet
 
 # Other bookmark managers:
