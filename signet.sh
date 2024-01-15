@@ -1,12 +1,50 @@
 #!/bin/bash
 
-DEST=index.html
+#                   ,  o  _,        __|_   ,  |)   
+#                  / \_| / | /|/|  |/ |   / \_|/\  
+#                   \/ |/\/|/ | |_/|_/|_/o \/ |  |/
+#                         (| 
+
+# - - - - - - - - - - - - - - - - ARGS - - - - - - - - - - - - - - - - -
+show_help() {
+    echo "Usage:"
+    echo "  ./signet.sh BOOKMARKS > index.html"
+    echo "Options:"
+    echo "  --help  Display this help message"
+    exit 1
+}
+if [ "$#" -eq 0 ]; then
+    echo "Nothing happened, I need a file of bookmarks to process."
+    show_help
+fi
+
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        --help)
+            show_help
+            ;;
+        -*)
+            echo "Error: Unknown option: $1" >&2
+            show_help
+            ;;
+        *)
+            if [ -f "$1" ]; then
+                break
+            else
+                echo "The file you provided doesn't seam to exist : $1"
+                exit 1
+            fi
+            ;;
+    esac
+    shift
+done
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --
 
 # I thought about using recutils db from GNU but went back to plain text
-#DB=BOOKMARKS.rec
-DB=BOOKMARKS
+# DB=BOOKMARKS.rec
+DB=$1
 
-cat <<- EOF > $DEST
+cat <<- EOF 
 <!DOCTYPE html>
 <html>
     <head>
@@ -77,5 +115,3 @@ awk -v RS= '
     </body>
 </html>
 EOF
-
-
