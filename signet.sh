@@ -98,11 +98,11 @@ awk -v RS= '
             print "<section>" 
         }
 
-        print "<h5>" URL  "</h5>" \
+        print "<h4>" DATE "</h4>" \
               "<h1>" NAME "</h1>" \
+              "<h5>" URL  "</h5>" \
               "<h2>" DESC "</h2>" \
-              "<h3>" TAGS "</h3>" \
-              "<h4>" DATE "</h4>"
+              "<h3>" TAGS "</h3>"
 
         print "</section>"
         print "</a>" 

@@ -8,6 +8,8 @@
     --font-size:22px;
     --font-size-s:calc(var(--font-size) / 1.5);
     --line-height:24px;
+    /* ↓ * 10 because the date is 10 chars long */
+    --date-width:calc(var(--font-size)/2.5 * 10);
     --gutter:0px;
     --padding:2px;
     --height:auto;
@@ -32,16 +34,19 @@
     font-variant-numeric: lining-nums;
 }
 h1,h2,h3,h4,h5,p, a {
-    word-break: break-all;
-    width:fit-content;
+    text-wrap:wrap;
+    word-break: break-word;
     line-height:var(--line-height);
     padding:0;
     margin:0;
     font-weight:normal;
     font-size:var(--font-size);
 }
+h1,h2,h3,h5 {
+    display:inline;
+}
 nav, section, textarea {
-padding: var(--padding) 0;
+    padding: var(--padding) 0;
 }
 a{
     width:100%;
@@ -79,13 +84,13 @@ body {
 
 }
 footer {
-height:100vh;
-margin-top:50vh;
-background:linear-gradient( var(--background), var(--background-bottom));
-width:calc(100% + 20px - 2px);
-margin-left:-10px;
-margin-bottom:-10px;
-overflow:hidden;
+    height:100vh;
+    margin-top:50vh;
+    background:linear-gradient( var(--background), var(--background-bottom));
+    width:calc(100% + 20px - 2px);
+    margin-left:-10px;
+    margin-bottom:-10px;
+    overflow:hidden;
 }
 li {
     font-size:var(--font-size);
@@ -112,28 +117,38 @@ li,textarea, nav {
     overflow:visible;
 }
 h1,h2,a {
-    overflow-y:scroll;
 }
 h3{
     opacity:.5
 }
-/*
- * h1,h2,h3 {max-width:20px; overflow:hidden}
-*/
 section{
-    flex-wrap:wrap;
-    display:flex;
+    padding-right:var(--date-width);
+    height:calc(var(--font-size) + 2px) ;
+    overflow:hidden;
+}
+section:hover{
+height:auto
+}
+section:hover h1, h2, h3, h5{
+    display:inline
 }
 h1 {order: 0;
+
 }
 h2 {
 font-style:italic}
 h5,h2,h3,h4 {
     order:3
 }
-h3::before, h2::before, h1::after{content:'\00a0·\00a0'}
+
+ h3::before, h2::before, h1::after{content:'\00a0·\00a0';}
+
 h4 {
-    margin-left:auto;
+    width:var(--date-width);
+    text-align: right;
+
+    position:absolute;
+    right:10px;
 }
 html{background:white}
 nav p {display:inline;
