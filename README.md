@@ -71,12 +71,12 @@ curl -O https://martinlemaire.fr/signet.sh/BOOKMARKS
 You might be in search of a condensed font in order to fit more
 characters per line, if that's the case I can recommend the condensed
 light version of **Junicode**, an OFL typeface drawn by Peter Baker. You
-can get mirrored versions Junicode-Condensed.otf and
-Junicode-CondensedLight.otf (1.8Mb total) from the 50Mb archive here :
+can get mirrored versions Junicode condensed light and its italic style
+(1.8Mb total) from the 50Mb archive here :
 ```
 # from https://github.com/psb1558/Junicode-font/releases/tag/v2.206
-curl -O https://martinlemaire.fr/fonts/Junicode-Condensed.otf
 curl -O https://martinlemaire.fr/fonts/Junicode-CondensedLight.otf
+curl -O https://martinlemaire.fr/fonts/Junicode-CondensedLightItalic.otf
 
 ```
 4. jquery 
