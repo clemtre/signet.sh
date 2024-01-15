@@ -8,29 +8,15 @@ happy to answer**
 A browsable webpage generated from a textual database you might want to
 use as a browser homepage. You can edit the database by editing the file
 called BOOKMARKS or by running the provided script called
-edit_bookmarks_dmenu.sh (requires dmenu). The script can be ran from the
-command line but I suggest to bind it to a keystroke combination.
-
-Clone this repository, make signet.sh executable and run signet.sh
-```
-git clone https://git.vvvvvvaria.org/clemtre/signet.sh.git
-cd signet.sh
-chmod +x signet.sh
-./signet.sh
-```
-By default, signet.sh looks for a database file called BOOKMARKS in the
-same folder. You can try the script with this 32kb example BOOKMARKS
-database :
-```
-curl -O https://martinlemaire.fr/signet.sh/BOOKMARKS
-```
+edit_bookmarks_dmenu.sh (requires dmenu). Signet.sh is the name of the
+repository in reference to the name of the core script (more on the naming bellow). The script can be ran from the command line but I suggest to bind it to a keystroke combination.
 
 It produces the following html document :
 
 index.html
 ![a browsable bookmark manager](https://www.martinlemaire.fr/signet.sh/demo.png)
 A sample of its corresponding textual database, in the form of blankline
-separated records with key/value fields :
+separated records with ```Key: value``` fields :
 
 BOOKMARKS
 ```
@@ -61,6 +47,43 @@ Date: 1704648764
 ```
 Given this database, signet will color the first link in pink and hide
 the last one because of its "hide" tag.
+
+# Get started
+1. First step
+Clone this repository, make signet.sh executable and run signet.sh by
+specifying a file of bookmarks to process and redirect its output to an
+html file.
+```
+git clone https://git.vvvvvvaria.org/clemtre/signet.sh.git
+cd signet.sh
+chmod +x signet.sh 
+./signet.sh BOOKMARKS > index.html
+```
+2. A sample database of bookmarks
+You can try signet.sh with this 32kb example BOOKMARKS database :
+```
+curl -O https://martinlemaire.fr/signet.sh/BOOKMARKS
+```
+3. Junicode typeface
+You might be in search of a condensed font in order to fit more
+characters per line, if that's the case I can recommend the condensed
+light version of **Junicode**, an OFL typeface drawn by Peter Baker. You
+can get mirrored versions Junicode-Condensed.otf and
+Junicode-CondensedLight.otf (1.8Mb total) from the 50Mb archive here :
+```
+# from https://github.com/psb1558/Junicode-font/releases/tag/v2.206
+curl -O https://martinlemaire.fr/fonts/Junicode-Condensed.otf
+curl -O https://martinlemaire.fr/fonts/Junicode-CondensedLight.otf
+
+```
+4. jquery 
+Signet.sh webpage requires jquery, you can curl the 72Kb slim, minified
+version over :
+```
+curl -O https://code.jquery.com/jquery-3.7.1.slim.min.js
+```
+5. dmenu
+https://askubuntu.com/questions/828450/how-to-install-dmenu
 
 # Presentation
 ## signet.sh
@@ -167,6 +190,7 @@ to install dmenu ~~and htmlq~~.
 * dmenu https://tools.suckless.org/dmenu/ (MIT/X)
 * ~~htmlq https://github.com/mgdm/htmlq (MIT)~~ replaced by one
 awk command
+* xclip ?
 ## dmenu
 Dmenu is an interactive menu that allows us to select and write
 values in a menu. These values can come from a program
@@ -179,8 +203,6 @@ In our script, to store the given tags in a variable, we can do:
 ```
 tags=$(echo "" | dmenu -p "Enter comma-separated tags:")
 ```
-### install dmenu :
-https://askubuntu.com/questions/828450/how-to-install-dmenu
 
 ## ~~htmlq~~
 Htmlq is an HTML parser written in Go. It doesn't matter which parser we
