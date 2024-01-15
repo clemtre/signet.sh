@@ -50,6 +50,7 @@ the last one because of its "hide" tag.
 
 # Get started
 1. First step
+
 Clone this repository, make signet.sh executable and run signet.sh by
 specifying a file of bookmarks to process and redirect its output to an
 html file.
@@ -60,11 +61,13 @@ chmod +x signet.sh
 ./signet.sh BOOKMARKS > index.html
 ```
 2. A sample database of bookmarks
+
 You can try signet.sh with this 32kb example BOOKMARKS database :
 ```
 curl -O https://martinlemaire.fr/signet.sh/BOOKMARKS
 ```
 3. Junicode typeface
+
 You might be in search of a condensed font in order to fit more
 characters per line, if that's the case I can recommend the condensed
 light version of **Junicode**, an OFL typeface drawn by Peter Baker. You
@@ -77,12 +80,14 @@ curl -O https://martinlemaire.fr/fonts/Junicode-CondensedLight.otf
 
 ```
 4. jquery 
+
 Signet.sh webpage requires jquery, you can curl the 72Kb slim, minified
 version over :
 ```
 curl -O https://code.jquery.com/jquery-3.7.1.slim.min.js
 ```
 5. dmenu
+
 https://askubuntu.com/questions/828450/how-to-install-dmenu
 
 # Presentation
