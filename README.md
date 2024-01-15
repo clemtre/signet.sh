@@ -14,6 +14,7 @@ command line but I suggest to bind it to a keystroke combination.
 Clone this repository, make signet.sh executable and run signet.sh
 ```
 git clone https://git.vvvvvvaria.org/clemtre/signet.sh.git
+cd signet.sh
 chmod +x signet.sh
 ./signet.sh
 ```
@@ -150,11 +151,13 @@ Works on my machine : Ubuntu 20 LTS, it should work on any POSIX
 compliant machine, macOS, linux* or bsd*. I'm curious to know how it
 goes on windows :^)
 
+## this repo
 clone the repo
 
 ```
 git clone https://git.vvvvvvaria.org/clemtre/signet.sh.git
 cd signet.sh
+chmod +x signet.sh
 ```
 
 # Dependency :
@@ -235,6 +238,15 @@ attempt to move to the next field in the script :/ sorry!
 starred.sh  → curl from the github user api and format it in the same
 way as signet.sh without using jq
 https://api.github.com/users/[user]/starred
+
+# Naming
+The name is subject to change.
+I thought about naming it *boussole* which means compass, as in the tool
+you use to orient yourself in your navigation. This name puts the
+emphasis on the index.html page. On the other hand Victor suggested
+*signet*, it stands for the actual pieces of paper used as bookmarks
+inserted between the pages of a bound object →
+https://www.cnrtl.fr/definition/signet
 
 # Other bookmark managers:
 - nb https://xwmx.github.io/nb/ (AGPL-3.0)
