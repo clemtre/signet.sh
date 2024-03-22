@@ -79,14 +79,7 @@ curl -O https://martinlemaire.fr/fonts/Junicode-CondensedLight.otf
 curl -O https://martinlemaire.fr/fonts/Junicode-CondensedLightItalic.otf
 
 ```
-4. jquery 
-
-Signet.sh webpage requires jquery, you can curl the 72Kb slim, minified
-version over :
-```
-curl -O https://code.jquery.com/jquery-3.7.1.slim.min.js
-```
-5. dmenu
+4. dmenu
 
 https://askubuntu.com/questions/828450/how-to-install-dmenu
 
@@ -116,7 +109,6 @@ Only a Url is required, the rest of the fields are optional :
 <html>
     <head>
         <title>⛵ → YY-MM-DD, H:M</title>
-        <script defer src="jquery-3.6.4.js"></script>
         <script defer src="script.js"></script>
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8" />
@@ -163,7 +155,7 @@ Super + i because in my window manager (awesomewm) configuration file
 located in ~/.config/awesome/rc.lua, I have the following lines:
 ```
 awful.key({modkey}, "i", function()
-awful.util.spawn_with_shell("edit_bookmarks_dmenu.sh ~/BOOKMARKS") end, 
+awful.util.spawn_with_shell("interface_dmenu.sh ~/BOOKMARKS") end, 
 {description = "Add a bookmark to my database of bookmarks"}),
 ```
 ## Edit a bookmark :
@@ -176,7 +168,7 @@ B and it will save a mark to the file you can then access with ' + B
 
 # Installation
 Works on Ubuntu 20 LTS, it should work on POSIX
-compliant machines, macOS, linux* or bsd*. I'm curious to know how it
+compliant machines, macOS, linux* or \*bsd. I'm curious to know how it
 goes on windows :^)
 
 # Dependency :
@@ -185,7 +177,8 @@ To add a link via the proposed interface, we will need
 to install dmenu ~~and htmlq~~.
 * dmenu https://tools.suckless.org/dmenu/ (MIT/X)
 * ~~htmlq https://github.com/mgdm/htmlq (MIT)~~ replaced by one
-awk command
+awk command, this was needed in order ot retrieve the <title> tag from
+the grabbed page
 * xclip ?
 ## dmenu
 Dmenu is an interactive menu that allows us to select and write
@@ -200,55 +193,19 @@ In our script, to store the given tags in a variable, we can do:
 tags=$(echo "" | dmenu -p "Enter comma-separated tags:")
 ```
 
-## ~~htmlq~~
-Htmlq is an HTML parser written in Go. It doesn't matter which parser we
-use, it seems that each language has its own.
-We give to the program an html string and it filters through it using css
-selectors returning the found html elements
-Using javascript, retrieving all the \<h1> children of a \<section> can
-be done with :
-```
-document.querySelectorAll('section h1')
-```
-In shell, it's more complicated since we don't have document object
-model we can query. Htmlq is made for that:
-```
-cat fichier.html | htmlq 'section h1'
-```
-And to output only the text -- the javascript equivalent of .innerHTML:
-```
-cat fichier.html | htmlq 'section h1' --text
-```
-We use it to retrieve the title tag of the page to add:
-```
-curl page.html | htmlq 'title' --text
-```
-Pre-release patch:
-```
-curl $url | awk -v RS='</title>' \
-    '/<title>/ {gsub(/.*<title>/, ""); print}' |\
-    tr -d '\n'
-```
-
-For the moment this step is blocking. In case internet cuts while
-bookmarking a link, you will have to wait for the end of the curl
-attempt to move to the next field in the script :/ sorry!
-
 # Repository structure :
 
 * BOOKMARKS   → A textual database of bookmarks
-* edit_bookmarks_dmenu.sh → A script to add a link to the database using
+* interface_dmenu.sh → A script to add a link to the database using
   dmenu
-  * Usage : ./edit_bookmarks_dmenu.sh BOOKMARKS
+  * Usage : ./interface_dmenu.sh BOOKMARKS
 * signet.sh → The shell script itself
   * It generates a new html page from the database of bookmarks
   * Usage : ./signet.sh BOOKMARKS > index.html
 * style.css   → Stylesheet for index.html
-* script.js   → A bit of jquery for:
+* script.js   → A bit of vanilla javascript in order to:
   * search in the \<textarea>
   * add background colors to entries that have them
-  * if the description field is empty, do not display it
-  * format posix time dates to YY-MM-DD format
 
 # Naming
 The name is subject to change.
@@ -265,6 +222,4 @@ https://www.cnrtl.fr/definition/signet
 https://psb1558.github.io/Junicode-font/
 * dmenu (MIT/X) 
 https://tools.suckless.org/dmenu/
-* jquery (MIT)
-https://jquery.com/ 
 

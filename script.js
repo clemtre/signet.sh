@@ -2,7 +2,7 @@ const textarea = document.querySelector('textarea')
 
 function updateValue(e) {
     let val = textarea.value.toLowerCase()
-    document.querySelectorAll('.signets tr').forEach((e) => {
+    document.querySelectorAll('table tr').forEach((e) => {
         var listItemText = e.innerHTML.toLowerCase();
         listItemText.includes(val) ? 
             e.classList.remove('hidden') : e.classList.add('hidden')        

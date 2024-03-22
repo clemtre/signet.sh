@@ -66,12 +66,6 @@ firefox insatisfaisant, autant dans sa forme que dans le format utilisé
 (sqlite). Ce script et les utilitaires autours proposent une 
 alternative pour archiver ses navigations internet.
 
-Lecture en lien :
-* FR
-  * 
-* EN
-  * https://www.inkandswitch.com/local-first/
-
 ## Format de la base de donné
 Seule une Url est requise, le reste des champs sont
 facultatifs, on compte les champs suivants :
@@ -79,7 +73,7 @@ facultatifs, on compte les champs suivants :
 * Name : Par défaut la balise </title> de la page
 * Description : ...
 * Tags : mots-clés séparés d'une virgule
-* Date : heure posix de l'ajout du lien
+* Date : date au format ANNÉE/MOIS/JOUR de l'ajout du lien 
 * Color : couleur css (nom, hex, rgb etc...)
  
 ## structure de la page index.html générée par signet.sh 
@@ -88,16 +82,14 @@ facultatifs, on compte les champs suivants :
 <html>
     <head>
         <title>⛵ → YY-MM-DD, H:M</title>
-        <script defer src="jquery-3.6.4.js"></script>
         <script defer src="script.js"></script>
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8" />
     </head>
     <body>
-    <div id="cc"></div>
     <textarea autofocus></textarea>
     <nav>
-        <p>tag (amount)</p>
+        <p>tag (quantité)</p>
     </nav>
     <ol>
         <li>
@@ -201,24 +193,17 @@ la tentative de curl pour passer au prochain champs du script :/ sorry !
 * index.html  → C'est la page html générée. Elle est composée de :
     * \<textarea> pour chercher dans les marque-pages (ctrl + f)
     * \<section> de tags \<p> et leurs quantités rangés dans l'ordre décroissant
-    * liste ordonnée croissante \<ol> en flex column-reverse de liens <\li>
+    * OBSOLÈTE → liste ordonnée croissante \<table> en flex column-reverse de liens <\li>
         * \<a> lien (href)
         * \<h1> Name
         * \<h2> Description
         * \<h3> Tags
         * \<h4> Date
         * \<h5> lien (texte)
+     
 * script.js   → Un peu de javascript pour:
   * rechercher dans la \<textarea>
   * ajouter les couleurs de fond aux entrées qui en ont
-  * si le champs de description est vide, ne pas
-                   l'afficher
-  * formater les dates du temps posix au format AA-MM-JJ
-
-/!\ Prochainement /!\
-starred.sh  → Un curl des repos de l'api github
-https://api.github.com/users/[user]/starred , formaté de json à une
-liste html sans jq !
 
 # Autres gestionnaires de marque-pages :
 - nb https://xwmx.github.io/nb/ (AGPL-3.0)
@@ -229,6 +214,4 @@ liste html sans jq !
 https://psb1558.github.io/Junicode-font/
 * dmenu (MIT/X) 
 https://tools.suckless.org/dmenu/
-* jquery (MIT)
-https://jquery.com/ 
 
