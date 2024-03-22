@@ -31,7 +31,7 @@ while [ "$#" -gt 0 ]; do
             if [ -f "$1" ]; then
                 break
             else
-                echo "The file provided doesn't seam to exist : $1"
+                echo "The file you provided doesn't seam to exist : $1"
                 exit 1
             fi
             ;;
@@ -40,105 +40,77 @@ while [ "$#" -gt 0 ]; do
 done
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --
 
-blanklineRecords_to_html()
-{
-awk -v RS= '
-{
-    if ($0 != "") {
-        id=""
-        URL=""
-        DESC=""
-        TAGS=""
-        DATE=""
-        color=""
-
-        split($0, lines, "\n")
-        for (i in lines) {
-            if(lines[i] ~ /^[0-9]+$/ )   {
-                id=lines[i]
-            }
-            split(lines[i], parts, ": ")
-            field = parts[1]
-            value = parts[2]
-
-            if(field ~ /^Color/ )        {color=value}
-            if(field ~ /^URL/ )          {
-                URL=value
-            }
-            if(field ~ /^Name/ )         {NAME=value}
-            if(field ~ /^Description/ )  {DESC=value}
-            if(field ~ /^Tags/ )         {TAGS=value}
-            if(field ~ /^Date/ )         {DATE=value}
-
-        }
-
-        if(color != ""){
-            printf "<tr color=\"%s\">", color
-        }
-        else{
-            printf "%s", "<tr>"
-        }
-        printf "<td class=\"id\">%d</td>", id
-
-        printf "<td><a href=\"%s\">%s</a>\n", URL, NAME
-        if(DESC != "") {printf "<p class=\"desc\">%s</p>\n", DESC}
-        printf "</td>"
-        printf "<td><p class=\"tags\">%s</p></td>\n", TAGS
-        if(DATE != "") {printf "<td><date>%s</date></td>\n", DATE}
-
-        print "</tr>"
-    }
-} '
-}
+# I thought about using recutils db from GNU but went back to plain text
+# DB=BOOKMARKS.rec
 DB=$1
-cat <<- EOF
+
+cat <<- EOF 
 <!DOCTYPE html>
 <html>
     <head>
         <title>⛵ → $(date "+%g-%m-%d, %H:%M")</title>
-        <link rel="stylesheet" href="style.css">
+        <script defer src="jquery-3.7.1.slim.min.js"></script>
         <script defer src="script.js"></script>
-
+        <link rel="stylesheet" href="style.css">
         <meta charset="utf-8" />
     </head>
     <body>
-    <p>liens épinglés</p>
-    <table class="PIN">
-    $(
-cat $DB |\
-awk -v RS= '/PIN/ {print $0 "\n"}' | blanklineRecords_to_html
-)
-
-</table>
-<hr>
-    <textarea rows="1" autofocus placeholder="filtrer..."></textarea>
-    <hr>
-    <details>
-    <summary>tags</summary>
+    <div id="cc"></div>
+    <textarea autofocus></textarea>
     <nav>
     $(
 awk '/Tags: ./ {print tolower($0)}' $DB |\
     sed -e 's/tags: //' -e 's/,/\n/g' | sed 's/^ //g' |\
-    sort | uniq -cd | sort -nr |\
-    awk '{print "<button count=\"" $1 "\">" $2 "</button>"}'
+    sort | uniq -c | sort -nr |\
+    awk '{print "<p count=\"" $1 "\">" $2 "</p>"}'
 )
     </nav>
-    </details>
-<hr>
-
-<table class="signets">
-<thead><tr>
-    <td>#</td>
-    <td>Title, URL, description</td>
-    <td>tags</td>
-    <td>y/m/d<rtd>
-</tr></thead>
+    <ol>
 $(
-#grep "jpg$" $DB
-cat $DB |\
-blanklineRecords_to_html
+awk -v RS= '!/Tags: .*hide/ {print $0 "\n"}' $DB |\
+awk -v RS= '
+{
+    if ($0 != "") {
+        split($0, lines, "\n")
+        color = ""
+        for (i in lines) {
+            split(lines[i], parts, ": ")
+            field = parts[1]
+            value = parts[2]
+            if (field == "Color") {
+                color = value
+            }
+            vals[i] = value 
+        }
+        URL=vals[1]
+        NAME=vals[2]
+        DESC=vals[3]
+        TAGS=vals[4]
+        DATE=vals[5]
+
+        print "<li>"
+        print "<a href=\"" URL "\">" 
+
+        if (color != "") { 
+            print "<section color=\"" color "\">" 
+        } 
+        else { 
+            print "<section>" 
+        }
+
+        print "<h4>" DATE "</h4>" \
+              "<h1>" NAME "</h1>" \
+              "<h5>" URL  "</h5>" \
+              "<h2>" DESC "</h2>" \
+              "<h3>" TAGS "</h3>"
+
+        print "</section>"
+        print "</a>" 
+        print "</li>"
+    }
+} ' 
 ) 
-    </table>
+    </ol>
     <footer></footer>
     </body>
 </html>
