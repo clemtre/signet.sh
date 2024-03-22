@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+			"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+
+
+
+
+	<TITLE>The Creation of the UNIX Operating System: Dennis Ritchie Biography</TITLE>
+	<LINK REV="made" HREF="mailto:info@bell-labs.com">
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<!--LOAD STYLESHEETS-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+   if (isMac) {
+    document.write('<link rel="stylesheet" href="/blimages/stylesheet/style_mac.css" type="text/css">');
+   }else if (isUNIX) {
+    document.write('<link rel="stylesheet" href="/blimages/stylesheet/style_unix.css" type="text/css">');
+   }else {
+      document.write('<link rel="stylesheet" href="/blimages/stylesheet/style_pc.css" type="text/css">');
+   }
+//-->
+</SCRIPT>
+<!--END LOAD STYLESHEETS-->
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#000080" vlink="#000080" alink="#FF0000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+
+
+
+
+<TABLE ALIGN="CENTER" WIDTH="570" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR><TD>
+&nbsp &nbsp
+<h3><FONT color="FF0000">This is an archival site</FONT></H3>
+</TD></TR>
+<TR>
+<TD ALIGN="left" COLSPAN="3">
+
+
+<H2>Dennis M. Ritchie</H2>
+<IMG SRC="images/ritchie.jpeg" ALT="[ Dennis Ritchie ]" 
+WIDTH="240" HEIGHT="333" HSPACE="10" VSPACE="10" BORDER="0" ALIGN="right">
+
+<P><STRONG>1941</STRONG> -- Born in Bronxville, N.Y.</P>
+
+<P><STRONG>1963</STRONG> -- Graduates from Harvard University with a
+B.S. in Physics</P>
+
+<P><STRONG>1968</STRONG> -- Receives from Harvard University a Ph.D.
+in mathematics</P>
+
+<P><STRONG>1967</STRONG> -- Joins Bell Labs, following his father,
+Alistair E. Ritchie, who had a long career there</P>
+
+<P><STRONG>1968</STRONG> -- Joins the Bell Labs team working on
+Multics, a joint effort of Bell Labs, MIT and GE to develop a
+general computer operating system</P>
+
+<P><STRONG>1972</STRONG> -- Creates C language</P>
+
+<P><STRONG>1989</STRONG> -- Receives with Ken Thompson the NEC
+C&amp;C Prize for significant contributions to computer
+technology</P>
+
+<P><STRONG>1983</STRONG> -- Named Bell Labs Fellow</P>
+
+<P><STRONG>1988</STRONG> -- Elected to the U.S. National Academy of
+Engineering</P>
+
+<P><STRONG>1990</STRONG> -- Appointed head, System Software Research
+Department in the Computer Sciences Research Center at Bell Labs,
+Murray Hill, N.J.</P>
+
+<P><STRONG>1995</STRONG> -- Heads the effort to create the Plan 9
+operating system</P>
+
+<P><STRONG>1996</STRONG> -- Heads the effort to create the
+Inferno<SUP><SMALL>(TM)</SMALL></SUP> operating system</P>
+
+<P><STRONG>1998</STRONG> -- Awarded with Kenneth Thompson the U.S. <A HREF="news-19990428.html" TITLE="Press release about the National Medal of Technology">National Medal of Technology</A> for the development of the UNIX system</P>
+
+<!-- INCLUDING /twoface/inside/home/www/public-new/docs/history/unix/navigation.html -->
+
+<HR>
+
+<IMG SRC="images/86-300838-EM.jpeg" ALT="[ UNIX building blocks ]" 
+WIDTH="125" HEIGHT="90" HSPACE="10" VSPACE="10" BORDER="0" ALIGN="LEFT">
+
+<UL>
+	<LI><SPAN CLASS="fixLI"><A HREF="index.html" TITLE="First page">The Creation of the UNIX* Operating System</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="tutorial.html" TITLE="Explanation of the basics of UNIX">An Overview of the UNIX* Operating System</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="ritchiebio.html">Dennis Ritchie -- Biography</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="thompsonbio.html">Ken Thompson -- Biography</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="blcontributions.html">Bell Labs' Early Contributions to Computer Science</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="ltcontributions.html">Lucent's Contributions to Computer Science, Software and Data Transmission</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="moreinfo.html">For more information</A></SPAN></LI>
+</UL><!-- INCLUSION COMPLETE -->
+
+
+<!-- INCLUDING /twoface/inside/home/www/public-new/docs/templates/footer.html -->
+
+
+</TD></TR>
+
+</TABLE>
+
+</TD></TR>
+</TABLE>
+
+<!--BEGIN 14 footer module for Lucent.com--> 
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+	<!--copy-->
+	<TR>
+		<TD CLASS="V20">&nbsp;</TD>
+	</TR>
+	<TR>
+		<TD ALIGN="center">
+		<!-- <A HREF="http://www.lucent.com/copyright.html" CLASS="L3">Terms&nbsp;of&nbsp;use</A>&nbsp;&nbsp;&nbsp;
+		<A HREF="http://www.lucent.com/privacy.html" CLASS="L3">Privacy&nbsp;statement</A>&nbsp;&nbsp;&nbsp;
+		<A HREF="http://www.agere.com" CLASS="L3" TARGET="_new">Agere</A> -->
+		<BR><SPAN CLASS="T1">Copyright &#169; 2002 Lucent Technologies. All rights reserved. *</SPAN></TD>
+	</TR>
+	<!--end copy-->
+	<TR>
+		<TD HEIGHT="10"><SPACER TYPE="block" WIDTH="1" HEIGHT="1"></TD>
+	</TR>
+</TABLE>
+<!--END 14 footer module for Lucent.com-->
+
+</BODY> 
+</HTML> 
+<!-- INCLUSION COMPLETE -->

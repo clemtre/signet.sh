@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+			"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+
+
+
+
+	<TITLE>The Creation of the UNIX Operating System: Ken Thompson Biography</TITLE>
+	<LINK REV="made" HREF="mailto:info@bell-labs.com">
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<!--LOAD STYLESHEETS-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+   if (isMac) {
+    document.write('<link rel="stylesheet" href="/blimages/stylesheet/style_mac.css" type="text/css">');
+   }else if (isUNIX) {
+    document.write('<link rel="stylesheet" href="/blimages/stylesheet/style_unix.css" type="text/css">');
+   }else {
+      document.write('<link rel="stylesheet" href="/blimages/stylesheet/style_pc.css" type="text/css">');
+   }
+//-->
+</SCRIPT>
+<!--END LOAD STYLESHEETS-->
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#000080" vlink="#000080" alink="#FF0000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+
+
+
+
+
+<TABLE ALIGN="CENTER" WIDTH="570" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR><TD>
+&nbsp &nbsp
+<h3><FONT color="FF0000">This is an archival site</FONT></H3>
+</TD></TR>
+<TR>
+<TD ALIGN="left" COLSPAN="3">
+<!-- INCLUSION COMPLETE -->
+
+
+<H2>Kenneth Thompson</H2>
+
+<IMG SRC="images/thompson.jpeg" ALT="[ Ken Thompson ]" WIDTH="240" 
+HEIGHT="333" HSPACE="10" VSPACE="10" BORDER="0" ALIGN="right">
+
+<P><STRONG>1943</STRONG> -- Born in New Orleans, Louisiana</P>
+
+<P><STRONG>1943-1960</STRONG> - Navy brat moving every few years</P>
+
+<P><STRONG>1965-66</STRONG> -- Graduates with B.S and M.S. degrees
+in electrical engineering from the University of California at
+Berkeley</P>
+
+<P><STRONG>1966</STRONG> -- Joins Bell Labs Computing Research
+Department, working on the Multics project</P>
+
+<P><STRONG>1969</STRONG> -- Develops UNIX<A HREF="#" TITLE="UNIX is
+a registered trademark of the Santa Cruz Operation"
+onClick="MM_openBrWindow('trademark.html','trademark','scrollbars=yes,resizable=yes,width=200,height=200')">*</A>
+operating system</P>
+
+<P><STRONG>1970</STRONG> -- Writes B language, precursor to Dennis
+Ritchie's C language</P>
+
+<P><STRONG>1971</STRONG> -- Moves UNIX from the PDP-7 to the
+PDP-11</P>
+
+<P><STRONG>1973</STRONG> -- Rewrites UNIX in Dennis Ritchie's C
+language</P>
+
+<P><STRONG>1973</STRONG> -- Rewrites portions of UNIX to include
+Doug McIlroy's concept of pipes</P>
+
+<P><STRONG>1975-6</STRONG> -- Visiting professor at the University
+of California, Berkeley</P>
+
+<P><STRONG>1980</STRONG> -- &quot;Belle,&quot; a chess-playing
+computer he developed with Joe H. Condon, wins the U.S. and World
+Computing Chess Championships</P>
+
+<P><STRONG>1980</STRONG> -- Elected to the U.S. National Academy of
+Engineering</P>
+
+<P><STRONG>1983</STRONG> -- Named Bell Labs Fellow</P>
+
+<P><STRONG>1983</STRONG> -- Receives with Dennis Ritchie the ACM
+Turing Award</P>
+
+<P><STRONG>1980</STRONG> -- Elected to the U.S. National Academy of
+Science</P>
+
+<P><STRONG>1988</STRONG> -- Visiting professor at the University of
+Sydney, Australia</P>
+
+<P><STRONG>1998</STRONG> -- Awarded with Dennis Ritchie the <A HREF="news-19990428.html" TITLE="Press release about the National Medal of Technology">National Medal of Technology</A> for the development of the UNIX system</P>
+
+<P><STRONG>2000</STRONG> -- Retires from Bell Labs</P>
+
+
+<HR>
+
+<IMG SRC="images/86-300838-EM.jpeg" ALT="[ UNIX building blocks ]" 
+WIDTH="125" HEIGHT="90" HSPACE="10" VSPACE="10" BORDER="0" ALIGN="LEFT">
+
+<UL>
+	<LI><SPAN CLASS="fixLI"><A HREF="index.html" TITLE="First page">The Creation of the UNIX* Operating System</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="tutorial.html" TITLE="Explanation of the basics of UNIX">An Overview of the UNIX* Operating System</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="ritchiebio.html">Dennis Ritchie -- Biography</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="thompsonbio.html">Ken Thompson -- Biography</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="blcontributions.html">Bell Labs' Early Contributions to Computer Science</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="ltcontributions.html">Lucent's Contributions to Computer Science, Software and Data Transmission</A></SPAN></LI>
+	<LI><SPAN CLASS="fixLI"><A HREF="moreinfo.html">For more information</A></SPAN></LI>
+</UL>
+<!-- INCLUSION COMPLETE -->
+
+
+</TD></TR>
+
+</TABLE>
+
+
+</TD></TR>
+</TABLE>
+
+<!--BEGIN 14 footer module for Lucent.com--> 
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+	<!--copy-->
+	<TR>
+		<TD CLASS="V20">&nbsp;</TD>
+	</TR>
+	<TR>
+		<TD ALIGN="center">
+		<!-- <A HREF="http://www.lucent.com/copyright.html" CLASS="L3">Terms&nbsp;of&nbsp;use</A>&nbsp;&nbsp;&nbsp;
+		<A HREF="http://www.lucent.com/privacy.html" CLASS="L3">Privacy&nbsp;statement</A>&nbsp;&nbsp;&nbsp;
+		<A HREF="http://www.agere.com" CLASS="L3" TARGET="_new">Agere</A> -->
+		<BR><SPAN CLASS="T1">Copyright &#169; 2002 Lucent Technologies. All rights reserved. *</SPAN></TD>
+	</TR>
+	<!--end copy-->
+	<TR>
+		<TD HEIGHT="10"><SPACER TYPE="block" WIDTH="1" HEIGHT="1"></TD>
+	</TR>
+</TABLE>
+<!--END 14 footer module for Lucent.com-->
+
+</BODY> 
+</HTML> 
+<!-- INCLUSION COMPLETE -->

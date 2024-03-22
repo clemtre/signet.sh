@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+        
+    <title>About MANPATH.be</title>
+
+        <link href="/static/page.css" rel="stylesheet"/>
+        <link href="/static/favicon.png" rel="icon"/>
+        <meta charset="utf-8"/>
+        
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            
+
+            </div>
+            
+<div class="main">
+    <h1>About</h1>
+    
+<p>
+This site is a collection of free and open-source man pages. Its
+purpose is to provide convenient and stable access to man page content.
+For example, it has man pages for several distributions, it has permalinks,
+it interlinks man pages in various ways and allows linking into
+a specific line or section of a man page.
+</p>
+
+    <div>
+        <b>TOC:</b>
+        <a href="#contact">Contact</a>, <a href="#features">Features</a>,
+        <a href="#technology_stack">Technology Stack</a>,
+        <a href="#see_also">See Also</a>
+        and <a href="#related_services">Related Services</a>
+    </div>
+    <h2 id="contact">Contact</h2>
+    <p>
+    This page and the software behind this site is written by <a href="https://gms.tf">Georg Sauthoff</a>. Don't hesitate to <a href="mailto:webmaster@manpath.be">contact me</a> if you have comments, questions or suggestions about this site.
+    </p>
+    <h2 id="features">Features</h2>
+    <p>
+    Selected features of this site:
+    </p>
+    <ul>
+        <li>Permalinks - each man page shows a permalink which is a stable
+            reference to its content. This is useful when citing a man page
+            or parts of it. Stable means that you get the exact same content
+        even if newer versions of that man page source are imported, either
+        when a new distribution version is added or when an updated package
+    (that provides the man page) is added.
+        </li>
+        <li>Short links - short links are easy to construct and
+            thus can be used for direct access to a man page. For example, to access the <code>strcopy()</code> man page in Fedora 29: <a href="/f29/3/strcpy">/f29/3/strcpy</a> &mdash; or to access the <code>open</code> man page in the highest prioritized section: <a href="/f29/open">/f29/open</a>
+        </li>
+        <li>Overview pages - there are pages that list all the section of a
+            distribution or all the pages inside a section, such as
+            <a href="/f29/3">/f29/3</a>
+            (all pages in Section 3 in Fedora 29) and <a href="/29">/f29</a>
+            (all sections in Fedora 29). This allows for better indexing and
+            quick in-browser searches.
+        </li>
+        <li>Inter-section links - for some names there are man pages in
+            multiple sections. Since sometimes it's easy to end up in the wrong
+            section or to be surprised that there are other man pages of the
+            same name in other sections the navigation column contains links to
+            man pages of the same name in other sections.
+        </li>
+        <li>Inter-distribution links - there also links between man pages of
+            the same name in other distributions. This might be convenient to
+            quickly check the availability of an API in another system or
+            distribution version.
+        </li>
+        <li>Reverse-links - i.e. what links here
+        </li>
+        <li>Responsive layout - the HTML pages use CSS Flexible Box layout
+            such that the man pages are decently viewable on different
+            screen sizes, e.g. also on smartphones.
+        </li>
+        <li>No JavaScript - omitting JavaScript helps with load times
+            and saves some cycles on the client side. Some frontend
+            frameworks come with some good design defaults, an easy
+            to use grid and responsive design but add some hundred
+            kilobytes including some JavaScript. The JavaScript might
+            be there for some extra features or to implement
+            responsive layout in legacy browsers. Thus, there are
+            basically only downsides on using JavaScript in a site
+            like this.
+        </li>
+    </ul>
+    <h2 id="technology_stack">Technology Stack</h2>
+    <p>
+    The site's content is stored in a <a href="https://www.postgresql.org/">Postgresql</a> database. The loader
+    that imports man pages into the database is written in Python,
+    using <a href="https://docs.sqlalchemy.org/en/13/">SQLAlchemy Core expressions</a> for database operations.
+    The actual site software is written in Go, using just the
+    <a href="https://godoc.org/github.com/lib/pq">pq Postgres driver</a>
+    and the <a href="https://github.com/NYTimes/gziphandler">gziphandler</a> package as
+    non-standard dependencies. That means the Go code implements a
+    HTTP server (using <code>net/http</code>) that implements
+    a URL multiplexer, selects from the database and executes
+    some nested Go <a href="https://golang.org/pkg/html/template/">HTML templates</a>.
+    The Go server is put behind an
+    <a href="https://en.wikipedia.org/wiki/Nginx">NGINX</a> reverse proxy such
+    that
+    popular pages are served from a cache and to allow for seamless updates.
+    </p>
+    <h2 id="see_also">See Also</h2>
+    <ul>
+        <li><a href="https://gms.tf/announcing-manpathbe.html">Announcing MANPATH.be</a> (2019-06-07) - a Blog article
+        by the creator of this site that gives some perspective on
+        the motivation behind this project and its execution.
+        </li>
+        <li><a href="https://manpages.bsd.lv/history.html">History of UNIX Manpages</a>
+        </li>
+        <li>The obligatory xkcd comics: <a href="https://xkcd.com/293/">RTFM</a>, <a href="https://xkcd.com/1343/">Manuals</a> and <a href="https://xkcd.com/1692/">Man Page</a>
+        </li>
+    </ul>
+    <h2 id="related_services">Related Services</h2>
+    <p>
+    There are many browsable man page repositories available. The following
+    details some of the differences of the more popular ones with this site.
+    </p>
+    <p>
+    All of the compared sites are missing some semi-advanced features like
+    permalinks, inter-section links, inter-distribution links, reverse-links,
+    linkable sections and line-numbers in man pages.
+    </p>
+    <p>
+    The Debian project runs <a
+        href="https://manpages.debian.org/">manpages.debian.org</a> that
+    provides access to the man pages of some Debian releases. As of
+    2019-04-30, most pages have inter-system links to Debian stretch, Debian testing,
+    stretch-backports and Debian unstable. It's unclear how stable these links are.
+    That means whether the links to stretch will still work after the next stable
+    Debian is released. There are no permalinks to pages of a distribution
+    version - e.g. a page in stretch or unstable might be replaced by an
+        package update at any time. On the positive side, there are
+        inter-section links, including links to translated pages.
+    </p>
+    <p>
+    The FreeBSD project has a <a
+        href="https://www.freebsd.org/cgi/man.cgi">Web form</a> for querying
+    the man pages of various UNIX/Linux distributions. Since there aren't any
+    overview pages the pages aren't indexed by web search engines like
+    Google. The produced links are long query strings, thus not user
+    friendly for writing them from scratch. There are no inter-distribution links for
+    easily switching between man page versions.
+    </p>
+    <p><a href="http://man7.org/linux/man-pages/">Man7.org</a> serves the man
+    pages from the <a href="http://www.kernel.org/doc/man-pages/">Linux
+    man-pages project</a> and a few other projects. It probably closely
+    follows the master branch of the man-pages project. Or it contains the HTML
+    renderings of the latest release. In any case, links into this repository
+    aren't stable because you just get some current version. It's also unclear
+    how often the other projects are updated.
+    </p>
+    <p><a href="https://man.cx/">Man.cx</a> tracks almost all man-pages of
+    Debian testing. In contrast to many other services, it includes the date
+    of the import run. Similar to other services, the links aren't stable,
+    one can only reference the current version. On the plus side, it
+    provides inter-section links.
+    </p>
+    <p><a href="http://man.he.net/">Hurrican Electric</a> also provides a man
+    page repository besides its many other awesome free network related
+    services (related to IPv6, DNS etc.). The HTML rendering of the man
+    pages is very basic, e.g. bold/underscore markup is gone, sections
+    aren't rendered as headings, and URLs aren't rendered as link.
+    Parameters are encoded as query strings, but there are some overview
+    pages such that a robot has a chance indexing the pages. It's completely
+    opaque from which system the pages are imported from. As of 2019-04-30,
+    it looks like the pages weren't updated in the last 6 years. The man
+    pages are likely from a Linux distribution that was released in 2013.
+    </p>
+    <p>
+    <a href="https://linux.die.net/man/">die.net</a> also has a
+    Linux man page repository. There isn't any information on
+    how often these man pages are updated, from which Linux system
+    they are imported from and who is behind this service ('a few dozen
+    friends in the US'). The links aren't stable, but the pages are
+    indexed well by Google.
+    </p>
+</div>
+
+            <nav>
+            
+
+            </nav>
+        </div>
+        <div>
+            <a href="/impressum">Impressum</a>
+        </div>
+    </body>
+</html>
+

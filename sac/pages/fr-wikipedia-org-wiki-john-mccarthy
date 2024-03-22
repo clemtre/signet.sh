@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-feature-night-mode-disabled skin-night-mode-clientpref-0 vector-toc-available" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>John McCarthy — Wikipédia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-feature-night-mode-disabled skin-night-mode-clientpref-0 vector-toc-available";var cookie=document.cookie.match(/(?:^|; )frwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],
+"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"70dcbbfa-5365-41fb-b7cb-a9aae818f5e1","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"John_McCarthy","wgTitle":"John McCarthy","wgCurRevisionId":212255231,"wgRevisionId":212255231,"wgArticleId":1592,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Recension temporaire pour le modèle Article","Page utilisant P569","Page utilisant P19","Page utilisant P570","Page utilisant P20","Page utilisant P27","Page utilisant P69","Page utilisant P106","Page utilisant des données de Wikidata à traduire de l'anglais","Page utilisant P25","Page utilisant P108","Page utilisant P463","Page utilisant P241","Page utilisant P1066","Page utilisant P184","Page utilisant P856",
+"Page utilisant P166","Page utilisant P485","Page utilisant P800","Article utilisant l'infobox Biographie2 avec la charte mathématiques","Page utilisant P18","Infobox avec une légende locale et une image sur Wikidata","Article utilisant l'infobox Biographie2","Article utilisant une Infobox","Article avec une section vide ou incomplète","Catégorie Commons avec lien local identique sur Wikidata","Page utilisant P2456","Page utilisant P1960","Page utilisant P549","Page pointant vers des bases externes","Page pointant vers des bases relatives à la recherche","Article de Wikipédia avec notice d'autorité","Portail:Informatique théorique/Articles liés","Portail:Informatique/Articles liés","Projet:Mathématiques/Articles","Portail:Programmation informatique/Articles liés","Portail:États-Unis/Articles liés","Portail:Amérique/Articles liés","Portail:Amérique du Nord/Articles liés","Wikipédia:Article biographique","Portail:Biographie/Articles liés/Sciences",
+"Portail:Biographie/Articles liés/Entreprises","Personnalité liée à l'intelligence artificielle","Chercheur en sciences cognitives","Hacker","Étudiant du California Institute of Technology","Étudiant de l'université de Princeton","Lauréat du prix Turing","Lauréat du prix de Kyoto","Récipiendaire de la National Medal of Science","Naissance en septembre 1927","Naissance à Boston","Décès en octobre 2011","Décès à Stanford (Californie)","Décès à 84 ans","Docteur honoris causa de l'Université Concordia"],"wgPageViewLanguage":"fr","wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"John_McCarthy","wgRelevantArticleId":1592,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":4,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},
+"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":9000,"wgULSCurrentAutonym":"français","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q92739","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready"
+,"codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.quicksurveys.init","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.42.0-wmf.20">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/John_McCarthy_Stanford.jpg/1200px-John_McCarthy_Stanford.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1390">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/John_McCarthy_Stanford.jpg/800px-John_McCarthy_Stanford.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="927">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/John_McCarthy_Stanford.jpg/640px-John_McCarthy_Stanford.jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="741">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="John McCarthy — Wikipédia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//fr.m.wikipedia.org/wiki/John_McCarthy">
+<link rel="alternate" type="application/x-wiki" title="Modifier" href="/w/index.php?title=John_McCarthy&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (fr)">
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://fr.wikipedia.org/wiki/John_McCarthy">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="alternate" type="application/atom+xml" title="Flux Atom de Wikipédia" href="/w/index.php?title=Sp%C3%A9cial:Modifications_r%C3%A9centes&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-John_McCarthy rootpage-John_McCarthy skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Menu principal"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Menu principal</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Menu principal</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">masquer</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]" accesskey="z"><span>Accueil</span></a></li><li id="n-thema" class="mw-list-item"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]" accesskey="x"><span>Article au hasard</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-Contribuer" class="vector-menu mw-portlet mw-portlet-Contribuer"  >
+	<div class="vector-menu-heading">
+		Contribuer
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-aboutwp" class="mw-list-item"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r"><span>Modifications récentes</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Langues</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br /><a href="#p-lang-btn">Aller en haut</a>.</div></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikip%C3%A9dia:Accueil_principal" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipédia" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="l&#039;encyclopédie libre" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" width="120" height="13" style="width: 7.5em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Sp%C3%A9cial:Recherche" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Rechercher sur Wikipédia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Rechercher</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Rechercher sur Wikipédia" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" title="Rechercher sur Wikipédia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Spécial:Recherche">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Rechercher</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Outils personnels" role="navigation" >
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+		
+		
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=John+McCarthy" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire." class=""><span>Créer un compte</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=John+McCarthy" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o" class=""><span>Se connecter</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Plus d’options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils personnels"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Outils personnels</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="Menu utilisateur" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=John+McCarthy" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=John+McCarthy" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages pour les contributeurs déconnectés <a href="/wiki/Aide:Introduction" aria-label="En savoir plus sur la contribution"><span>en savoir plus</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" role="navigation" aria-label="Sommaire" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Sommaire</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">masquer</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">Début</div>
+			</a>
+		</li>
+		<li id="toc-Adolescence_et_études"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Adolescence_et_études">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Adolescence et études</div>
+		</a>
+		
+		<ul id="toc-Adolescence_et_études-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Carrière_informatique"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Carrière_informatique">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Carrière informatique</div>
+		</a>
+		
+		<ul id="toc-Carrière_informatique-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Publications_majeures"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Publications_majeures">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Publications majeures</div>
+		</a>
+		
+		<ul id="toc-Publications_majeures-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Récompenses"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Récompenses">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Récompenses</div>
+		</a>
+		
+		<ul id="toc-Récompenses-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes_et_références"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes_et_références">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Notes et références</div>
+		</a>
+		
+		<ul id="toc-Notes_et_références-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Annexes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Annexes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>Annexes</div>
+		</a>
+		
+			<button aria-controls="toc-Annexes-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Afficher / masquer la sous-section Annexes</span>
+			</button>
+		
+		<ul id="toc-Annexes-sublist" class="vector-toc-list">
+			<li id="toc-Articles_connexes"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Articles_connexes">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">6.1</span>Articles connexes</div>
+			</a>
+			
+			<ul id="toc-Articles_connexes-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Liens_externes"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Liens_externes">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">6.2</span>Liens externes</div>
+			</a>
+			
+			<ul id="toc-Liens_externes-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<nav role="navigation" aria-label="Sommaire" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Basculer la table des matières"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Basculer la table des matières</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">John McCarthy</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Aller à un article dans une autre langue. Disponible en 58 langues."   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-58" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">58 langues</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%AC%D9%88%D9%86_%D9%85%D9%83%D8%A7%D8%B1%D8%AB%D9%8A_(%D8%B9%D8%A7%D9%84%D9%85)" title="جون مكارثي (عالم) – arabe" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%AC%D9%88%D9%86_%D9%85%D9%83%D8%A7%D8%B1%D8%AB%D9%89" title="جون مكارثى – arabe égyptien" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/Con_Makkarti" title="Con Makkarti – azerbaïdjanais" lang="az" hreflang="az" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a href="https://azb.wikipedia.org/wiki/%D8%AC%D8%A7%D9%86_%D9%85%DA%A9%E2%80%8C%DA%A9%D8%A7%D8%B1%D8%AA%DB%8C_(%D8%A8%DB%8C%D9%84%DA%AF%DB%8C%E2%80%8C%D8%B3%D8%A7%DB%8C%D8%A7%D8%B1_%D8%A7%D9%88%D8%B2%D9%85%D8%A7%D9%86%DB%8C)" title="جان مک‌کارتی (بیلگی‌سایار اوزمانی) – South Azerbaijani" lang="azb" hreflang="azb" class="interlanguage-link-target"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a href="https://bcl.wikipedia.org/wiki/John_McCarthy_(siyentipiko_kan_kompyuter)" title="John McCarthy (siyentipiko kan kompyuter) – Central Bikol" lang="bcl" hreflang="bcl" class="interlanguage-link-target"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%9C%D0%B0%D0%BA-%D0%9A%D0%B0%D1%80%D1%86%D1%96" title="Джон Мак-Карці – biélorusse" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%9C%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D1%82%D0%B8_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA)" title="Джон Маккарти (информатик) – bulgare" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a href="https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A6%A8_%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BF" title="জন ম্যাকার্থি – bengali" lang="bn" hreflang="bn" class="interlanguage-link-target"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/John_McCarthy_(ra%C4%8Dunarski_nau%C4%8Dnik)" title="John McCarthy (računarski naučnik) – bosniaque" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a href="https://ckb.wikipedia.org/wiki/%D8%AC%DB%86%D9%86_%D9%85%DB%95%DA%A9%DA%A9%D8%A7%D8%B1%D8%AA%DB%8C" title="جۆن مەککارتی – sorani" lang="ckb" hreflang="ckb" class="interlanguage-link-target"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – tchèque" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – danois" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – allemand" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%A4%CE%B6%CE%BF%CE%BD_%CE%9C%CE%B1%CE%BA%CE%AC%CF%81%CE%B8%CE%B9" title="Τζον Μακάρθι – grec" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)" title="John McCarthy (computer scientist) – anglais" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – espéranto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/John_McCarthy_(cient%C3%ADfico)" title="John McCarthy (científico) – espagnol" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D8%AC%D8%A7%D9%86_%D9%85%DA%A9%E2%80%8C%DA%A9%D8%A7%D8%B1%D8%AA%DB%8C_(%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF_%D8%B9%D9%84%D9%88%D9%85_%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87)" title="جان مک‌کارتی (دانشمند علوم رایانه) – persan" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi badge-Q17559452 badge-recommendedarticle mw-list-item" title="article recommandé"><a href="https://fi.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – finnois" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – irlandais" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – galicien" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%92%27%D7%95%D7%9F_%D7%9E%D7%A7%D7%90%D7%A8%D7%AA%D7%99" title="ג&#039;ון מקארתי – hébreu" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/John_McCarthy_(ra%C4%8Dunalni_znanstvenik)" title="John McCarthy (računalni znanstvenik) – croate" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/%D5%8B%D5%B8%D5%B6_%D5%84%D5%A1%D6%84%D6%84%D5%A1%D6%80%D5%A9%D5%AB" title="Ջոն Մաքքարթի – arménien" lang="hy" hreflang="hy" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a href="https://io.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – ido" lang="io" hreflang="io" class="interlanguage-link-target"><span>Ido</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – italien" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%83%E3%82%AB%E3%83%BC%E3%82%B7%E3%83%BC" title="ジョン・マッカーシー – japonais" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%AF%E1%83%9D%E1%83%9C_%E1%83%9B%E1%83%90%E1%83%99-%E1%83%99%E1%83%90%E1%83%A0%E1%83%97%E1%83%98" title="ჯონ მაკ-კართი – géorgien" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a href="https://kk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D1%82%D0%B8_%D0%94%D0%B6%D0%BE%D0%BD" title="Маккарти Джон – kazakh" lang="kk" hreflang="kk" class="interlanguage-link-target"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%A1%B4_%EB%A7%A4%EC%B9%B4%EC%8B%9C_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99%EC%9E%90)" title="존 매카시 (컴퓨터 과학자) – coréen" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-mg mw-list-item"><a href="https://mg.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – malgache" lang="mg" hreflang="mg" class="interlanguage-link-target"><span>Malagasy</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%8F%D0%BE%D0%BD_%D0%9C%D0%B5%D0%BA%D0%B0%D1%80%D1%82%D0%B8" title="Џон Мекарти – macédonien" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a href="https://mn.wikipedia.org/wiki/%D0%96%D0%BE%D0%BD_%D0%9C%D0%B0%D0%BA%D0%9A%D0%B0%D1%80%D1%82%D0%B8" title="Жон МакКарти – mongol" lang="mn" hreflang="mn" class="interlanguage-link-target"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wikipedia.org/wiki/John_McCarthy_(ahli_sains_komputer)" title="John McCarthy (ahli sains komputer) – malais" lang="ms" hreflang="ms" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a href="https://my.wikipedia.org/wiki/%E1%80%82%E1%80%BB%E1%80%BD%E1%80%94%E1%80%BA_%E1%80%99%E1%80%80%E1%80%B9%E1%80%80%E1%80%AC%E1%80%9E%E1%80%AE" title="ဂျွန် မက္ကာသီ – birman" lang="my" hreflang="my" class="interlanguage-link-target"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/John_McCarthy_(informaticus)" title="John McCarthy (informaticus) – néerlandais" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – norvégien bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – polonais" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – portugais" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – roumain" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D1%82%D0%B8,_%D0%94%D0%B6%D0%BE%D0%BD" title="Маккарти, Джон – russe" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/John_McCarthy_(informati%C4%8Dar)" title="John McCarthy (informatičar) – serbo-croate" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – slovaque" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – albanais" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%8F%D0%BE%D0%BD_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D1%82%D0%B8_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B0%D1%80)" title="Џон Макарти (информатичар) – serbe" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/John_McCarthy_(datavetare)" title="John McCarthy (datavetare) – suédois" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%9C%E0%AF%8B%E0%AE%A9%E0%AF%8D_%E0%AE%AE%E0%AF%86%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF" title="ஜோன் மெக்கார்த்தி – tamoul" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a href="https://te.wikipedia.org/wiki/%E0%B0%9C%E0%B0%BE%E0%B0%A8%E0%B1%8D_%E0%B0%AE%E0%B1%86%E0%B0%95%E0%B1%8D%E2%80%8C%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B1%8D%E0%B0%A4%E0%B0%BF" title="జాన్ మెక్‌కార్తి – télougou" lang="te" hreflang="te" class="interlanguage-link-target"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a href="https://tl.wikipedia.org/wiki/John_McCarthy_(siyentipiko_ng_kompyuter)" title="John McCarthy (siyentipiko ng kompyuter) – tagalog" lang="tl" hreflang="tl" class="interlanguage-link-target"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/John_McCarthy_(bilgisayar_bilimci)" title="John McCarthy (bilgisayar bilimci) – turc" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%9C%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D1%82%D1%96" title="Джон Маккарті – ukrainien" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a href="https://uz.wikipedia.org/wiki/John_McCarthy" title="John McCarthy – ouzbek" lang="uz" hreflang="uz" class="interlanguage-link-target"><span>Oʻzbekcha / ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/John_McCarthy_(nh%C3%A0_khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh)" title="John McCarthy (nhà khoa học máy tính) – vietnamien" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-xmf mw-list-item"><a href="https://xmf.wikipedia.org/wiki/%E1%83%AF%E1%83%9D%E1%83%9C_%E1%83%9B%E1%83%90%E1%83%99%E1%83%90%E1%83%A0%E1%83%A2%E1%83%98" title="ჯონ მაკარტი – mingrélien" lang="xmf" hreflang="xmf" class="interlanguage-link-target"><span>მარგალური</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E9%BA%A6%E5%8D%A1%E9%94%A1" title="约翰·麦卡锡 – chinois" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q92739#sitelinks-wikipedia" title="Modifier les liens interlangues" class="wbc-editpage">Modifier les liens</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Espaces de noms">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/John_McCarthy" title="Voir le contenu de la page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Discussion:John_McCarthy" rel="discussion" title="Discussion au sujet de cette page de contenu [t]" accesskey="t"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Modifier la variante de langue"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">français</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Affichages">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/John_McCarthy"><span>Lire</span></a></li><li id="ca-ve-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit" title="Modifier cette page [v]" accesskey="v"><span>Modifier</span></a></li><li id="ca-edit" class="collapsible vector-tab-noicon mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;action=edit" title="Modifier le wikicode de cette page [e]" accesskey="e"><span>Modifier le code</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Outils</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Outils</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">masquer</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="Plus d’options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/John_McCarthy"><span>Lire</span></a></li><li id="ca-more-ve-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit" title="Modifier cette page [v]" accesskey="v"><span>Modifier</span></a></li><li id="ca-more-edit" class="collapsible vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;action=edit" title="Modifier le wikicode de cette page [e]" accesskey="e"><span>Modifier le code</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;action=history"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		Général
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/John_McCarthy" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j"><span>Pages liées</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Suivi_des_liens/John_McCarthy" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k"><span>Suivi des pages liées</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Aide:Importer_un_fichier" title="Téléverser des fichiers [u]" accesskey="u"><span>Téléverser un fichier</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]" accesskey="q"><span>Pages spéciales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;oldid=212255231" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=John_McCarthy&amp;id=212255231&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:UrlShortener&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FJohn_McCarthy"><span>Obtenir l'URL raccourcie</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:QrCode&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FJohn_McCarthy"><span>Télécharger le code QR</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q92739" title="Lien vers l’élément dans le dépôt de données connecté [g]" accesskey="g"><span>Élément Wikidata</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Imprimer / exporter
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=John+McCarthy"><span>Créer un livre</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=John_McCarthy&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=John_McCarthy&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p"><span>Version imprimable</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		Dans d’autres projets
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:John_McCarthy_(computer_scientist)" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+						</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">Un article de Wikipédia, l&#039;encyclopédie libre.</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="fr" dir="ltr"><div class="bandeau-container metadata homonymie hatnote"><div class="bandeau-cell bandeau-icone" style="display:table-cell;padding-right:0.5em"><span class="noviewer" typeof="mw:File"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" decoding="async" width="20" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" data-file-width="512" data-file-height="375" /></a></span></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour les articles homonymes, voir <a href="/wiki/John_MacCarthy_(homonymie)" class="mw-disambig" title="John MacCarthy (homonymie)">John MacCarthy (homonymie)</a> et <a href="/wiki/Mac_Carthy" class="mw-redirect mw-disambig" title="Mac Carthy">Mac Carthy</a>.
+</p>
+</div></div>
+<div class="infobox_v3 noarchive large"><div class="entete icon maths" style="background-color:#BFD7FF;color:#000000"><div>John McCarthy<style data-mw-deduplicate="TemplateStyles:r201193725">.mw-parser-output .entete.maths{background-image:url("//upload.wikimedia.org/wikipedia/commons/3/37/Fourier_infobox.png")}</style></div></div><div><div class="images" style="padding:2px 0"><span class="mw-default-size" typeof="mw:File/Frameless"><a href="/wiki/Fichier:John_McCarthy_Stanford.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/John_McCarthy_Stanford.jpg/260px-John_McCarthy_Stanford.jpg" decoding="async" width="260" height="301" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/John_McCarthy_Stanford.jpg/390px-John_McCarthy_Stanford.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/John_McCarthy_Stanford.jpg/520px-John_McCarthy_Stanford.jpg 2x" data-file-width="2013" data-file-height="2332" /></a></span></div><div class="legend">John McCarthy en 2006</div></div><table><caption style="color:#000000;text-align:center;background-color:#BFD7FF">Biographie</caption><tbody><tr class=""><th scope="row">Naissance</th><td class=""><div>
+<span class="wd_p569"><time class="nowrap date-lien" datetime="1927-09-04" data-sort-value="1927-09-04"><a href="/wiki/4_septembre" title="4 septembre">4</a> <a href="/wiki/Septembre_1927" title="Septembre 1927">septembre</a> <a href="/wiki/1927" title="1927">1927</a></time><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P569" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span><br /><span class="wd_p19"><a href="/wiki/Boston" title="Boston">Boston</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P19" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Décès</th><td class=""><div>
+<span class="wd_p570"><time class="nowrap date-lien" datetime="2011-10-24" data-sort-value="2011-10-24"><a href="/wiki/24_octobre" title="24 octobre">24</a> <a href="/wiki/Octobre_2011" title="Octobre 2011">octobre</a> <a href="/wiki/2011" title="2011">2011</a></time><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P570" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span> (à 84&#160;ans)<br /><span class="wd_p20"><a href="/wiki/Stanford_(Californie)" title="Stanford (Californie)">Stanford</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P20" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Nationalité</th><td class=""><div>
+<span class="wd_p27"><a href="/wiki/%C3%89tats-Unis" title="États-Unis">américaine</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P27" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Formation</th><td class=""><div>
+<span class="wd_p69"><a href="/wiki/California_Institute_of_Technology" title="California Institute of Technology">California Institute of Technology</a> (<a href="/wiki/Bachelor_of_Science" title="Bachelor of Science">baccalauréat universitaire ès sciences</a>) <small>(jusqu'en <time>1948</time>)</small><br /><a href="/wiki/Universit%C3%A9_de_Princeton" title="Université de Princeton">Université de Princeton</a> (<a href="/wiki/Doctorat" title="Doctorat">doctorat</a>) <small>(jusqu'en <time>1951</time>)</small><br />Belmont High School <small>(<a href="https://en.wikipedia.org/wiki/Belmont_High_School_(Los_Angeles)" class="extiw" title="en:Belmont High School (Los Angeles)"><span class="indicateur-langue" title="Article sur Wikipédia en anglais">en</span></a>)</small><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P69" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Activités</th><td class=""><div>
+<span class="wd_p106"><a href="/wiki/Math%C3%A9maticien" title="Mathématicien">Mathématicien</a>, <a href="/wiki/Enseignement" title="Enseignement">professeur d'université</a>, <a href="/wiki/Ing%C3%A9nieur" title="Ingénieur">ingénieur</a>, <a href="/wiki/Informaticien" title="Informaticien">informaticien</a>, <a href="/wiki/Intelligence_artificielle" title="Intelligence artificielle">chercheur en intelligence artificielle</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P106" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Mère</th><td class=""><div>
+<span class="wd_p25">Ida Glatt McCarthy <small>(<a href="https://www.wikidata.org/wiki/Q66712333" class="extiw" title="d:Q66712333"><span class="indicateur-langue" title="Voir l&#39;élément Wikidata correspondant">d</span></a>)</small><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P25" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr></tbody></table><table><caption style="color:#000000;text-align:center;background-color:#BFD7FF">Autres informations</caption><tbody><tr class=""><th scope="row">A travaillé pour</th><td class=""><div>
+<span class="wd_p108"><a href="/wiki/Universit%C3%A9_Stanford" title="Université Stanford">Université Stanford</a> <small>(<time>1962</time>-<wbr /><time>2000</time>)</small><br /><a href="/wiki/Massachusetts_Institute_of_Technology" title="Massachusetts Institute of Technology">Massachusetts Institute of Technology</a> <small>(jusqu'en <time>1962</time>)</small><br /><a href="/wiki/Universit%C3%A9_de_Princeton" title="Université de Princeton">Université de Princeton</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P108" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Membre de</th><td class=""><div>
+<span class="wd_p463"><a href="/wiki/Acad%C3%A9mie_nationale_des_sciences" title="Académie nationale des sciences">Académie américaine des sciences</a><br /><a href="/wiki/Association_for_Computing_Machinery" title="Association for Computing Machinery">Association for Computing Machinery</a><br /><a href="/wiki/Association_for_the_Advancement_of_Artificial_Intelligence" title="Association for the Advancement of Artificial Intelligence">Association for the Advancement of Artificial Intelligence</a><br /><a href="/wiki/Acad%C3%A9mie_am%C3%A9ricaine_des_arts_et_des_sciences" title="Académie américaine des arts et des sciences">Académie américaine des arts et des sciences</a><br /><a href="/wiki/Association_am%C3%A9ricaine_pour_l%27avancement_des_sciences" title="Association américaine pour l&#39;avancement des sciences">Association américaine pour l'avancement des sciences</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P463" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Arme</th><td class=""><div>
+<span class="wd_p241"><a href="/wiki/Arm%C3%A9e_de_terre_des_%C3%89tats-Unis" title="Armée de terre des États-Unis">Armée de terre des États-Unis</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P241" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Maître</th><td class=""><div>
+<span class="wd_p1066"><a href="/wiki/Solomon_Lefschetz" title="Solomon Lefschetz">Solomon Lefschetz</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P1066" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Directeur de thèse</th><td class=""><div>
+<span class="wd_p184"><a href="/wiki/Donald_Spencer" title="Donald Spencer">Donald C. Spencer</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P184" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Site web</th><td class=""><div>
+<span class="wd_p856"><a rel="nofollow" class="external text" href="http://www-formal.stanford.edu/jmc//">www-formal.stanford.edu/jmc/</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P856" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Distinctions</th><td class=""><div>
+<span class="wd_p166"><a href="/wiki/Prix_Turing" title="Prix Turing">Prix Turing</a> <small>(<time>1971</time>)</small><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P166" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span><br /><div class="toccolours mw-collapsible mw-collapsed" style="border:none"><b>Liste détaillée</b><div class="mw-collapsible-content" style="line-height:150%"><span class="wd_p166"><a href="/wiki/Prix_Turing" title="Prix Turing">Prix Turing</a> <small>(<time>1971</time>)</small><br /><a href="/wiki/Computer_Pioneer_Award" title="Computer Pioneer Award">Computer Pioneer Award</a> <small>(<time>1985</time>)</small><br /><a href="/wiki/International_Joint_Conference_on_Artificial_Intelligence" title="International Joint Conference on Artificial Intelligence">IJCAI Award for Research Excellence</a> <small>(<time>1985</time>)</small><br /><a href="/wiki/Prix_de_Kyoto" title="Prix de Kyoto">Prix de Kyoto en technologies avancée</a> <small>(<time>1988</time>)</small><br /><a href="/wiki/National_Medal_of_Science" title="National Medal of Science">National Medal of Science</a> <small>(<time>1990</time>)</small><br /><a href="/wiki/Association_for_the_Advancement_of_Artificial_Intelligence" title="Association for the Advancement of Artificial Intelligence">AAAI Fellow</a> <small>(<time>1990</time>)</small><br /><a href="/wiki/Liste_des_Fellows_de_l%27Association_for_Computing_Machinery" title="Liste des Fellows de l&#39;Association for Computing Machinery">ACM Fellow</a> <small>(<time>1994</time>)</small><br /><a href="/wiki/Special_Interest_Group_on_Programming_Languages" title="Special Interest Group on Programming Languages">Programming Languages Achievement Award</a> <small>(<time>2002</time>)</small><br /><a href="/wiki/Franklin_Institute_Awards" title="Franklin Institute Awards">Médaille Benjamin-Franklin</a> <small>(<time>2003</time>)</small><br />CSS Fellow <small>(<a href="https://www.wikidata.org/wiki/Q59766571" class="extiw" title="d:Q59766571"><span class="indicateur-langue" title="Voir l&#39;élément Wikidata correspondant">d</span></a>)</small><br /><a href="/wiki/Mus%C3%A9e_de_l%27Histoire_de_l%27ordinateur" title="Musée de l&#39;Histoire de l&#39;ordinateur">Computer History Museum fellow</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P166" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></div></div></td></tr><tr class=""><th scope="row">Archives conservées par</th><td class=""><div>
+<span class="wd_p485"><a href="/wiki/Mus%C3%A9e_de_l%27Histoire_de_l%27ordinateur" title="Musée de l&#39;Histoire de l&#39;ordinateur">Musée de l'histoire de l'ordinateur</a><sup id="cite_ref-wikidata-78a1fcd5802b90550cc6fa2d6a406daeb15fa6f1_1-0" class="reference"><a href="#cite_note-wikidata-78a1fcd5802b90550cc6fa2d6a406daeb15fa6f1-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P485" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr></tbody></table><table><caption style="color:#000000;text-align:center;background-color:#BFD7FF">Œuvres principales</caption><tbody><tr class=""><td class=""><div>
+<span class="wd_p800"><a href="/wiki/Intelligence_artificielle" title="Intelligence artificielle">Intelligence artificielle</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#P800" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr></tbody></table><p class="navbar noprint bordered navigation-not-searchable" style="border-top:1px solid #BFD7FF"><span class="plainlinks" style="text-align:left"><a class="external text" href="https://fr.wikipedia.org/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=0">modifier</a> - <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=0">modifier le code</a> - <a href="https://www.wikidata.org/wiki/Q92739" class="extiw" title="d:Q92739">modifier Wikidata</a></span><span style="text-align:right"><span typeof="mw:File"><a href="/wiki/Mod%C3%A8le:Infobox_Biographie2" title="Documentation du modèle"><img alt="Documentation du modèle" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/12px-Info_Simple.svg.png" decoding="async" width="12" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/18px-Info_Simple.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/24px-Info_Simple.svg.png 2x" data-file-width="512" data-file-height="512" /></a></span></span></p></div>
+<p><b>John McCarthy</b>, né le <time class="nowrap bday" datetime="1927-09-04" data-sort-value="1927-09-04">4 septembre 1927</time>, à <a href="/wiki/Boston" title="Boston">Boston</a> (<a href="/wiki/Massachusetts" title="Massachusetts">Massachusetts</a>) et mort le <time class="nowrap dday" datetime="2011-10-24" data-sort-value="2011-10-24">24 octobre 2011</time> à <a href="/wiki/Stanford_(Californie)" title="Stanford (Californie)">Stanford</a> (<a href="/wiki/Californie" title="Californie">Californie</a>)<sup id="cite_ref-death_2-0" class="reference"><a href="#cite_note-death-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>, est le principal pionnier de l'<a href="/wiki/Intelligence_artificielle" title="Intelligence artificielle">intelligence artificielle</a> avec <a href="/wiki/Marvin_Minsky" title="Marvin Minsky">Marvin Lee Minsky</a>&#160;; il incarne le courant mettant l'accent sur la <a href="/wiki/Logique_symbolique" class="mw-redirect" title="Logique symbolique">logique symbolique</a>.
+</p><p>À la fin des années 1950, après un <a href="/wiki/Doctorat" title="Doctorat">doctorat</a> en mathématiques, il a créé avec <a href="/wiki/Fernando_Corbat%C3%B3" title="Fernando Corbató">Fernando Corbató</a> la technique du <a href="/wiki/Temps_partag%C3%A9" title="Temps partagé">temps partagé</a>, qui permet à plusieurs utilisateurs d'employer simultanément un même <a href="/wiki/Ordinateur" title="Ordinateur">ordinateur</a>. Il est également le créateur du langage <a href="/wiki/Lisp_(langage)" class="mw-redirect" title="Lisp (langage)">LISP</a>, en 1958. Il reçoit le <a href="/wiki/Prix_Turing" title="Prix Turing">prix Turing</a> en <a href="/wiki/1971_en_informatique" title="1971 en informatique">1971</a> pour ses travaux en intelligence artificielle.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span id="Adolescence_et_.C3.A9tudes"></span><span class="mw-headline" id="Adolescence_et_études">Adolescence et études</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=1" title="Modifier la section : Adolescence et études" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=1" title="Modifier le code source de la section : Adolescence et études"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>John McCarthy est né à <a href="/wiki/Boston" title="Boston">Boston</a>, dans le <a href="/wiki/Massachusetts" title="Massachusetts">Massachusetts</a> le <time class="nowrap bday" datetime="1927-09-04" data-sort-value="1927-09-04">4 septembre 1927</time> d'un père immigrant Irlandais, John Patrick, et d'une mère juive lituanienne immigrante, Ida Glatt McCarthy<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup>. Il a été contraint de voyager fréquemment, jusqu'à ce que son père trouve un travail à <a href="/wiki/Los_Angeles" title="Los Angeles">Los Angeles</a>, en <a href="/wiki/Californie" title="Californie">Californie</a>.
+</p><p>McCarthy a dès son jeune âge montré un intérêt pour les mathématiques. Pendant l'adolescence, il apprend les mathématiques en autodidacte, grâce aux livres de l'<a href="/wiki/California_Institute_of_Technology" title="California Institute of Technology">Institut technologique de Californie</a> (Caltech). De fait, à son entrée à Caltech, ses connaissances lui permettent de passer les deux premières années de mathématiques<sup id="cite_ref-HayesMorgenstern_4-0" class="reference"><a href="#cite_note-HayesMorgenstern-4"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup>.
+</p><p>Après l’obtention du diplôme en 1948, McCarthy continue les études à Caltech, pour finalement passer un <a href="/wiki/Doctorat" title="Doctorat">doctorat</a> de mathématiques à l'<a href="/wiki/Universit%C3%A9_de_Princeton" title="Université de Princeton">université de Princeton</a>, en 1951.
+</p><p>À cette époque, McCarthy se marie à Vera Watson, une développeuse et alpiniste, morte en 1978 alors qu'elle tentait l’ascension de l'<a href="/wiki/Annapurna_I" title="Annapurna I">Annapurna I</a>.
+</p>
+<h2><span id="Carri.C3.A8re_informatique"></span><span class="mw-headline" id="Carrière_informatique">Carrière informatique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=2" title="Modifier la section : Carrière informatique" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=2" title="Modifier le code source de la section : Carrière informatique"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone"><span class="mw-valign-text-top noviewer" typeof="mw:File"><a href="/wiki/Fichier:Fairytale_warning.png" class="mw-file-description"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fairytale_warning.png/17px-Fairytale_warning.png" decoding="async" width="17" height="17" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fairytale_warning.png/26px-Fairytale_warning.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fairytale_warning.png/34px-Fairytale_warning.png 2x" data-file-width="64" data-file-height="64" /></a></span></div><div class="bandeau-cell">Cette section est vide, insuffisamment détaillée ou incomplète. <a href="/wiki/Sp%C3%A9cial:EditPage/John_McCarthy" title="Spécial:EditPage/John McCarthy">Votre aide</a> est la bienvenue&#160;! <a href="/wiki/Aide:Comment_modifier_une_page" title="Aide:Comment modifier une page">Comment faire&#160;?</a></div></div>
+<p>En 1956, il préside la <a href="/wiki/Conf%C3%A9rence_de_Dartmouth" title="Conférence de Dartmouth">conférence de Dartmouth</a>, lors de laquelle il présente le principe d'<a href="/wiki/%C3%89lagage_alpha-b%C3%AAta" title="Élagage alpha-bêta">élagage alpha-bêta</a>, un algorithme d'évaluation jouant un rôle majeur dans la programmation en intelligence artificielle, notamment utilisé par la grande majorité des <a href="/wiki/Programme_d%27%C3%A9checs" title="Programme d&#39;échecs">programmes d'échecs</a>. Vers les années 1960, le programme <a href="/wiki/Kotok-McCarthy" title="Kotok-McCarthy">Kotok-McCarthy</a>, dont il est à l'origine, est l'un des plus performants. Il est également l'inventeur en 1958 du langage <a href="/wiki/Lisp_(langage)" class="mw-redirect" title="Lisp (langage)">Lisp</a><sup id="cite_ref-death_2-1" class="reference"><a href="#cite_note-death-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>. Il quitte le <a href="/wiki/Massachusetts_Institute_of_Technology" title="Massachusetts Institute of Technology">MIT</a> en 1962 pour créer le laboratoire d'<a href="/wiki/Intelligence_artificielle" title="Intelligence artificielle">intelligence artificielle</a> de l'<a href="/wiki/Universit%C3%A9_Stanford" title="Université Stanford">université Stanford</a>. À partir de 1962, McCarthy est professeur à l'<a href="/wiki/Universit%C3%A9_Stanford" title="Université Stanford">université Stanford</a>, jusqu'à ce qu'il prenne sa retraite en 2000. Il est aussi l'un des pionniers du <a href="/wiki/Cloud_computing" title="Cloud computing">cloud computing</a> <sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup>. Il reçoit le <a href="/wiki/Prix_Turing" title="Prix Turing">prix Turing</a> en 1971 pour ses travaux en intelligence artificielle.
+</p><p>Pendant sa retraite, il écrit une nouvelle de <a href="/wiki/Science-fiction" title="Science-fiction">science-fiction</a>, intitulée <i>Le Robot et le bébé</i><sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite_crochet">[</span>6<span class="cite_crochet">]</span></a></sup>, «&#160;pour illustrer en partie ce que les robots domestiques devraient être&#160;»<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite_crochet">[</span>7<span class="cite_crochet">]</span></a></sup>.
+</p>
+<h2><span class="mw-headline" id="Publications_majeures">Publications majeures</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=3" title="Modifier la section : Publications majeures" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=3" title="Modifier le code source de la section : Publications majeures"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><i>Programs with Common Sense</i>, <i>in</i> <i>Proceedings of the Teddington Conference on the Mechanization of Thought Processes</i>, 756-91. London: Her Majesty's Stationery Office, 1959<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span class="cite_crochet">[</span>8<span class="cite_crochet">]</span></a></sup></li>
+<li><i>Recursive functions of symbolic expressions and their computation by machine</i>, <i>Communications of the ACM</i> 3(4):184-195, 1960<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup></li>
+<li><i>A basis for a mathematical theory of computation</i>, <i>in</i> <i>Computer Programming and formal systems</i>. North-Holland, 1963</li>
+<li><i>Situations, actions, and causal laws. Technical report</i>, université Stanford, 1963.</li>
+<li>Avec P. J. Hayes, <i>Some philosophical problems from the standpoint of artificial intelligence</i>, <i>in</i> Meltzer, B., and Michie, D., eds., <i>Machine Intelligence</i> 4. Édimbourg, <a href="/wiki/Edinburgh_University_Press" title="Edinburgh University Press">Edinburgh University Press</a>. 463-502, 1969<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span class="cite_crochet">[</span>10<span class="cite_crochet">]</span></a></sup></li>
+<li><i>Epistemological problems of artificial intelligence</i>, <i>in</i> <i>IJCAI</i>, 1038-1044, 1977</li>
+<li><i>Circumscription: A form of non-monotonic reasoning</i>, <i>Artificial Intelligence</i> 13(1-2):23-79, 1980</li>
+<li><i>Applications of circumscription to common sense reasoning</i>, <i>Artificial Intelligence</i> 28(1):89-116, 1986</li>
+<li><i>Generality in artificial intelligence</i>, <i>in</i> Lifschitz, V., ed., <i>Formalizing Common Sense</i>. Ablex. 226-236, 1990</li>
+<li><i>Notes on formalizing context</i>, <i>in</i> <i>IJCAI</i>, 555-562, 1993</li>
+<li>Avec S. Buvac, <i>Formalizing context: Expanded notes</i>, <i>in</i> Aliseda, A.; van Glabbeek, R.; and Westerstahl, D., eds., <i>Computing Natural Language</i>, université Stanford, 1997</li>
+<li><i>Elaboration tolerance</i>, <i>in</i> <i>Working Papers of the Fourth International Symposium on Logical formalizations of Commonsense Reasoning</i>, Commonsense-1998, 1998</li>
+<li>Avec T. Costello, <i>Useful counterfactuals</i>, <i><a href="/w/index.php?title=Electronic_Transactions_on_Artificial_Intelligence&amp;action=edit&amp;redlink=1" class="new" title="Electronic Transactions on Artificial Intelligence (page inexistante)">Electronic Transactions on Artificial Intelligence</a></i> 3(A):51-76, 1999</li>
+<li><i>Actions and other events in <a href="/wiki/Calcul_des_situations" title="Calcul des situations">situation calculus</a></i>, <i>in</i> Fensel, D.; Giunchiglia, F.; McGuinness, D.; et Williams, M., eds., <i>Proceedings of KR-2002</i>, 615-628, 2002.</li></ul>
+<h2><span id="R.C3.A9compenses"></span><span class="mw-headline" id="Récompenses">Récompenses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=4" title="Modifier la section : Récompenses" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=4" title="Modifier le code source de la section : Récompenses"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Prix_Turing" title="Prix Turing">Prix Turing</a> de l’<a href="/wiki/Association_for_Computing_Machinery" title="Association for Computing Machinery">Association for Computing Machinery</a> (1971).</li>
+<li><a href="/wiki/Prix_Kyoto" class="mw-redirect" title="Prix Kyoto">Prix Kyoto</a> (1988).</li>
+<li><a href="/wiki/National_Medal_of_Science" title="National Medal of Science">National Medal of Science</a> (<span class="nowrap"><span class="datasortkey" data-sort-value="États unis"><span class="flagicon"><span class="mw-image-border noviewer" typeof="mw:File"><a href="/wiki/Fichier:Flag_of_the_United_States.svg" class="mw-file-description" title="Drapeau des États-Unis"><img alt="Drapeau des États-Unis" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png" decoding="async" width="20" height="11" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/30px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/40px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a></span> </span><a href="/wiki/%C3%89tats-Unis" title="États-Unis">États-Unis</a></span></span>) en mathématiques, statistiques et informatique (1991).</li>
+<li>Membre du <a href="/wiki/Mus%C3%A9e_de_l%27histoire_de_l%27ordinateur" class="mw-redirect" title="Musée de l&#39;histoire de l&#39;ordinateur">Musée de l'histoire de l'ordinateur</a> (1999)</li>
+<li>Médaille <i>Benjamin Franklin</i> en informatique et sciences cognitives de la part du <a href="/wiki/Franklin_Institute" title="Franklin Institute">Franklin Institute</a> (2003).</li>
+<li>Introduit à <a href="/w/index.php?title=IEEE_Intelligent_Systems&amp;action=edit&amp;redlink=1" class="new" title="IEEE Intelligent Systems (page inexistante)">IEEE Intelligent Systems</a> (2011), pour ses contributions dans la recherche sur l'intelligence artificielle et les systèmes intelligents<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span class="cite_crochet">[</span>11<span class="cite_crochet">]</span></a></sup><sup class="reference cite_virgule">,</sup><sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span class="cite_crochet">[</span>12<span class="cite_crochet">]</span></a></sup>.</li></ul>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=5" title="Modifier la section : Notes et références" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=5" title="Modifier le code source de la section : Notes et références"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small decimal" style=""><div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-wikidata-78a1fcd5802b90550cc6fa2d6a406daeb15fa6f1-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-wikidata-78a1fcd5802b90550cc6fa2d6a406daeb15fa6f1_1-0">↑</a> </span><span class="reference-text"><span class="ouvrage">«&#160;<a rel="nofollow" class="external text" href="http://www.computerhistory.org/collections/catalog/102658149"><cite style="font-style:normal;">http://www.computerhistory.org/collections/catalog/102658149</cite></a>&#160;» <small style="line-height:1em;">(consulté le <time class="nowrap" datetime="2016-12-29" data-sort-value="2016-12-29">29 décembre 2016</time>)</small></span></span>
+</li>
+<li id="cite_note-death-2"><span class="mw-cite-backlink noprint">↑ <sup><a href="#cite_ref-death_2-0">a</a> et <a href="#cite_ref-death_2-1">b</a></sup> </span><span class="reference-text"><a rel="nofollow" class="external text" href="https://fr.news.yahoo.com/père-lintelligence-artificielle-mort-094715411.html">L'intelligence artificielle est orpheline</a>; sur Slate.fr.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink noprint"><a href="#cite_ref-3">↑</a> </span><span class="reference-text"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Dennis Shasha et Cathy Lazere, <i>Out of Their Minds: The Lives and Discoveries of 15 Great Computer Scientists</i>, printemps 1998.</span>
+</li>
+<li id="cite_note-HayesMorgenstern-4"><span class="mw-cite-backlink noprint"><a href="#cite_ref-HayesMorgenstern_4-0">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Hayes2007"><span class="ouvrage" id="Patrick_J._Hayes2007"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Patrick J. <span class="nom_auteur">Hayes</span>, «&#160;<cite style="font-style:normal" lang="en">On John McCarthy's 80th Birthday, in Honor of his Contributions</cite>&#160;», <i><span class="lang-en" lang="en">AI Magazine</span></i>, Association for the Advancement of Artificial Intelligence, <abbr class="abbr" title="volume">vol.</abbr>&#160;28, <abbr class="abbr" title="numéro">n<sup>o</sup></abbr>&#160;4,&#8206; <time>2007</time>, <abbr class="abbr" title="pages">p.</abbr>&#160;93–102 <small style="line-height:1em;">(<a rel="nofollow" class="external text" href="http://www.aaai.org/ojs/index.php/aimagazine/article/view/2063/2057">lire en ligne</a>, consulté le <time class="nowrap" datetime="2010-11-24" data-sort-value="2010-11-24">24 novembre 2010</time>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=On+John+McCarthy%27s+80th+Birthday%2C+in+Honor+of+his+Contributions&amp;rft.jtitle=AI+Magazine&amp;rft.issue=4&amp;rft.aulast=Hayes&amp;rft.aufirst=Patrick+J.&amp;rft.date=2007&amp;rft.volume=28&amp;rft.pages=93%E2%80%93102&amp;rft_id=http%3A%2F%2Fwww.aaai.org%2Fojs%2Findex.php%2Faimagazine%2Farticle%2Fview%2F2063%2F2057&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AJohn+McCarthy"></span></span></span>.</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink noprint"><a href="#cite_ref-5">↑</a> </span><span class="reference-text"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Elaine Woo, <a rel="nofollow" class="external text" href="http://www.latimes.com/news/obituaries/la-me-john-mccarthy-20111027,0,7137805.story"><i>John McCarthy dies at 84; the father of artificial intelligence</i></a>, <i><a href="/wiki/Los_Angeles_Times" title="Los Angeles Times">Los Angeles Times</a></i>.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink noprint"><a href="#cite_ref-6">↑</a> </span><span class="reference-text"><a rel="nofollow" class="external text" href="http://www-formal.stanford.edu/jmc/robotandbaby/robotandbaby.html"><i>Le Robot et le bébé</i> de John McCarthy</a>.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink noprint"><a href="#cite_ref-7">↑</a> </span><span class="reference-text"><a rel="nofollow" class="external text" href="http://www.slate.fr/lien/45497/john-mccarthy-intelligence-artificielle-mort">John McCarthy, père de l'intelligence artificielle, est mort</a>, <i><a href="/wiki/Slate_(magazine)" title="Slate (magazine)">Slate</a></i>, <time class="nowrap" datetime="2011-10-26" data-sort-value="2011-10-26">26 octobre 2011</time>.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink noprint"><a href="#cite_ref-8">↑</a> </span><span class="reference-text">J. McCarthy, <a rel="nofollow" class="external text" href="http://www-formal.stanford.edu/jmc/mcc59.html">Programs with Common Sense</a>. <i>In Proceedings of the Teddington Conference on the Mechanization of Thought Processes</i>, 756-91. London: Her Majesty's Stationery Office, 1959.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink noprint"><a href="#cite_ref-9">↑</a> </span><span class="reference-text">J. McCarthy, <a rel="nofollow" class="external text" href="http://www-formal.stanford.edu/jmc/recursive.html">Recursive functions of symbolic expressions and their computation by machine</a>. <i>Communications of the ACM</i> 3(4):184-195, 1960.</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink noprint"><a href="#cite_ref-10">↑</a> </span><span class="reference-text">J. McCarthy et P. J. Hayes, <a rel="nofollow" class="external text" href="http://www-formal.stanford.edu/jmc/mcchay69.pdf">Some philosophical problems from the standpoint of artificial intelligence</a>, <i>in</i> Meltzer, B., and Michie, D., eds., <i>Machine Intelligence</i> 4. Édimbourg, <a href="/wiki/Edinburgh_University_Press" title="Edinburgh University Press">Edinburgh University Press</a>. 463-502, 1969.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink noprint"><a href="#cite_ref-11">↑</a> </span><span class="reference-text"><small class="plainlinks noarchive"><a href="/wiki/Digital_Object_Identifier" title="Digital Object Identifier">DOI</a>&#160;<a rel="nofollow" class="external text" href="https://dx.doi.org/10.1109.2FMIS.2011.64">10.1109.2FMIS.2011.64</a></small>.</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink noprint"><a href="#cite_ref-12">↑</a> </span><span class="reference-text"><span class="ouvrage" id="2011"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> «&#160;<cite style="font-style:normal" lang="en">IEEE Computer Society Magazine Honors Artificial Intelligence Leaders</cite>&#160;», <i><span class="lang-en" lang="en"><a href="/w/index.php?title=DigitalJournal.com&amp;action=edit&amp;redlink=1" class="new" title="DigitalJournal.com (page inexistante)">DigitalJournal.com</a></span></i>,&#8206; <time class="nowrap" datetime="2011-08-24" data-sort-value="2011-08-24">24 août 2011</time> <small style="line-height:1em;">(<a rel="nofollow" class="external text" href="http://www.digitaljournal.com/pr/399442">lire en ligne</a>, consulté le <time class="nowrap" datetime="2011-09-18" data-sort-value="2011-09-18">18 septembre 2011</time>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=IEEE+Computer+Society+Magazine+Honors+Artificial+Intelligence+Leaders&amp;rft.jtitle=DigitalJournal.com&amp;rft.date=2011-08-24&amp;rft_id=http%3A%2F%2Fwww.digitaljournal.com%2Fpr%2F399442&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AJohn+McCarthy"></span></span> Press release source: <i><a href="/w/index.php?title=PRWeb&amp;action=edit&amp;redlink=1" class="new" title="PRWeb (page inexistante)">PRWeb</a></i> (<a href="/w/index.php?title=Vocus&amp;action=edit&amp;redlink=1" class="new" title="Vocus (page inexistante)">Vocus</a>).</span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Annexes">Annexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=6" title="Modifier la section : Annexes" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=6" title="Modifier le code source de la section : Annexes"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=7" title="Modifier la section : Articles connexes" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=7" title="Modifier le code source de la section : Articles connexes"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Fonction_91_de_McCarthy" title="Fonction 91 de McCarthy">Fonction 91 de McCarthy</a></li></ul>
+<h3><span class="mw-headline" id="Liens_externes">Liens externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_McCarthy&amp;veaction=edit&amp;section=8" title="Modifier la section : Liens externes" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=John_McCarthy&amp;action=edit&amp;section=8" title="Modifier le code source de la section : Liens externes"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<style data-mw-deduplicate="TemplateStyles:r194021218">.mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0.2em 0;text-indent:0;padding-left:24px;min-height:20px;text-align:left;display:block}.mw-parser-output .autres-projets>ul>li>a{font-style:italic}@media(max-width:720px){.mw-parser-output .autres-projets{float:none}}</style><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia&#160;:</p>
+<ul class="noarchive plainlinks">
+<li class="commons"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:John_McCarthy_(computer_scientist)?uselang=fr">John McCarthy</a>, sur <span class="project">Wikimedia Commons</span></li>
+</ul>
+</div>
+<ul><li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a rel="nofollow" class="external text" href="http://www-formal.stanford.edu/jmc/">Page professionnelle</a></li>
+<li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a rel="nofollow" class="external text" href="https://www.telegraph.co.uk/news/obituaries/8851410/John-McCarthy.html">Revue nécrologique</a>, <i><a href="/wiki/The_Daily_Telegraph" title="The Daily Telegraph">The Daily Telegraph</a></i>, <time class="nowrap" datetime="2011-10-26" data-sort-value="2011-10-26">26 octobre 2011</time>.</li>
+<li><span class="liste-horizontale noarchive"><span class="wd_identifiers">Ressources relatives à la recherche<span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span>&#160;: <ul><li><a rel="nofollow" class="external text" href="https://dblp.org/pid/m/JohnMcCarthy"><span class="lang-en" lang="en">Digital Bibliography &amp; Library Project</span></a></li> <li><a rel="nofollow" class="external text" href="https://scholar.google.com/citations?user=SuVID2wAAAAJ"><span class="lang-en" lang="en">Google Scholar</span></a></li> <li><a rel="nofollow" class="external text" href="https://genealogy.math.ndsu.nodak.edu/id.php?id=22145"><span class="lang-en" lang="en">Mathematics Genealogy Project</span></a></li> </ul></span></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers"><a href="/wiki/Autorit%C3%A9_(sciences_de_l%27information)" title="Autorité (sciences de l&#39;information)">Notices d'autorité</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q92739?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span>&#160;: <ul><li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://viaf.org/viaf/301025587">VIAF</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000083561989">ISNI</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb136284827">BnF</a></span> (<span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb136284827">données</a></span>)</li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://www.idref.fr/115594825">IdRef</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://id.loc.gov/authorities/n82098492">LCCN</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://d-nb.info/gnd/123999553">GND</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://opac.sbn.it/nome/UFIV124685">Italie</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://id.ndl.go.jp/auth/ndlna/00471298">Japon</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://ci.nii.ac.jp/author/DA04682718?l=en">CiNii</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX5012246">Espagne</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://opac.kbr.be/LIBRARY/doc/AUTHORITY/14008934">Belgique</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p069703965">Pays-Bas</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://dbn.bn.org.pl/descriptor-details/9810549804605606">Pologne</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://olduli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007349687605171">Israël</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://nukat.edu.pl/aut/n%202009048346">NUKAT</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://nla.gov.au/anbd.aut-an36556155">Australie</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/90399991">Norvège</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://aut.nkp.cz/mzk2014847618">Tchéquie</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n82098492">WorldCat</a></span></li> </ul></div></li></ul>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinks nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Laur%C3%A9ats_du_prix_Turing" title="Modèle:Palette Lauréats du prix Turing"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a>&#160;· <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Laur%C3%A9ats_du_prix_Turing&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%">Lauréats du <a href="/wiki/Prix_Turing" title="Prix Turing">prix Turing</a></div></th>
+</tr>  <tr>
+
+<td class="navbox-list" style="text-align:center;" colspan="2"><div class="liste-horizontale">
+<ul><li><a href="/wiki/Alan_Perlis" title="Alan Perlis">Alan Perlis</a> (1966)</li>
+<li><a href="/wiki/Maurice_Vincent_Wilkes" title="Maurice Vincent Wilkes">Maurice Wilkes</a> (1967)</li>
+<li><a href="/wiki/Richard_Hamming" title="Richard Hamming">Richard Hamming</a> (1968)</li>
+<li><a href="/wiki/Marvin_Minsky" title="Marvin Minsky">Marvin Minsky</a> (1969)</li>
+<li><a href="/wiki/James_H._Wilkinson" title="James H. Wilkinson">J.H. Wilkinson</a> (1970)</li>
+<li><a class="mw-selflink selflink">John McCarthy</a> (1971)</li>
+<li><a href="/wiki/Edsger_Dijkstra" title="Edsger Dijkstra">Edsger Dijkstra</a> (1972)</li>
+<li><a href="/wiki/Charles_Bachman" title="Charles Bachman">Charles Bachman</a> (1973)</li>
+<li><a href="/wiki/Donald_Knuth" title="Donald Knuth">Donald Knuth</a> (1974)</li>
+<li><a href="/wiki/Allen_Newell" title="Allen Newell">Allen Newell</a> et <a href="/wiki/Herbert_Simon" title="Herbert Simon">Herbert Simon</a> (1975)</li>
+<li><a href="/wiki/Michael_Rabin" title="Michael Rabin">Michael Rabin</a> et <a href="/wiki/Dana_S._Scott" title="Dana S. Scott">Dana S. Scott</a> (1976)</li>
+<li><a href="/wiki/John_Backus" title="John Backus">John Backus</a> (1977)</li>
+<li><a href="/wiki/Robert_Floyd" title="Robert Floyd">Robert Floyd</a> (1978)</li>
+<li><a href="/wiki/Kenneth_Iverson" title="Kenneth Iverson">Kenneth Iverson</a> (1979)</li>
+<li><a href="/wiki/Charles_Antony_Richard_Hoare" title="Charles Antony Richard Hoare">Charles A. R. Hoare</a> (1980)</li>
+<li><a href="/wiki/Edgar_Frank_Codd" title="Edgar Frank Codd">Edgar Frank Codd</a> (1981)</li>
+<li><a href="/wiki/Stephen_Cook" title="Stephen Cook">Stephen Cook</a> (1982)</li>
+<li><a href="/wiki/Ken_Thompson" title="Ken Thompson">Kenneth Thompson</a> et <a href="/wiki/Dennis_Ritchie" title="Dennis Ritchie">Dennis Ritchie</a> (1983)</li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a> (1984)</li>
+<li><a href="/wiki/Richard_Karp" title="Richard Karp">Richard Karp</a> (1985)</li>
+<li><a href="/wiki/John_Hopcroft" title="John Hopcroft">John Hopcroft</a> et <a href="/wiki/Robert_Tarjan" title="Robert Tarjan">Robert Tarjan</a> (1986)</li>
+<li><a href="/wiki/John_Cocke" title="John Cocke">John Cocke</a> (1987)</li>
+<li><a href="/wiki/Ivan_Sutherland" title="Ivan Sutherland">Ivan Sutherland</a> (1988)</li>
+<li><a href="/wiki/William_Kahan" title="William Kahan">William Kahan</a> (1989)</li>
+<li><a href="/wiki/Fernando_Corbat%C3%B3" title="Fernando Corbató">Fernando Corbató</a> (1990)</li>
+<li><a href="/wiki/Robin_Milner" title="Robin Milner">Robin Milner</a> (1991)</li>
+<li><a href="/wiki/Butler_Lampson" title="Butler Lampson">Butler Lampson</a> (1992)</li>
+<li><a href="/wiki/Juris_Hartmanis" title="Juris Hartmanis">Juris Hartmanis</a> et <a href="/wiki/Richard_Stearns" title="Richard Stearns">Richard Stearns</a> (1993)</li>
+<li><a href="/wiki/Edward_Feigenbaum" title="Edward Feigenbaum">Edward Feigenbaum</a> et <a href="/wiki/Raj_Reddy" title="Raj Reddy">Raj Reddy</a> (1994)</li>
+<li><a href="/wiki/Manuel_Blum" title="Manuel Blum">Manuel Blum</a> (1995)</li>
+<li><a href="/wiki/Amir_Pnueli" title="Amir Pnueli">Amir Pnueli</a> (1996)</li>
+<li><a href="/wiki/Douglas_Engelbart" title="Douglas Engelbart">Douglas Engelbart</a> (1997)</li>
+<li><a href="/wiki/James_Gray_(informaticien)" title="James Gray (informaticien)">James Gray</a> (1998)</li>
+<li><a href="/wiki/Frederick_Brooks" title="Frederick Brooks">Frederick Brooks</a> (1999)</li>
+<li><a href="/wiki/Andrew_Yao" title="Andrew Yao">Andrew Yao</a> (2000)</li>
+<li><a href="/wiki/Ole-Johan_Dahl" title="Ole-Johan Dahl">Ole-Johan Dahl</a> et <a href="/wiki/Kristen_Nygaard" title="Kristen Nygaard">Kristen Nygaard</a> (2001)</li>
+<li><a href="/wiki/Ronald_Rivest" title="Ronald Rivest">Ronald Rivest</a>, <a href="/wiki/Adi_Shamir" title="Adi Shamir">Adi Shamir</a> et <a href="/wiki/Leonard_Adleman" title="Leonard Adleman">Leonard Adleman</a> (2002)</li>
+<li><a href="/wiki/Alan_Kay" title="Alan Kay">Alan Kay</a> (2003)</li>
+<li><a href="/wiki/Vint_Cerf" title="Vint Cerf">Vinton G. Cerf</a> et <a href="/wiki/Robert_Elliot_Kahn" title="Robert Elliot Kahn">Robert E. Kahn</a> (2004)</li>
+<li><a href="/wiki/Peter_Naur" title="Peter Naur">Peter Naur</a> (2005)</li>
+<li><a href="/wiki/Frances_Allen" title="Frances Allen">Frances Allen</a> (2006)</li>
+<li><a href="/wiki/Edmund_M._Clarke" title="Edmund M. Clarke">Edmund Clarke</a>, <a href="/wiki/Allen_Emerson" title="Allen Emerson">Allen Emerson</a> et <a href="/wiki/Joseph_Sifakis" title="Joseph Sifakis">Joseph Sifakis</a> (2007)</li>
+<li><a href="/wiki/Barbara_Liskov" title="Barbara Liskov">Barbara Liskov</a> (2008)</li>
+<li><a href="/wiki/Charles_P._Thacker" title="Charles P. Thacker">Charles P. Thacker</a> (2009)</li>
+<li><a href="/wiki/Leslie_Valiant" title="Leslie Valiant">Leslie Valiant</a> (2010)</li>
+<li><a href="/wiki/Judea_Pearl" title="Judea Pearl">Judea Pearl</a> (2011)</li>
+<li><a href="/wiki/Shafi_Goldwasser" title="Shafi Goldwasser">Shafi Goldwasser</a> et <a href="/wiki/Silvio_Micali" title="Silvio Micali">Silvio Micali</a> (2012)</li>
+<li><a href="/wiki/Leslie_Lamport" title="Leslie Lamport">Leslie Lamport</a> (2013)</li>
+<li><a href="/wiki/Michael_Stonebraker" title="Michael Stonebraker">Michael Stonebraker</a> (2014)</li>
+<li><a href="/wiki/Whitfield_Diffie" title="Whitfield Diffie">Whitfield Diffie</a> et <a href="/wiki/Martin_Hellman" title="Martin Hellman">Martin Hellman</a> (2015)</li>
+<li><a href="/wiki/Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a> (2016)</li>
+<li><a href="/wiki/David_Patterson" title="David Patterson">David Patterson</a> et <a href="/wiki/John_L._Hennessy" title="John L. Hennessy">John Hennessy</a> (2017)</li>
+<li><a href="/wiki/Yann_Le_Cun" title="Yann Le Cun">Yann Le Cun</a>, <a href="/wiki/Yoshua_Bengio" title="Yoshua Bengio">Yoshua Bengio</a> et <a href="/wiki/Geoffrey_Hinton" title="Geoffrey Hinton">Geoffrey Hinton</a> (2018)</li>
+<li><a href="/wiki/Patrick_Hanrahan" title="Patrick Hanrahan">Patrick Hanrahan</a> et <a href="/wiki/Edwin_Catmull" title="Edwin Catmull">Edwin Catmull</a> (2019)</li>
+<li><a href="/wiki/Alfred_Aho" title="Alfred Aho">Alfred Aho</a> et <a href="/wiki/Jeffrey_Ullman" title="Jeffrey Ullman">Jeffrey Ullman</a> (2020)</li>
+<li><a href="/wiki/Jack_Dongarra" title="Jack Dongarra">Jack Dongarra</a> (2021)</li>
+<li><a href="/wiki/Robert_Metcalfe" title="Robert Metcalfe">Robert Metcalfe</a> (2022)</li></ul>
+</div></td>
+</tr>                              </tbody></table>
+</div>
+<ul id="bandeau-portail" class="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="noviewer" typeof="mw:File"><a href="/wiki/Portail:Informatique_th%C3%A9orique" title="Portail de l&#39;informatique théorique"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Max-cut.svg/30px-Max-cut.svg.png" decoding="async" width="30" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Max-cut.svg/45px-Max-cut.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Max-cut.svg/60px-Max-cut.svg.png 2x" data-file-width="200" data-file-height="160" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Informatique_th%C3%A9orique" title="Portail:Informatique théorique">Portail de l'informatique théorique</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="noviewer" typeof="mw:File"><a href="/wiki/Portail:Programmation_informatique" title="Portail de la programmation informatique"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Circle-icons-dev.svg/24px-Circle-icons-dev.svg.png" decoding="async" width="24" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Circle-icons-dev.svg/36px-Circle-icons-dev.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Circle-icons-dev.svg/48px-Circle-icons-dev.svg.png 2x" data-file-width="512" data-file-height="512" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Programmation_informatique" title="Portail:Programmation informatique">Portail de la programmation informatique</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="mw-image-border noviewer" typeof="mw:File"><a href="/wiki/Portail:%C3%89tats-Unis" title="Portail des États-Unis"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/42px-Flag_of_the_United_States.svg.png" decoding="async" width="42" height="22" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/63px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/84px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:%C3%89tats-Unis" title="Portail:États-Unis">Portail des États-Unis</a></span> </span></li>                  </ul>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐7f97499d99‐xbpnr
+Cached time: 20240306211542
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.795 seconds
+Real time usage: 1.302 seconds
+Preprocessor visited node count: 1684/1000000
+Post‐expand include size: 74982/2097152 bytes
+Template argument size: 8363/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 33/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 10884/5000000 bytes
+Lua time usage: 0.637/10.000 seconds
+Lua memory usage: 5904805/52428800 bytes
+Number of Wikibase entities loaded: 87/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1207.443      1 -total
+ 72.93%  880.577      1 Modèle:Infobox_Biographie2
+  8.13%   98.170      1 Modèle:Bases_recherche
+  5.84%   70.487      1 Modèle:Portail
+  4.59%   55.396      1 Modèle:Références
+  4.25%   51.321      1 Modèle:Suivi_des_biographies
+  2.62%   31.682      4 Modèle:En
+  2.52%   30.466      2 Modèle:Indication_de_langue
+  2.43%   29.308      1 Modèle:Voir_homonymes
+  2.31%   27.949      1 Modèle:Méta_bandeau_de_note
+-->
+
+<!-- Saved in parser cache with key frwiki:pcache:idhash:1592-0!canonical and timestamp 20240306211542 and revision id 212255231. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de «&#160;<a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=John_McCarthy&amp;oldid=212255231">https://fr.wikipedia.org/w/index.php?title=John_McCarthy&amp;oldid=212255231</a>&#160;».</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Personnalit%C3%A9_li%C3%A9e_%C3%A0_l%27intelligence_artificielle" title="Catégorie:Personnalité liée à l&#039;intelligence artificielle">Personnalité liée à l'intelligence artificielle</a></li><li><a href="/wiki/Cat%C3%A9gorie:Chercheur_en_sciences_cognitives" title="Catégorie:Chercheur en sciences cognitives">Chercheur en sciences cognitives</a></li><li><a href="/wiki/Cat%C3%A9gorie:Hacker" title="Catégorie:Hacker">Hacker</a></li><li><a href="/wiki/Cat%C3%A9gorie:%C3%89tudiant_du_California_Institute_of_Technology" title="Catégorie:Étudiant du California Institute of Technology">Étudiant du California Institute of Technology</a></li><li><a href="/wiki/Cat%C3%A9gorie:%C3%89tudiant_de_l%27universit%C3%A9_de_Princeton" title="Catégorie:Étudiant de l&#039;université de Princeton">Étudiant de l'université de Princeton</a></li><li><a href="/wiki/Cat%C3%A9gorie:Laur%C3%A9at_du_prix_Turing" title="Catégorie:Lauréat du prix Turing">Lauréat du prix Turing</a></li><li><a href="/wiki/Cat%C3%A9gorie:Laur%C3%A9at_du_prix_de_Kyoto" title="Catégorie:Lauréat du prix de Kyoto">Lauréat du prix de Kyoto</a></li><li><a href="/wiki/Cat%C3%A9gorie:R%C3%A9cipiendaire_de_la_National_Medal_of_Science" title="Catégorie:Récipiendaire de la National Medal of Science">Récipiendaire de la National Medal of Science</a></li><li><a href="/wiki/Cat%C3%A9gorie:Naissance_en_septembre_1927" title="Catégorie:Naissance en septembre 1927">Naissance en septembre 1927</a></li><li><a href="/wiki/Cat%C3%A9gorie:Naissance_%C3%A0_Boston" title="Catégorie:Naissance à Boston">Naissance à Boston</a></li><li><a href="/wiki/Cat%C3%A9gorie:D%C3%A9c%C3%A8s_en_octobre_2011" title="Catégorie:Décès en octobre 2011">Décès en octobre 2011</a></li><li><a href="/wiki/Cat%C3%A9gorie:D%C3%A9c%C3%A8s_%C3%A0_Stanford_(Californie)" title="Catégorie:Décès à Stanford (Californie)">Décès à Stanford (Californie)</a></li><li><a href="/wiki/Cat%C3%A9gorie:D%C3%A9c%C3%A8s_%C3%A0_84_ans" title="Catégorie:Décès à 84 ans">Décès à 84 ans</a></li><li><a href="/wiki/Cat%C3%A9gorie:Docteur_honoris_causa_de_l%27Universit%C3%A9_Concordia" title="Catégorie:Docteur honoris causa de l&#039;Université Concordia">Docteur honoris causa de l'Université Concordia</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Recension_temporaire_pour_le_mod%C3%A8le_Article" title="Catégorie:Recension temporaire pour le modèle Article">Recension temporaire pour le modèle Article</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P569" title="Catégorie:Page utilisant P569">Page utilisant P569</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P19" title="Catégorie:Page utilisant P19">Page utilisant P19</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P570" title="Catégorie:Page utilisant P570">Page utilisant P570</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P20" title="Catégorie:Page utilisant P20">Page utilisant P20</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P27" title="Catégorie:Page utilisant P27">Page utilisant P27</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P69" title="Catégorie:Page utilisant P69">Page utilisant P69</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P106" title="Catégorie:Page utilisant P106">Page utilisant P106</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_des_donn%C3%A9es_de_Wikidata_%C3%A0_traduire_de_l%27anglais" title="Catégorie:Page utilisant des données de Wikidata à traduire de l&#039;anglais">Page utilisant des données de Wikidata à traduire de l'anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P25" title="Catégorie:Page utilisant P25">Page utilisant P25</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P108" title="Catégorie:Page utilisant P108">Page utilisant P108</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P463" title="Catégorie:Page utilisant P463">Page utilisant P463</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P241" title="Catégorie:Page utilisant P241">Page utilisant P241</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P1066" title="Catégorie:Page utilisant P1066">Page utilisant P1066</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P184" title="Catégorie:Page utilisant P184">Page utilisant P184</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P856" title="Catégorie:Page utilisant P856">Page utilisant P856</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P166" title="Catégorie:Page utilisant P166">Page utilisant P166</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P485" title="Catégorie:Page utilisant P485">Page utilisant P485</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P800" title="Catégorie:Page utilisant P800">Page utilisant P800</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_utilisant_l%27infobox_Biographie2_avec_la_charte_math%C3%A9matiques" title="Catégorie:Article utilisant l&#039;infobox Biographie2 avec la charte mathématiques">Article utilisant l'infobox Biographie2 avec la charte mathématiques</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P18" title="Catégorie:Page utilisant P18">Page utilisant P18</a></li><li><a href="/wiki/Cat%C3%A9gorie:Infobox_avec_une_l%C3%A9gende_locale_et_une_image_sur_Wikidata" title="Catégorie:Infobox avec une légende locale et une image sur Wikidata">Infobox avec une légende locale et une image sur Wikidata</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_utilisant_l%27infobox_Biographie2" title="Catégorie:Article utilisant l&#039;infobox Biographie2">Article utilisant l'infobox Biographie2</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_utilisant_une_Infobox" title="Catégorie:Article utilisant une Infobox">Article utilisant une Infobox</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_avec_une_section_vide_ou_incompl%C3%A8te" title="Catégorie:Article avec une section vide ou incomplète">Article avec une section vide ou incomplète</a></li><li><a href="/wiki/Cat%C3%A9gorie:Cat%C3%A9gorie_Commons_avec_lien_local_identique_sur_Wikidata" title="Catégorie:Catégorie Commons avec lien local identique sur Wikidata">Catégorie Commons avec lien local identique sur Wikidata</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P2456" title="Catégorie:Page utilisant P2456">Page utilisant P2456</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P1960" title="Catégorie:Page utilisant P1960">Page utilisant P1960</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P549" title="Catégorie:Page utilisant P549">Page utilisant P549</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_pointant_vers_des_bases_externes" title="Catégorie:Page pointant vers des bases externes">Page pointant vers des bases externes</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_pointant_vers_des_bases_relatives_%C3%A0_la_recherche" title="Catégorie:Page pointant vers des bases relatives à la recherche">Page pointant vers des bases relatives à la recherche</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_Wikip%C3%A9dia_avec_notice_d%27autorit%C3%A9" title="Catégorie:Article de Wikipédia avec notice d&#039;autorité">Article de Wikipédia avec notice d'autorité</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Informatique_th%C3%A9orique/Articles_li%C3%A9s" title="Catégorie:Portail:Informatique théorique/Articles liés">Portail:Informatique théorique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Informatique/Articles_li%C3%A9s" title="Catégorie:Portail:Informatique/Articles liés">Portail:Informatique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Programmation_informatique/Articles_li%C3%A9s" title="Catégorie:Portail:Programmation informatique/Articles liés">Portail:Programmation informatique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:%C3%89tats-Unis/Articles_li%C3%A9s" title="Catégorie:Portail:États-Unis/Articles liés">Portail:États-Unis/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Am%C3%A9rique/Articles_li%C3%A9s" title="Catégorie:Portail:Amérique/Articles liés">Portail:Amérique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Am%C3%A9rique_du_Nord/Articles_li%C3%A9s" title="Catégorie:Portail:Amérique du Nord/Articles liés">Portail:Amérique du Nord/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Wikip%C3%A9dia:Article_biographique" title="Catégorie:Wikipédia:Article biographique">Wikipédia:Article biographique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Biographie/Articles_li%C3%A9s/Sciences" title="Catégorie:Portail:Biographie/Articles liés/Sciences">Portail:Biographie/Articles liés/Sciences</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Biographie/Articles_li%C3%A9s/Entreprises" title="Catégorie:Portail:Biographie/Articles liés/Entreprises">Portail:Biographie/Articles liés/Entreprises</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 8 février 2024 à 08:10.</li>
+	<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 4.0 international">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/fr" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/John_McCarthy" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br />
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br /></li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/fr">Politique de confidentialité</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+	<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code de conduite</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+	<li id="footer-places-mobileview"><a href="//fr.m.wikipedia.org/w/index.php?title=John_McCarthy&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li>
+		<button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
+
+<span>Activer ou désactiver la limitation de largeur du contenu</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1372","wgBackendResponseTime":183,"wgPageParseReport":{"limitreport":{"cputime":"0.795","walltime":"1.302","ppvisitednodes":{"value":1684,"limit":1000000},"postexpandincludesize":{"value":74982,"limit":2097152},"templateargumentsize":{"value":8363,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":33,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":10884,"limit":5000000},"entityaccesscount":{"value":87,"limit":400},"timingprofile":["100.00% 1207.443      1 -total"," 72.93%  880.577      1 Modèle:Infobox_Biographie2","  8.13%   98.170      1 Modèle:Bases_recherche","  5.84%   70.487      1 Modèle:Portail","  4.59%   55.396      1 Modèle:Références","  4.25%   51.321      1 Modèle:Suivi_des_biographies","  2.62%   31.682      4 Modèle:En","  2.52%   30.466      2 Modèle:Indication_de_langue","  2.43%   29.308      1 Modèle:Voir_homonymes","  2.31%   27.949      1 Modèle:Méta_bandeau_de_note"]},"scribunto":{"limitreport-timeusage":{"value":"0.637","limit":"10.000"},"limitreport-memusage":{"value":5904805,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-7f97499d99-xbpnr","timestamp":"20240306211542","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"John McCarthy","url":"https:\/\/fr.wikipedia.org\/wiki\/John_McCarthy","sameAs":"http:\/\/www.wikidata.org\/entity\/Q92739","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q92739","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-01-24T19:58:59Z","dateModified":"2024-02-08T07:10:42Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/49\/John_McCarthy_Stanford.jpg","headline":"informaticien am\u00e9ricain"}</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang=en-gb>
+<head>
+<meta charset=utf-8>
+<title>troff.org — the Text Processor for Typesetters</title>
+<meta name=keywords content='troff,nroff,groff'>
+<meta name="google-site-verification" content="y4pCMtbICE48MpC0PR8yzj-oeVJzDUNGmG2yJgdC1i0">
+<link rel=stylesheet type='text/css' href='style.css'>
+<link rel=icon type='image/png' href='iconlogo.png'>
+</head>
+
+<body>
+
+<p class=logo><img src='biglogo.png' alt='troff.org'></p>
+
+<h1>The Text Processor for Typesetters</h1>
+
+<p>
+‘The great strength of <code>troff</code> is the flexibility of the basic
+language and its programmability — it can be made to do almost any
+formatting task.’<br>
+— <i><a href='books.html#knp'>The UNIX Programming Environment</a>,
+<a href='whoswho.html#bwk'>Brian&nbsp;W.&nbsp;Kernighan</a>
+and Rob Pike.</i>
+</p>
+
+<p>
+troff, and its GNU implementation
+<a href='https://www.gnu.org/software/groff/groff.html'>groff</a>,
+are programs that process a textual description of a document to produce
+typeset versions suitable for printing.
+It's more ‘What you describe is what you get’ rather than WYSIWYG.
+</p>
+
+<ul>
+<li><a href='history.html'>The history of troff</a>
+<li><a href='prog.html'>troff and its companion programs</a>
+<li><a href='macros.html'>Macro packages</a>
+<li><a href='papers.html'>Papers on troff and its companions</a>
+<li><a href='books.html'>Books covering troff and its companions</a>
+<li><a href='pubs.html'>Publications that use troff</a>
+<li><a href='source.html'>Source code</a>
+<li><a href='community.html'>troff community</a>
+<li><a href='whoswho.html'>Who's who in the world of troff</a>
+<li><a href='links.html'>Links to other troff-related sites</a>
+<li><a href='faq.html'>Frequently asked questions</a>
+<li><a href='ack.html'>Acknowledgements and miscellaneous</a>
+</ul>
+
+<p>
+This web site is very much a <i>work in progress</i> so please excuse
+the rough edges.  If you've any suggestions for improving the content
+I'd be delighted to hear from you.
+</p>
+
+<hr>
+<p>
+Copyright Ralph Corderoy, 2001, 2002, 2003, 2005, 2006.
+</p>
+
+</body>
+</html>

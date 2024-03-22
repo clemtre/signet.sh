@@ -1,0 +1,316 @@
+﻿<html>
+
+<head>
+ <meta charset="UTF-8"> 
+<title>Page Layout</title>
+<meta name="description" content="page layout, plain TeX, plain XeTeX">
+<meta name="keywords" content="page layout, plain TeX, XeTeX">
+<link rel="stylesheet" href="pagelayout.css" type="text/css">
+</head>
+
+
+
+
+
+<body>
+
+<div>
+
+<h2>Page layout in Plain TeX</h2>
+
+can be done as follows:<br><br>
+
+1.	Set the page dimensions:*<br>
+<code>
+% settings for A5 paper<br>
+\pdfpagewidth 148mm<br>
+\pdfpageheight 210mm
+</code><br><br>
+
+<small>* See <a href = "https://en.wikibooks.org/wiki/TeX/TeX_dimensions" target="_blank"><u>here</u></a> for the dimensions used in TeX. </small><br><br>
+
+2. Set the size of the text block:<br>
+<code>
+\hsize 99mm% width of text block; line length or measure.<br>
+\vsize 164mm% height of text block</code><br>
+The default settings for the text block are <code>\hsize=6.5in</code>, <code>\vsize=8.9in</code>.<br><br>
+
+3.	Position the text block on the page by adjusting <code>\voffset</code> and <code>\hoffset</code>.<br>
+
+<p>
+Plain TeX’s default setting positions the text block one inch down from the top of the page (<code>\voffset=0pt</code>) and one inch in from the left side of the page (<code>\hoffset=0pt</code>). Assigning positive values to <code>\voffset</code> and <code>\hoffset</code> increases these distances; assigning negative values decreases them.
+<p>
+Knuth’s TeX does not have any commands for setting the size of the page: <code>\pdfpagewidth</code> and <code>\pdfpageheight</code> are pdfTeX commands which happen also to work in XeTeX. On American letter paper (8.5 inch × 11 inch) Plain TeX’s default settings produce a text block measuring 6.5 inch × 8.9 inch with left, right and top margins all equal to 1 inch and a bottom margin approximately equal to 1.1 inch. 
+<p>
+Depending on where you live and how TeX is set up, the default page size will be A4 or American letter size. If you’re happy with this page size you can skip Step 1.
+
+
+
+
+
+<br><br>
+<h2>Some page layouts:</h2>
+<h3>B format (trade paperback – ‘Large Crown Octavo’):</h3>
+
+<code>
+
+%+++++++++++++++++++++++++++++++++++++++++++<br>
+% page layout<br>
+\pdfpagewidth 129mm<br>
+\pdfpageheight 198mm<br><br>
+
+\hsize 99mm<br>
+\vsize 161mm<br><br>
+
+\voffset -9.4mm<br>
+\output{\ifodd\pageno\hoffset -11.4mm\else\hoffset -9.4mm\fi<br>\plainoutput}<br><br>
+
+% to adjust the space between the header and the text block<br>
+\def\makeheadline{\vbox to 0pt{\vskip-22.5pt<br>
+  \line{\vbox to8.5pt{}\the\headline}\vss}\nointerlineskip}<br><br>
+
+% to adjust the space between the footer and the text block<br>
+\def\makefootline{\baselineskip24pt\lineskiplimit0pt\line{\the\footline}}<br>
+%+++++++++++++++++++++++++++++++++++++++++++
+<br><br></code>
+
+The text block is set 16mm from the top of the page: <code>\voffset -9.4mm</code>, i.e. the  Plain TeX default of 1 inch (25.4mm) minus 9.4mm.<br><br>
+
+
+This code alternates <code>\hoffset</code> on odd- and even-numbered pages for mirrored page output (like the LaTeX <code>book</code> Document Class):<br><br>
+
+<code>
+\output{\ifodd\pageno\hoffset -11.4mm\else\hoffset -9.4mm\fi<br>\plainoutput}</code>
+<br><br>
+
+On odd-numbered (recto) pages the left margin is 14mm (25.4mm − 11.4mm). On even-numbered (verso) pages the left margin is 16mm (25.4mm − 9.4mm). The 16mm is calculated by subtracting <code>\hsize</code> and the left margin of the recto (= right margin of verso) from the page width (129mm − 99mm − 14mm = 16mm).<p>
+
+So you end up with: spine margin of recto = spine margin of verso = 14mm; and fore-edge margin of recto = fore-edge margin of verso = 16mm. Here is a drawing to illustrate what I mean (right click for a larger view):<br><br><img src="pagelayout/bformat7a.jpg" width="650"/><p>
+
+Usually in a book the spine margin is narrower than the fore-edge margin, and the two pages of a spread mirror each other. If you want to have the text block horizontally centered in the page you can subtract the width of the text block from the width of the page and divide the result by two: (129mm − 99mm) ÷ 2 = 15mm. The page layout then becomes:<br><br><code>
+
+\pdfpagewidth 129mm<br>
+\pdfpageheight 198mm<br><br>
+
+\hsize 99mm<br>
+\vsize 161mm<br><br>
+
+\hoffset -10.4mm<br>
+\voffset -9.4mm</code>
+<p>
+You can adjust the dimensions in <code>\def\makeheadline</code> and <code>\def\makefootline</code> to change the amount of space between the header and the text block and the text block and the footer respectively. Plain TeX’s default setting is to have a lineskip (12pt) between the header and the text block and a lineskip between the text block and the footer. See page 255 of the TeXbook for an explanation of the dimensions in <code>\makeheadline</code>.
+<p>
+
+
+<b>Adjustments to <code>\vsize</code></b><br>
+When I used the original <code>\vsize</code> (161mm) for this document I noticed that there is some slack between the text block and the footer (the page number was a bit lower than it ought to be). This is probably because 161mm is slightly bigger than the space taken up by the number of lines on the page. I got the 161mm measurement from measuring a book. A way to correct this is to get the height of the text block in points by multiplying the leading (<code>\baselineskip</code>) by the number of lines on a full page. But don’t forget that <code>\topskip</code> sets the baseline of the first line 10pt down from the top of the text block. (The first line of a page does not need to have leading above it.) So, if there are <i>n</i> lines in a page, the height of the page in points can be got by [(<i>n</i> – 1) × <code>\baselineskip</code>] + 10pt. In this example <i>n</i> = 38, and (37 × 12pt) + 10pt = 454pt.
+<p>
+<code>\looseness1</code> at the beginning of the second paragraph on page one of B_format.tex is to avoid a widow line that would otherwise appear at the top of page two. (It makes the paragraph one line longer.)
+<br><br><br>
+
+
+For comparison, here is the same layout in LaTeX with the <code>geometry</code> package:<br>
+<code>\usepackage[paperheight={198mm}, paperwidth={129mm}, height={454pt}, width={99mm}, top={16mm}, left={14mm}, headsep={10.5pt}, footskip={24pt}]{geometry}</code><br><br>
+
+Files:
+<a href = "pagelayout/B_format.txt">B_format.tex,</a>
+<a href = "pagelayout/B_format.pdf" target="_blank">B_format.pdf;</a>
+<a href = "pagelayout/B_format_latex.txt">B_format_latex.tex,</a>
+<a href = "pagelayout/B_format_latex.pdf" target="_blank">B_format_latex.pdf</a><br><br>
+
+
+<h3>Penguin:</h3>
+Small paperback format used by Penguin books <i>c</i>. 1940s–1980s. And used now in their ‘Great Ideas’ series and in the relaunched Pelican imprint.<br>
+Files:
+<a href = "pagelayout/Penguin.txt">Penguin.tex,</a>
+<a href = "pagelayout/Penguin.pdf" target="_blank">Penguin.pdf.</a>
+
+
+
+
+<h3>216x138 (Demy):</h3>
+
+Files:
+<a href = "pagelayout/216x138.txt">216x138.tex,</a>
+<a href = "pagelayout/216x138.pdf" target="_blank">216x138.pdf.</a>
+
+<h3>210x140 (American book size: 8¼″ × 5½″):</h3>
+
+Files:
+<a href = "pagelayout/210x140a.txt">210x140a.tex,</a>
+<a href = "pagelayout/210x140a.pdf" target="_blank">210x140a.pdf.</a><br>
+<a href = "pagelayout/210x140b.txt">210x140b.tex,</a>
+<a href = "pagelayout/210x140b.pdf" target="_blank">210x140b.pdf.</a>
+
+<h3>9″x6″:</h3>
+
+Files:
+<a href = "pagelayout/9x6.txt">9x6.tex,</a>
+<a href = "pagelayout/9x6.pdf" target="_blank">9x6.pdf.</a>
+
+<h3>isogolden:</h3>
+Page layout for a golden ratio text block on an A5 page.<br>
+Files:
+<a href = "pagelayout/isogolden.txt">isogolden.tex,</a>
+<a href = "pagelayout/isogolden.pdf" target="_blank">isogolden.pdf.</a>
+
+<br><br><br>
+
+
+
+<h2>Page Furniture – Headers and Footers</h2>
+
+<code>\headline</code> defines a headline (header) for the page. Plain TeX’s default setting is an empty header: <code>\headline={\hfil}</code><p>
+
+<code>\footline</code> defines a footline (footer) for the page. Plain TeX’s default setting is to have the page number centered in the footer: <code>\footline={\hss\tenrm\folio\hss}</code>
+
+<h3>Some settings for the header:</h3>
+
+<h3>i.</h3>
+
+This macro (a) sets different headers for left- and right-hand pages using the <code>\ifodd </code>conditonal; (b) sets the page numbers at the right side of the header on right-hand pages and vice versa for left-hand pages; (c) centres the text of the header over the text block, regardless of how much space the page numbers take up. The footer is empty.<br><br>
+
+<code>
+\font\headerfont="EB Garamond 12 Regular:<br>+smcp,letterspace=6,mapping=tex-text" at 10pt<br><br>
+
+% macros to set the texts of the headers.<br>
+% \headerfont puts the text into a letterspaced smallcap font.<br>
+\def\lheader{\headerfont great expectations}<br>
+\def\rheader{\headerfont chapter i}<br><br>
+
+\headline={%                      % Do different headers for odd and even pages<br>
+     \ifodd\pageno<br>
+        % header for right-hand page<br>
+        \rm\rlap{\centerline{\rheader}}\hss\folio%<br>
+      \else<br>
+        % header for left-hand page<br>
+       \rm\folio\hss\llap{\centerline{\lheader}}%<br>
+\fi<br>
+}<br><br>
+
+\footline={}
+</code>
+<br><br>
+
+
+
+
+<h3>ii.</h3>
+
+The header ranged right on a right-hand page and vice versa on a left-hand page, with the page numbers hung out into the margin.<br><br>
+
+<code>
+\def\lheader{Great Expectations}<br>
+\def\rheader{Chapter II}<br><br>
+
+\headline={%                      % Do different headers for odd and even pages<br>
+     \ifodd\pageno<br>
+        % header for right-hand page<br>
+        \rm\hfil\rheader\rlap{\hbox to 8.5mm{\hfil\folio}}%<br> 
+      \else<br>
+        % header for left-hand page<br>
+        \rm\llap{\hbox to 8.5mm{\folio\hfil}}\lheader\hfil%<br>
+\fi<br>
+}<br><br>
+
+\footline={}
+</code>
+<br><br>
+
+
+
+In the macro above, if you change<br><br>
+<code>\rm\hfil\rheader\rlap{\hbox to 8.5mm{\hfil\folio}}%</code><br>
+to<br>
+<code>\rm\hfil\rheader\rlap{\lower12pc\hbox to 8.5mm{\hfil\folio}}%</code><br>
+and<br>
+<code>\rm\llap{\hbox to 8.5mm{\folio\hfil}}\lheader\hfil%</code><br>
+to<br>
+<code>\rm\llap{\lower12pc\hbox to 8.5mm{\folio\hfil}}\lheader\hfil%</code><br><br>
+you can have the page numbers set in the fore-edge margin. This just uses <code>\lower</code> to push down the <code>\hbox</code> containing the page number 12 picas.
+<br><br>
+
+<h3>iii.</h3>
+
+The header and page number ranged right on a right-hand page and vice versa on a left-hand page, with an ornament and some space between them.<br><br>
+
+<code>
+\font\headerfont="EB Garamond 12 Regular/I:mapping=tex-text" at 10pt<br><br>
+
+\def\lheader{\headerfont Great Expectations}<br>
+\def\rheader{\headerfont Chapter {\sci iii}}<br><br>
+
+\headline={%                      % Do different headers for odd and even pages<br>
+     \ifodd\pageno<br>
+        % header for right-hand page<br>
+       \rm\hfil{\rheader}\quad$\diamond$\quad\folio%<br>
+      \else<br>
+        % header for left-hand page<br>
+        \rm\folio\quad$\diamond$\quad{\lheader}\hfil%<br>
+\fi<br>
+}<br><br>
+
+\footline={}<br><br>
+</code>
+
+
+Examples in these files:
+<a href = "pagelayout/headers.txt">headers.tex,</a>
+<a href = "pagelayout/headers.pdf" target="_blank">headers.pdf.</a><p>
+See the file ‘prelims.tex’ on the PDF page for a method of automatically switching off headers on the first page of the chapter (in the <code>\chapter</code> and <code>\headline</code> macros).
+
+<h3>Some settings for the footer:</h3>
+Plain TeX centres the page number in the footer by default.<br><br>
+
+Variations:<br><br>
+
+Centered but with en dashs either side of the page number:<br>
+<code>\footline={\rm\hss--\kern3pt\folio\kern3pt--\hss}</code><br><br>
+
+Or brackets:<br>
+<code>\footline={\rm\hss[\kern2pt\folio\kern2pt]\hss}</code><br><br>
+
+The page number ranged right on a right-hand page, and to the left on a left-hand page:<br><br>
+<code>\footline={%<br>
+     \ifodd\pageno<br>
+       \rm\hss\folio% footer for right-hand page<br>
+      \else<br>
+      \rm\folio\hss% footer for left-hand page<br>
+\fi<br>
+}</code><br><br>
+
+The same as the previous example, but with the page numbers set in from the edge of the text block by an em:<br><br>
+<code>\footline={%<br>
+     \ifodd\pageno<br>
+       \rm\hss\folio\quad% footer for right-hand page<br>
+      \else<br>
+      \rm\quad\folio\hss% footer for left-hand page<br>
+\fi<br>
+}</code><br><br>
+
+
+
+The same as the example before last, but with an ornament and some space before the page number:<br><br>
+<code>\footline={%<br>
+     \ifodd\pageno<br>
+       \rm\hss$\diamond$\enspace\folio% footer for right-hand page<br>
+      \else<br>
+      \rm\folio\enspace$\diamond$\hss% footer for left-hand page<br>
+\fi<br>
+}</code><br>
+
+
+
+
+
+<h1>
+<a href = "index.html">←</a> 
+</h1>
+
+
+
+</div>
+
+</body>
+
+</html>

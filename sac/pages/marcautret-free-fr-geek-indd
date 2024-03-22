@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app213.us.archive.org';v.server_ms=564;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://marcautret.free.fr:80/geek/indd/","20111124182911","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1322159351");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Dansons le JavaScript avec InDesign [2005-2008]</title>
+	<meta name="author" content="Marc Autret"/>
+	<meta name="keywords" content="archive,javascript,indesign,cs,cs1,cs2,cs3,creative suite,adobe,automatisation,scripts,script,pao,desktop publishing,js,script indesign,indesign script,tutoriel indesign,tutoriaux indesign,tutorial indesign,indesign scripts,scripts indesign,indiscripts,indiscript,indisign,script indesign,script js,script indesign js,indiscripts.com,archive"/>
+	<meta name="description" content="L'art et la manière de contrôler InDesign par JavaScript (2005-2008)..."/>
+	<script type="text/javascript"></script>
+	<meta http-equiv="Content-Style-Type" content="text/css"/>
+	<link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20111124182911cs_/http://marcautret.free.fr/include/css/global.css"/>
+	
+	<!--[if lte IE 6]>
+	<style>
+	.iepadder {padding-left:800px;}
+	.ielayout {display:inline-block;}
+	.iemarger {margin-left:-800px;position:relative;}
+	.corebox {overflow:visible;height:1%;}
+	pre {overflow:scroll;width:95%;}
+	</style>
+	<![endif]-->
+	<!--[if IE 7]>
+	<style>
+	.ielayout {zoom:1;}
+	</style>
+	<![endif]-->
+</head>
+
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20111124182911/http%3A//marcautret.free.fr/geek/indd/"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://marcautret.free.fr/geek/indd/" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20111124182911" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20111024004255/http://marcautret.free.fr:80/geek/indd/" title="24 Oct 2011"><strong>Oct</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 18:29:11 Nov 24, 2011">NOV</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20111225145210/http://marcautret.free.fr:80/geek/indd" title="25 Dec 2011"><strong>Dec</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20111113232118/http://marcautret.free.fr/geek/indd/" title="23:21:18 Nov 13, 2011"><img src="https://web-static.archive.org/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 18:29:11 Nov 24, 2011">24</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20111212145014/http://marcautret.free.fr:80/geek/indd/" title="14:50:14 Dec 12, 2011"><img src="https://web-static.archive.org/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20100407051619/http://marcautret.free.fr:80/geek/indd/" title="07 Apr 2010"><strong>2010</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 18:29:11 Nov 24, 2011">2011</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20130117085214/http://marcautret.free.fr:80/geek/indd" title="17 Jan 2013"><strong>2013</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20111124182911/http://web.archive.org/screenshot/http://marcautret.free.fr/geek/indd/"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20111124182911/http://marcautret.free.fr:80/geek/indd/" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20111124182911/http://marcautret.free.fr:80/geek/indd/" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="https://web-static.archive.org/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20111124182911/http://marcautret.free.fr:80/geek/indd/</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://marcautret.free.fr/geek/indd/","20111124182911",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt","https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<div class="minwidth">
+<div class="iepadder ielayout">
+<div class="ielayout">
+<div class="iemarger ielayout">
+<div id="MASTER" class="ielayout">
+
+<div id="TOP">
+	<a class="logo" href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/" title="BlogNot! LA CREATIVITE AU PLURIEL"><span>(Edition du 24/11/11)</span></a>
+	<div class="navbox"><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/autret/150q-faq/" title="édition">&#xE9;dition<span>La FAQ de &#xAB;150 questions sur l'&#xE9;dition&#xBB;...</span></a><span class="sep">|</span><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/sigma/pratik/typo/" title="typographie">typo<span>Typographie, tapuscrits, PAO: les astuces pour mieux composer...</span></a><span class="sep">|</span><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/flux/sono/" title="musique">musique<span>Des mix pleins les conques, par DJ&#xA0;Sonotown...</span></a><span class="sep">|</span><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/babel/cinemap/" title="cinéma">cin&#xE9;<span>Le grand zapping du 7e art, d'hier et d'aujourd'hui...</span></a><span class="sep">|</span><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/sigma/theory/" title="signes">neurones<span>Chute libre dans les entrailles du&#xA0;signe...</span></a><span class="sep">|</span><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/geek/" title="geek">bidouille<span>Micro, bidouille et pizzas surgel&#xE9;es...</span></a></div>
+	<div class="searchbox"><form class="f_src" method="post" action="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/search.php" accept-charset="utf-8" _charset_="utf-8"><fieldset><label for="q">Chercher dans BlogNot!</label><input type="text" id="q" name="q" maxlength="50" value="" title="Chercher dans BlogNot!" class="fmTEXT"/><label for="go"></label><input type="submit" id="go" name="go" value="" title="Lancer la recherche..." class="fmBUTTON"/></fieldset></form></div>
+</div>
+
+<div id="MID">
+
+	<div id="HEAD"><div class="inmargin autoclear">
+		<div class="lc"><a href="https://web.archive.org/web/20111124182911/http://www.indiscripts.com/" title="InDiScripts.com (new site)"><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/index.png" alt="Archive InDiScripts"/></a></div>
+		<div class="rc"><div class="newsbox"><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/news/2009/nw0910.php"><img src="https://web.archive.org/web/20111124182911im_/http://marcautret.free.fr/include/img/stk/vrac.png" alt="vrac"/></a><ul><li><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/news/2009/nw0910.php#S0"><strong>sc&#xE9;nariciel</strong><br/>Adobe tend la perche aux sc&#xE9;naristes</a></li><li><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/news/2009/nw0909.php#S4"><strong>&#xE9;dition</strong><br/>Qui a tu&#xE9; le livre imprim&#xE9;&#xA0;?</a></li><li><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/news/2009/nw0909.php#S3"><strong>Vie litt&#xE9;raire</strong><br/>ZazieWeb jette l'&#xE9;ponge</a></li><li><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/news/2009/nw0909.php#S2"><strong>PAO</strong><br/>Rendre un PDF &#xAB;&#xA0;annotable&#xA0;&#xBB; dans Adobe&#xA0;Reader</a></li><li><a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/news/2009/nw0909.php#S1"><strong>PAO</strong><br/>Filets de colonnes dans InDesign</a></li></ul></div></div>
+		<div id="TITLE" class="cc ielayout"><div class="titlebox"><h6>archive</h6><h1>Dansons le JavaScript avec InDesign [2005-2008]</h1><h5>Entre 2005 et 2008, BlogNot&#xA0;! a propos&#xE9; dans cette rubrique des exemples de scripts InDesign, assortis d&#x2019;&#xE9;l&#xE9;ments didactiques pour les f&#xE9;rus d&#x2019;automatisation et de productivit&#xE9;. Le succ&#xE8;s de cette section a finalement d&#xE9;bouch&#xE9; sur la cr&#xE9;ation d&#x2019;un site bilingue autonome, <a href="https://web.archive.org/web/20111124182911/http://www.indiscripts.com/" title="InDiScripts.com" target="_blank">InDiScripts.com</a> (juin&#xA0;2009), voulant pousser l&#x2019;investigation &#xE0; un degr&#xE9; plus audacieux. Sont conserv&#xE9;es ici pour m&#xE9;moire quelques pages encore dignes d&#x2019;int&#xE9;r&#xEA;t, mais les scripts eux-m&#xEA;mes vont progressivement migrer et &#xEA;tre actualis&#xE9;s sur <a href="https://web.archive.org/web/20111124182911/http://www.indiscripts.com/" title="InDiScripts.com" target="_blank">InDiScripts.com</a>.<br/><br/><a href="https://web.archive.org/web/20111124182911/http://www.indiscripts.com/" title="(LA SUITE SUR INDISCRIPTS.COM)" target="_blank">(LA SUITE SUR INDISCRIPTS.COM)</a></h5></div></div>
+	</div></div>
+	
+	<div class="linkbox autoclear"><ul><li><a href="/web/20111124182911/http://marcautret.free.fr/" title="[BlogNot!] La créativité au pluriel">BlogNot!</a></li><li><a href="/web/20111124182911/http://marcautret.free.fr/geek/" title="Micro, Internet, graphisme et programmation...">Geek</a></li><li>Archive InDiScripts</li></ul></div>
+
+	<div id="CORE"><div class="inmargin autoclear">
+		<div class="lc"><div class="panelbox"></div></div>
+		<div class="rc"><div class="iconbox"><ul><li><a href="https://web.archive.org/web/20111124182911/http://indiscripts.com/"><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/indexa.png" alt="indexa.png"/></a></li></ul></div></div>
+		<div class="cc ielayout"><div class="corebox"><ul><li><a href="indexbrut/index.php" title="[EN] Last minute index generator for InDesign / [FR] Générateur d'index de dernière minute pour InDesign..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/indexbrut/index_.png" alt="[EN] Last minute index generator for InDesign / [FR] Générateur d'index de dernière minute pour InDesign..."/><strong>IndexBrutal/IndexMatic [Archive]</strong><dfn>[EN] Last minute index generator for InDesign / [FR] G&#xE9;n&#xE9;rateur d&#x27;index de derni&#xE8;re minute pour InDesign...<br/> (26/06/08)</dfn></a></li><li><a href="selection/index.php" title="Encapsulons la sélection active dans un objet Javascript réutilisable et oublions nos vieilles querelles avec l'interface-utilisateur d'InDesign!..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/selection/index_.png" alt="Encapsulons la sélection active dans un objet Javascript réutilisable et oublions nos vieilles querelles avec l'interface-utilisateur d'InDesign!..."/><strong>L&#x2019;objet TSelection</strong><dfn>Encapsulons la s&#xE9;lection active dans un objet Javascript r&#xE9;utilisable et oublions nos vieilles querelles avec l&#x27;interface-utilisateur d&#x27;InDesign!...<br/> (25/04/08)</dfn></a></li><li><a href="caracteres-cs3/index.php" title="Après la parution de notre dossier InDesign + Unicode + Javascript, plusieurs internautes nous ont réclamé à grands cris une mise à jour pour InDesign CS3 de la table des caractères spéciaux. La voici..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/caracteres-cs3/index_.png" alt="Après la parution de notre dossier InDesign + Unicode + Javascript, plusieurs internautes nous ont réclamé à grands cris une mise à jour pour InDesign CS3 de la table des caractères spéciaux. La voici..."/><strong>Caract&#xE8;res sp&#xE9;ciaux CS3</strong><dfn>Apr&#xE8;s la parution de notre dossier InDesign + Unicode + Javascript, plusieurs internautes nous ont r&#xE9;clam&#xE9; &#xE0; grands cris une mise &#xE0; jour pour InDesign CS3 de la table des caract&#xE8;res sp&#xE9;ciaux. La voici...<br/> (22/01/08)</dfn></a></li><li><a href="eandesign/index.php" title="Amis maquettistes, il est temps de débourrer le moteur vectoriel d'InDesign. Jetez vos vieux plug-ins et fabriquez vos codes-barres (EAN13) en Javascript... grâce à «EanDesign»!"><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/eandesign/index_.png" alt="Amis maquettistes, il est temps de débourrer le moteur vectoriel d'InDesign. Jetez vos vieux plug-ins et fabriquez vos codes-barres (EAN13) en Javascript... grâce à «EanDesign»!"/><strong>EanDesign</strong><dfn>Amis maquettistes, il est temps de d&#xE9;bourrer le moteur vectoriel d&#x27;InDesign. Jetez vos vieux plug-ins et fabriquez vos codes-barres (EAN13) en Javascript... gr&#xE2;ce &#xE0; &#xAB;EanDesign&#xBB;!<br/> (20/09/07)</dfn></a></li><li><a href="unicode/index.php" title="Insérer un caractère par son rang Unicode, tester son existence dans la police courante, lister les glyphes disponibles... Dossier de fond et routines JavaScript pour réveiller l'Unicode dans InDesign [3 PARTIES]"><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/unicode/index_.png" alt="Insérer un caractère par son rang Unicode, tester son existence dans la police courante, lister les glyphes disponibles... Dossier de fond et routines JavaScript pour réveiller l'Unicode dans InDesign [3 PARTIES]"/><strong>DOSSIER InDesign/Unicode/JS [ARCHIVE]</strong><dfn>Ins&#xE9;rer un caract&#xE8;re par son rang Unicode, tester son existence dans la police courante, lister les glyphes disponibles... Dossier de fond et routines JavaScript pour r&#xE9;veiller l&#x27;Unicode dans InDesign [3 PARTIES]<br/> (23/06/07)</dfn></a></li><li><a href="hurrycover/index.php" title="La gestion et l'assemblage d'une couverture de livre est enfin possible dans InDesign... grâce à notre script «HurryCover»!..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/hurrycover/index_.png" alt="La gestion et l'assemblage d'une couverture de livre est enfin possible dans InDesign... grâce à notre script «HurryCover»!..."/><strong>HurryCover</strong><dfn>La gestion et l&#x27;assemblage d&#x27;une couverture de livre est enfin possible dans InDesign... gr&#xE2;ce &#xE0; notre script &#xAB;HurryCover&#xBB;!...<br/> (25/01/07)</dfn></a></li><li><a href="swap/index.php" title="Comment permuter deux objets de mise en page à la vitesse de l'éclair? La question ne se pose plus grâce au script «SwapItems»..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/swap/index_.png" alt="Comment permuter deux objets de mise en page à la vitesse de l'éclair? La question ne se pose plus grâce au script «SwapItems»..."/><strong>Swap Items</strong><dfn>Comment permuter deux objets de mise en page &#xE0; la vitesse de l&#x27;&#xE9;clair? La question ne se pose plus gr&#xE2;ce au script &#xAB;SwapItems&#xBB;...<br/> (30/08/06)</dfn></a></li><li><a href="claquos/index.php" title="Un script qui ne pue pas! Générer en deux clics des graphiques «camembert» depuis InDesign, sans passer par Illustrator..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/claquos/index_.png" alt="Un script qui ne pue pas! Générer en deux clics des graphiques «camembert» depuis InDesign, sans passer par Illustrator..."/><strong>Claquos!</strong><dfn>Un script qui ne pue pas! G&#xE9;n&#xE9;rer en deux clics des graphiques &#xAB;camembert&#xBB; depuis InDesign, sans passer par Illustrator...<br/> (09/05/06)</dfn></a></li><li><a href="equalizer/index.php" title="Vous bossez sous InDesign et vous avez 50 blocs à redimensionner aux mêmes cotes en dix secondes. Vous faites comment?"><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/equalizer/index_.png" alt="Vous bossez sous InDesign et vous avez 50 blocs à redimensionner aux mêmes cotes en dix secondes. Vous faites comment?"/><strong>Equalizer</strong><dfn>Vous bossez sous InDesign et vous avez 50 blocs &#xE0; redimensionner aux m&#xEA;mes cotes en dix secondes. Vous faites comment?<br/> (25/02/06)</dfn></a></li><li><a href="magicfit/index.php" title="Notre script «HorizFit» publié en décembre offrait une première solution pour ajuster un bloc en largeur. La nouvelle version, baptisée «AjustementMagique», va beaucoup plus loin et intègre l'ajustement des tableaux..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/magicfit/index_.png" alt="Notre script «HorizFit» publié en décembre offrait une première solution pour ajuster un bloc en largeur. La nouvelle version, baptisée «AjustementMagique», va beaucoup plus loin et intègre l'ajustement des tableaux..."/><strong>Ajustement horizontal magique</strong><dfn>Notre script &#xAB;HorizFit&#xBB; publi&#xE9; en d&#xE9;cembre offrait une premi&#xE8;re solution pour ajuster un bloc en largeur. La nouvelle version, baptis&#xE9;e &#xAB;AjustementMagique&#xBB;, va beaucoup plus loin et int&#xE8;gre l&#x27;ajustement des tableaux...<br/> (18/01/06)</dfn></a></li><li><a href="reperes/index.php" title="Lassé de positionner des repères à la main autour des composants de votre mise en page? Notre script AutoReperes vous offre les commodités de l'automatisation..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/reperes/index_.png" alt="Lassé de positionner des repères à la main autour des composants de votre mise en page? Notre script AutoReperes vous offre les commodités de l'automatisation..."/><strong>Rep&#xE9;rage automatique</strong><dfn>Lass&#xE9; de positionner des rep&#xE8;res &#xE0; la main autour des composants de votre mise en page? Notre script AutoReperes vous offre les commodit&#xE9;s de l&#x27;automatisation...<br/> (08/01/06)</dfn></a></li><li><a href="addtxt/index.php" title="Le débutant en scripting InDesign risque de tomber sur un os s'il tente de créer un sous-bloc dans un bloc-texte parent. Explications et solution..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/addtxt/index.png" alt="Le débutant en scripting InDesign risque de tomber sur un os s'il tente de créer un sous-bloc dans un bloc-texte parent. Explications et solution..."/><strong>[FAQ] Comment cr&#xE9;er un bloc-texte enfant</strong><dfn>Le d&#xE9;butant en scripting InDesign risque de tomber sur un os s&#x27;il tente de cr&#xE9;er un sous-bloc dans un bloc-texte parent. Explications et solution...<br/> (23/12/05)</dfn></a></li><li><a href="horizfit/index.php" title="Tous les maquettistes InDesign l'attendaient, BlogNot! vous l'offre en exclu et à l'œil: le script d'ajustement en largeur d'un bloc-texte, avec explications détaillées..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/horizfit/index_.png" alt="Tous les maquettistes InDesign l'attendaient, BlogNot! vous l'offre en exclu et à l'œil: le script d'ajustement en largeur d'un bloc-texte, avec explications détaillées..."/><strong>Ajustement horizontal [ARCHIVE]</strong><dfn>Tous les maquettistes InDesign l&#x27;attendaient, BlogNot! vous l&#x27;offre en exclu et &#xE0; l&#x27;&#x153;il: le script d&#x27;ajustement en largeur d&#x27;un bloc-texte, avec explications d&#xE9;taill&#xE9;es...<br/> (05/12/05)</dfn></a></li><li><a href="centrage/index.php" title="Programmer le centrage automatique d'objets dans la page active: une opération fastoche qui fournit néanmoins l'occasion d'une bonne prise de chou..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/centrage/index.png" alt="Programmer le centrage automatique d'objets dans la page active: une opération fastoche qui fournit néanmoins l'occasion d'une bonne prise de chou..."/><strong>Centrer la s&#xE9;lection</strong><dfn>Programmer le centrage automatique d&#x27;objets dans la page active: une op&#xE9;ration fastoche qui fournit n&#xE9;anmoins l&#x27;occasion d&#x27;une bonne prise de chou...<br/> (01/12/05)</dfn></a></li><li><a href="invcolor/index.php" title="Comment échanger la couleur de fond d'un bloc avec celle du texte en un double-clic? Le script InversionVideo relève le défi..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/invcolor/index_.png" alt="Comment échanger la couleur de fond d'un bloc avec celle du texte en un double-clic? Le script InversionVideo relève le défi..."/><strong>Inversion vid&#xE9;o</strong><dfn>Comment &#xE9;changer la couleur de fond d&#x27;un bloc avec celle du texte en un double-clic? Le script InversionVideo rel&#xE8;ve le d&#xE9;fi...<br/> (07/11/05)</dfn></a></li><li><a href="pageitem/index.php" title="Vous vous arrachez les cheveux pour contrôler les composants de votre page InDesign en JavaScript? BlogNot vient à votre secours..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/pageitem/index.png" alt="Vous vous arrachez les cheveux pour contrôler les composants de votre page InDesign en JavaScript? BlogNot vient à votre secours..."/><strong>La n&#xE9;buleuse PageItem</strong><dfn>Vous vous arrachez les cheveux pour contr&#xF4;ler les composants de votre page InDesign en JavaScript? BlogNot vient &#xE0; votre secours...<br/> (15/10/05)</dfn></a></li><li><a href="app2page/index.php" title="Enquête au sommet de la pyramide InDesign. Découvrez les objets fondamentaux d'un programme Javascript..."><img src="/web/20111124182911im_/http://marcautret.free.fr/geek/indd/app2page/index_.png" alt="Enquête au sommet de la pyramide InDesign. Découvrez les objets fondamentaux d'un programme Javascript..."/><strong>Application, Document, Page</strong><dfn>Enqu&#xEA;te au sommet de la pyramide InDesign. D&#xE9;couvrez les objets fondamentaux d&#x27;un programme Javascript...<br/> (01/09/05)</dfn></a></li></ul></div></div>
+	</div></div>
+	
+	<div class="linkbox autoclear"><ul><li><a href="/web/20111124182911/http://marcautret.free.fr/" title="[BlogNot!] La créativité au pluriel">BlogNot!</a></li><li><a href="/web/20111124182911/http://marcautret.free.fr/geek/" title="Micro, Internet, graphisme et programmation...">Geek</a></li><li>Archive InDiScripts</li></ul></div>
+
+</div>
+
+<div id="BOT">
+	<div class="botbox"><h2><var>BlogNot!</var> est une &#xE9;mission produite par <a href="https://web.archive.org/web/20111124182911/http://marcautret.free.fr/autret/" title="Bio Marc Autret">Marc Autret</a> depuis 2004, &#xE0; consommer de&#xA0;pr&#xE9;f&#xE9;rence en cuves acclimat&#xE9;es aux sp&#xE9;cifications XHTML et&#xA0;CSS.<br/>Pour harceler la r&#xE9;daction&#xA0;: <span>marcautret(at)free(point)fr</span></h2></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html><!--
+     FILE ARCHIVED ON 18:29:11 Nov 24, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:06:33 Mar 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 2.74 (7)
+  exclusion.robots.policy: 2.551 (7)
+  cdx.remote: 1.08 (7)
+  esindex: 0.187 (7)
+  LoadShardBlock: 925.475 (24)
+  PetaboxLoader3.datanode: 607.729 (26)
+  PetaboxLoader3.resolve: 107.983 (2)
+  load_resource: 115.285 (2)
+-->

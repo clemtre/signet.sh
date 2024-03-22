@@ -1,0 +1,208 @@
+<HTML>
+<HEAD>
+  <TITLE>Zsh mailing list archive</TITLE>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+</HEAD>
+<BODY BGCOLOR="#ffffff" TEXT="#000000" LINK="#008000" VLINK="#008080">
+
+<CENTER>
+<H1>Zsh</H1>
+<H2><FONT SIZE="+3">Mailing List Archive</FONT></H2>
+<FONT SIZE="+1">
+Archives of the Zsh mailing lists since they were moved to
+<STRONG>math.gatech.edu</STRONG>.<BR>
+They were then hosted at
+<STRONG>dotsrc.org</STRONG> (formerly sunsite.dk) from 1999 to 2009.<BR>
+They are currently hosted at
+<STRONG>zsh.org</STRONG>.
+</FONT>
+<BR>
+<!-- <FONT COLOR=RED>
+Note: these are current only up to 19990208 0300 UTC<BR>
+Automatic updating will occur again when this message is removed.
+</FONT> -->
+<P>
+<TABLE BGCOLOR="#e0e0e0">
+<TR><TD>
+<TABLE BORDER=3 CELLPADDING=4>
+<TR><TH>Plain Archives</TH><TH COLSPAN=2>HTML archives</TH></TR>
+<TR><TH><FONT SIZE="-1" COLOR=BLACK>Every 100 articles tar'd & gzip'd.</FONT></TH><TH><FONT SIZE="-1" COLOR=BLACK>Browsable,<BR>updated per article.</FONT></TH><!--<TH><FONT SIZE="-1" COLOR=BLACK>Searchable,<BR>updated daily.</FONT></TH>--></TR>
+<TR><TD><A HREF="zsh-announce/">zsh-announce</A></TD><TD><A HREF="announce/">1995&ndash;present</A></TD><!--<TD>&nbsp;</TD>--></TR>
+<TR><TD><A HREF="zsh-users/">zsh-users</A></TD><TD><A HREF="users/1995/index.html">1995</A>,
+<A HREF="users/1996/index.html">1996</A>,
+<A HREF="users/1997/index.html">1997</A>,
+<A HREF="users/1998/index.html">1998</A>,
+<A HREF="users/1999/index.html">1999</A>,<BR/>
+<A HREF="users/2000/index.html">2000</A>,
+<A HREF="users/2001/index.html">2001</A>,
+<A HREF="users/2002/index.html">2002</A>,
+<A HREF="users/2003/index.html">2003</A>,
+<A HREF="users/2004/index.html">2004</A>,
+<A HREF="users/2005/index.html">2005</A>,
+<A HREF="users/2006/index.html">2006</A>,
+<A HREF="users/2007/index.html">2007</A>,
+<A HREF="users/2008/index.html">2008</A>,
+<A HREF="users/2009/index.html">2009</A>,<BR/>
+<A HREF="users/2010/index.html">2010</A>,
+<A HREF="users/2011/index.html">2011</A>,
+<A HREF="users/2012/index.html">2012</A>,
+<A HREF="users/2013/index.html">2013</A>,
+<A HREF="users/2014/index.html">2014</A>,
+<A HREF="users/2015/index.html">2015</A>,
+<A HREF="users/2016/index.html">2016</A>,
+<A HREF="users/2017/index.html">2017</A>,
+<A HREF="users/2018/index.html">2018</A>,
+<A HREF="users/2019/index.html">2019</A>,<BR/>
+<A HREF="users/2020/index.html">2020</A>,
+<A HREF="users/2021/index.html">2021</A>,
+<A HREF="users/2022/index.html">2022</A>,
+<A HREF="users/2023/index.html">2023</A>,
+<A HREF="users/2024/index.html">2024</A
+></TD><!--<TD><A HREF="/cgi-bin/mla/wilma/users">zsh-users</A>&nbsp;</TD>--></TR>
+<TR><TD><A HREF="zsh-workers/">zsh-workers</A></TD><TD><A HREF="workers/1995/index.html">1995</A>,
+<A HREF="workers/1996/index.html">1996</A>,
+<A HREF="workers/1997/index.html">1997</A>,
+<A HREF="workers/1998/index.html">1998</A>,
+<A HREF="workers/1999/index.html">1999</A>,<BR/>
+<A HREF="workers/2000/index.html">2000</A>,
+<A HREF="workers/2001/index.html">2001</A>,
+<A HREF="workers/2002/index.html">2002</A>,
+<A HREF="workers/2003/index.html">2003</A>,
+<A HREF="workers/2004/index.html">2004</A>,
+<A HREF="workers/2005/index.html">2005</A>,
+<A HREF="workers/2006/index.html">2006</A>,
+<A HREF="workers/2007/index.html">2007</A>,
+<A HREF="workers/2008/index.html">2008</A>,
+<A HREF="workers/2009/index.html">2009</A>,<BR/>
+<A HREF="workers/2010/index.html">2010</A>,
+<A HREF="workers/2011/index.html">2011</A>,
+<A HREF="workers/2012/index.html">2012</A>,
+<A HREF="workers/2013/index.html">2013</A>,
+<A HREF="workers/2014/index.html">2014</A>,
+<A HREF="workers/2015/index.html">2015</A>,
+<A HREF="workers/2016/index.html">2016</A>,
+<A HREF="workers/2017/index.html">2017</A>,
+<A HREF="workers/2018/index.html">2018</A>,
+<A HREF="workers/2019/index.html">2019</A>,<BR/>
+<A HREF="workers/2020/index.html">2020</A>,
+<A HREF="workers/2021/index.html">2021</A>,
+<A HREF="workers/2022/index.html">2022</A>,
+<A HREF="workers/2023/index.html">2023</A>,
+<A HREF="workers/2024/index.html">2024</A
+></TD><!--<TD><A HREF="/cgi-bin/mla/wilma/workers">zsh-workers</A>&nbsp;</TD>--></TR>
+</TABLE>
+</TD></TR>
+</TABLE>
+<BR>
+<!--
+<FONT SIZE="+1">
+<A HREF="patches.shtml">View Recent Patches</A><BR>
+<A HREF="oldpatches.html">View Older Patches</A>
+</FONT>
+<P>
+<HR NOSHADE WIDTH=600 SIZE=1>
+-->
+<U>Look up message by official number:</U> <FONT SIZE="-1">(updated twice daily)</FONT>
+<BR>
+<FORM METHOD=GET ACTION="/cgi-bin/mla/redirect">
+<CODE>
+ Zsh users:
+ <INPUT TYPE=TEXT NAME=USERNUMBER VALUE="" SIZE=8>
+</CODE>
+ <INPUT TYPE=RESET>
+ <INPUT TYPE=IMAGE SRC="/gfx/1x1.gif" BORDER=0>
+</FORM>
+<FORM METHOD=GET ACTION="/cgi-bin/mla/redirect">
+<CODE>
+ Zsh workers:
+ <INPUT TYPE=TEXT NAME=WORKERNUMBER VALUE="" SIZE=8>
+</CODE>
+ <INPUT TYPE=RESET>
+ <INPUT TYPE=IMAGE SRC="/gfx/1x1.gif" BORDER=0>
+</FORM>
+
+<P>
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=700>
+<TR><TD ROWSPAN=3 BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD><TD BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD><TD ROWSPAN=3 BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=10>
+<TR>
+  <TH><U>Referencing the archive:</U></TH>
+</TR>
+<TR>
+  <TD>When you refer to a message in the archive, look at the official number
+      in the header <I>X-Seq</I><!--, if available, otherwise in <I>X-Mailing-List</I>-->.</TD>
+</TR>
+<TR>
+  <TD>Then you can use a URL of the form:</TD>
+</TR>
+<!--
+<TR>
+  <TD><CODE>https://www.zsh.org/cgi-bin/mla/redirect?USERNUMBER=.....<BR>
+      https://www.zsh.org/cgi-bin/mla/redirect?WORKERNUMBER=.....</CODE></TD>
+</TR>
+<TR>
+	<TD>or<TD>
+</TR>
+-->
+<TR>
+  <TD><CODE>https://www.zsh.org/workers/.....<BR>
+      https://www.zsh.org/users/.....</CODE></TD>
+</TR>
+<TR>
+  <TD>replacing the dots with the message number.</TD>
+</TR>
+</TABLE>
+</TD></TR>
+<TR><TD ROWSPAN=3 BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD><TD BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD><TD ROWSPAN=3 BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD></TR>
+</TABLE>
+
+<P>
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR><TD ROWSPAN=3 BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD><TD BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD><TD ROWSPAN=3 BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=10>
+<TR><TD>
+<PRE>
+The mailing lists are at the following addresses @ zsh.org:
+
+zsh-announce  (Moderated Postings Only)
+zsh-users     (Allows Public Postings)
+zsh-workers   (Allows Public Postings)
+zsh-security  (Allows Public Postings, Subscription restricted)
+
+To subscribe or unsubscribe, please send e-mail to
+the relevant address below:
+
+<B>zsh-announce-subscribe@zsh.org</B>  <B>zsh-announce-unsubscribe@zsh.org</B>
+<B>zsh-users-subscribe@zsh.org</B>     <B>zsh-users-unsubscribe@zsh.org</B>
+<B>zsh-workers-subscribe@zsh.org</B>   <B>zsh-workers-unsubscribe@zsh.org</B>
+
+The body of the message is ignored.
+
+Help is available by sending a mail with the subject "HELP" to
+    sympa@zsh.org
+
+These mailing lists are nested, and you should only
+be subscribed to one of the three.
+
+People on zsh-workers receive all the lists, and
+people on zsh-users will also receive the announcements.
+</PRE>
+</TD></TR>
+</TABLE>
+</TD></TR>
+<TR><TD ROWSPAN=3 BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD><TD BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD><TD ROWSPAN=3 BGCOLOR="#000000"><IMG SRC="/mla/gfx/1x1.gif" ALT="" WIDTH=1 HEIGHT=1></TD></TR>
+</TABLE>
+</CENTER>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3069255-1";
+urchinTracker();
+</script>
+</BODY>
+</HTML>

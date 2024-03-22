@@ -1,0 +1,179 @@
+<!-- $Id: header.html,v 1.2 2020/11/27 18:46:49 karl Exp $ -->
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="/tugstyle.css">
+<!-- end header -->
+
+<!-- $Id: levels.html,v 1.23 2021/11/26 02:09:37 karl Exp $ -->
+<title>Levels of TeX - TeX Users Group</title>
+</head><body>
+
+<h2>LaTeX vs. MiKTeX: The levels of TeX</h2>
+
+<p>A friend once asked us, &ldquo;Should I use LaTeX or MiKTeX?&rdquo;
+In various guises, this is a common question, seemingly innocent, but
+actually betraying a fundamental confusion about the levels of operation
+in the TeX world.  As a further confusion, the word &ldquo;TeX&rdquo;
+can be used to refer to any of a myriad of items at any level.  Starting
+at the top:
+
+<ol>
+<li><b>Distributions:</b>
+<a href="https://miktex.org/">MiKTeX</a>, <a href="/texlive/">TeX
+Live</a>, <a href="http://w32tex.org/">W32TeX</a>, &hellip; These are
+the large, coherent collections of TeX-related software to be downloaded
+and installed. When someone says &ldquo;I need to install TeX on my
+machine&rdquo;, they're usually looking for a distribution.
+
+<li><b>Front ends and editors:</b>
+<a href="https://www.gnu.org/software/emacs/">Emacs</a>, 
+<a href="http://vim.org/">vim</a>, 
+<a href="/texworks/">TeXworks</a>, 
+<a href="http://www.uoregon.edu/~koch/texshop/">TeXShop</a>, 
+<a href="http://www.toolscenter.org/">TeXnicCenter</a>, 
+<a href="/winedt/">WinEdt</a>, &hellip; These editors are what you use
+to create a document file.  Some (e.g., TeXShop) are devoted specifically
+to TeX, others (e.g., Emacs) can be used to edit any sort of file.  TeX
+documents are independent of any particular editor; the TeX typesetting
+program itself does not include an editor.
+
+<li><b>Engines:</b> TeX,
+<a href="http://pdftex.org/">pdfTeX</a>, <a
+href="http://scripts.sil.org/xetex">XeTeX</a>, <a
+href="http://luatex.org/">LuaTeX</a>, &hellip; These are the executable
+binaries which implement different TeX variants.  In short:
+<ul>
+<li>pdfTeX implements direct PDF output, along with a variety of
+    programming and other extensions.
+<li>XeTeX does the above, and also supports Unicode natively, OpenType
+    and TrueType fonts, access to system fonts, &hellip;
+<li>LuaTeX does all the above, and provides access to many internals via
+    the embedded Lua language. Thus it is by far the most programmable engine.
+<li>[e][u]pTeX provide full support for Japanese typesetting.
+</ul>
+There are other engines, but the above are by far the most commonly used
+nowadays.
+
+<li><b>Formats:</b>
+<a
+href="https://texfaq.org/FAQ-latex">LaTeX</a>,
+<a href="https://ctan.org/pkg/texbytopic">plain TeX</a>, <a
+href="https://ctan.org/pkg/optex">OpTeX</a>, &hellip; These are the
+TeX-based languages in which one actually writes documents. When someone
+says &ldquo;TeX is giving me a mysterious error&rdquo;, they usually
+mean a format.
+
+<li><b>Packages:</b>
+<a href="https://ctan.org/pkg/geometry">geometry</a>, <a
+href="https://ctan.org/pkg/lm">lm</a>, &hellip; These are add-ons to
+the basic TeX system, developed independently, providing additional
+typesetting features, fonts, documentation, etc.  A package might or
+might not work with any given format and/or engine; for example, many
+are designed specifically for LaTeX, but there are plenty of others,
+too.  The <a href="https://ctan.org/">CTAN sites</a> provide access
+to the vast majority of packages in the TeX world; CTAN is generally the
+source used by the distributions.
+
+</ol>
+
+
+<h3>Output formats</h3>
+
+<p>TeX source files can be typeset into several different output
+formats, depending on the engine.  Notably, the pdfTeX engine (despite
+its name) can output both <a
+href="https://texfaq.org/FAQ-dvi">DVI</a> and <a
+href="https://texfaq.org/FAQ-acrobat">PDF</a>
+files.
+
+<p>At a high level, the output format that gets used depends on the
+program you invoke.  If you run <tt>latex</tt> (which implements the
+LaTeX format), you will get DVI; if you run <tt>pdflatex</tt> (which
+also implements the LaTeX format), you will get PDF. 
+
+<p>No TeX engine implements native HTML output, but it is still possible
+to get HTML, XML, etc., output:
+<ul>
+<li>The <a href="/tex4ht/">tex4ht</a> program can be run
+(e.g., <tt>htlatex</tt>, <a
+href="https://ctan.org/pkg/make4ht">make4ht</a>). TeX4ht uses TeX behind
+the scenes, so user macros, etc., are generally recognized. There are
+many possible output formats, including Office XML.
+<a href="/TUGboat/tb25-1/gurari.pdf">TUGboat article on tex4ht</a>, and
+<a href="/TUGboat/tb40-1/tb124hoftich-make4ht.pdf">more recent
+article</a>.
+
+<li>The <a
+href="https://ctan.org/pkg/lwarp">lwarp</a> LaTeX package causes LaTeX
+to output HTML5. It hooks into many packages to create the html.
+<a href="/TUGboat/tb38-1/tb118dunn-lwarp.pdf">TUGboat article on lwarp</a>.
+
+<li>The <a
+href="https://dlmf.nist.gov/LaTeXML/">LaTeXML</a> Perl program
+independently parses LaTeX documents and generates many output formats.
+
+</ul>
+
+
+<h3>ConTeXt</h3>
+
+<p><a href="http://www.pragma-ade.com/">ConTeXt</a> is a special case,
+straddling levels. It contains a format at the level of plain TeX and
+LaTeX, but unlike the other formats, it is invoked via a separate
+program (e.g., <tt>context</tt>) which then runs a TeX engine. This
+makes it possible to support a wide array of advanced features, such as
+integrated graphics and XML input, since the control program can
+determine the flow of processing.
+
+
+<h3>References</h3>
+
+<p>Of course, this short web page is only a brief introduction to the
+basics.  Here are some pointers to further information.
+
+<ul>
+<li><a href="/begin.html">Getting started with TeX</a>, the TUG page
+    giving an introduction to various parts of the TeX world.
+
+<li><a href="https://ctan.org/pkg/components">Components
+    of TeX</a>, Joachim Schrod's technical article describing many of
+    the relationships hinted at here in more detail.  It was written
+    many years ago, but the relationships still hold.
+
+<li><a href="https://ctan.org/pkg/latex-doc-ptr">A First Set of LaTeX
+    Resources</a>, Jim Hefferon's document recommending LaTeX packages
+    for many common tasks.
+
+<li><a href="https://texfaq.org/FAQ-texthings">Things
+    with &ldquo;TeX&rdquo; in the name</a>, FAQ entry.
+
+<li><a href="/notices/">The TeX Family in 2009</a>, an article published
+    in AMS&nbsp;Notices by Jim Hefferon and Karl Berry, giving an overview
+    of the TeX engines, graphics, hypertext, presentations, fonts, etc.
+    Although now more than a decade old, it still reasonably describes
+    the current state of things.
+
+</ul>
+
+<hr><small>This file is public domain.
+$Date: 2021/11/26 02:09:37 $;</small>
+<!-- $Id: footer.html,v 1.27 2023/04/04 21:57:35 karl Exp $ (generic footer) -->
+<form method=get action="//duckduckgo.com/">
+<small>
+  <a href="/index.html">TUG home page</a>;
+  <a href="mailto:webmaster@tug.org">webmaster</a>;
+  <a href="https://www.facebook.com/groups/TeXUsersGroup">facebook</a>;
+  <a href="https://twitter.com/texusersgroup">twitter</a>;
+  <a href="https://techhub.social/@TeXUsersGroup">mastodon</a>;
+  &nbsp;
+   <input type="hidden" name="sites" value="tug.org">
+   <input name=q size=13 maxlength=99
+  ><input type=submit value="Search tug.org">
+   (via&nbsp;<a href="https://duckduckgo.com/">DuckDuckGo</a>)
+</small>
+</form>
+</body></html>
+<!-- end footer -->
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- This file is under RCS control.  Please use RCS when making changes. -->
+<!-- $Id: index.html,v 1.37 2011/09/08 16:34:16 jar Exp $ -->
+
+<head>
+<title>Project MAC Home Page</title>
+<meta http-equiv="charset" content="iso-8859-1" />
+</head>
+
+<body bgcolor="white" text="black" link="red" vlink="gray">
+
+<table width="100%">
+  <tr>
+    <td valign="top" align="center">
+      <!--create a smaller floating table-->
+      <table width="500">
+
+	<!--title-->
+	<tr>
+	  <td valign="top" align="center">
+	    <h1 style="color: red;">Project MAC ("Switzerland")</h1>
+	    <h2 style="color: red;">
+	      MIT Project on Mathematics and Computation
+	    </h2>
+	    "Neutral, but heavily armed."<br />
+	    <a href="disclaimer.html">
+	      <small><code>(Disclaimer)</code></small>
+	    </a>
+	  </td>
+	</tr>
+
+	<!--about mac-->
+	<tr>
+	  <td valign="top" align="center">
+
+	    Project Mac, associated with the
+	    <a href="http://www.csail.mit.edu/">MIT Computer Science
+	    and Artificial Intelligence Laboratory</a>, builds a wide
+	    spectrum of intelligent computational tools to
+	    help scientists and engineers understand
+	    mathematical models of physical processes.
+
+	  </td>
+	</tr>
+
+	<!--leftright columns-->
+	<tr>
+	  <td valign="top">
+	    <table width="100%" border="0" cellpadding="0" cellspacing="10">
+
+	      <tr>
+		<td valign="top" align="right">
+		  <a href="/mac/projects/amorphous/">Amorphous Computing</a>
+		</td>
+		<td valign="top" align="left">
+		  one of our major current activities,
+		  also includes biocomputing
+		  <a href="/mac/projects/amorphous/#news">(in the News)</a>
+		</td>
+	      </tr>
+
+	      <tr>
+		<td valign="top" align="right">
+		  <a href="other-research.html">Other Research</a>
+		</td>
+		<td valign="top" align="left">
+		  overview of previous research done in this group
+		</td>
+	      </tr>
+
+	      <tr>
+		<td valign="top" align="right">
+		  <a href="/mac/projects/scheme/">Scheme</a>
+		</td>
+		<td valign="top" align="left">
+		  most of our work uses the Scheme dialect of Lisp,
+		  for which we developed and maintain the MIT Scheme
+		  implementation.
+		</td>
+	      </tr>
+
+	      <tr>
+		<td valign="top" align="right">
+		  <a href="mac-people.html">People</a>
+		</td>
+		<td valign="top" align="left">
+		  past and present members of this group
+		</td>
+	      </tr>
+
+	      <tr>
+		<td valign="top" align="right">Publications</td>
+		<td valign="top" align="left">
+		  <a href="bibliography.html">selected MAC bibliography</a>,
+		  <a href="/mac/projects/amorphous/paperlisting.html">amorphous computing papers</a>
+		</td>
+	      </tr>
+
+	      <tr>
+		<td valign="top" align="right">Other Resources</td>
+		<td valign="top" align="left">
+		  <a href="urop.html">UROP information</a>, 
+		  <a href="/mac/ftpdir/">project MAC's FTP directory</a>
+		</td>
+	      </tr>
+
+	      <tr>
+		<td valign="top" align="right">Amusements</td>
+		<td valign="top" align="left">
+		  <a href="/mac/htbin/coke">the Swiss Coke Machine</a>,
+		  <a href="unix-extinguisher.jpg">the Unix extinguisher</a>,
+		  <a href="photos/photo_album.html">images of Switzerland (the country)</a>
+		</td>
+	      </tr>
+
+	      <tr>
+		<td valign="top" align="right">Other Sites</td>
+		<td valign="top" align="left">
+		  <a href="http://web.mit.edu/">MIT home page</a>,
+		  <a href="http://www.csail.mit.edu/">MIT CSAIL home page</a>,
+		  <a href="http://www.mit.edu:8001/">MIT SIPB home page</a>
+		</td>
+	      </tr>
+
+	    </table>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td valign="top" align="center">
+	    <hr noshade="noshade" width="80%" />
+	    <p>
+	    <small>
+
+	    Send comments about this site to
+	    <samp>www-admin</samp> at <samp>zurich.csail.mit.edu</samp><br />
+
+	    Last modified: 4 July 2003
+	    </small>
+	    </p>
+	  </td>
+	</tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

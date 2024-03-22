@@ -1,0 +1,383 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Language" content="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Test your Web browser and fonts for the ability to display the Unicode Arabic range of characters. Part of Alan Wood’s Unicode Resources.">
+<meta name="keywords" content="Arabic, Farsi, Jawi, Kurdish, Pashto, Sindhi, Urdu, Unicode, browsers, Web browsers, compliance, compatibility, support, languages, character sets, multilingual, multi-lingual, multilanguage, multi-language, fonts, scripts, Arabic fonts, Arabic Unicode fonts, Unicode Arabic fonts, Arabic Unicode, Unicode Arabic, Persian Unicode, Unicode Persian, Farsi Unicode, Unicode Farsi">
+<meta name="author" content="Alan Wood">
+<meta name="copyright" content="Copyright © 1999–2014 Alan Wood">
+<link rel="stylesheet" type="text/css" href="ranges.css">
+<link rel="top" href="index.html" title="Alan Wood’s Unicode Resources">
+<link rel="contents" href="sitemap.html" title="Site map for Alan Wood’s Unicode Resources">
+<link rel="first" href="basic_latin.html" title="Basic Latin">
+<link rel="prev" href="hebrew.html" title="Hebrew">
+<link rel="next" href="syriac.html" title="Syriac">
+<link rel="last" href="private_use_100000.html" title="Private Use Plane 16">
+<link rel="search" href="search.html" title="Search for a Unicode character">
+<link rel="copyright" href="legal.html#copyright">
+<link rel="section" href="#intro" title="Introduction">
+<link rel="section" href="#fonts" title="Fonts">
+<link rel="section" href="#characters" title="Unicode Arabic characters">
+<link rel="shortcut icon" href="fav_uni.ico">
+<script language="JavaScript" type="text/javascript">
+<!--
+menu=new Object
+menu.closed=true
+function openMenu() {menu=window.open("menu.html", "menu", "top=5,left=5,width=260,height=450,scrollbars=yes")}
+function closeMenu() {if(menu.closed==false) menu.close()}
+// -->
+</script>
+<link rel="meta" href="http://www.alanwood.net/unicode/labels.rdf" type="application/rdf+xml" title="ICRA labels">
+<meta http-equiv="pics-Label" content='(pics-1.1 "http://www.icra.org/pics/vocabularyv03/" l gen true for "http://alanwood.net/unicode" r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0) gen true for "http://www.alanwood.net/unicode" r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0))'>
+<title>Arabic – Test for Unicode support in Web browsers</title>
+</head>
+
+<body bgcolor="#fffff2" text="#000000" onunload="closeMenu()"><a name="top"></a>
+
+<h1><a href="index.html" class="h" title="Go to the home page of this Web site">Alan Wood’s Unicode Resources</a></h1>
+
+<h2>Test for Unicode support in Web browsers</h2>
+
+<h3>Arabic</h3>
+
+<h4>U+0600 – U+06FF &nbsp; (1536–1791)</h4>
+
+<div class="navigation" align="center"><map name="navigation_pmn" title="Navigation Bar">
+<table align="center">
+<tr valign="top">
+<td align="left" width="180"><a href="hebrew.html"><img src="previous.gif" width="76" height="25" border="0" alt="Previous" title="Go to the previous Unicode range"></a></td>
+<td align="center" width="80">
+<script language="JavaScript" type="text/javascript"><!--
+document.write("<a href=\"JavaScript:openMenu()\"><img src=\"menu.gif\" width=\"76\" height=\"25\" border=\"0\" alt=\"Menu\" title=\"Open the menu of Unicode resources in a separate window\"><\/a>");
+// --></script>
+<noscript><a href="sitemap.html"><img src="sitemap.gif" width="76" height="25" border="0" alt="Site Map" title="Go to a list of all of the pages on this Web site"></a></noscript>
+</td>
+<td align="right" width="180"><a href="syriac.html"><img src="next.gif" width="76" height="25" border="0" alt="Next" title="Go to the next Unicode range"></a></td>
+</tr>
+<tr valign="top">
+<td align="left"><a href="hebrew.html">Hebrew</a></td>
+<td align="center">&nbsp;</td>
+<td align="right"><a href="syriac.html">Syriac</a></td>
+</tr>
+</table>
+</map></div>
+
+<a name="intro"></a>
+<p>The Arabic script is cursive, caseless, and written right-to-left.  It is used for the following languages: Arabic, Farsi (the official language of Iran), Jawi, Kurdish, Pashto (the official language of Afghanistan), Sindhi and Urdu (the official language of Pakistan); it can also be used for <a href="gurmukhi.html">Panjabi</a>.  Additional Arabic characters can be found in <a href="arabic-extended-a.html">Arabic Extended-A</a>, <a href="arabic-supplement.html">Arabic Supplement</a>, <a href="arabic_presentation_forms_a.html">Arabic Presentation Forms-A</a> and <a href="arabic_presentation_forms_b.html">Arabic Presentation Forms-B</a>.  You can find some real (non-Unicode) Arabic text to try at <a href="http://www.arabic2000.com/awelcome.html">Arabic2000.Com</a> and the Egyptian newspaper <a href="http://www.ahram.org.eg/">Al-Ahram</a>.  You can see some Unicode Arabic in the <a href="http://www.ayna.com/help/ayna_faq.utf8.html">FAQ for the Ayna Arabic search engine</a> and the <a href="http://www.unicode.org/unicode/standard/translations/arabic.html">What is Unicode? in Arabic</a> page.  You can see some Unicode Farsi on the <a href="http://www.trigeminal.com/index.asp?1065">Trigeminal Software, Inc. (Farsi)</a> page, the <a href="http://www.unicode.org/unicode/standard/translations/persian.html">What is Unicode? in Persian</a> page, the <a href="http://digilib.sharif.ac.ir/texts/hafez/">Sonnets of Hafez</a> page and the <a href="http://www.bbc.co.uk/persian/index.shtml">BBC World Service</a> page.  You can see some Unicode Urdu on the <a href="http://tabish.freeshell.org/u-font/ghazal.html">Ghazal</a> Web page.</p>
+
+<p>Users of <a href="explorer.html#ie5">Internet Explorer 5</a> for Windows can choose to install Arabic Language Support, which allows you to view Arabic Web pages and adds Arabic support to some other applications.  The latest versions of Microsoft’s core fonts for Windows (Arial, Courier New and Times New Roman) include Arabic characters.</p>
+
+<p>Users of Macintosh computers running Mac OS 9 can install an <a href="utilities_fonts_mac.html#apple">Apple Language Kit</a> that provides Arabic or Persian support in various applications.</p>
+
+<p>Mac OS X incorporates support for Arabic from version 10.2 onwards.  A Unicode Farsi keyboard layout for Mac OS X 10.2 can be downloaded from <a href="http://quinon.com/files/keylayouts/">http://quinon.com/files/keylayouts/</a>; it has been produced by Yusuke Kinoshita.</p>
+
+<p>Arabic Web pages with UTF-8, Windows, ASMO 708 and DOS encodings are supported by Internet Explorer 5 (or higher) with Windows 95 (or higher).  Arabic Web pages with UTF-8, ISO and Windows encodings are supported by the <a href="opera.html">Opera Web browser</a> version 7.2 (or higher).  Arabic Web pages with UTF-8, ISO, Windows and MacArabic encodings are supported by the <a href="mozilla.html">Mozilla Web browser</a>.  Arabic Web pages with UTF-8 and MacArabic encodings are supported by the <a href="macbrowsers.html#icab2">iCab Web browser</a> for Macintosh computers.  Macintosh users with Netscape 4.5 or higher can purchase <a href="http://www.moughamarat.com/">WinArabic</a> to allow them to display Arabic Web pages with UTF-8 or Windows encodings.</p>
+
+<p>The characters that appear in the “Character” columns of the following table depend on the browser that you are using, the fonts installed on your computer, and the <a href="explorer.html">browser options</a> you have chosen that determine the fonts used to display particular character sets, encodings or languages.</p>
+
+<a name="fonts"></a>
+<p>You can find some or all of the characters in this range in the <a href="fonts-middle-eastern.html#arabic">Windows Unicode fonts</a> Aleem Urdu Unicode, Andalus, Arabic Transparent, Arabic Typesetting, Arial, Arial Unicode MS, Art (Bold Italic, Italic Outline), Cardo (numerals only), Chrysanthi Unicode, CN-Arial, CN-Times, Code2000, Courier New, DejaVu Sans, DejaVu Sans Condensed, DejaVu Sans Mono, Diwani (Bent, Letter, Outline Shaded, Simple Outline, Simple Outline2, Simple Striped), East Syriac Adiabene (few needed for Syriac), East Syriac Ctesiphon (few needed for Syriac), Estrangelo Antioch (few needed for Syriac), Estrangelo Edessa (few needed for Syriac), Estrangelo Midyat (few needed for Syriac), Estrangelo Nisibin (few needed for Syriac), Estrangelo Nisibin Outline (few needed for Syriac), Estrangelo Quenneshrin (few needed for Syriac), Estrangelo Talada (few needed for Syriac), Estrangelo TurAbdin (few needed for Syriac), Farsi Simple (Bold, Outline), Fixedsys Excelsior, Free Idg Serif, Free Serif, GlobalScience, Goher Urdu Unicode, Kurdish AllAlphabets, Lateef, Led Italic Font, Lucida Bright, Lucida Sans, Lucida Sans Typewriter, MD King KhammuRabi, Microsoft Sans Serif, Microsoft Uighur, MPH 2B Damase, Nafees Naskh, Nafees Nastaleeq, Nafees Pakistani Naskh, Nafees Riqa, Nafees Web Naskh, Nastaleeq Like, Nesf2, NSimSun-18030, Old Antic (Bold, Decorative, Outline, Outline Shaded), PakType Naqsh, PakType Tehreer, Pashto Kror Asiatype, _PDMS_Saleem_QuranFont, PT (Bold Arch, Bold Broken, Bold Dusky, Bold Heading, Bold Mirror, Bold Stars, Separated Balloon, Simple Bold Ruled), Roman Unicode (few), Samda, Scheherazade, Segoe UI, Serto Batnan (few needed for Syriac), Serto Jerusalem (few needed for Syriac), Serto Jerusalem Outline (few needed for Syriac), Serto Kharput (few needed for Syriac), Serto Malankara (few needed for Syriac), Serto Mardin (few needed for Syriac), Serto Urhoy (few needed for Syriac), Simple (Bold Jut Out, Indust Outline, Indust Shaded, Outline Pat), Simplified Arabic, Simplified Arabic Fixed, SimSun-18030, Sun-ExtA, Symbola, Tahoma, Times New Roman, TITUS Cyberbit Basic, Traditional Arabic, Unikurd Tishk, Unikurd Web, Urdu Naskh Asiatype, Urdu Naskh Unicode, Urdu Nastaliq Unicode, Zawgyi-One and zkurd ali.M; in the <a href="fonts_mac.html#arabic">Macintosh OS 9 Unicode fonts</a> AB AlBayan, AB Baghdad, AB Geeza, AB Kufi, AB Nadeem, DecoType Naskh, PS Amir, PS Asfahan, PS Kamran, PS Mashad, PS NadeemFarsi and Tahoma; in the <a href="fonts_macosx.html#arabic">Macintosh OS X Unicode fonts</a> Al Bayan, Arial, Baghdad, DecoType Naskh, Geeza Pro, Geezah, KufiStandardGK, Nadeem, STFangsong, STHeiti, STKaiti, STSong and Times New Roman; and in the <a href="fonts_unix.html">Unix Unicode fonts</a> Arabic Newspaper and ClearlyU Arabic.</p>
+
+<p>To see exactly which characters are included in a particular font, you can use a utility such as Andrew West’s <a href="utilities_fonts.html#babelmap">BabelMap</a>, or Apple’s <a href="utilities_fonts_mac.html#trueedit">TrueEdit</a>.</p>
+
+<p>If you are not familiar with the characters, you can check the characters displayed here with the graphical display at <a href="http://www.unicode.org/charts/PDF/U0600.pdf">http://www.unicode.org/charts/PDF/U0600.pdf</a>.</p>
+
+<a name="characters"></a>
+<table class="unicode">
+
+<tr valign="top"><th width="80">Character<br>(decimal)</th><th width="80">Decimal</th><th width="80">Character<br>(hex)</th><th width="80">Hex</th><th>Name</th></tr>
+
+<tr><td class="b">&#1536;</td><td>1536</td><td class="b">&#x0600;</td><td>0600</td><td>ARABIC NUMBER SIGN</td></tr>
+<tr><td class="b">&#1537;</td><td>1537</td><td class="b">&#x0601;</td><td>0601</td><td>ARABIC SIGN SANAH</td></tr>
+<tr><td class="b">&#1538;</td><td>1538</td><td class="b">&#x0602;</td><td>0602</td><td>ARABIC FOOTNOTE MARKER</td></tr>
+<tr><td class="b">&#1539;</td><td>1539</td><td class="b">&#x0603;</td><td>0603</td><td>ARABIC SIGN SAFHA</td></tr>
+<tr><td class="b">&#1540;</td><td>1540</td><td class="b">&#x0604;</td><td>0604</td><td>ARABIC SIGN SAMVAT</td></tr>
+<tr><td class="b">&#1541;</td><td>1541</td><td class="b">&#x0605;</td><td>0605</td><td>ARABIC NUMBER MARK ABOVE</td></tr>
+<tr><td class="b">&#1542;</td><td>1542</td><td class="b">&#x0606;</td><td>0606</td><td>ARABIC-INDIC CUBE ROOT</td></tr>
+<tr><td class="b">&#1543;</td><td>1543</td><td class="b">&#x0607;</td><td>0607</td><td>ARABIC-INDIC FOURTH ROOT</td></tr>
+<tr><td class="b">&#1544;</td><td>1544</td><td class="b">&#x0608;</td><td>0608</td><td>ARABIC RAY</td></tr>
+<tr><td class="b">&#1545;</td><td>1545</td><td class="b">&#x0609;</td><td>0609</td><td>ARABIC-INDIC PER MILLE SIGN</td></tr>
+<tr><td class="b">&#1546;</td><td>1546</td><td class="b">&#x060A;</td><td>060A</td><td>ARABIC-INDIC PER TEN THOUSAND SIGN</td></tr>
+<tr><td class="b">&#1547;</td><td>1547</td><td class="b">&#x060B;</td><td>060B</td><td>AFGHANI SIGN</td></tr>
+<tr><td class="b">&#1548;</td><td>1548</td><td class="b">&#x060C;</td><td>060C</td><td>ARABIC COMMA</td></tr>
+<tr><td class="b">&#1549;</td><td>1549</td><td class="b">&#x060D;</td><td>060D</td><td>ARABIC DATE SEPARATOR</td></tr>
+<tr><td class="b">&#1550;</td><td>1550</td><td class="b">&#x060E;</td><td>060E</td><td>ARABIC POETIC VERSE SIGN</td></tr>
+<tr><td class="b">&#1551;</td><td>1551</td><td class="b">&#x060F;</td><td>060F</td><td>ARABIC SIGN MISRA</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1552;</span></td><td>1552</td><td class="b"><span dir="rtl">&#x062D;&#x0610;</span></td><td>0610</td><td>ARABIC SIGN SALLALLAHOU ALAYHE WASSALLAM (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1553;</span></td><td>1553</td><td class="b"><span dir="rtl">&#x062D;&#x0611;</span></td><td>0611</td><td>ARABIC SIGN ALAYHE ASSALLAM (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1554;</span></td><td>1554</td><td class="b"><span dir="rtl">&#x062D;&#x0612;</span></td><td>0612</td><td>ARABIC SIGN RAHMATULLAH ALAYHE (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1555;</span></td><td>1555</td><td class="b"><span dir="rtl">&#x062D;&#x0613;</span></td><td>0613</td><td>ARABIC SIGN RADI ALLAHOU ANHU (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1556;</span></td><td>1556</td><td class="b"><span dir="rtl">&#x062D;&#x0614;</span></td><td>0614</td><td>ARABIC SIGN TAKHALLUS (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1557;</span></td><td>1557</td><td class="b"><span dir="rtl">&#x062D;&#x0615;</span></td><td>0615</td><td>ARABIC SMALL HIGH TAH (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1558;</span></td><td>1558</td><td class="b"><span dir="rtl">&#x062D;&#x0616;</span></td><td>0616</td><td>ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1559;</span></td><td>1559</td><td class="b"><span dir="rtl">&#x062D;&#x0617;</span></td><td>0617</td><td>ARABIC SMALL HIGH ZAIN (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1560;</span></td><td>1560</td><td class="b"><span dir="rtl">&#x062D;&#x0618;</span></td><td>0618</td><td>ARABIC SMALL FATHA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1561;</span></td><td>1561</td><td class="b"><span dir="rtl">&#x062D;&#x0619;</span></td><td>0619</td><td>ARABIC SMALL DAMMA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1562;</span></td><td>1562</td><td class="b"><span dir="rtl">&#x062D;&#x061A;</span></td><td>061A</td><td>ARABIC SMALL KASRA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b">&#1563;</td><td>1563</td><td class="b">&#x061B;</td><td>061B</td><td>ARABIC SEMICOLON</td></tr>
+<tr><td class="b">&#1564;</td><td>1564</td><td class="b">&#x061C;</td><td>061C</td><td>ARABIC LETTER MARK</td></tr>
+<tr><td class="b">&#1566;</td><td>1566</td><td class="b">&#x061E;</td><td>061E</td><td>ARABIC TRIPLE DOT PUNCTUATION MARK</td></tr>
+<tr><td class="b">&#1567;</td><td>1567</td><td class="b">&#x061F;</td><td>061F</td><td>ARABIC QUESTION MARK</td></tr>
+<tr><td class="b">&#1568;</td><td>1568</td><td class="b">&#x0620;</td><td>0620</td><td>ARABIC LETTER KASHMIRI YEH</td></tr>
+<tr><td class="b">&#1569;</td><td>1569</td><td class="b">&#x0621;</td><td>0621</td><td>ARABIC LETTER HAMZA</td></tr>
+<tr><td class="b">&#1570;</td><td>1570</td><td class="b">&#x0622;</td><td>0622</td><td>ARABIC LETTER ALEF WITH MADDA ABOVE</td></tr>
+<tr><td class="b">&#1571;</td><td>1571</td><td class="b">&#x0623;</td><td>0623</td><td>ARABIC LETTER ALEF WITH HAMZA ABOVE</td></tr>
+<tr><td class="b">&#1572;</td><td>1572</td><td class="b">&#x0624;</td><td>0624</td><td>ARABIC LETTER WAW WITH HAMZA ABOVE</td></tr>
+<tr><td class="b">&#1573;</td><td>1573</td><td class="b">&#x0625;</td><td>0625</td><td>ARABIC LETTER ALEF WITH HAMZA BELOW</td></tr>
+<tr><td class="b">&#1574;</td><td>1574</td><td class="b">&#x0626;</td><td>0626</td><td>ARABIC LETTER YEH WITH HAMZA ABOVE</td></tr>
+<tr><td class="b">&#1575;</td><td>1575</td><td class="b">&#x0627;</td><td>0627</td><td>ARABIC LETTER ALEF</td></tr>
+<tr><td class="b">&#1576;</td><td>1576</td><td class="b">&#x0628;</td><td>0628</td><td>ARABIC LETTER BEH</td></tr>
+<tr><td class="b">&#1577;</td><td>1577</td><td class="b">&#x0629;</td><td>0629</td><td>ARABIC LETTER TEH MARBUTA</td></tr>
+<tr><td class="b">&#1578;</td><td>1578</td><td class="b">&#x062A;</td><td>062A</td><td>ARABIC LETTER TEH</td></tr>
+<tr><td class="b">&#1579;</td><td>1579</td><td class="b">&#x062B;</td><td>062B</td><td>ARABIC LETTER THEH</td></tr>
+<tr><td class="b">&#1580;</td><td>1580</td><td class="b">&#x062C;</td><td>062C</td><td>ARABIC LETTER JEEM</td></tr>
+<tr><td class="b">&#1581;</td><td>1581</td><td class="b">&#x062D;</td><td>062D</td><td>ARABIC LETTER HAH</td></tr>
+<tr><td class="b">&#1582;</td><td>1582</td><td class="b">&#x062E;</td><td>062E</td><td>ARABIC LETTER KHAH</td></tr>
+<tr><td class="b">&#1583;</td><td>1583</td><td class="b">&#x062F;</td><td>062F</td><td>ARABIC LETTER DAL</td></tr>
+<tr><td class="b">&#1584;</td><td>1584</td><td class="b">&#x0630;</td><td>0630</td><td>ARABIC LETTER THAL</td></tr>
+<tr><td class="b">&#1585;</td><td>1585</td><td class="b">&#x0631;</td><td>0631</td><td>ARABIC LETTER REH</td></tr>
+<tr><td class="b">&#1586;</td><td>1586</td><td class="b">&#x0632;</td><td>0632</td><td>ARABIC LETTER ZAIN</td></tr>
+<tr><td class="b">&#1587;</td><td>1587</td><td class="b">&#x0633;</td><td>0633</td><td>ARABIC LETTER SEEN</td></tr>
+<tr><td class="b">&#1588;</td><td>1588</td><td class="b">&#x0634;</td><td>0634</td><td>ARABIC LETTER SHEEN</td></tr>
+<tr><td class="b">&#1589;</td><td>1589</td><td class="b">&#x0635;</td><td>0635</td><td>ARABIC LETTER SAD</td></tr>
+<tr><td class="b">&#1590;</td><td>1590</td><td class="b">&#x0636;</td><td>0636</td><td>ARABIC LETTER DAD</td></tr>
+<tr><td class="b">&#1591;</td><td>1591</td><td class="b">&#x0637;</td><td>0637</td><td>ARABIC LETTER TAH</td></tr>
+<tr><td class="b">&#1592;</td><td>1592</td><td class="b">&#x0638;</td><td>0638</td><td>ARABIC LETTER ZAH</td></tr>
+<tr><td class="b">&#1593;</td><td>1593</td><td class="b">&#x0639;</td><td>0639</td><td>ARABIC LETTER AIN</td></tr>
+<tr><td class="b">&#1594;</td><td>1594</td><td class="b">&#x063A;</td><td>063A</td><td>ARABIC LETTER GHAIN</td></tr>
+<tr><td class="b">&#1595;</td><td>1595</td><td class="b">&#x063B;</td><td>063B</td><td>ARABIC LETTER KEHEH WITH TWO DOTS ABOVE</td></tr>
+<tr><td class="b">&#1596;</td><td>1596</td><td class="b">&#x063C;</td><td>063C</td><td>ARABIC LETTER KEHEH WITH THREE DOTS BELOW</td></tr>
+<tr><td class="b">&#1597;</td><td>1597</td><td class="b">&#x063D;</td><td>063D</td><td>ARABIC LETTER FARSI YEH WITH INVERTED V</td></tr>
+<tr><td class="b">&#1598;</td><td>1598</td><td class="b">&#x063E;</td><td>063E</td><td>ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE</td></tr>
+<tr><td class="b">&#1599;</td><td>1599</td><td class="b">&#x063F;</td><td>063F</td><td>ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1600;</td><td>1600</td><td class="b">&#x0640;</td><td>0640</td><td>ARABIC TATWEEL</td></tr>
+<tr><td class="b">&#1601;</td><td>1601</td><td class="b">&#x0641;</td><td>0641</td><td>ARABIC LETTER FEH</td></tr>
+<tr><td class="b">&#1602;</td><td>1602</td><td class="b">&#x0642;</td><td>0642</td><td>ARABIC LETTER QAF</td></tr>
+<tr><td class="b">&#1603;</td><td>1603</td><td class="b">&#x0643;</td><td>0643</td><td>ARABIC LETTER KAF</td></tr>
+<tr><td class="b">&#1604;</td><td>1604</td><td class="b">&#x0644;</td><td>0644</td><td>ARABIC LETTER LAM</td></tr>
+<tr><td class="b">&#1605;</td><td>1605</td><td class="b">&#x0645;</td><td>0645</td><td>ARABIC LETTER MEEM</td></tr>
+<tr><td class="b">&#1606;</td><td>1606</td><td class="b">&#x0646;</td><td>0646</td><td>ARABIC LETTER NOON</td></tr>
+<tr><td class="b">&#1607;</td><td>1607</td><td class="b">&#x0647;</td><td>0647</td><td>ARABIC LETTER HEH</td></tr>
+<tr><td class="b">&#1608;</td><td>1608</td><td class="b">&#x0648;</td><td>0648</td><td>ARABIC LETTER WAW</td></tr>
+<tr><td class="b">&#1609;</td><td>1609</td><td class="b">&#x0649;</td><td>0649</td><td>ARABIC LETTER ALEF MAKSURA</td></tr>
+<tr><td class="b">&#1610;</td><td>1610</td><td class="b">&#x064A;</td><td>064A</td><td>ARABIC LETTER YEH</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1611;</span></td><td>1611</td><td class="b"><span dir="rtl">&#x062D;&#x064B;</span></td><td>064B</td><td>ARABIC FATHATAN (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1612;</span></td><td>1612</td><td class="b"><span dir="rtl">&#x062D;&#x064C;</span></td><td>064C</td><td>ARABIC DAMMATAN (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1613;</span></td><td>1613</td><td class="b"><span dir="rtl">&#x062D;&#x064D;</span></td><td>064D</td><td>ARABIC KASRATAN (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1614;</span></td><td>1614</td><td class="b"><span dir="rtl">&#x062D;&#x064E;</span></td><td>064E</td><td>ARABIC FATHA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1615;</span></td><td>1615</td><td class="b"><span dir="rtl">&#x062D;&#x064F;</span></td><td>064F</td><td>ARABIC DAMMA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1616;</span></td><td>1616</td><td class="b"><span dir="rtl">&#x062D;&#x0650;</span></td><td>0650</td><td>ARABIC KASRA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1617;</span></td><td>1617</td><td class="b"><span dir="rtl">&#x062D;&#x0651;</span></td><td>0651</td><td>ARABIC SHADDA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1618;</span></td><td>1618</td><td class="b"><span dir="rtl">&#x062D;&#x0652;</span></td><td>0652</td><td>ARABIC SUKUN (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1619;</span></td><td>1619</td><td class="b"><span dir="rtl">&#x062D;&#x0653;</span></td><td>0653</td><td>ARABIC MADDAH ABOVE (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1620;</span></td><td>1620</td><td class="b"><span dir="rtl">&#x062D;&#x0654;</span></td><td>0654</td><td>ARABIC HAMZA ABOVE (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1621;</span></td><td>1621</td><td class="b"><span dir="rtl">&#x062D;&#x0655;</span></td><td>0655</td><td>ARABIC HAMZA BELOW (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1622;</span></td><td>1622</td><td class="b"><span dir="rtl">&#x062D;&#x0656;</span></td><td>0656</td><td>ARABIC SUBSCRIPT ALEF (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1623;</span></td><td>1623</td><td class="b"><span dir="rtl">&#x062D;&#x0657;</span></td><td>0657</td><td>ARABIC INVERTED DAMMA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1624;</span></td><td>1624</td><td class="b"><span dir="rtl">&#x062D;&#x0658;</span></td><td>0658</td><td>ARABIC MARK NOON GHUNNA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1625;</span></td><td>1625</td><td class="b"><span dir="rtl">&#x062D;&#x0659;</span></td><td>0659</td><td>ARABIC ZWARAKAY (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1626;</span></td><td>1626</td><td class="b"><span dir="rtl">&#x062D;&#x065A;</span></td><td>065A</td><td>ARABIC VOWEL SIGN SMALL V ABOVE (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1627;</span></td><td>1627</td><td class="b"><span dir="rtl">&#x062D;&#x065B;</span></td><td>065B</td><td>ARABIC VOWEL SIGN INVERTED SMALL V ABOVE (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1628;</span></td><td>1628</td><td class="b"><span dir="rtl">&#x062D;&#x065C;</span></td><td>065C</td><td>ARABIC VOWEL SIGN DOT BELOW (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1629;</span></td><td>1629</td><td class="b"><span dir="rtl">&#x062D;&#x065D;</span></td><td>065D</td><td>ARABIC REVERSED DAMMA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1630;</span></td><td>1630</td><td class="b"><span dir="rtl">&#x062D;&#x065E;</span></td><td>065E</td><td>ARABIC FATHA WITH TWO DOTS (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1631;</span></td><td>1631</td><td class="b"><span dir="rtl">&#x062D;&#x065F;</span></td><td>065F</td><td>ARABIC WAVY HAMZA BELOW (combined with hah (&#1581;))</td></tr>
+<tr><td class="b">&#1632;</td><td>1632</td><td class="b">&#x0660;</td><td>0660</td><td>ARABIC-INDIC DIGIT ZERO</td></tr>
+<tr><td class="b">&#1633;</td><td>1633</td><td class="b">&#x0661;</td><td>0661</td><td>ARABIC-INDIC DIGIT ONE</td></tr>
+<tr><td class="b">&#1634;</td><td>1634</td><td class="b">&#x0662;</td><td>0662</td><td>ARABIC-INDIC DIGIT TWO</td></tr>
+<tr><td class="b">&#1635;</td><td>1635</td><td class="b">&#x0663;</td><td>0663</td><td>ARABIC-INDIC DIGIT THREE</td></tr>
+<tr><td class="b">&#1636;</td><td>1636</td><td class="b">&#x0664;</td><td>0664</td><td>ARABIC-INDIC DIGIT FOUR</td></tr>
+<tr><td class="b">&#1637;</td><td>1637</td><td class="b">&#x0665;</td><td>0665</td><td>ARABIC-INDIC DIGIT FIVE</td></tr>
+<tr><td class="b">&#1638;</td><td>1638</td><td class="b">&#x0666;</td><td>0666</td><td>ARABIC-INDIC DIGIT SIX</td></tr>
+<tr><td class="b">&#1639;</td><td>1639</td><td class="b">&#x0667;</td><td>0667</td><td>ARABIC-INDIC DIGIT SEVEN</td></tr>
+<tr><td class="b">&#1640;</td><td>1640</td><td class="b">&#x0668;</td><td>0668</td><td>ARABIC-INDIC DIGIT EIGHT</td></tr>
+<tr><td class="b">&#1641;</td><td>1641</td><td class="b">&#x0669;</td><td>0669</td><td>ARABIC-INDIC DIGIT NINE</td></tr>
+<tr><td class="b">&#1642;</td><td>1642</td><td class="b">&#x066A;</td><td>066A</td><td>ARABIC PERCENT SIGN</td></tr>
+<tr><td class="b">&#1643;</td><td>1643</td><td class="b">&#x066B;</td><td>066B</td><td>ARABIC DECIMAL SEPARATOR</td></tr>
+<tr><td class="b">&#1644;</td><td>1644</td><td class="b">&#x066C;</td><td>066C</td><td>ARABIC THOUSANDS SEPARATOR</td></tr>
+<tr><td class="b">&#1645;</td><td>1645</td><td class="b">&#x066D;</td><td>066D</td><td>ARABIC FIVE POINTED STAR</td></tr>
+<tr><td class="b">&#1646;</td><td>1646</td><td class="b">&#x066E;</td><td>066E</td><td>ARABIC LETTER DOTLESS BEH</td></tr>
+<tr><td class="b">&#1647;</td><td>1647</td><td class="b">&#x066F;</td><td>066F</td><td>ARABIC LETTER DOTLESS QAF</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1648;</span></td><td>1648</td><td class="b"><span dir="rtl">&#x062D;&#x0670;</span></td><td>0670</td><td>ARABIC LETTER SUPERSCRIPT ALEF (combined with hah (&#1581;))</td></tr>
+<tr><td class="b">&#1649;</td><td>1649</td><td class="b">&#x0671;</td><td>0671</td><td>ARABIC LETTER ALEF WASLA</td></tr>
+<tr><td class="b">&#1650;</td><td>1650</td><td class="b">&#x0672;</td><td>0672</td><td>ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE</td></tr>
+<tr><td class="b">&#1651;</td><td>1651</td><td class="b">&#x0673;</td><td>0673</td><td>ARABIC LETTER ALEF WITH WAVY HAMZA BELOW</td></tr>
+<tr><td class="b">&#1652;</td><td>1652</td><td class="b">&#x0674;</td><td>0674</td><td>ARABIC LETTER HIGH HAMZA</td></tr>
+<tr><td class="b">&#1653;</td><td>1653</td><td class="b">&#x0675;</td><td>0675</td><td>ARABIC LETTER HIGH HAMZA ALEF</td></tr>
+<tr><td class="b">&#1654;</td><td>1654</td><td class="b">&#x0676;</td><td>0676</td><td>ARABIC LETTER HIGH HAMZA WAW</td></tr>
+<tr><td class="b">&#1655;</td><td>1655</td><td class="b">&#x0677;</td><td>0677</td><td>ARABIC LETTER U WITH HAMZA ABOVE</td></tr>
+<tr><td class="b">&#1656;</td><td>1656</td><td class="b">&#x0678;</td><td>0678</td><td>ARABIC LETTER HIGH HAMZA YEH</td></tr>
+<tr><td class="b">&#1657;</td><td>1657</td><td class="b">&#x0679;</td><td>0679</td><td>ARABIC LETTER TTEH</td></tr>
+<tr><td class="b">&#1658;</td><td>1658</td><td class="b">&#x067A;</td><td>067A</td><td>ARABIC LETTER TTEHEH</td></tr>
+<tr><td class="b">&#1659;</td><td>1659</td><td class="b">&#x067B;</td><td>067B</td><td>ARABIC LETTER BEEH</td></tr>
+<tr><td class="b">&#1660;</td><td>1660</td><td class="b">&#x067C;</td><td>067C</td><td>ARABIC LETTER TEH WITH RING</td></tr>
+<tr><td class="b">&#1661;</td><td>1661</td><td class="b">&#x067D;</td><td>067D</td><td>ARABIC LETTER TEH WITH THREE DOTS ABOVE DOWNWARDS</td></tr>
+<tr><td class="b">&#1662;</td><td>1662</td><td class="b">&#x067E;</td><td>067E</td><td>ARABIC LETTER PEH</td></tr>
+<tr><td class="b">&#1663;</td><td>1663</td><td class="b">&#x067F;</td><td>067F</td><td>ARABIC LETTER TEHEH</td></tr>
+<tr><td class="b">&#1664;</td><td>1664</td><td class="b">&#x0680;</td><td>0680</td><td>ARABIC LETTER BEHEH</td></tr>
+<tr><td class="b">&#1665;</td><td>1665</td><td class="b">&#x0681;</td><td>0681</td><td>ARABIC LETTER HAH WITH HAMZA ABOVE</td></tr>
+<tr><td class="b">&#1666;</td><td>1666</td><td class="b">&#x0682;</td><td>0682</td><td>ARABIC LETTER HAH WITH TWO DOTS VERTICAL ABOVE</td></tr>
+<tr><td class="b">&#1667;</td><td>1667</td><td class="b">&#x0683;</td><td>0683</td><td>ARABIC LETTER NYEH</td></tr>
+<tr><td class="b">&#1668;</td><td>1668</td><td class="b">&#x0684;</td><td>0684</td><td>ARABIC LETTER DYEH</td></tr>
+<tr><td class="b">&#1669;</td><td>1669</td><td class="b">&#x0685;</td><td>0685</td><td>ARABIC LETTER HAH WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1670;</td><td>1670</td><td class="b">&#x0686;</td><td>0686</td><td>ARABIC LETTER TCHEH</td></tr>
+<tr><td class="b">&#1671;</td><td>1671</td><td class="b">&#x0687;</td><td>0687</td><td>ARABIC LETTER TCHEHEH</td></tr>
+<tr><td class="b">&#1672;</td><td>1672</td><td class="b">&#x0688;</td><td>0688</td><td>ARABIC LETTER DDAL</td></tr>
+<tr><td class="b">&#1673;</td><td>1673</td><td class="b">&#x0689;</td><td>0689</td><td>ARABIC LETTER DAL WITH RING</td></tr>
+<tr><td class="b">&#1674;</td><td>1674</td><td class="b">&#x068A;</td><td>068A</td><td>ARABIC LETTER DAL WITH DOT BELOW</td></tr>
+<tr><td class="b">&#1675;</td><td>1675</td><td class="b">&#x068B;</td><td>068B</td><td>ARABIC LETTER DAL WITH DOT BELOW AND SMALL TAH</td></tr>
+<tr><td class="b">&#1676;</td><td>1676</td><td class="b">&#x068C;</td><td>068C</td><td>ARABIC LETTER DAHAL</td></tr>
+<tr><td class="b">&#1677;</td><td>1677</td><td class="b">&#x068D;</td><td>068D</td><td>ARABIC LETTER DDAHAL</td></tr>
+<tr><td class="b">&#1678;</td><td>1678</td><td class="b">&#x068E;</td><td>068E</td><td>ARABIC LETTER DUL</td></tr>
+<tr><td class="b">&#1679;</td><td>1679</td><td class="b">&#x068F;</td><td>068F</td><td>ARABIC LETTER DAL WITH THREE DOTS ABOVE DOWNWARDS</td></tr>
+<tr><td class="b">&#1680;</td><td>1680</td><td class="b">&#x0690;</td><td>0690</td><td>ARABIC LETTER DAL WITH FOUR DOTS ABOVE</td></tr>
+<tr><td class="b">&#1681;</td><td>1681</td><td class="b">&#x0691;</td><td>0691</td><td>ARABIC LETTER RREH</td></tr>
+<tr><td class="b">&#1682;</td><td>1682</td><td class="b">&#x0692;</td><td>0692</td><td>ARABIC LETTER REH WITH SMALL V</td></tr>
+<tr><td class="b">&#1683;</td><td>1683</td><td class="b">&#x0693;</td><td>0693</td><td>ARABIC LETTER REH WITH RING</td></tr>
+<tr><td class="b">&#1684;</td><td>1684</td><td class="b">&#x0694;</td><td>0694</td><td>ARABIC LETTER REH WITH DOT BELOW</td></tr>
+<tr><td class="b">&#1685;</td><td>1685</td><td class="b">&#x0695;</td><td>0695</td><td>ARABIC LETTER REH WITH SMALL V BELOW</td></tr>
+<tr><td class="b">&#1686;</td><td>1686</td><td class="b">&#x0696;</td><td>0696</td><td>ARABIC LETTER REH WITH DOT BELOW AND DOT ABOVE</td></tr>
+<tr><td class="b">&#1687;</td><td>1687</td><td class="b">&#x0697;</td><td>0697</td><td>ARABIC LETTER REH WITH TWO DOTS ABOVE</td></tr>
+<tr><td class="b">&#1688;</td><td>1688</td><td class="b">&#x0698;</td><td>0698</td><td>ARABIC LETTER JEH</td></tr>
+<tr><td class="b">&#1689;</td><td>1689</td><td class="b">&#x0699;</td><td>0699</td><td>ARABIC LETTER REH WITH FOUR DOTS ABOVE</td></tr>
+<tr><td class="b">&#1690;</td><td>1690</td><td class="b">&#x069A;</td><td>069A</td><td>ARABIC LETTER SEEN WITH DOT BELOW AND DOT ABOVE</td></tr>
+<tr><td class="b">&#1691;</td><td>1691</td><td class="b">&#x069B;</td><td>069B</td><td>ARABIC LETTER SEEN WITH THREE DOTS BELOW</td></tr>
+<tr><td class="b">&#1692;</td><td>1692</td><td class="b">&#x069C;</td><td>069C</td><td>ARABIC LETTER SEEN WITH THREE DOTS BELOW AND THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1693;</td><td>1693</td><td class="b">&#x069D;</td><td>069D</td><td>ARABIC LETTER SAD WITH TWO DOTS BELOW</td></tr>
+<tr><td class="b">&#1694;</td><td>1694</td><td class="b">&#x069E;</td><td>069E</td><td>ARABIC LETTER SAD WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1695;</td><td>1695</td><td class="b">&#x069F;</td><td>069F</td><td>ARABIC LETTER TAH WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1696;</td><td>1696</td><td class="b">&#x06A0;</td><td>06A0</td><td>ARABIC LETTER AIN WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1697;</td><td>1697</td><td class="b">&#x06A1;</td><td>06A1</td><td>ARABIC LETTER DOTLESS FEH</td></tr>
+<tr><td class="b">&#1698;</td><td>1698</td><td class="b">&#x06A2;</td><td>06A2</td><td>ARABIC LETTER FEH WITH DOT MOVED BELOW</td></tr>
+<tr><td class="b">&#1699;</td><td>1699</td><td class="b">&#x06A3;</td><td>06A3</td><td>ARABIC LETTER FEH WITH DOT BELOW</td></tr>
+<tr><td class="b">&#1700;</td><td>1700</td><td class="b">&#x06A4;</td><td>06A4</td><td>ARABIC LETTER VEH</td></tr>
+<tr><td class="b">&#1701;</td><td>1701</td><td class="b">&#x06A5;</td><td>06A5</td><td>ARABIC LETTER FEH WITH THREE DOTS BELOW</td></tr>
+<tr><td class="b">&#1702;</td><td>1702</td><td class="b">&#x06A6;</td><td>06A6</td><td>ARABIC LETTER PEHEH</td></tr>
+<tr><td class="b">&#1703;</td><td>1703</td><td class="b">&#x06A7;</td><td>06A7</td><td>ARABIC LETTER QAF WITH DOT ABOVE</td></tr>
+<tr><td class="b">&#1704;</td><td>1704</td><td class="b">&#x06A8;</td><td>06A8</td><td>ARABIC LETTER QAF WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1705;</td><td>1705</td><td class="b">&#x06A9;</td><td>06A9</td><td>ARABIC LETTER KEHEH</td></tr>
+<tr><td class="b">&#1706;</td><td>1706</td><td class="b">&#x06AA;</td><td>06AA</td><td>ARABIC LETTER SWASH KAF</td></tr>
+<tr><td class="b">&#1707;</td><td>1707</td><td class="b">&#x06AB;</td><td>06AB</td><td>ARABIC LETTER KAF WITH RING</td></tr>
+<tr><td class="b">&#1708;</td><td>1708</td><td class="b">&#x06AC;</td><td>06AC</td><td>ARABIC LETTER KAF WITH DOT ABOVE</td></tr>
+<tr><td class="b">&#1709;</td><td>1709</td><td class="b">&#x06AD;</td><td>06AD</td><td>ARABIC LETTER NG</td></tr>
+<tr><td class="b">&#1710;</td><td>1710</td><td class="b">&#x06AE;</td><td>06AE</td><td>ARABIC LETTER KAF WITH THREE DOTS BELOW</td></tr>
+<tr><td class="b">&#1711;</td><td>1711</td><td class="b">&#x06AF;</td><td>06AF</td><td>ARABIC LETTER GAF</td></tr>
+<tr><td class="b">&#1712;</td><td>1712</td><td class="b">&#x06B0;</td><td>06B0</td><td>ARABIC LETTER GAF WITH RING</td></tr>
+<tr><td class="b">&#1713;</td><td>1713</td><td class="b">&#x06B1;</td><td>06B1</td><td>ARABIC LETTER NGOEH</td></tr>
+<tr><td class="b">&#1714;</td><td>1714</td><td class="b">&#x06B2;</td><td>06B2</td><td>ARABIC LETTER GAF WITH TWO DOTS BELOW</td></tr>
+<tr><td class="b">&#1715;</td><td>1715</td><td class="b">&#x06B3;</td><td>06B3</td><td>ARABIC LETTER GUEH</td></tr>
+<tr><td class="b">&#1716;</td><td>1716</td><td class="b">&#x06B4;</td><td>06B4</td><td>ARABIC LETTER GAF WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1717;</td><td>1717</td><td class="b">&#x06B5;</td><td>06B5</td><td>ARABIC LETTER LAM WITH SMALL V</td></tr>
+<tr><td class="b">&#1718;</td><td>1718</td><td class="b">&#x06B6;</td><td>06B6</td><td>ARABIC LETTER LAM WITH DOT ABOVE</td></tr>
+<tr><td class="b">&#1719;</td><td>1719</td><td class="b">&#x06B7;</td><td>06B7</td><td>ARABIC LETTER LAM WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1720;</td><td>1720</td><td class="b">&#x06B8;</td><td>06B8</td><td>ARABIC LETTER LAM WITH THREE DOTS BELOW</td></tr>
+<tr><td class="b">&#1721;</td><td>1721</td><td class="b">&#x06B9;</td><td>06B9</td><td>ARABIC LETTER NOON WITH DOT BELOW</td></tr>
+<tr><td class="b">&#1722;</td><td>1722</td><td class="b">&#x06BA;</td><td>06BA</td><td>ARABIC LETTER NOON GHUNNA</td></tr>
+<tr><td class="b">&#1723;</td><td>1723</td><td class="b">&#x06BB;</td><td>06BB</td><td>ARABIC LETTER RNOON</td></tr>
+<tr><td class="b">&#1724;</td><td>1724</td><td class="b">&#x06BC;</td><td>06BC</td><td>ARABIC LETTER NOON WITH RING</td></tr>
+<tr><td class="b">&#1725;</td><td>1725</td><td class="b">&#x06BD;</td><td>06BD</td><td>ARABIC LETTER NOON WITH THREE DOTS ABOVE</td></tr>
+<tr><td class="b">&#1726;</td><td>1726</td><td class="b">&#x06BE;</td><td>06BE</td><td>ARABIC LETTER HEH DOACHASHMEE</td></tr>
+<tr><td class="b">&#1727;</td><td>1727</td><td class="b">&#x06BF;</td><td>06BF</td><td>ARABIC LETTER TCHEH WITH DOT ABOVE</td></tr>
+<tr><td class="b">&#1728;</td><td>1728</td><td class="b">&#x06C0;</td><td>06C0</td><td>ARABIC LETTER HEH WITH YEH ABOVE</td></tr>
+<tr><td class="b">&#1729;</td><td>1729</td><td class="b">&#x06C1;</td><td>06C1</td><td>ARABIC LETTER HEH GOAL</td></tr>
+<tr><td class="b">&#1730;</td><td>1730</td><td class="b">&#x06C2;</td><td>06C2</td><td>ARABIC LETTER HEH GOAL WITH HAMZA ABOVE</td></tr>
+<tr><td class="b">&#1731;</td><td>1731</td><td class="b">&#x06C3;</td><td>06C3</td><td>ARABIC LETTER TEH MARBUTA GOAL</td></tr>
+<tr><td class="b">&#1732;</td><td>1732</td><td class="b">&#x06C4;</td><td>06C4</td><td>ARABIC LETTER WAW WITH RING</td></tr>
+<tr><td class="b">&#1733;</td><td>1733</td><td class="b">&#x06C5;</td><td>06C5</td><td>ARABIC LETTER KIRGHIZ OE</td></tr>
+<tr><td class="b">&#1734;</td><td>1734</td><td class="b">&#x06C6;</td><td>06C6</td><td>ARABIC LETTER OE</td></tr>
+<tr><td class="b">&#1735;</td><td>1735</td><td class="b">&#x06C7;</td><td>06C7</td><td>ARABIC LETTER U</td></tr>
+<tr><td class="b">&#1736;</td><td>1736</td><td class="b">&#x06C8;</td><td>06C8</td><td>ARABIC LETTER YU</td></tr>
+<tr><td class="b">&#1737;</td><td>1737</td><td class="b">&#x06C9;</td><td>06C9</td><td>ARABIC LETTER KIRGHIZ YU</td></tr>
+<tr><td class="b">&#1738;</td><td>1738</td><td class="b">&#x06CA;</td><td>06CA</td><td>ARABIC LETTER WAW WITH TWO DOTS ABOVE</td></tr>
+<tr><td class="b">&#1739;</td><td>1739</td><td class="b">&#x06CB;</td><td>06CB</td><td>ARABIC LETTER VE</td></tr>
+<tr><td class="b">&#1740;</td><td>1740</td><td class="b">&#x06CC;</td><td>06CC</td><td>ARABIC LETTER FARSI YEH</td></tr>
+<tr><td class="b">&#1741;</td><td>1741</td><td class="b">&#x06CD;</td><td>06CD</td><td>ARABIC LETTER YEH WITH TAIL</td></tr>
+<tr><td class="b">&#1742;</td><td>1742</td><td class="b">&#x06CE;</td><td>06CE</td><td>ARABIC LETTER YEH WITH SMALL V</td></tr>
+<tr><td class="b">&#1743;</td><td>1743</td><td class="b">&#x06CF;</td><td>06CF</td><td>ARABIC LETTER WAW WITH DOT ABOVE</td></tr>
+<tr><td class="b">&#1744;</td><td>1744</td><td class="b">&#x06D0;</td><td>06D0</td><td>ARABIC LETTER E</td></tr>
+<tr><td class="b">&#1745;</td><td>1745</td><td class="b">&#x06D1;</td><td>06D1</td><td>ARABIC LETTER YEH WITH THREE DOTS BELOW</td></tr>
+<tr><td class="b">&#1746;</td><td>1746</td><td class="b">&#x06D2;</td><td>06D2</td><td>ARABIC LETTER YEH BARREE</td></tr>
+<tr><td class="b">&#1747;</td><td>1747</td><td class="b">&#x06D3;</td><td>06D3</td><td>ARABIC LETTER YEH BARREE WITH HAMZA ABOVE</td></tr>
+<tr><td class="b">&#1748;</td><td>1748</td><td class="b">&#x06D4;</td><td>06D4</td><td>ARABIC FULL STOP</td></tr>
+<tr><td class="b">&#1749;</td><td>1749</td><td class="b">&#x06D5;</td><td>06D5</td><td>ARABIC LETTER AE</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1750;</span></td><td>1750</td><td class="b"><span dir="rtl">&#x062D;&#x06D6;</span></td><td>06D6</td><td>ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1751;</span></td><td>1751</td><td class="b"><span dir="rtl">&#x062D;&#x06D7;</span></td><td>06D7</td><td>ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1752;</span></td><td>1752</td><td class="b"><span dir="rtl">&#x062D;&#x06D8;</span></td><td>06D8</td><td>ARABIC SMALL HIGH MEEM INITIAL FORM (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1753;</span></td><td>1753</td><td class="b"><span dir="rtl">&#x062D;&#x06D9;</span></td><td>06D9</td><td>ARABIC SMALL HIGH LAM ALEF (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1754;</span></td><td>1754</td><td class="b"><span dir="rtl">&#x062D;&#x06DA;</span></td><td>06DA</td><td>ARABIC SMALL HIGH JEEM (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1755;</span></td><td>1755</td><td class="b"><span dir="rtl">&#x062D;&#x06DB;</span></td><td>06DB</td><td>ARABIC SMALL HIGH THREE DOTS (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1756;</span></td><td>1756</td><td class="b"><span dir="rtl">&#x062D;&#x06DC;</span></td><td>06DC</td><td>ARABIC SMALL HIGH SEEN (combined with hah (&#1581;))</td></tr>
+<tr><td class="b">&#1757;</td><td>1757</td><td class="b">&#x06DD;</td><td>06DD</td><td>ARABIC END OF AYAH</td></tr>
+<tr><td class="b">&#1758;</td><td>1758</td><td class="b">&#x06DE;</td><td>06DE</td><td>ARABIC START OF RUB EL HIZB</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1759;</span></td><td>1759</td><td class="b"><span dir="rtl">&#x062D;&#x06DF;</span></td><td>06DF</td><td>ARABIC SMALL HIGH ROUNDED ZERO (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1760;</span></td><td>1760</td><td class="b"><span dir="rtl">&#x062D;&#x06E0;</span></td><td>06E0</td><td>ARABIC SMALL HIGH UPRIGHT RECTANGULAR ZERO (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1761;</span></td><td>1761</td><td class="b"><span dir="rtl">&#x062D;&#x06E1;</span></td><td>06E1</td><td>ARABIC SMALL HIGH DOTLESS HEAD OF KHAH (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1762;</span></td><td>1762</td><td class="b"><span dir="rtl">&#x062D;&#x06E2;</span></td><td>06E2</td><td>ARABIC SMALL HIGH MEEM ISOLATED FORM (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1763;</span></td><td>1763</td><td class="b"><span dir="rtl">&#x062D;&#x06E3;</span></td><td>06E3</td><td>ARABIC SMALL LOW SEEN (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1764;</span></td><td>1764</td><td class="b"><span dir="rtl">&#x062D;&#x06E4;</span></td><td>06E4</td><td>ARABIC SMALL HIGH MADDA (combined with hah (&#1581;))</td></tr>
+<tr><td class="b">&#1765;</td><td>1765</td><td class="b">&#x06E5;</td><td>06E5</td><td>ARABIC SMALL WAW</td></tr>
+<tr><td class="b">&#1766;</td><td>1766</td><td class="b">&#x06E6;</td><td>06E6</td><td>ARABIC SMALL YEH</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1767;</span></td><td>1767</td><td class="b"><span dir="rtl">&#x062D;&#x06E7;</span></td><td>06E7</td><td>ARABIC SMALL HIGH YEH (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1768;</span></td><td>1768</td><td class="b"><span dir="rtl">&#x062D;&#x06E8;</span></td><td>06E8</td><td>ARABIC SMALL HIGH NOON (combined with hah (&#1581;))</td></tr>
+<tr><td class="b">&#1769;</td><td>1769</td><td class="b">&#x06E9;</td><td>06E9</td><td>ARABIC PLACE OF SAJDAH</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1770;</span></td><td>1770</td><td class="b"><span dir="rtl">&#x062D;&#x06EA;</span></td><td>06EA</td><td>ARABIC EMPTY CENTRE LOW STOP (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1771;</span></td><td>1771</td><td class="b"><span dir="rtl">&#x062D;&#x06EB;</span></td><td>06EB</td><td>ARABIC EMPTY CENTRE HIGH STOP (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1772;</span></td><td>1772</td><td class="b"><span dir="rtl">&#x062D;&#x06EC;</span></td><td>06EC</td><td>ARABIC ROUNDED HIGH STOP WITH FILLED CENTRE (combined with hah (&#1581;))</td></tr>
+<tr><td class="b"><span dir="rtl">&#1581;&#1773;</span></td><td>1773</td><td class="b"><span dir="rtl">&#x062D;&#x06ED;</span></td><td>06ED</td><td>ARABIC SMALL LOW MEEM (combined with hah (&#1581;))</td></tr>
+<tr><td class="b">&#1774;</td><td>1774</td><td class="b">&#x06EE;</td><td>06EE</td><td>ARABIC LETTER DAL WITH INVERTED V</td></tr>
+<tr><td class="b">&#1775;</td><td>1775</td><td class="b">&#x06EF;</td><td>06EF</td><td>ARABIC LETTER REH WITH INVERTED V</td></tr>
+<tr><td class="b">&#1776;</td><td>1776</td><td class="b">&#x06F0;</td><td>06F0</td><td>EXTENDED ARABIC-INDIC DIGIT ZERO</td></tr>
+<tr><td class="b">&#1777;</td><td>1777</td><td class="b">&#x06F1;</td><td>06F1</td><td>EXTENDED ARABIC-INDIC DIGIT ONE</td></tr>
+<tr><td class="b">&#1778;</td><td>1778</td><td class="b">&#x06F2;</td><td>06F2</td><td>EXTENDED ARABIC-INDIC DIGIT TWO</td></tr>
+<tr><td class="b">&#1779;</td><td>1779</td><td class="b">&#x06F3;</td><td>06F3</td><td>EXTENDED ARABIC-INDIC DIGIT THREE</td></tr>
+<tr><td class="b">&#1780;</td><td>1780</td><td class="b">&#x06F4;</td><td>06F4</td><td>EXTENDED ARABIC-INDIC DIGIT FOUR</td></tr>
+<tr><td class="b">&#1781;</td><td>1781</td><td class="b">&#x06F5;</td><td>06F5</td><td>EXTENDED ARABIC-INDIC DIGIT FIVE</td></tr>
+<tr><td class="b">&#1782;</td><td>1782</td><td class="b">&#x06F6;</td><td>06F6</td><td>EXTENDED ARABIC-INDIC DIGIT SIX</td></tr>
+<tr><td class="b">&#1783;</td><td>1783</td><td class="b">&#x06F7;</td><td>06F7</td><td>EXTENDED ARABIC-INDIC DIGIT SEVEN</td></tr>
+<tr><td class="b">&#1784;</td><td>1784</td><td class="b">&#x06F8;</td><td>06F8</td><td>EXTENDED ARABIC-INDIC DIGIT EIGHT</td></tr>
+<tr><td class="b">&#1785;</td><td>1785</td><td class="b">&#x06F9;</td><td>06F9</td><td>EXTENDED ARABIC-INDIC DIGIT NINE</td></tr>
+<tr><td class="b">&#1786;</td><td>1786</td><td class="b">&#x06FA;</td><td>06FA</td><td>ARABIC LETTER SHEEN WITH DOT BELOW</td></tr>
+<tr><td class="b">&#1787;</td><td>1787</td><td class="b">&#x06FB;</td><td>06FB</td><td>ARABIC LETTER DAD WITH DOT BELOW</td></tr>
+<tr><td class="b">&#1788;</td><td>1788</td><td class="b">&#x06FC;</td><td>06FC</td><td>ARABIC LETTER GHAIN WITH DOT BELOW</td></tr>
+<tr><td class="b">&#1789;</td><td>1789</td><td class="b">&#x06FD;</td><td>06FD</td><td>ARABIC SIGN SINDHI AMPERSAND</td></tr>
+<tr><td class="b">&#1790;</td><td>1790</td><td class="b">&#x06FE;</td><td>06FE</td><td>ARABIC SIGN SINDHI POSTPOSITION MEN</td></tr>
+<tr><td class="b">&#1791;</td><td>1791</td><td class="b">&#x06FF;</td><td>06FF</td><td>ARABIC LETTER HEH WITH INVERTED V</td></tr>
+
+</table>
+
+<hr>
+
+<div class="navigation" align="center"><map name="navigation_ptn" title="Navigation Bar">
+<table align="center">
+<tr valign="top">
+<td align="left" width="180"><a href="hebrew.html"><img src="previous.gif" width="76" height="25" border="0" alt="Previous" title="Go to the previous Unicode range"></a></td>
+<td align="center" width="80"><a href="#top"><img src="top.gif" width="76" height="25" border="0" alt="Top" title="Go to the top of the page"></a></td>
+<td align="right" width="180"><a href="syriac.html"><img src="next.gif" width="76" height="25" border="0" alt="Next" title="Go to the next Unicode range"></a></td>
+</tr>
+<tr valign="top">
+<td align="left"><a href="hebrew.html">Hebrew</a></td>
+<td align="center">&nbsp;</td>
+<td align="right"><a href="syriac.html">Syriac</a></td>
+</tr>
+</table>
+</map></div>
+
+<p class="copy"><small>Copyright © 2002–2014 Alan Wood</small></p>
+
+<p><small>The hexadecimal numbers and the character names in the above table are taken from the Unicode 7.0.0 Character Database, Copyright © 1991–2014 Unicode, Inc., as contained in UnicodeData.txt on the Unicode Web site (<a href="http://www.unicode.org/Public/UNIDATA/">http://www.unicode.org/Public/UNIDATA/</a>) in October 2014.</small></p>
+
+<p class="create"><small>Created 3rd February 1999 – Last updated 25th October 2014</small></p>
+
+<div class="navigation"><map name="navigation" title="Navigation Bar">
+<p class="nav">| <a href="index.html" class="nav" accesskey="c" title="Go to the home page of this Web site"><span class="a">C</span>ontents</a> | <a href="sitemap.html" class="nav" accesskey="m" title="Go to a list of all of the pages on this Web site">Site <span class="a">M</span>ap</a> | <a href="fonts.html" class="nav" accesskey="u" title="See details of fonts that support Unicode"><span class="a">U</span>nicode Fonts</a> | <a href="browsers.html" class="nav" accesskey="W" title="Go to the index of Unicode Web browsers">Unicode <span class="a">W</span>eb Browsers</a> | <a href="utilities.html" class="nav" accesskey="p" title="Go to the index of Unicode applications">Unicode <span class="a">P</span>rograms</a> |</p>
+</map></div>
+
+<p class="val"><a href="https://validator.w3.org/check?uri=referer"><img src="valid-html401.gif" width="88" height="31" border="0" alt="HTML 4.01" title="Validates as HTML 4.01 Transitional"></a></p>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of 0fnr-0fnr</title>
+    <!--#Todo list :
+	- find, retrieve every .txt to upload them in a .txt directory 
+	- invite to style, ask for martin cookiecss, or addon style 
+	- cookie with own comments/css of the page aaron swartz dream
+	- choice of non-design design. is what motive the 2 point above
+	→ I should write about it ofc. the Html is part of the design tho.
+	the infrastructure of the design, and need of well written Html, 
+	agnostic and semantic html
+	- think about a td tr table to explicit metadata to my texts : 
+		— Lang
+		— theme, style : fiction/nonfiction/wip/done/a_/n_/todo_
+		— date
+	→ the table should be reorganisable.
+	-->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="stylesheet" href="cssVarFilledCookies.css">
+    <script defer src="cssVarFilledCookies.js"></script>
+
+  </head>
+  <body>
+
+  <h1> Hi I'm vi* </h1>
+  <div>vi* stands for every of my {nick}names starting with vi </div>
+  <p>one example could be: vi*, [press tab], victory, or vip, via‥ <br>
+    you might know me with one of the affiliates<br>
+    trick is some call me with my first name, you still can call me with it <br>
+       I love it too<br>
+  <ul> #Todo list :
+	- find, retrieve every .txt to upload them in a .txt directory <br>
+	- invite to style, ask for martin cookiecss, or addon style <br>
+	- cookie with own comments/css of the page aaron swartz dream<br>
+	- choice of non-design design. is what motive the 2 point above<br>
+	→ I should write about it ofc. the Html is part of the design tho.<br>
+	the infrastructure of the design, and need of well written Html, <br>
+	agnostic and semantic html<br>
+	- think about a td tr table to explicit metadata to my texts : <br>
+		— Lang<br>
+		— theme, style : fiction/nonfiction/wip/done/a_/n_/todo_<br>
+		— date<br>
+	→ the table should be reorganisable.<br>
+	--</ul> 
+   <h2> Yes I do right </h2>
+   <ul> <a href=/atTheHospital.txt>at the Hospital.txt</a>
+  </body>
+
+</html>

@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="fr" color-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Arthur Perret" />
+
+<meta name="keywords" content="documentation, données, métadonnées, information scientifique, visualisation, design, écriture, édition, publication, épistémologie" />
+<title>Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication</title>
+<meta name="description" content="">
+
+<meta name="twitter:site" content="@arthurperret">
+<meta name="twitter:creator" content="@arthurperret">
+<meta name="twitter:title" content="Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication">
+<meta name="twitter:description" content="Site web d’Arthur Perret, chercheur en SIC.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.arthurperret.fr/img/scriptor.jpg">
+
+<meta name="citation_title" content="Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication"/>
+<meta name="citation_publisher" content=arthurperret.fr/>
+<meta name="citation_author" content="Perret, Arthur"/>
+<meta name="citation_author_orcid" content="https://orcid.org/0000-0002-4130-6669"/>
+<meta name="citation_abstract" content="Site web d’Arthur Perret, chercheur en SIC."/>
+<meta name="citation_online_date" content=""/>
+<meta name="citation_publication_date" content=""/>
+
+<link rel="schema.dc" href="https://purl.org/dc/elements/1.1/">
+<meta property="DC.creator" content="Arthur Perret"/>
+<meta property="DC.publisher" content="Arthur Perret"/>
+<meta property="DC.language" content="fr"/>
+<meta property="DC.title" content="Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication"/>
+<meta property="DC.description" content="Site web d’Arthur Perret, chercheur en SIC."/>
+<meta property="DC.rights" content="CC BY"/>
+<meta property="DC.date" content=""/>
+<meta property="DC.type" content="Billet de blog"/>
+<link rel="dc:identifier" href="https://www.arthurperret.fr/index.html"/>
+
+<meta property="dc:creator" content="Arthur Perret"/>
+<meta property="dc:publisher" content="Arthur Perret"/>
+<meta property="dc:language" content="fr"/>
+<meta property="dc:title" content="Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication"/>
+<meta property="dc:description" content="Site web d’Arthur Perret, chercheur en SIC."/>
+<meta property="dc:rights" content="CC BY"/>
+<meta property="dc:date" content=""/>
+<meta property="dc:type" content="Billet"/>
+
+<meta property="og:title" content="Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication"/>
+<meta property="og:url" content="https://www.arthurperret.fr/index.html">
+<meta property="og:description" content="Site web d’Arthur Perret, chercheur en SIC."/>
+<meta property="og:site_name" content=arthurperret.fr/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="https://www.arthurperret.fr/img/scriptor.jpg"/>
+
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "BlogPosting",
+		"articleSection": "posts",
+		"name": "Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication",
+		"headline": "Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication",
+		"alternativeHeadline": "",
+		"description": "Site web d’Arthur Perret, chercheur en SIC.",
+		"inLanguage": "fr-fr",
+		"isFamilyFriendly": "true",
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://www.arthurperret.fr/index.html"
+		},
+		"author" : {
+			"@type": "Person",
+			"name": "Arthur Perret"
+		},
+		"creator" : {
+			"@type": "Person",
+			"name": "Arthur Perret"
+		},
+		"accountablePerson" : {
+			"@type": "Person",
+			"name": "Arthur Perret"
+		},
+		"copyrightHolder" : "CC BY",
+		"copyrightYear" : "2022",
+		"dateCreated": "T12:00:00.00Z",
+		"datePublished": "T12:00:00.00Z",
+		"dateModified": "T12:00:00.00Z",
+		"publisher":{
+			"@type":"Organization",
+			"name": "Arthur Perret",
+			"url": "https://www.arthurperret.fr/",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://www.arthurperret.fr/",
+				"width":"32",
+				"height":"32"
+			}
+		},
+		"image": "https://www.arthurperret.fr/",
+		"url" : "https://www.arthurperret.fr/index.html",
+	}
+</script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="https://www.arthurperret.fr/site.webmanifest">
+<link type="application/atom+xml" rel="alternate" href="https://www.arthurperret.fr/feed.xml" title="Arthur Perret">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="preload" href="fonts/EBGaramond-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/EBGaramond-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/EBGaramond-Italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Inconsolata-Regular.ttf" as="font" type="font/ttf" crossorigin>
+
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/styles-index.css" />
+
+
+
+</head>
+<body>
+<svg style="display: none;">
+	<symbol viewBox="-3 -3 30 30" id="lune">
+		<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+	</symbol>
+	<symbol viewBox="-3 -3 30 30" id="soleil">
+		<circle cx="12" cy="12" r="5"></circle>
+		<line x1="12" y1="1" x2="12" y2="3"></line>
+		<line x1="12" y1="21" x2="12" y2="23"></line>
+		<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+		<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+		<line x1="1" y1="12" x2="3" y2="12"></line>
+		<line x1="21" y1="12" x2="23" y2="12"></line>
+		<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+		<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+	</symbol>
+	<symbol viewBox="0 0 10.583333 10.583333" id="toc-open">
+		<g aria-label="2" transform="matrix(0.34395833,0,0,0.34395833,-2.4222282,2.1812939)" id="text111-8">
+		<path d="m 9.8299688,19.252143 q 0.9280002,-0.896 1.6480002,-1.584 0.72,-0.704 1.248,-1.264 0.544,-0.576 0.896,-1.072 0.368,-0.496 0.544,-0.96 0.176,-0.48 0.176,-1.008 0,-0.352 -0.096,-0.608 -0.08,-0.256 -0.272,-0.416 -0.176,-0.176 -0.448,-0.256 -0.256,-0.096 -0.592,-0.096 -0.336,0 -0.64,0.08 -0.288,0.08 -0.56,0.24 -0.256,0.16 -0.48,0.432 -0.144,0.208 -0.192,0.336 -0.032,0.112 -0.016,0.24 l -0.096,0.112 -0.112,-0.08 -1.2480002,-0.96 q 0.3679999,-0.624 0.8800002,-1.04 0.528,-0.416 1.152,-0.64 0.64,-0.224 1.328,-0.224 0.864,0 1.568,0.352 0.704,0.352 1.12,1.008 0.416,0.64 0.416,1.52 0,0.624 -0.192,1.184 -0.176,0.544 -0.512,1.072 -0.32,0.512 -0.8,1.056 -0.48,0.544 -1.072,1.152 -0.592,0.592 -1.28,1.296 h 3.152 q 0.272,0 0.384,-0.032 0.112,-0.032 0.208,-0.128 h 0.144 v 0.16 1.472 H 9.8299688 Z" id="path731" />
+		</g>
+		<g aria-label="1" transform="matrix(0.34395833,0,0,0.34395833,-2.5937334,-2.5300714)" id="text111-8-3">
+		<path d="m 12.81239,20.596143 v -8 l -1.808,0.64 -0.384,-1.2 2.656,-1.408 h 1.344 v 9.968 z" id="path728" />
+		</g>
+		<rect id="rect493" width="5.3375149" height="0.62199998" x="4.2764564" y="4.9413385" ry="0" rx="0" />
+		<rect id="rect493-8" width="5.3375149" height="0.62199998" x="4.2764564" y="7.8663387" ry="0" rx="0" />
+		<rect id="rect493-8-2" width="5.3375149" height="0.62199998" x="4.2764564" y="2.0163386" ry="0" rx="0" />
+	</symbol>
+	<symbol width="40" height="40" viewBox="0 0 10.583333 10.583333" id="toc-close">
+		<g id="g707" transform="translate(0.04652049,0.09612891)">
+			<rect id="rect493" width="8" height="0.62199998" x="-3.9649217" y="7.0716786" ry="0" rx="0" transform="rotate(-45)" />
+			<rect id="rect493-8" width="8" height="0.62199998" x="3.3826785" y="-0.34607843" ry="0" rx="0" transform="rotate(45)" />
+		</g>
+	</symbol>
+</svg>
+<header>
+	<nav>
+		<a href="https://www.arthurperret.fr/">Arthur Perret</a>
+	</nav>
+	<button
+		class="color-mode__btn light--hidden"
+		aria-label="Toggle light mode">
+		<svg aria-hidden="true">
+			<title data-lang-fr="Mode clair" data-lang-en="Light mode">Mode clair</title>
+			<use href="#soleil"></use>
+		</svg>
+	</button>
+	<button
+		class="color-mode__btn dark--hidden"
+		aria-label="Toggle light mode">
+		<svg aria-hidden="true">
+			<title data-lang-fr="Mode sombre" data-lang-en="Dark mode">Mode sombre</title>
+			<use href="#lune"></use>
+		</svg>
+	</button>
+	<div class="lang-box">
+		<button title="Français" data-flag="fr" class="lang-flag lang-flag--active">FR</button>
+		<button title="English" data-flag="en" class="lang-flag">EN</button>
+	</div>
+	
+</header>
+<article>
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication&amp;rft.aulast=Perret&amp;rft.aufirst=Arthur&amp;rft.source=arthurperret.fr&amp;rft.date=&amp;rft.type=blogPost&amp;rft.format=text&amp;rft.identifier=https://www.arthurperret.fr/index.html&amp;rft.language=French"></span>
+<h1 class="title">Arthur Perret - Enseignant chercheur en sciences de l’information et de la communication</h1>
+<div class="metadata">
+
+
+
+
+</div>
+
+<section id="bio" class="level1">
+<h1>Bio</h1>
+<div data-lang-fr="">
+<p>Je suis maître de conférences en <a href="https://www.sfsic.org">sciences de l’information et de la communication</a> à l’<a href="https://iut.univ-lyon3.fr">IUT</a> de l’<a href="https://www.univ-lyon3.fr">Université Jean Moulin Lyon 3</a>, membre d’<a href="https://elico-recherche.msh-lse.fr">ELICO</a> et chercheur associé au <a href="https://mica.u-bordeaux-montaigne.fr">MICA</a>. Je travaille sur les données, documents et dispositifs impliqués dans les processus d’écriture, de documentation et d’édition. <a href="https://these.arthurperret.fr">Ma thèse</a> porte sur l’héritage épistémologique de Paul Otlet. Depuis 2021, je conçois le logiciel <a href="https://cosma.arthurperret.fr">Cosma</a>, développé par <a href="https://myllaume.fr">Guillaume Brioudes</a>. Je suis également co-organisateur des journées d’étude <a href="http://reticulum.info">Reticulum</a> et membre du collectif <a href="https://inacheve-dimprimer.net">Inachevé d’imprimer</a>.</p>
+<p>Quelques mots-clés : documentation, organisation des connaissances, données, métadonnées, format texte, information scientifique, visualisation, design, écriture, édition, publication, épistémologie.</p>
+<p><a href="https://cv.hal.science/arthur-perret">HAL</a> · <a href="https://orcid.org/0000-0002-4130-6669">ORCID</a> · <a href="https://social.sciences.re/@arthurperret" rel="me">Mastodon</a> · <img src="img/rss.svg" id="rss" /> <a href="https://www.arthurperret.fr/feed.xml">Flux</a> <span class="muted">(<a href="cours/flux-web.html">qu’est-ce que c’est ?</a>)</span></p>
+<p>Email : contact @ nom de domaine de ce site.</p>
+</div>
+<div data-lang-en="">
+<p>I am Assistant Professor of <a href="https://www.sfsic.org/en/">Information and Communication Sciences</a> at <a href="https://www.univ-lyon3.fr">Université Jean Moulin Lyon 3</a>. I am a member of <a href="https://elico-recherche.msh-lse.fr">ELICO</a> and an associate of <a href="https://mica.u-bordeaux-montaigne.fr/">MICA</a>. I study the data, documents and devices involved in writing, documentation and publishing. <a href="https://these.arthurperret.fr">My dissertation</a> deals with the epistemological legacy of Paul Otlet. I am the principal investigator for <a href="https://cosma.arthurperret.fr">Cosma</a>, developed by <a href="https://myllaume.fr">Guillaume Brioudes</a>. I also co-organize the <a href="http://reticulum.info">Reticulum</a> info-com-design conference, and co-animate the <a href="https://inacheve-dimprimer.net">Inachevé d’imprimer</a> webinar on digital publishing.</p>
+<p>A few keywords: documentation, knowledge organization, data, metadata, plain text, scientific information, visualization, design, writing, text editing, publishing, epistemology.</p>
+<p><a href="https://cv.hal.science/arthur-perret">HAL</a> · <a href="https://orcid.org/0000-0002-4130-6669">ORCID</a> · <a href="https://social.sciences.re/@arthurperret">Mastodon</a> · <img src="img/rss.svg" id="rss" /> <a href="https://www.arthurperret.fr/feed.xml">Feed</a></p>
+<p>Email: contact @ this site.</p>
+<section id="a-note-for-english-reading-visitors" class="level3">
+<h3>A note for English-reading visitors</h3>
+<p><em>Thank you for taking an interest in my work. Only some of my publications are in English: check the Articles section, and some of my 2022 blog posts.</em></p>
+</section>
+</div>
+</section>
+<section id="portrait" class="level1">
+<h1>Portrait</h1>
+<figure>
+<img id="portrait" src="img/portrait-arthur-perret.jpg" onclick="this.src = ((this.src === 'https://www.arthurperret.fr/img/portrait-arthur-perret.jpg') ? 'https://www.arthurperret.fr/img/scriptor.jpg' : 'https://www.arthurperret.fr/img/portrait-arthur-perret.jpg');">
+</figure>
+</section>
+<section id="a-venir" class="level1" data-lang-fr="À venir" data-lang-en="Upcoming:">
+<h1 data-lang-fr="À venir" data-lang-en="Upcoming:">À venir :</h1>
+<div class="pinned">
+<ul>
+<li>14/03 : <a href="evenements/2024-03-14-inacheve-d-imprimer-echange.html">Inachevé d’imprimer – Temps d’échange</a></li>
+</ul>
+</div>
+</section>
+<section id="articles" class="level1">
+<h1>Articles</h1>
+<div data-lang-fr="">
+<p>Textes évalués par les pairs ou en cours d’évaluation</p>
+</div>
+<div data-lang-en="">
+<p>Peer-reviewed articles and preprints under public review</p>
+</div>
+<section id="section" class="level2">
+<h2>2023</h2>
+<ul>
+<li><a href="articles/2023-10-20-documenter-la-dimension-sociale-du-travail-de-la-connaissance.html">Documenter la dimension sociale du travail de la connaissance : une approche hypertextuelle</a></li>
+<li><a href="articles/2023-10-18-vers-une-architecture-du-savoir.html">Vers une architecture du savoir</a></li>
+<li><a href="articles/2023-11-01-document-theory-and-document-design.html">Document theory and document design</a></li>
+<li><a href="articles/2023-04-12-mediation-interdisciplinaire-humanites-numeriques.html">Médiation interdisciplinaire et humanités numériques : une approche nexialiste</a> – Avec Clément Borel, Fabien Colombo &amp; Olivier Le Deuff</li>
+<li><a href="articles/2023-04-07-communicologie-de-la-documentation-personnelle.html">Communicologie de la documentation personnelle</a></li>
+</ul>
+</section>
+<section id="section-1" class="level2">
+<h2>2022</h2>
+<ul>
+<li><a href="articles/2022-11-13-researchers-needs-and-options-for-collaborative-synthesis.html">Comparing researchers’ needs and existing digital tools for collaborative synthesis</a></li>
+<li><a href="articles/2022-06-16-ideation-hypertexte.html">Idéation et hypertexte</a></li>
+<li><a href="https://journals.openedition.org/revuehn/2930">Former à la notion de réseau par la conception et l’interprétation : l’atelier Reticulum</a> – Avec Florian Harmand</li>
+</ul>
+</section>
+<section id="section-2" class="level2">
+<h2>2021</h2>
+<ul>
+<li><a href="articles/2020-09-09-fonction-documentaire-preuve-donnees-numeriques.html">Fonction documentaire de preuve et données numériques</a></li>
+</ul>
+</section>
+<section id="section-3" class="level2">
+<h2>2020</h2>
+<ul>
+<li><a href="articles/2020-12-03-rhizome-blues.html">Rhizome Blues: Introducing Document Teratology</a> – Avec Olivier Le Deuff &amp; Clément Borel</li>
+<li><a href="articles/2020-07-22-all-papers-are-data-papers.html">All papers are data papers: from open principles to digital methods</a> – Avec Olivier Le Deuff</li>
+</ul>
+</section>
+<section id="section-4" class="level2">
+<h2>2019</h2>
+<ul>
+<li><a href="articles/2019-11-08-logique-hyperdocumentaire-structuration-visualisation.html">La logique hyperdocumentaire dans l’organisation de l’information et sa représentation</a></li>
+<li><a href="https://archivesic.ccsd.cnrs.fr/sic_02480515">Surfer dans l’Otletosphère. Des outils pour visualiser et interroger le réseau de Paul Otlet</a> – Avec Olivier Le Deuff, Jean David &amp; Clément Borel</li>
+<li><a href="https://archivesic.ccsd.cnrs.fr/sic_02480493v1">Paul Otlet sur le Web. Une étude cartographique</a> – Avec Olivier Le Deuff, Jean David &amp; Clément Borel</li>
+<li><a href="articles/2019-10-09-documentarite-et-donnees.html">Documentarité et données, instrumentation d’un concept</a> – Avec Olivier Le Deuff</li>
+<li><a href="articles/2019-09-26-hyperdocumentation.html">Hyperdocumentation: origin and evolution of a concept</a> – Avec Olivier Le Deuff – Outstanding Paper <a href="https://www.emeraldgrouppublishing.com/journal/jd/literati-awards/journal-documentation-literati-award-winners-2020">Emerald Literati Awards 2020</a></li>
+<li><a href="articles/2019-08-13-reinvestissement-critique-concept-dispositif.html">Pour un réinvestissement critique du concept de dispositif</a></li>
+<li><a href="articles/2019-06-13-writing-documentarity.html">Writing documentarity</a></li>
+<li><a href="articles/2019-06-13-paul-otlet-and-the-ultimate-prospect-of-documentation.html">Paul Otlet and the ultimate prospect of documentation</a> – Avec Olivier Le Deuff</li>
+</ul>
+</section>
+<section id="section-5" class="level2">
+<h2>2018</h2>
+<ul>
+<li><a href="articles/2018-10-04-the-architext-of-biblion.html">The Architext of Biblion: Digital Echoes of Paul Otlet</a></li>
+<li><a href="articles/2018-06-14-matiere-a-pensees.html">Matière à pensées. Outils d’édition et médiation de la créativité</a></li>
+<li><a href="articles/2018-05-24-technologies-intellectuelles.html">Technologies intellectuelles</a></li>
+</ul>
+</section>
+</section>
+<section id="blog" class="level1">
+<h1>Blog</h1>
+<div data-lang-fr="">
+<p>Recherches et réflexions en cours<br />
+<em>⟡</em> : suggestions de lecture (<a href="blog/2023-02-20-autobibliographie-annotee.html">explication</a>)</p>
+</div>
+<div data-lang-en="">
+<p>Ongoing reflections and experiments<br />
+<em>⟡ :</em> blog highlights</p>
+</div>
+<section id="section-6" class="level2">
+<h2>2024</h2>
+<ul>
+<li><a href="blog/2024-03-08-wikipedia-democratie-rhetorique.html">Wikipédia, démocratie rhétorique</a></li>
+<li><a href="blog/2024-02-03-cosma-at-fosdem-24.html">Cosma at FOSDEM 24</a></li>
+</ul>
+</section>
+<section id="section-7" class="level2">
+<h2>2023</h2>
+<ul>
+<li><a href="blog/2023-12-16-faire-commun-2-etreindre-etendre-eteindre.html">Faire commun (2) : étreindre, étendre, éteindre</a></li>
+<li><a href="blog/2023-12-05-le-mauvais-outil.html">Le « mauvais outil » – à propos de Word, d’accessibilité et de lisibilité</a></li>
+<li><a href="blog/2023-11-21-auto-bibliographie-tranquille-avec-hal-et-zotero.html">L’auto-bibliographie tranquille : HAL, ORCID, Zotero</a></li>
+<li><a href="blog/2023-10-30-faire-commun.html">Faire commun</a></li>
+<li><a href="blog/2023-10-13-une-methode-de-prise-de-notes-pour-les-entretiens-enregistres.html">Une méthode de prise de notes pour les entretiens enregistrés</a></li>
+<li><a href="blog/2023-09-22-web-multi-formats.html">Pour un Web multi-formats</a></li>
+<li><a href="blog/2023-09-14-ecriture-relecture-publication-these-multi-formats-quarto.html">Écriture, relecture et publication multi-formats d’une thèse avec Quarto</a></li>
+<li><a href="blog/2023-08-05-des-vertus-des-statistiques-d-ecriture.html">Des vertus anxiolytiques des statistiques d’écriture pour la rédaction de la thèse</a></li>
+<li><a href="blog/2023-04-03-le-bon-outil.html">Le « bon outil » – à propos de LaTeX et Paged.js</a></li>
+<li><a href="blog/2023-02-25-indexer-sa-these.html">Indexer sa thèse au format texte</a></li>
+<li><a href="blog/2023-02-20-autobibliographie-annotee.html">Autobibliographie annotée (2018-2022)</a></li>
+</ul>
+</section>
+<section id="section-8" class="level2">
+<h2>2022</h2>
+<ul>
+<li><a href="blog/2022-11-18-le-retour-des-flux-web-et-pas-que-rss.html">Le retour des flux web (et pas que RSS)</a></li>
+<li><a href="blog/2022-11-16-du-versionnage-des-publications-scientifiques.html" class="bestof">Du versionnage des publications scientifiques</a></li>
+<li><a href="blog/2022-10-25-markdown-traitement-de-texte-methode-pour-collaborer.html" class="bestof">Markdown et traitement de texte : une méthode pour collaborer</a></li>
+<li><a href="blog/2022-10-03-emergence-informationnelle.html">Émergence informationnelle</a> / <a href="blog/2022-10-03-information-surfacing.html">Information surfacing</a></li>
+<li><a href="blog/2022-06-29-history-information.html">History and information: notes from a workshop</a></li>
+<li><a href="blog/2022-06-22-publication-multiformats-pandoc-make.html" class="bestof">Publication multiformats avec Pandoc et Make</a> / <a href="blog/2022-06-22-single-source-publishing-pandoc-make.html">Single-source publishing with Pandoc and Make</a></li>
+<li><a href="blog/2022-06-15-liens-wiki-et-identifiants.html" class="bestof">Liens wiki et identifiants</a></li>
+<li><a href="blog/2022-05-20-et-toi-qu-est-ce-que-tu-fiches.html">Et toi, qu’est-ce que tu fiches ?</a> / <a href="blog/2022-05-20-the-reason-you-dont-get-zettelkasten.html">The reason you don’t ‘get’ Zettelkasten</a></li>
+<li><a href="blog/2022-04-11-pourquoi-tenir-un-blog-scientifique.html">Pourquoi tenir un blog scientifique</a></li>
+<li><a href="blog/2022-03-30-papier-crayon-smartphone.html">Papier, crayon, smartphone</a></li>
+<li><a href="blog/2022-03-09-les-risques-du-butinage.html">Les risques du butinage</a></li>
+<li><a href="blog/2022-02-17-analyser-synthetiser-visualiser.html" class="bestof">Analyser, synthétiser, visualiser : le triptyque fiche, lien, graphe</a> / <a href="blog/2022-02-17-analyze-synthesize-visualize.html">Analyze, synthesize, visualize: about cards, links &amp; graphs</a></li>
+<li><a href="blog/2022-02-13-a-quoi-sert-une-vue-graphe.html" class="bestof">À quoi sert une vue graphe ?</a> / <a href="blog/2022-02-13-what-is-the-point-of-a-graph-view.html">What is the point of a graph view?</a></li>
+<li><a href="blog/2022-01-21-prise-de-notes-a-la-main-ou-ordinateur.html">Prise de notes : à la main ou à l’ordinateur ?</a></li>
+</ul>
+</section>
+<section id="section-9" class="level2">
+<h2>2021</h2>
+<ul>
+<li><a href="blog/2021-12-28-impense-des-formats-pourquoi-ecrit-on-des-articles.html">L’impensé des formats : pourquoi écrit-on des articles ?</a></li>
+<li><a href="blog/2021-12-01-semantique-et-mise-en-forme-2.html">Sémantique et mise en forme (2) : consolider les fondations</a></li>
+<li><a href="blog/2021-10-20-zettlr-2.html">Zettlr 2.0</a></li>
+<li><a href="blog/2021-09-14-un-exemple-de-glossaire-visualise-avec-cosma.html">Un exemple de glossaire visualisé avec Cosma</a></li>
+<li><a href="blog/2021-09-04-cosma-de-la-fiche-au-graphe.html" class="bestof">Cosma, de la fiche au graphe</a> / <a href="blog/2022-01-30-cosma-from-record-to-graph.html">Cosma, from record to graph</a></li>
+<li><a href="blog/2021-06-11-du-notebook-au-bloc-code.html" class="bestof">Du notebook au bloc-code</a></li>
+<li><a href="blog/2021-03-26-comment-critiquer-les-tic.html" class="bestof">Comment critiquer les technologies de l’information et de la communication ?</a></li>
+<li><a href="blog/2021-03-15-presentiel-distanciel-critique-fausse-dichotomie.html">Présentiel et distanciel : critique d’une fausse dichotomie</a></li>
+<li><a href="blog/2021-03-07-impense-des-formats-reflexion-autour-du-pdf.html" class="bestof">L’impensé des formats : réflexion autour du PDF</a></li>
+<li><a href="blog/2021-03-03-une-nouvelle-etape-dans-mon-travail-de-veille.html">Une nouvelle étape dans mon travail de veille</a></li>
+<li><a href="blog/2021-03-03-avancer.html">Avancer</a></li>
+</ul>
+</section>
+<section id="annees-precedentes" class="level2" data-lang-fr="Années précédentes" data-lang-en="Previous years">
+<h2 data-lang-fr="Années précédentes" data-lang-en="Previous years">Années précédentes</h2>
+<details>
+<summary data-lang-fr="Voir les billets" data-lang-en="Show the posts">
+Voir les billets
+</summary>
+<section id="section-10" class="level3">
+<h3>2020</h3>
+<ul>
+<li><a href="blog/2020-11-23-fiche-graphe-documentaire.html">De la fiche au graphe documentaire</a></li>
+<li><a href="blog/2020-10-25-histoire-typographique-legerete.html">Histoire typographique de la légèreté</a></li>
+<li><a href="blog/2020-10-19-enseignement-automatisation-pandoc.html" class="bestof">Enseignement et automatisation avec Pandoc</a></li>
+<li><a href="blog/2020-09-14-dr-pandoc-and-mr-make.html">Dr Pandoc &amp; Mr Make</a></li>
+<li><a href="blog/2020-08-05-carre-documentologique.html">Un carré documentologique</a></li>
+<li><a href="blog/2020-06-25-visualisation-documentation-personnelle-reticulaire.html">Visualisation d’une documentation personnelle réticulaire</a></li>
+<li><a href="blog/2020-05-22-ecrire-et-editer.html" class="bestof">Écrire et éditer</a></li>
+<li><a href="blog/2020-04-21-nativement-numerique.html">Nativement numérique</a></li>
+<li><a href="blog/2020-04-08-mes-outils.html">L’âge de raison (technologique)</a></li>
+<li><a href="blog/2020-01-18-bibliographie-annotee.html">La bibliographie annotée</a></li>
+<li><a href="blog/2020-01-02-ancres-et-liens.html">Ancres et liens</a></li>
+</ul>
+</section>
+<section id="section-11" class="level3">
+<h3>2019</h3>
+<ul>
+<li><a href="blog/2019-12-17-citations-marginales.html">Citations marginales</a></li>
+<li><a href="blog/2019-11-18-pour-un-autre-carnet-de-recherche-numerique.html" class="bestof">Pour un autre carnet de recherche numérique</a></li>
+<li><a href="blog/2019-10-07-le-diaporama-au-temps-du-balisage-2.html">Le diaporama au temps du balisage (2)</a></li>
+<li><a href="blog/2019-09-12-mot-compte-triple.html">Mot compte triple</a></li>
+<li><a href="blog/2019-09-06-recommandation-zettlr.html">Recommandation : Zettlr</a></li>
+<li><a href="blog/2019-07-18-au-doigt-et-a-l-oeil.html">Au doigt et à l’œil</a></li>
+<li><a href="blog/2019-06-05-wordless-2-negocier-la-reecriture.html">Wordless 2 : négocier la réécriture</a></li>
+<li><a href="blog/2019-05-07-le-cv-post-digital.html">Le CV post-digital</a></li>
+<li><a href="blog/2019-04-12-wordless.html">Wordless</a></li>
+<li><a href="blog/2019-03-14-et-a-la-fin-ecrire.html">Et à la fin, écrire…</a></li>
+<li><a href="blog/2019-03-07-le-diaporama-au-temps-du-balisage.html">Le diaporama au temps du balisage</a></li>
+<li><a href="blog/2019-02-11-l-age-de-raison-typographique.html">L’âge de raison (typographique)</a></li>
+</ul>
+</section>
+<section id="section-12" class="level3">
+<h3>2018</h3>
+<ul>
+<li><a href="blog/2018-12-17-dr-jekyll-et-mr-tex.html">Dr Jekyll &amp; Mr TeX</a></li>
+<li><a href="blog/2018-12-04-semantique-et-mise-en-forme.html">Sémantique et mise en forme, ouvrir la boîte de Pandoc ?</a></li>
+<li><a href="blog/2018-10-18-une-micro-chaine-editoriale.html">Une micro-chaîne éditoriale multicanal pour l’écriture scientifique</a></li>
+</ul>
+</details>
+</section>
+</section>
+</section>
+<section id="veille" class="level1" data-lang-fr="Veille" data-lang-en="Shared links">
+<h1 data-lang-fr="Veille" data-lang-en="Shared links">Veille</h1>
+<div data-lang-fr="">
+<p>Signalement de ressources et de liens utiles (<a href="liens.html">consulter les sources</a>)</p>
+</div>
+<div data-lang-en="">
+<p>Useful resources and links from other places (<a href="liens.html">list of sources</a>)</p>
+</div>
+<section id="section-13" class="level2">
+<h2>2024</h2>
+<ul>
+<li><a href="veille/2024-02-07-llm-recherche-info-scientifique-valeur-ajoutee-incertaine.html">LLM et recherche d’information scientifique : une valeur ajoutée encore incertaine</a></li>
+<li><a href="veille/2024-02-07-signes-marquage-le-cas-des-revisions.html">Signes et marquage en édition : le cas des révisions</a></li>
+<li><a href="veille/2024-01-13-publication-et-independance.html">Publication et indépendance</a></li>
+<li><a href="veille/2024-01-01-l-outil-d-ecriture-ideal-n-existe-pas.html">L’outil d’écriture idéal n’existe pas</a></li>
+</ul>
+</section>
+<section id="section-14" class="level2">
+<h2>2023</h2>
+<ul>
+<li><a href="veille/2023-12-29-refa-reader-template.html">ReFa Reader template</a></li>
+<li><a href="veille/2023-12-24-how-to-speak.html">How to Speak</a></li>
+<li><a href="veille/2023-12-24-parametric-text-wrangling.html">Parametric text wrangling</a></li>
+<li><a href="veille/2023-12-24-le-pressoir.html">Le Pressoir</a></li>
+<li><a href="veille/2023-12-12-litote.html">Litote</a></li>
+<li><a href="veille/2023-12-11-bibliopea.html">Bibliopea</a></li>
+<li><a href="veille/2023-12-10-n-enterrez-pas-trop-vite-le-libre-acces.html">N’enterrez pas trop vite le libre accès</a></li>
+<li><a href="veille/2023-11-15-la-friction-comme-forme-de-controle-qualite.html">La friction comme forme de contrôle qualité</a></li>
+<li><a href="veille/2023-10-13-open-data-editor.html">Open Data Editor : un outil, beaucoup d’enjeux</a></li>
+<li><a href="veille/2023-10-16-css-est-un-art-liberal.html">CSS est un art libéral</a></li>
+<li><a href="veille/2023-09-20-marginalia.html">Marginalia</a></li>
+<li><a href="veille/2023-09-07-des-publications-praticables.html">Des publications praticables</a></li>
+<li><a href="veille/2023-08-31-pollen.html">Pollen</a></li>
+<li><a href="veille/2023-08-28-prise-de-notes-platformer-a-cote-de-la-plaque.html">Prise de notes : <em>Platformer</em> à côté de la plaque</a></li>
+<li><a href="veille/2023-08-22-ia-llm-chatgpt-quelques-analyses.html">IA, LLM, ChatGPT : quelques analyses</a></li>
+<li><a href="veille/2023-08-21-un-veilleur-sachant-veiller.html">Un veilleur sachant veiller</a></li>
+</ul>
+</section>
+<section id="section-15" class="level2">
+<h2>2022</h2>
+<ul>
+<li><a href="veille/2022-12-26-un-convertisseur-obsidian-cosma.html">Un convertisseur Obsidian-Cosma</a></li>
+<li><a href="veille/2022-12-04-l-art-de-documenter.html">L’art de documenter</a></li>
+<li><a href="veille/2022-11-30-fusionner-medias-sociaux-et-flux-web.html">Fusionner médias sociaux et flux web</a></li>
+<li><a href="veille/2022-11-04-standoff-baliser-a-part.html">Standoff : baliser à part</a></li>
+<li><a href="veille/2022-11-04-revue-cambouis.html">La revue Cambouis</a></li>
+<li><a href="veille/2022-11-03-pourrissement-bibliographique.html">Pourrissement bibliographique</a></li>
+<li><a href="veille/2022-10-22-mise-au-point-salutaire-sur-la-methode-zettelkasten.html">Une mise au point salutaire sur la “méthode Zettelkasten”</a></li>
+<li><a href="veille/2022-10-19-actualite-de-la-note-de-bas-de-page.html">Actualité de la note de bas de page</a></li>
+<li><a href="veille/2022-10-13-critique-du-pkm.html">Critique de la gestion des connaissances personnelles (PKM)</a></li>
+<li><a href="veille/2022-09-22-complexite-politique-numerique.html">De la complexité politique du numérique</a></li>
+<li><a href="veille/2022-08-13-notation-app.html">Notation.app</a></li>
+<li><a href="veille/2022-08-05-prendre-notes-pour-ecrire-manuel.html">Prendre des notes pour écrire : le manuel</a></li>
+<li><a href="veille/2022-08-04-the-user-condition.html">The User Condition</a></li>
+<li><a href="veille/2022-07-28-quarto-1.html">Quarto 1.0</a></li>
+<li><a href="veille/2022-06-08-lieux-communs-jardins-numeriques.html">Des lieux communs aux jardins numériques</a></li>
+<li><a href="veille/2022-05-18-collecter-reformuler-cartographier.html">Collecter, reformuler, cartographier</a></li>
+<li><a href="veille/2022-05-08-contexte-retrolien.html">Sans contexte, un rétrolien ne sert à rien</a></li>
+<li><a href="veille/2022-05-08-to-markdown-or-not-to-markdown.html">To markdown or not to markdown</a></li>
+<li><a href="veille/2022-05-08-colophon-cards.html">Colophon Cards</a></li>
+<li><a href="veille/2022-04-07-pandoc-citations-docx.html">Pandoc et les citations au format docx</a></li>
+<li><a href="veille/2022-04-06-pdf-pandoc-sans-latex.html">Des PDF via Pandoc avec d’autres moteurs que LaTeX</a></li>
+<li><a href="veille/2022-04-01-ecriture-academique-format-texte-trois-liens.html">Écriture scientifique au format texte : trois liens</a></li>
+<li><a href="veille/2022-03-21-html-est-un-langage-de-programmation.html">HTML est un langage de programmation</a></li>
+<li><a href="veille/2022-03-11-la-barre-est-basse.html">La barre est basse</a></li>
+<li><a href="veille/2022-03-10-contre-les-everything-buckets.html">Contre les everything buckets</a></li>
+<li><a href="veille/2022-03-09-six-arguments-format-texte.html">Six arguments en faveur du format texte</a></li>
+<li><a href="veille/2022-02-11-pas-plus-moderne-qu-un-site-qui-fonctionne.html">Il n’y a pas plus moderne qu’un site qui fonctionne</a></li>
+<li><a href="veille/2022-02-11-le-vrai-paradoxe-de-latex.html">Le vrai paradoxe de LaTeX</a></li>
+<li><a href="veille/2022-02-09-de-l-importance-de-vendre-le-format-texte.html">De l’importance de “vendre” le format texte</a></li>
+<li><a href="veille/2022-01-14-debugue-tes-humanites.html">Débugue tes humanités</a></li>
+<li><a href="veille/2022-01-05-markdown-et-vous.html">Markdown et vous</a></li>
+<li><a href="veille/2022-01-04-telescope.html">Telescope</a></li>
+</ul>
+</section>
+<section id="annees-precedentes-1" class="level2" data-lang-fr="Années précédentes" data-lang-en="Previous years">
+<h2 data-lang-fr="Années précédentes" data-lang-en="Previous years">Années précédentes</h2>
+<details>
+<summary data-lang-fr="Voir les entrées précédentes" data-lang-en="Previous links">
+Voir les entrées
+</summary>
+<section id="section-16" class="level3">
+<h3>2021</h3>
+<ul>
+<li><a href="veille/2021-12-05-perspectives-vertigineuses-open-access.html">Les perspectives vertigineuses de l’open access</a></li>
+<li><a href="veille/2021-11-30-donnees-document-chabin.html">Les données ont-elles évincé ou éclipsé les documents ?</a></li>
+<li><a href="veille/2021-11-17-sources-veille-culture-numerique.html">Sources pour une veille sur la culture numérique</a></li>
+<li><a href="veille/2021-10-26-word-et-latex-depasser-le-debat-sterile-amateurisme-elitisme.html">Word et LaTeX : dépasser le débat stérile entre amateurisme et élitisme</a></li>
+<li><a href="veille/2021-10-25-un-moteur-de-decouverte-de-flux-rss.html">Un moteur de découverte de flux RSS</a></li>
+<li><a href="veille/2021-09-24-enfants-du-numerique-perdus-en-bureautique.html">Enfants du numérique, perdus en bureautique</a></li>
+<li><a href="veille/2021-08-28-le-non-livre.html">Le non-livre, ou l’indifférence vis-à-vis de la chose mal faite</a></li>
+<li><a href="veille/2021-08-26-edition-multi-modale-source-unique.html">Édition multi-modale à partir d’une source unique</a></li>
+<li><a href="veille/2021-08-19-le-gout-de-la-chose-bien-faite.html">Le goût de la chose bien faite</a></li>
+<li><a href="veille/2021-08-17-quarto.html">Quarto</a></li>
+<li><a href="veille/2021-08-07-maintenir-un-site-statique-avec-un-makefile.html">Maintenir un site statique avec un Makefile</a></li>
+<li><a href="veille/2021-07-27-org-mode-et-pandoc-une-ressource-un-regret.html">Org-mode et Pandoc : une ressource et un regret</a></li>
+<li><a href="veille/2021-07-24-tree-query.html">Tree-query : prémices d’une évolution ?</a></li>
+<li><a href="veille/2021-07-23-treeverse.html">Treeverse : le fil, l’arbre et le réseau</a></li>
+<li><a href="veille/2021-07-21-sioyek.html">Sioyek : quand les lecteurs PDF innovent plus que les navigateurs internet</a></li>
+<li><a href="veille/2021-07-04-ordinateurs-et-creativite.html">Ordinateurs et créativité</a></li>
+<li><a href="veille/2021-06-30-espaces-echange-tools-for-thought.html">Des espaces d’échange pour les tools for thought</a></li>
+<li><a href="veille/2021-06-30-rapport-operas-futur-ecriture-scientifique.html">Rapport OPERAS sur le futur de l’écriture scientifique</a></li>
+<li><a href="veille/2021-06-27-etudes-livre-21e-siecle.html">Études du livre au XXIe siècle</a></li>
+<li><a href="veille/2021-06-27-ecriture-executable-au-hn-lab.html">Écriture exécutable au HN Lab</a></li>
+<li><a href="veille/2021-06-25-rapport-sne-2020.html">Rapport du SNE 2020-2021</a></li>
+<li><a href="veille/2021-06-17-retrospective-livre-numerique.html">Rétrospective sur le livre numérique</a></li>
+<li><a href="veille/2021-06-17-d-aristote-a-arial.html">D’Aristote à Arial : introduction à la classification typographique</a></li>
+<li><a href="veille/2021-06-17-prise-notes-pre-requis-solutions.html">Prise de notes : pré-requis et solutions</a></li>
+<li><a href="veille/2021-06-17-essor-tablettes-encre-electronique.html">L’essor des tablettes à encre électronique</a></li>
+<li><a href="veille/2021-06-09-difficile-progression-tools-for-thought.html">La difficile progression des “tools for thought”</a></li>
+<li><a href="veille/2021-06-04-donnees-et-programmation-la-decennie-qui-vient.html">Données et programmation : la décennie qui vient</a></li>
+<li><a href="veille/2021-05-28-constellations-creatrices.html">Constellations créatrices</a></li>
+<li><a href="veille/2021-05-27-la-premiere-guerre-des-notebooks.html">La première guerre des notebooks</a></li>
+<li><a href="veille/2021-05-26-un-manuel-de-visualisation.html">Un manuel de visualisation de données</a></li>
+<li><a href="veille/2021-05-24-synthese-bibliographie-annotee.html">Une synthèse sur la bibliographie annotée</a></li>
+<li><a href="veille/2021-05-23-arena.html">Arena</a></li>
+<li><a href="veille/2021-05-12-tout-sur-email.html">Tout sur l’email</a></li>
+<li><a href="veille/2021-04-29-cartographier-la-litterature-scientifique.html">Cartographier la littérature scientifique</a></li>
+<li><a href="veille/2021-04-28-au-revoir-vox-atypi.html">Au revoir Vox-ATypI</a></li>
+<li><a href="veille/2021-04-25-future-of-text.html">Future of Text</a></li>
+<li><a href="veille/2021-04-18-cherie-jai-retreci-le-web.html">Chérie, j’ai rétréci le Web</a></li>
+<li><a href="veille/2021-04-16-defendre-xml.html">Défendre XML</a></li>
+<li><a href="veille/2021-04-16-typogenese.html">Typogénèse</a></li>
+<li><a href="veille/2021-04-14-deplacement-des-graphes.html">Déplacement des graphes</a></li>
+<li><a href="veille/2021-04-09-deux-tirets.html">Deux tirets</a></li>
+<li><a href="veille/2021-03-30-digital-scholarship-workflows.html">Digital scholarship workflows</a></li>
+<li><a href="veille/2021-03-25-le-libre-une-idee-obsolete.html">Le libre, une idée obsolète ?</a></li>
+<li><a href="veille/2021-03-23-the-meme-hustler.html">The Meme Hustler</a></li>
+<li><a href="veille/2021-03-22-imdone.html">Imdone</a></li>
+<li><a href="veille/2021-03-21-un-hackathon-pagedjs-a-ensadlab.html">Un hackathon Paged.js à EnsadLab</a></li>
+<li><a href="veille/2021-03-15-le-recit-plutot-que-le-reseau.html">Le récit plutôt que le réseau</a></li>
+<li><a href="veille/2021-03-11-whats-in-a-name.html">What’s in a name?</a></li>
+<li><a href="veille/2021-03-08-mutualiser-les-couts-du-paratexte-scientifique.html">Mutualiser les coûts du paratexte scientifique</a></li>
+<li><a href="veille/2021-03-05-plain-text-as-a-force-multiplier.html">Plain Text as a Force Multiplier</a></li>
+<li><a href="veille/2021-03-04-zotero-passe-un-cap.html">Zotero passe un cap</a></li>
+<li><a href="veille/2021-03-04-opendatasphere.html">OpenDataSphère</a></li>
+<li><a href="veille/2021-03-02-dans-les-recoins-de-la-double-page.html">Dans les recoins de la double page</a></li>
+<li><a href="veille/2021-02-26-text-wrangling-editer-en-txt.html">Text wrangling, éditer en txt</a></li>
+<li><a href="veille/2021-02-26-le-futur-de-lecriture-academique-en-shs.html">Le futur de l’écriture scientifique en SHS</a></li>
+<li><a href="veille/2021-02-25-publications-as-data.html">Publications as data?</a></li>
+<li><a href="veille/2021-02-10-gemini-et-la-typographie.html">Gemini et la typographie</a></li>
+<li><a href="veille/2021-02-08-reticulum-3.html">Reticulum 3</a></li>
+<li><a href="veille/2021-02-08-faire-savoir-les-savoirs.html">Faire savoir les savoirs</a></li>
+<li><a href="veille/2021-01-27-uniformisation-typographique-des-logos.html">Uniformisation typographique des logos</a></li>
+<li><a href="veille/2021-01-20-making-of-du-site-anthony-masure.html">Making-of du site d’Anthony Masure</a></li>
+<li><a href="veille/2021-01-19-de-whatsapp-a-signal.html">De WhatsApp à Signal</a></li>
+<li><a href="veille/2021-01-08-autopandoc-mais-sur-gitlab.html">Autopandoc, mais sur GitLab</a></li>
+<li><a href="veille/2021-01-07-temporalite-et-texte-brut.html">Temporalité et texte brut</a></li>
+<li><a href="veille/2021-01-07-recit-dune-migration-de-jekyll-a-pandoc.html">Récit d’une migration de Jekyll à Pandoc</a></li>
+<li><a href="veille/2021-01-07-les-tableaux-au-format-texte.html">Les tableaux au format texte</a></li>
+<li><a href="veille/2021-01-07-le-web-est-il-devenu-trop-complique.html">Le Web est-il devenu trop compliqué ?</a></li>
+<li><a href="veille/2021-01-07-elaborer-un-plan-au-format-texte.html">Élaborer un plan au format texte</a></li>
+<li><a href="veille/2021-01-04-des-cours-sur-les-donnees.html">Des cours sur les données</a></li>
+<li><a href="veille/2021-01-04-bibliographies-reutilisables.html">Bibliographies réutilisables</a></li>
+<li><a href="veille/2021-01-04-information-a-historical-companion.html">Information: A Historical Companion</a></li>
+</ul>
+</section>
+<section id="section-17" class="level3">
+<h3>2020</h3>
+<ul>
+<li><a href="veille/2020-12-17-panwriter.html">PanWriter</a></li>
+<li><a href="veille/2020-12-04-actes-de-docam-2020.html">Actes de DOCAM 2020</a></li>
+<li><a href="veille/2020-12-03-pourquoi-fabriquer-son-propre-generateur-de-site-statique.html">Pourquoi fabriquer son propre générateur de site statique ?</a></li>
+<li><a href="veille/2020-11-19-git-is-simply-too-hard.html">Git is simply too hard</a></li>
+<li><a href="veille/2020-11-06-redaction-durable-avec-pandoc-et-markdown.html">Rédaction durable avec Pandoc et Markdown</a></li>
+</ul>
+</details>
+</section>
+</section>
+</section>
+<section id="these" class="level1" data-lang-fr="Thèse" data-lang-en="PhD dissertation">
+<h1 data-lang-fr="Thèse" data-lang-en="PhD dissertation">Thèse</h1>
+<div data-lang-fr="">
+<p><em>De l’héritage épistémologique de Paul Otlet à une théorie relationnelle de l’organisation des connaissances</em></p>
+</div>
+<div data-lang-en="">
+<p><em>From Paul Otlet’s epistemological legacy to a relational theory of knowledge organization</em></p>
+</div>
+<p><a href="https://these.arthurperret.fr" class="uri">https://these.arthurperret.fr</a></p>
+<p><a href="https://these.arthurperret.fr"><img src="img/miniature-these-arthur-perret.jpg" id="miniature-these" /></a></p>
+</section>
+<section id="cours" class="level1" data-lang-fr="Cours" data-lang-en="Teaching">
+<h1 data-lang-fr="Cours" data-lang-en="Teaching">Cours</h1>
+<div data-lang-fr="">
+<p>Ressources pédagogiques permanentes, mises à jour ponctuellement</p>
+</div>
+<div data-lang-en="">
+<p>Course materials for students and professionals</p>
+</div>
+<ul>
+<li><a href="cours/bibliographie.html">Bibliographie</a></li>
+<li><a href="cours/ecriture-scientifique-format-texte.html">Écriture scientifique au format texte</a></li>
+<li><a href="cours/expressions-regulieres.html">Expressions régulières</a></li>
+<li><a href="cours/flux-web.html">Flux web</a></li>
+<li><a href="cours/format-texte.html">Format texte</a></li>
+<li><a href="cours/indexation.html">Indexation</a></li>
+<li><a href="cours/ligne-de-commande.html">Ligne de commande</a></li>
+<li>✧ nouveau : <a href="cours/make.html">Make</a></li>
+<li><a href="cours/markdown.html">Markdown</a></li>
+<li><a href="cours/pandoc.html">Pandoc</a></li>
+<li><a href="cours/publication-web.html">Publication web</a></li>
+<li><a href="cours/recherche-information-veille.html">Recherche d’information et veille</a></li>
+<li><a href="cours/serialisation.html">Sérialisation de données</a></li>
+</ul>
+</section>
+<section id="colophon" class="level1">
+<h1>Colophon</h1>
+<div data-lang-fr="">
+<p>Sauf mention contraire, les contenus publiés sur ce site sont réutilisables suivant les termes de la licence Creative Commons Attribution 4.0 International (CC BY), cf. <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">résumé</a> et <a href="https://creativecommons.org/licenses/by/4.0/legalcode.fr">texte intégral</a>.</p>
+<p>Ce site est fabriqué avec <a href="https://pandoc.org/">Pandoc</a> et <a href="https://www.gnu.org/software/make/">Make</a>. Il utilise les polices <a href="https://fr.wikipedia.org/wiki/EB_Garamond">EB Garamond</a> et <a href="https://levien.com/type/myfonts/inconsolata.html">Inconsolata</a> (licence OFL). La <em>Femme avec tablettes de cire et stylet (dite « Sappho »)</em> provient du Musée archéologique national de Naples (licence CC BY-SA). L’icône RSS appartient à la fondation Mozilla (licence MPL).</p>
+</div>
+<div data-lang-en="">
+<p>Except otherwise mentioned, the contents of this website are licensed under Creative Commons Attribution 4.0 International (CC BY) (<a href="https://creativecommons.org/licenses/by/4.0/deed.en">summary</a>, <a href="https://creativecommons.org/licenses/by/4.0/legalcode.en">full text</a>).</p>
+<p>This site is crafted with <a href="https://pandoc.org/">Pandoc</a> and <a href="https://www.gnu.org/software/make/">Make</a>. The fonts used are <a href="https://fr.wikipedia.org/wiki/EB_Garamond">EB Garamond</a> (The EB Garamond Project Authors, 2017, OFL license) and <a href="https://levien.com/type/myfonts/inconsolata.html">Inconsolata</a> (The Inconsolata Project Authors, 2006, OFL license). The <em>Woman with wax tablets and stylus (so-called “Sappho”)</em> is from the Naples National Archaeological Museum (CC BY-SA license). The RSS icon is from the Mozilla Foundation (MPL license).</p>
+</div>
+</section>
+</article>
+<footer data-lang-fr="CC BY Arthur Perret 2020-2024 <br> Créé avec Pandoc et Make" data-lang-en="CC BY Arthur Perret 2020-2024 <br> Created with Pandoc and Make">CC BY Arthur Perret 2020-2024 <br> Créé avec Pandoc et Make</footer>
+<script>
+	const toggleColorMode = e => {
+		if (e.currentTarget.classList.contains("light--hidden")) {
+			document.documentElement.setAttribute("color-mode", "light");
+			localStorage.setItem("color-mode", "light");
+			return;
+		}
+		document.documentElement.setAttribute("color-mode", "dark");
+		localStorage.setItem("color-mode", "dark");
+	};
+	const toggleColorButtons = document.querySelectorAll(".color-mode__btn");
+	toggleColorButtons.forEach(btn => {
+		btn.addEventListener("click", toggleColorMode);
+	});
+	if (
+		localStorage.getItem("color-mode") === "dark" ||
+		(window.matchMedia("(prefers-color-scheme: dark)").matches &&
+			!localStorage.getItem("color-mode"))
+	) {
+		document.documentElement.setAttribute("color-mode", "dark")
+	}
+</script>
+<script>
+/* translate.js par Guillaume Brioudes https://myllaume.fr/ */
+(function() {
+  const flags = document.querySelectorAll('[data-flag]')
+  
+  
+  let boxs = []
+  
+  flags.forEach(flag => {
+    boxs.push('div[data-lang-' + flag.dataset.flag + ']')
+    boxs.push('section[data-lang-' + flag.dataset.flag + ']')
+  })
+  
+  boxs = document.querySelectorAll(boxs.join(','))
+  
+  let actualLang = 'fr';
+  
+  function translateAll() {
+    boxs.forEach(box => {
+      box.style.display = 'none';
+    })
+
+    document.querySelectorAll('[data-lang-' + actualLang + ']')
+      .forEach(elt => {
+        if (elt.tagName !== 'DIV' && elt.tagName !== 'SECTION') {
+          eval('elt.innerHTML = elt.dataset.lang'
+               + actualLang.charAt(0).toUpperCase()
+               + actualLang.slice(1)); }
+
+        else {
+          elt.style.display = 'block'
+          console.log(elt)
+        }
+
+    });
+    
+  
+  }
+  
+  flags.forEach(flag => {
+
+  flag.addEventListener('click', (e) => {
+    var flagCliked = e.target;
+
+    if (flagCliked.dataset.flag == actualLang) {
+      // si le bouton flag cliqué active la langue déjà active
+      return;
+    }
+
+    // désactiver la surbrillance du flag de la précédante langue
+    document.querySelector('[data-flag="' + actualLang + '"]')
+      .classList.remove('lang-flag--active');
+
+    // activer la surbrillance du flag de l'actuelle langue
+    flagCliked.classList.add('lang-flag--active');
+
+    actualLang = flagCliked.dataset.flag;
+
+    translateAll();
+
+  });
+});
+  
+})()
+</script>
+
+</body>
+
+</html>

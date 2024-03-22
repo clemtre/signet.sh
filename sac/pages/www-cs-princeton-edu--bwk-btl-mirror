@@ -1,0 +1,83 @@
+<html>
+<head>
+
+<font size=-1>
+Sun Aug 26 17:36:49 EDT 2018
+</font>
+
+<h3> Bell Labs pages from long ago </h3>
+
+<P> This page mirrors some of the information 
+that used to be on my Bell Labs site.
+Much of it is very dusty indeed.
+Caveat downloader.
+
+<P> <li>Awk is now hosted at
+ <a href="https://github.com/onetrueawk/awk">Github</a>.
+
+<li><a href="partitioning.pdf">An Efficient Heuristic Procedure for Partitioning Graphs</a> 
+(<i>Bell System Technical Journal</i>, February, 1970).
+
+<li><a href="tsp.pdf">An Effective Heuristic
+Algorithm for the Travelling-Salesman Problem</a> 
+(<i>OperationscResearch</i>, March, 1973).
+
+<li>
+<a HREF="notfavorite.html">Why Pascal is Not My Favorite Programming Language</a> (April, 1981).
+
+<li>
+<a HREF="/cm/cs/who/bwk/wise/index.html">WiSE - A Wireless System Engineering Tool</A>, 
+an application of computational geometry, optimization
+and visualization to wireless.
+
+<li><a HREF="tcltk95.workshop.pdf">Experience with Tcl/Tk for Scientific and Engineering Visualization</A>,
+programming issues in the wireless work above;
+a version appeared in the Tcl/Tk Workshop, Toronto, 1995.
+
+<li>
+<a HREF="interps/interpreters.pdf">Timing Trials, or, the Trials of Timing:
+Experiments with Scripting and User-Interface Languages</A>,
+with Chris Van Wyk, describes experiments to see how fast various scripting
+and user interface languages,
+from Awk to Visual Basic, run on a spectrum of representative tasks.
+
+<li><a href="awkc++.pdf">An AWK to C++ Translator</a>,
+describing an early experiment; published in the
+Usenix C++ conference in 1991 but hard to find.
+
+<li>Information about the
+<a HREF=https://www.ampl.com/ampl>AMPL modeling language</A>
+for mathematical optimization.
+
+You can <a href="https://www.ampl.com/TRYAMPL">try AMPL</a> on your own
+optimization problems or examples from
+ <a HREF="https://www.ampl.com/BOOK">the AMPL book</A>;
+the second edition was published November 2002 and is now available for
+free download.
+
+<li>Examples from <em>The AWK Programming Language</em> by Aho,
+Kernighan, and Weinberger <a HREF="awkcode.txt">as text (120KB)</a>
+or <a HREF="awkcode.zip">zipped (30KB)</a>.
+
+<li>The example code from <em>The Unix Programming Environment</em>
+by Kernighan and Pike:
+ <a HREF="unixprogenv.tar.gz"> gzipped tar file</a>;
+ <a href="unixprogenv.zip"> zip file</a>.
+
+<li>Source for
+ <a HREF="hoc.sh">the hoc calculator from <em>The Unix Programming Environment</em></a>
+by Kernighan and Pike.
+
+<li><a href="toolstape"><i>Software Tools</i> programs</a>
+
+<li><a href="pascaltools.txt"><i>Software Tools in Pascal</i> programs</a>
+
+<li>Source for <a HREF="learn.tar.gz">learn</a>, 
+the original Unix computer-aided instruction program.  This works but is
+mostly of historical interest; it dates from 1979.
+
+<li> <a HREF="anim.cstr132.pdf">Algorithm animation</a> (with Jon Bentley).
+
+
+</body>
+</html>

@@ -1,0 +1,600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+                <TITLE>Unix: la commande Awk</TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Language" content="fr" />
+                <LINK REL="stylesheet" media="screen" title="style_unix" HREF="style_unix.css" TYPE="TEXT/CSS">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17315432-4']);
+  _gaq.push(['_setLocalRemoteServerMode']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+<BODY>
+
+<div id="conteneur">
+<P class="entete1">
+<A HREF="index.html" class="case_menu"><IMG SRC="images/home.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="home www.shellunix.com" title="accueil"></A>
+<A HREF="commandes.html" class="case_menu"><IMG SRC="images/cmde.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="commandes Unix"></A>
+<A HREF="sh.html" class="case_menu"><IMG SRC="images/sh.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="Shell unix: sh"></A>
+<A HREF="csh.html" class="case_menu"><IMG SRC="images/csh.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="Shell unix: csh"></A>
+<A HREF="ksh.html" class="case_menu"><IMG SRC="images/ksh.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="Shell unix: ksh"></A>
+<A HREF="regexp.html" class="case_menu"><IMG SRC="images/re.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="expressions régulières"></A>
+<A HREF="sed.html" class="case_menu"><IMG SRC="images/sed.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="sed"></A>
+<A HREF="awk.html" class="case_menu"><IMG SRC="images/awk.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="awk"></A>
+<A HREF="perl.html" class="case_menu"><IMG SRC="images/perl.png" BORDER=1  WIDTH=50 HEIGHT=50 ALT="perl"></A>
+</P>
+<P class="entete2"><A HREF="kindle_awk.html" title="awk_pdf">Vous avez trouvé cette page utile, Vous pouvez l'obtenir ici au format kindle (amazon).</A></p>
+<HR>
+<UL>
+  <H1>
+    <CENTER>
+      La commande awk
+    </CENTER>
+  </H1>
+  <LI> <A HREF="#var_predef">Les variables prédéfinies </A> 
+  <LI> <A HREF="#motif"> Syntaxe du motif </A> 
+  <LI> <A HREF="#action"> Syntaxe de l'action </A>
+    <UL>
+      <LI> <A HREF="#fonctions_num"> Fonctions numériques </A> 
+        <UL>
+          <LI> <A HREF="#char"> Les fonctions sur les chaines de caractères</A> 
+          <LI> <A HREF="#fonctions_arithmetiques"> Les opérations arithmètiques 
+            et les affectations </A> 
+        </UL>
+      <LI> <A HREF="#var"> Les variables et expressions </A> 
+      <LI> <A HREF="#operations"> Les opérations arithmétiques </A> 
+      <LI> <A HREF="#var_champs"> Les variables de champs </A> 
+      <LI> <A HREF="#concat"> concaténation de chaines de caractères </A> 
+      <LI> <A HREF="#while"> while </A> 
+      <LI> <A HREF="#for"> for </A> 
+      <LI> <A HREF="#break"> breack, continue </A> 
+      <LI> <A HREF="#if"> if , else </A> 
+      <LI> <A HREF="#comment"> commentaire et action vide </A> 
+      <LI> <A HREF="#next"> next, exit </A> 
+      <LI> <A HREF="#affichage"> affichage </A> 
+      <LI> <A HREF="#tableau"> tableau </A> 
+      <LI> <A HREF="#for"> for et les tableau</A> 
+      <LI> <A HREF="#tableau_multi"> simulations des tableau multidimensions </A> 
+    </UL>
+</UL>
+Cette commande permet d'appliquer un certain nombre d'actions sur un fichier. 
+La syntaxe est inspirée du C 
+<H1>syntaxe </H1>
+awk [-Fs] [-v variable] [-f fichier de commandes] 'program' fichier 
+<TABLE>
+  <TR> 
+    <TD WIDTH="18">&nbsp;</TD>
+    <TD WIDTH="10"> -F </TD>
+    <TD WIDTH="468"> Spécifie les séparateurs de champs </TD>
+  <TR> 
+    <TD WIDTH="18">&nbsp;</TD>
+    <TD WIDTH="10"> -v </TD>
+    <TD WIDTH="468"> Définie une variable utilisée à l'intérieur du programme. 
+    </TD>
+  <TR> 
+    <TD WIDTH="18">&nbsp;</TD>
+    <TD WIDTH="10"> -f </TD>
+    <TD WIDTH="468"> Les commandes sont lu à partir d'un fichier. </TD>
+</TABLE>
+<H1>principe de fonctionnement </H1>
+Le programme awk est une suite d'action de la forme : motif { action } , le motif 
+permet de determiner sur quels enregistrements est appliqu&eacute;e l'action. 
+<DL> 
+  <DT>Un enregistrement est :
+  <DD>une chaine de caractères séparée par un retour chariot, en g&eacute;n&eacute;ral 
+    une ligne. 
+  <DT>Un champs est :
+  <DD>une chaine de caractères separée par un espace (ou par le caractère specifié 
+    par l'option -F), en g&eacute;n&eacute;rale un mot. 
+</DL>
+<P>On accède à chaque champs de l'enregistrement courant par la variable <I>$1</I>,
+  <I>$2</I>, ... <I>$NF</I>. <I>$0</I> correspond à l'enregistrement complet.
+  La variable <I>NF</I> contient le nombre de champs de l'enregistrement courant, 
+  la variable $NF correspond donc au dernier champs.</P>
+<H2>Exemples </H2>
+<P> 
+<TABLE>
+  <TR> 
+    <TD> <CODE> awk -F ":" '{ $2 = "" ; print $0 }' /etc/passwd </CODE> </TD>
+    <TD>imprime chaque ligne du fichier /etc/passwd après avoir effacé le deuxième 
+      champs</TD>
+  <TR> 
+    <TD><CODE> awk 'END {print NR}' fichier </CODE> </TD>
+    <TD>imprime le nombre total de lignes du fichiers</TD>
+  <TR> 
+    <TD><CODE> awk '{print $NF}' fichier </CODE> </TD>
+    <TD>imprime le dernier champs de chaque ligne</TD>
+  <TR> 
+    <TD><CODE> who | awk '{print $1,$5}' </CODE> </TD>
+    <TD>imprime le login et le temps de connexion.</TD>
+  <TR> 
+    <TD><CODE> awk 'length($0)>75 {print}' fichier </CODE> </TD>
+    <TD>imprime les lignes de plus de 75 caractères. (print équivaur à print $0) 
+    </TD>
+</TABLE>
+<H2> <A NAME="var_predef"></A>Les variables prédéfinies </H2>
+<TABLE BORDER=1>
+  <TR> 
+    <TH> Variable </TH>
+    <TH> Signification </TH>
+    <TH> Valeur par défaut </TH>
+  </TR>
+  <TR> 
+    <TD> ARGC </TD>
+    <TD> Nombre d'arguments de la ligne de commande </TD>
+    <TD> - </TD>
+  </TR>
+  <TR> 
+    <TD> ARGV </TD>
+    <TD> tableau des arguments de la ligne de commnde </TD>
+    <TD> - </TD>
+  </TR>
+  <TR> 
+    <TD> FILENAME </TD>
+    <TD> nom du fichier sur lequel on applique les commandes </TD>
+    <TD> - </TD>
+  </TR>
+  <TR> 
+    <TD> FNR </TD>
+    <TD> Nombre d'enregistrements du fichier </TD>
+    <TD> - </TD>
+  </TR>
+  <TR> 
+    <TD> FS </TD>
+    <TD> separateur de champs en entrée </TD>
+    <TD> " " </TD>
+  </TR>
+  <TR> 
+    <TD> NF </TD>
+    <TD> nombre de champs de l'enregistrement courant </TD>
+    <TD> - </TD>
+  </TR>
+  <TR> 
+    <TD> NR </TD>
+    <TD> nombre d'enregistrements deja lu </TD>
+    <TD> - </TD>
+  </TR>
+  <TR> 
+    <TD> OFMT </TD>
+    <TD> format de sortie des nombres </TD>
+    <TD> "%.6g" </TD>
+  </TR>
+  <TR> 
+    <TD> OFS </TD>
+    <TD> separateur de champs pour la sortie </TD>
+    <TD> " " </TD>
+  </TR>
+  <TR> 
+    <TD> ORS </TD>
+    <TD> separateur d'enregistrement pour la sortie </TD>
+    <TD> "\n" </TD>
+  </TR>
+  <TR> 
+    <TD> RLENGTH </TD>
+    <TD> longueur de la chaine trouvée </TD>
+    <TD> - </TD>
+  </TR>
+  <TR> 
+    <TD> RS </TD>
+    <TD> separateur d'enregistrement en entrée </TD>
+    <TD> "\n" </TD>
+  </TR>
+  <TR> 
+    <TD> RSTART </TD>
+    <TD> debut de la chaine trouvée </TD>
+    <TD> - </TD>
+  </TR>
+  <TR> 
+    <TD> SUBSEP </TD>
+    <TD> separateur de subscript </TD>
+    <TD> "\034" </TD>
+  </TR>
+</TABLE>
+<H2> <A NAME="motif"></A> Syntaxe du motif </H2>
+Si le motif existe dans l'enregistrement, l'action sera appliquée à la ligne . 
+<BR>
+Le motif peut etre : 
+<UL>
+  <LI> un expression régulière 
+    <UL>
+      <LI> /expression regulière/ 
+      <LI> $0 ~ /expression regulière/ 
+      <LI> expression ~ /expression regulière/ 
+      <LI> expression !~ /expression regulière/ 
+    </UL>
+  <LI> une expression BEGIN ou END 
+  <LI> une expression de comparaison: <, <=, == , !=, >=, > 
+  <LI> une combinaison des trois (à l'aide des opérateurs booléens || <I>ou</I>, 
+    && <I>et</I>, ! <I>négation</I>) 
+  <LI> une caractérisation des lignes <BR>
+    motif1,motif2 : chaque ligne entre la premiere ligne correspondant au motif1 
+    et la première ligne correspondant au motif2 
+</UL>
+<H3>examples
+</H3>
+<PRE> awk 'BEGIN { print "Verification des UID et GID dans le fichier /etc/passwd";
+              FS=":"}
+      $3 !~ /^[0-9][0-9]*$/ {print "UID  erreur ligne "NR" :\n"$0 }
+      $4 !~ /^[0-9][0-9]*$/ {print "GID  erreur ligne "NR" :\n"$0 }
+      END   { print "Fin" }
+' /etc/passwd </PRE>
+<I> Résultat :</I><BR>
+Verification des UID et GID dans le fichier /etc/passwd<BR>
+UID erreur ligne 14 : <BR>
+clown:*:aaa:b:utilisateur en erreur:/home/clown:/bin:sh<BR>
+GID erreur ligne 14 : <BR>
+clown:*:aaa:b:utilisateur en erreur:/home/clown:/bin/sh<BR>
+Fin 
+<P> 
+<PRE> awk 'BEGIN { print "Verification du fichier /etc/passwd pour ...";
+              print "- les utilisateurs avec UID = 0 " ;
+              print "- les utilisateurs avec UID >= 60000" ;
+              FS=":"}
+      $3 == 0 { print "UID 0 ligne "NR" :\n"$0 }
+      $3 >= 60000  { print "UID >= 60000 ligne "NR" :\n"$0 }
+      END   { print "Fin" }
+' /etc/passwd </PRE>
+<I> Résultat :</I><BR>
+Verification du fichier /etc/passwd pour ...<BR>
+- les utilisateurs avec UID = 0 <BR>
+- les utilisateurs avec UID >= 60000<BR>
+UID 0 ligne 5 : <BR>
+root:*:0:b:administrateur:/:/bin/sh<BR>
+UID >= 60000 ligne 14 : <BR>
+clown:*:61000:b:utilisateur en erreur:/home/clown:/bin/sh<BR>
+Fin 
+<P> 
+<PRE> awk 'BEGIN { print "Verification du fichier /etc/group";
+              print "le groupe 20 s'appelle t-il bien users ? " ;
+              FS=":"}
+      $1 == "users" && $3 ==20 { print "groupe "$1" a le GID "$3" !" }
+      END   { print "Fin" }
+' /etc/group </PRE>
+<I> Résultat :</I><BR>
+Verification du fichier /etc/group<BR>
+le groupe 20 s'appelle t-il bien users ? <BR>
+groupe users a le GID 20 ! <BR>
+Fin 
+<P> 
+<PRE> awk 'NR == 5 , NR == 10 {print NR" : " $0 }' fichier </PRE>
+Imprime de la ligne 5 à la ligne 10 , chaque ligne précédée par son numéro 
+<P> 
+<H2> <A NAME="action"></A> Syntaxe de l'action </H2>
+Une action transforme ou manipule des données. par défaut <I>print</I> <BR>
+type des actions 
+<UL>
+  <LI> fonctions prédéfinies, numerique ou chaine de caracteres 
+  <LI> controle de flots 
+  <LI> affectation 
+  <LI> impression 
+</UL>
+<H3> <A NAME="fonctions_num"></A> Fonctions numériques </H3>
+<TABLE BORDER=1>
+  <TR> 
+    <TH> Nom des fonctions </TH>
+    <TH> signification </TH>
+  </TR>
+  <TR> 
+    <TD> atan2(y,x) </TD>
+    <TD> arctangente de x/y en redians dans l'interval -pi pi</TD>
+  </TR>
+  <TR> 
+    <TD> cos(x) </TD>
+    <TD> cosinus (en radians) </TD>
+  </TR>
+  <TR> 
+    <TD> exp(x) </TD>
+    <TD> exponentielle e à la puissance x</TD>
+  </TR>
+  <TR> 
+    <TD> int(x) </TD>
+    <TD> valeur entière </TD>
+  </TR>
+  <TR> 
+    <TD> log(x) </TD>
+    <TD> logarythme naturel </TD>
+  </TR>
+  <TR> 
+    <TD> rand() </TD>
+    <TD> nombre aléatoire entre 0 et 1 </TD>
+  </TR>
+  <TR> 
+    <TD> sin(x) </TD>
+    <TD> sinus (en radians) </TD>
+  </TR>
+  <TR> 
+    <TD> sqrt(x) </TD>
+    <TD> racine carrée </TD>
+  </TR>
+  <TR> 
+    <TD> srand(x) </TD>
+    <TD> reinitialiser le générateur de nombre aléatoire </TD>
+  </TR>
+</TABLE>
+<H3> <A NAME="char"></A> Les fonctions sur les chaines de caractères</H3>
+Dans le tableau suivant : <BR>
+s et t represente des chaines de caractères <BR>
+r une expression régulière <BR>
+i et n des entiers 
+<TABLE BORDER=1>
+  <TR> 
+    <TH> Nom des fonctions </TH>
+    <TH> signification </TH>
+  </TR>
+  <TR> 
+    <TD> gsub(r,s,t) </TD>
+    <TD> sur la chaine t, remplace toutes les occurance de r par s </TD>
+    <TD> 
+  <TR> 
+    <TD> index(s,t) </TD>
+    <TD> retourne la position la plus à gauche de la chaine t dans la chaine s</TD>
+    <TD> 
+  <TR> 
+    <TD> length(s) </TD>
+    <TD> retourne la longueur de la chaine s </TD>
+    <TD> 
+  <TR> 
+    <TD> match(s,r) </TD>
+    <TD> retourne l'index ou s correspond à r et positionne RSTART et RLENTH </TD>
+    <TD> 
+  <TR> 
+    <TD> split(s,a,fs) </TD>
+    <TD> split s dans le tableau a sur fs, retourne le nombre de champs </TD>
+    <TD> 
+  <TR> 
+    <TD> sprintf(fmt,liste expressions) </TD>
+    <TD> retourne la liste des expressions formattée suivant fmt </TD>
+    <TD> 
+  <TR> 
+    <TD> sub(r,s,t) </TD>
+    <TD> comme gsub, mais remplce uniquement la première occurence </TD>
+    <TD> 
+  <TR> 
+    <TD> substr(s,i,n) </TD>
+    <TD> retourne la sous chaine de s commencant en i et de taille n </TD>
+    <TD> 
+</TABLE>
+<H3> <A NAME="var"></A> Les variables et expressions </H3>
+<H4> <A NAME="operations"></A>Les opérations et affectations arithmétiques </H4>
+<UL>
+  <LI>Les opérateurs arithmétiques sont les opérations usuelles : + - * / % (reste 
+    division entière) et ^ (puissance). Tous les calculs sont effectués en virgule 
+    flottante. 
+  <LI> La syntaxe de l'affectation : var = expression <BR>
+    Vous pouvez aussi utiliser les operateurs +=, -=, *=, /=, %= et ^= (x+=y équivaut 
+    à x=x+y) 
+</UL>
+<H4> <A NAME="var_champs"></A> Les variables de champs </H4>
+<P>Rappel : Les champs de la ligne courant sont : $1, $2, ..., $NF <BR>
+  La ligne entière est $0 <BR>
+  Ces variables ont les memes propriétés que Les autres variables. Elles peuvent 
+  etre reaffectées. Quand $0 est modifiées, les variables $1,$2 ... sont aussi 
+  modifiées ainsi que NF.Inversement si une des variables $i est modifiées, $0 
+  est mise à jour.<BR>
+  Les champs peuvent etre specifiés par des expressions, comme $(NF-1) pour l'avant 
+  dernier champs.<BR>
+</P>
+<H5>example</H5>
+
+<PRE> awk 'BEGIN { FS=":" ;
+             OFS=":"}
+      $NF != "/bin/ksh" { print $0 }
+      $3 == "/bin/ksh" && NF == 7  { $7 = "/bin/posix/sh" ;
+                                     print $0 } '
+      /etc/passwd > /etc/passwd.new </PRE>
+<I> Résultat :</I><BR>
+On crée un nouveau fichier de mot de passe /etc/passwd.new en remplacant le shell 
+/bin/ksh par /bin/posix/sh 
+<P> 
+<H4> <A NAME="concat"></A> concaténation de chaines de caractères </H4>
+<P>Il n'y a pas d'opérateur de concaténation, il faut simplement lister les chaines 
+  à concaténer.<BR>
+</P>
+<H5>examples:</H5>
+
+<PRE> awk '{ print NR " : " $0 }' fichier</PRE>
+<I>Résultat : </I><BR>
+On numérote les lignes du fichier 
+<PRE> awk 'BEGIN { FS=":" ;
+             OFS=":" ;
+             print " Run Level 2 : Liste des actions "}
+      $2 ~ /2/  { print "Keyword <<"$3">>, \n Tache <<"$4">>" }
+      $2 == ""  { print "Keyword <<"$3">>, \n Tache <<"$4">>" }
+' /etc/inittab > /etc/passwd.new </PRE>
+<I> Résultat :</I><BR>
+Affiche les actions executées lors du passage à l'état 2 
+<P> 
+<H3> <A NAME="while"></A> while </H3>
+<FONT SIZE=+1><U>Syntaxe:</U> </FONT> while ( condition ) action <BR>
+<H3> <A NAME="for"></A> for </H3>
+<H3> <A NAME="break"></A> break, continue </H3>
+<FONT SIZE=+1><U>Break:</U> </FONT> sortie de boucle<BR>
+<FONT SIZE=+1><U>Continue:</U> </FONT>commence une nouvelle itération de la boucle.<BR>
+<H3> <A NAME="if"></A> if , else </H3>
+<FONT SIZE=+1><U>Syntaxe:</U> </FONT> <BR>
+if ( expression ) action<BR>
+else action<BR>
+<H3> <A NAME="comment"></A> commentaire et action vide </H3>
+Le commentaire est précédé par #. tout ce qui est entre # et la fin de la ligne 
+est ignoré par awk <BR>
+Une action vide est représenté par ; 
+<H3> <A NAME="next"></A> next, exit </H3>
+<FONT SIZE=+1><U>Next:</U> </FONT> passe à l'enregistrement suivant. On reprend 
+le script awk à son début<BR>
+<FONT SIZE=+1><U>Exit:</U> </FONT>ignore le reste de l'entrée et execute les actions 
+définie par END <BR>
+<H3> <A NAME="affichage"></A> affichage </H3>
+<FONT SIZE=+1><U>print exp, exp</U> ou <U> print (exp , exp )</U> </FONT> affiche 
+les expressions <BR>
+<I> print </I> equivaut à <I> print $0 </I> <BR>
+<FONT SIZE=+1><U>printf format , exp, exp</U> ou <U> printf (format,exp , exp 
+)</U> </FONT> identique à print mais en utilisant un format (voir printf en C) 
+<BR>
+Un format est une chaine de caractères et des constructeurs commencant par % <BR>
+<TABLE>
+  <TR> 
+    <TD> specifieur </TD>
+    <TD> signification </TD>
+  </TR>
+  <TR> 
+    <TD> d </TD>
+    <TD> nombre decimal </TD>
+  </TR>
+  <TR> 
+    <TD> s </TD>
+    <TD> chaine de caractères </TD>
+  </TR>
+</TABLE>
+<TABLE>
+  <TR> 
+    <TD> specifieur </TD>
+    <TD> signification </TD>
+  </TR>
+  <TR> 
+    <TD> - </TD>
+    <TD> expression justifiée à gauche </TD>
+  </TR>
+  <TR> 
+    <TD> largeur </TD>
+    <TD> largeur d'affichage </TD>
+  </TR>
+  <TR> 
+    <TD> .precision </TD>
+    <TD> longueur maximale d'une chaine de caracteres <BR>
+      ou nombre de decimales </TD>
+  </TR>
+</TABLE>
+<FONT SIZE=+1><U>Example:</U> </FONT><BR>
+La sortie d'un print ou d'un printf peut être redirigée dans un fichier ou sur 
+un pipe<BR>
+Les noms de fichiers doivent être entre guillemets sinon ils sont considérés comme 
+des variables <BR>
+<FONT SIZE=+1><U>Example:</U> </FONT><BR>
+<TABLE>
+  <TR> 
+    <TD> awk ' { print NR " :" , $0 > "fich.numerote" } ' fichier </TD>
+    <TD> le fichier <I>fich.numerote</I> contient le fichier <I>fichier</I> avec 
+      les lignes numérotées 
+      <P> 
+    </TD>
+  </TR>
+  <TR> 
+    <TD> awk ' { printf "%3d : %s " , NR , $0 > "fich.numerote" } ' fichier </TD>
+    <TD> le fichier <I>fich.numerote</I> contient le fichier <I>fichier</I> avec 
+      les lignes numérotées sur 3 caractères 
+      <P> 
+    </TD>
+  </TR>
+</TABLE>
+<H3> <A NAME="tableau"></A> tableau </H3>
+On peut utiliser des tableaux de chaines de caractères et de nombres à une dimension 
+<BR>
+Il n'est pas nécessaire de les déclarer. La valeur par défaut est "" ou 0 .<BR>
+Les indices sont des chaines de caractères.<BR>
+<PRE> awk 'BEGIN { print "Mémorisation de votre fichier " FILENAME }
+                 {memfile [NR] = $0 }
+           END   { for ( i = NR ; i >= 1 ; i-- ) {
+                    print i ":" memfile[i]
+                    }
+	          print "Fin"
+                 } ' fichier </PRE>
+<I> Résultat :</I><BR>
+Affiche le fichier en commencant par la derniere ligne 
+<P> 
+<PRE> awk ' NF > 0 {
+                    for (i=1;i<=NF;i++) {
+                        if ( $i ~ /^[0-9a-zA-Z][0-9a-zA-Z]*$/ ) {
+                            index[$i] = index[$i] ";" NR "," i " " ;
+                            index["total"]++ ;
+                            }
+                        }
+                     }
+            END     { x="total" ;
+                      printf("%s mots detectés = %d\n",x,index[x]);
+                      } ' fichier </PRE>
+<I> Résultat :</I><BR>
+Construction d un index de cross reference 
+<P> 
+<H3> <A NAME="for"></A> for et les tableaux</H3>
+Comme les indices des tableaux sont des chaines de caractères, on ne peut pas 
+determiner la taille d'un tableau <BR>
+On doit donc utiliser la construction : 
+<PRE> for (var in tableau)
+action </PRE>
+<PRE> awk ' NF > 0 {
+                    for (i=1;i<=NF;i++) {
+                        if ( $i ~ /^[0-9a-zA-Z][0-9a-zA-Z]*$/ ) {
+                            index[$i] = index[$i] ";" NR "," i " " ;
+                            index["total"]++ ;
+                            }
+                        }
+                     }
+            END     {
+                    for ( x in index ) { 
+                     if ( x != "total" )
+                       printf("%-20s\t%s\n",x,index[x]) | "sort -f "
+                      }
+                      x="total";
+                      printf("%s mots detectés = %d\n",x,index[x]);
+                      } ' fichier </PRE>
+<I> Résultat :</I><BR>
+Construction d un index de cross reference 
+<P> 
+<H3> <A NAME="tableau_multi"></A> simulations des tableau multidimensions </H3>
+On ne peut pas utiliser des tableaux multidimentionnels. <BR>
+On peut les simuler en concatenant des composants des sous chaines avec le séparateur 
+SUBSEP<BR>
+<PRE> awk 'BEGIN { print "Mémorisation de votre fichier " FILENAME 
+                   SUBSEP=":" 
+                 }
+                 {  for ( i=1 ; i <=NF ; i++ ) {
+                    memfields[ NR , i ] = $i
+                    }
+                 }
+           END   { for ( i in memfields ) {
+                    print i ":" memfields[i] | "sort -n -t: "
+                    }
+	          print "Fin"
+                 } ' fichier </PRE>
+<I> Résultat :</I><BR>
+Affiche le fichier en commencant par la derniere ligne 
+<P>&nbsp;</P>
+<P></P>
+<!-- #EndEditable -->
+<HR>
+<P class="entete2">
+<A HREF="pdf/aide_memoire.html" title="obtenir fichier pdf">Obtenir l'aide mémoire Unix au format pdf</A>
+</P>
+<div id="conteneur">
+<P class="entete1">
+<A HREF="index.html" class="case_menu"><IMG SRC="images/home.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="home www.shellunix.com" title="accueil"></A>
+<A HREF="commandes.html" class="case_menu"><IMG SRC="images/cmde.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="commandes Unix"></A>
+<A HREF="sh.html" class="case_menu"><IMG SRC="images/sh.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="Shell unix: sh"></A>
+<A HREF="csh.html" class="case_menu"><IMG SRC="images/csh.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="Shell unix: csh"></A>
+<A HREF="ksh.html" class="case_menu"><IMG SRC="images/ksh.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="Shell unix: ksh"></A>
+<A HREF="regexp.html" class="case_menu"><IMG SRC="images/re.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="expressions régulières"></A>
+<A HREF="sed.html" class="case_menu"><IMG SRC="images/sed.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="sed"></A>
+<A HREF="awk.html" class="case_menu"><IMG SRC="images/awk.png" BORDER=1 WIDTH=50 HEIGHT=50 ALT="awk"></A>
+<A HREF="perl.html" class="case_menu"><IMG SRC="images/perl.png" BORDER=1  WIDTH=50 HEIGHT=50 ALT="perl"></A>
+</P>
+
+
+<P id="piedpage"> &copy;<A HREF="mailto:isa@shellunix.com"> Isabelle Vollant</A>
+  (<A HREF="http://www.shellunix.com">http://www.shellunix.com</A>) <BR />
+  <span id="date">mise à jour le 30/07/12</span> </p>
+</BODY>
+<!-- #EndTemplate --></HTML>
+
+

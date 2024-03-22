@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie ie6" lang="fr" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie ie7" lang="fr" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="fr" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="fr" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#">
+<!--<![endif]-->
+<head>
+
+<script type="text/javascript">
+    window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+    else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+    var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+    if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+    var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("257d0d56-29d8-4b15-9c61-26d6e013bb68")})();
+</script>
+<script type="text/javascript">
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+        if (window.location.pathname == "/politique-de-confidentialite.htm"
+            || window.location.pathname == "/mentions-legales.htm"
+            || window.location.pathname == "/faq-cookies.htm"
+            || window.location.pathname == "/politique-cookies.htm") {
+            if (!Didomi.notice.isVisible()){
+                return;
+            }
+            Didomi.notice.hide();
+        }
+    });
+</script>
+    <script type="text/javascript">
+    window.unify_dataSlayer = window.unify_dataSlayer || [];
+    var dmpData = [
+    {
+        "event": "neweb-dmp",
+        "site": {
+            "sid": 385953,
+            "platform": "zdnet",
+            "lang": "fr",
+            "environment": "prod"
+        },
+        "page": {
+            "section": "blogs",
+            "subSection": "Green SI",
+            "sectionId": "4",
+            "subSectionId": "39001501",
+            "brands": [
+                "IBM","CISCO"            ],
+            "mainTag": [
+                "Apple","Mac","Mac OS X","Priorités IT","IBM","CISCO"            ],
+            "trackPageview": ""
+        },
+        "content": {
+            "type": "Blog",
+            "date": "20151018",
+            "hour": "16:11",
+            "author": "Frédéric Charles",
+            "label": "Des Macs en entreprise: la fin d'un tabou ?"
+        },
+        "utm": {
+            "campaign": "",
+            "medium": "",
+            "source": ""
+        },
+        "ops": {
+            "id": "",
+            "name": "",
+            "brand": ""
+        }
+    }];
+    dmpData[0].user = {
+        "id": "",
+        "isLoggedIn": 0,
+        "device": "desktop",
+        "registrationDate": "",
+        "firstPost": "",
+        "dom": "",
+        "registrationType": "",
+        "newsletterOptin": "",
+        "pwa": "web"
+    };
+    dmpData[0].user.referer = document.referrer;
+    dmpData[0].user.adblocker = 0;
+    dmpData[0].user.screenResolution = window.screen.width + "x" + window.screen.height;
+
+    unify_dataSlayer.push(dmpData[0]);
+
+    /**
+     * Check if Adblocker is active
+     */
+    window.onload = function() {
+        var testAd = document.createElement("div");
+        testAd.innerHTML = "&nbsp;";
+        testAd.className = "mvp-widget-ad";
+        document.body.appendChild(testAd);
+        window.setTimeout(function () {
+            if (testAd.offsetHeight === 0) {
+                window.unify_dataSlayer[0].user.adblocker = 1;
+            }
+            testAd.remove();
+        }, 100);
+    }
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','unify_dataSlayer','GTM-NFRJPMJ');</script>
+<!-- End Google Tag Manager -->
+<title>Des Macs en entreprise: la fin d&#039;un tabou ? - ZDNet</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="fr" />
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="p:domain_verify" content="c7dd32900a55028f623a9134efa40a67" />
+<meta name="dailymotion-domain-verification" content="dmgg64r5790uxgdmi" />
+<meta name="description" content="S&#039;il n&#039;y a qu&#039;un sujet qui est tabou à la DSI, c&#039;est bien le Mac! Mais quand Cisco ou IBM fricottent avec Apple, le DSI peut commencer à se demander s&#039;il n&#039;est pas temps de retourner sa veste..." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+    <meta property="og:site_name" content="ZDNet France" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Des Macs en entreprise: la fin d&#039;un tabou ?" />
+    <meta property="og:image" content="http://2.bp.blogspot.com/-ASMgq4rKxZQ/ViNuy2YRbGI/AAAAAAAAcS8/A8r6di5h0Ms/s1600/Part%2Bde%2BPC.jpg" />
+    <meta property="og:url" content="https://www.zdnet.fr/blogs/green-si/des-macs-en-entreprise-la-fin-d-un-tabou-39826656.htm" />
+    <meta property="og:description" content="S&#039;il n&#039;y a qu&#039;un sujet qui est tabou &agrave; la DSI, c&#039;est bien le Mac! Mais quand Cisco ou IBM fricottent avec Apple, le DSI peut commencer &agrave; se demander s&#039;il n&#039;est pas temps de retourner sa veste..." />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:creator" content="zdnetfr" />
+    <meta property="twitter:creator" content="ZDNet" />
+    <meta property="twitter:title" content="Des Macs en entreprise: la fin d&#039;un tabou ?" />
+    <meta property="twitter:description" content="S&#039;il n&#039;y a qu&#039;un sujet qui est tabou &agrave; la DSI, c&#039;est bien le Mac! Mais quand Cisco ou IBM fricottent avec Apple, le DSI peut commencer &agrave; se demander s&#039;il n&#039;est pas temps de retourner sa veste..." />
+    <meta property="twitter:url" content="https://www.zdnet.fr/blogs/green-si/des-macs-en-entreprise-la-fin-d-un-tabou-39826656.htm" />
+    <meta property="twitter:image" content="http://2.bp.blogspot.com/-ASMgq4rKxZQ/ViNuy2YRbGI/AAAAAAAAcS8/A8r6di5h0Ms/s1600/Part%2Bde%2BPC.jpg" />
+<style type="text/css">
+@font-face {
+    font-family: "SuisseIntl Semi Bold";
+    font-display: optional;
+    font-weight: 600;
+    src: url("/fonts/suisseintl-semibold.woff2") format("woff2");
+}
+</style>
+            <link rel="stylesheet" href="/min-css/scaffolding.css?v=202302161000">
+        <link rel="stylesheet" href="/min-css/fr.css?v=202302161000">
+        <!--[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" href="/min-css/scaffolding.768.css?v=202302161000" media="screen">
+        <link rel="stylesheet" href="/min-css/scaffolding.1024.css?v=202302161000" media="screen">
+        <![endif]-->
+        <link rel="stylesheet" href="/min-css/scaffolding.768.css?v=202302161000" media="screen and (min-width:768px)">
+        <link rel="stylesheet" href="/min-css/scaffolding.1024.css?v=202302161000" media="screen and (min-width:1024px)">
+                <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+                <link rel="stylesheet" href="/min-css/alert-corner2.css?v=202302161000">
+                <link rel="amphtml" href="https://www.zdnet.fr/amp/blogs/green-si/des-macs-en-entreprise-la-fin-d-un-tabou-39826656.htm">
+                <link rel="canonical" href="https://www.zdnet.fr/blogs/green-si/des-macs-en-entreprise-la-fin-d-un-tabou-39826656.htm">
+                <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+                <script type="text/javascript" src="/min-js/jquery.cookie.1.4.js?v=202302161000"></script>
+                <script type="text/javascript" src="/min-js/modernizr-custom.2.5.3.js"></script>
+                <script type="text/javascript" src="/min-js/alert-corner2.js?v=202302161000"></script>
+        
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114.png?v=202302161000">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72.png?v=202302161000">
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png?v=202302161000">
+<link rel="alternate" type="application/rss+xml" title="RSS ZDNet.fr" href="https://www.zdnet.fr/feeds/rss/">
+<script type="text/javascript">
+    var envDev;
+    envDev = false;    players = [];
+</script>
+<script>window.pegasusConf = {"slots":"native_home_dynamic,native_seealso_left,dhtml,banner_btf,banner_atf,300_btf,300_atf,300_mtf","params":{"site":"zdnet","keywords":"content_keywords=apple;content_keywords=mac;content_keywords=mac-os-x;content_keywords=priorites-it;platform=desktop;content_class=rg;contenttype=blog;date=18-10-2015;story=39826656;section=blogs;subsection=green-si;new_visitor=1","traffic":"organic","section":"blogs"}};</script>
+<script type="text/javascript" src="https://pegasus.unifygroup.com/lib/pegasus.min.js" async></script>
+
+<script type="application/ld+json">
+{  "@context" : "http://schema.org",
+   "@type" : "WebSite",
+   "name" : "ZDNet France",
+   "alternateName" : "L'info biz et tech pour les pros",
+   "url" : "https://www.zdnet.fr"
+}
+</script>
+<script type="application/ld+json">
+{ "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "ZDNetFR",
+  "url" : "https://www.zdnet.fr/",
+  "logo": {
+    "@type": "imageObject",
+    "name":"ZDNetFR Logo",
+    "url":"https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/logo-600px-60px.png",
+    "contenturl":"https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/logo-600px-60px.png",
+    "description":"ZDNetFR Logo"
+  },
+  "sameAs" : [
+      "https://twitter.com/zdnetfr",
+      "https://www.facebook.com/zdnet.fr",
+      "https://www.youtube.com/user/zdnet",
+      "https://www.linkedin.com/company/zdnet-france/",
+      "https://www.pinterest.fr/ZDNetFrance/"
+  ]
+}
+</script>
+<script type="didomi/javascript" data-vendor="iab:1142">
+    (function(x,p,l,n,a,i) {
+    self.xpln_targeting=function(){};
+    a=x.createElement(p);a.async=!0;
+    a.src=l+'reworld'+'/'+location.hostname+'.js';
+    i=x.currentScript||x.getElementsByTagName(p)[0];i.parentNode.insertBefore(a,i);
+    })(document,'script','https://cdn.xpln.tech/');
+</script>
+<script type="didomi/javascript" data-vendor="didomi:google" async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<link rel="stylesheet" href="https://use.typekit.net/pcp7pxj.css">
+</head>
+<body id="record">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFRJPMJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- ad_type : elu = formatId : dhtml -->
+<div data-ad="dhtml"></div>
+
+
+
+<header role="banner">
+    <div class="wrapper">
+        <div class="header container">
+            <a href="/" class="siteLogo">ZDNet</a>
+            <div class="lvl-search">
+                <form id="search" class="siteSearch" action="/rechercher/">
+    <fieldset class="box">
+        <input type="text" placeholder="Recherchez sur ZDNet" tabindex="1" name="q" value="" />
+        <input type="submit" value="Search" />
+    </fieldset>
+</form>
+            </div>
+            <div class="lvl-nav">
+                <nav class="secondaryNav">
+                                            <div class="nav expandable siteUtils loggedIn">
+                            <a>Connexion <span class="avatar"><img src="/images/base/avatar-20x20.jpg" alt="" width="20" height="20" /></span> <span class="arrow--down"></span></a>
+                            <nav class="menu">
+                                <ul>
+                                    <li><a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet">Se connecter</a></li>
+                                    <li><a href="/membres/creer/" data-modal-ajax="/membres/popup-ajax/inscription.htm" data-modal-title="Devenir membre de ZDNet">Devenir membre</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                                        <ul class="bar">
+                                                    <li>
+                                <a href="/dossier/cloud-de-confiance-sous-le-vernis-quelle-realite-4000238196.htm" alt="Cloud de confiance">
+                                                                        Cloud de confiance
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a href="/livre-blanc/" alt="Livres blancs">
+                                                                        Livres blancs
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a href="/vie-des-tpe-pme.htm" alt="TPE / PME">
+                                                                        TPE / PME
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a href="/dossier/dossier-cloud-native-4000238104.htm" alt="Cloud native">
+                                                                        Cloud native
+                                </a>
+                            </li>
+                                                            <li class="expandable">
+                                    <a class="textDrop" href="#">Plus<span class="arrow--down"></span></a>
+                                    <nav class="menu">
+                                        <ul>
+                                                                                <li>
+                                <a href="/telecharger/" alt="Télécharger">
+                                                                        Télécharger
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a href="/lexique-it/" alt="Lexique IT">
+                                                                        Lexique IT
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a href="/blogs/" alt="Blog">
+                                                                        Blog
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a href="/services/5g-monitor/" alt="5G Monitor">
+                                                                        5G Monitor
+                                </a>
+                            </li>
+                                                                    </ul>
+                                    </nav>
+                                </li>
+                                                                        </ul>
+                </nav>
+            </div>
+        </div>
+        <nav class="primaryNav container">
+                        <ul class="bar editions">
+                                        <li class="expandable">
+                <a href="/actualites/informatique-4000000154q.htm">
+                                        Informatique
+                    <span class="arrow--down"></span>                </a>
+                                    <nav class="menu">
+                        <ul>
+                                                        <li><a href="/actualites/windows-11-4000238071q.htm">Windows 11</a></li>
+                                                        <li><a href="/actualites/windows-10-4000237349q.htm">Windows 10</a></li>
+                                                        <li><a href="/actualites/linux-3900046213q.htm">Linux</a></li>
+                                                        <li><a href="/actualites/navigateurs-3900046235q.htm">Navigateur</a></li>
+                                                        <li><a href="/actualites/macos-4000085483q.htm">MacOS</a></li>
+                                                        <li><a href="/actualites/office-365-4000237243q.htm">Office 365</a></li>
+                                                        <li><a href="/actualites/logiciels-3900046188q.htm">Logiciels</a></li>
+                                                    </ul>
+                    </nav>
+                            </li>
+                    <li class="expandable">
+                <a href="/actualites/smartphone-4000002598q.htm">
+                                        Smartphone
+                    <span class="arrow--down"></span>                </a>
+                                    <nav class="menu">
+                        <ul>
+                                                        <li><a href="/actualites/android-4000082258q.htm">Android</a></li>
+                                                        <li><a href="/actualites/ios-4000237213q.htm">iOS</a></li>
+                                                        <li><a href="/actualites/wearable-4000237576q.htm">Wearable</a></li>
+                                                    </ul>
+                    </nav>
+                            </li>
+                    <li class="expandable">
+                <a href="/actualites/cybersecurite-3900046206q.htm">
+                                        Cybersécurité
+                    <span class="arrow--down"></span>                </a>
+                                    <nav class="menu">
+                        <ul>
+                                                        <li><a href="/actualites/cyberattaque-4000237415q.htm">Cyberattaque / Piratage</a></li>
+                                                        <li><a href="/actualites/ransomware-4000237544q.htm">Ransomware</a></li>
+                                                        <li><a href="/actualites/virus-4000001901q.htm">Virus</a></li>
+                                                        <li><a href="/actualites/authentification-4000200576q.htm">Authentification</a></li>
+                                                    </ul>
+                    </nav>
+                            </li>
+                    <li class="expandable">
+                <a href="/actualites/reseaux-et-telecoms-4000000149q.htm">
+                                        Réseaux et télécom
+                    <span class="arrow--down"></span>                </a>
+                                    <nav class="menu">
+                        <ul>
+                                                        <li><a href="/actualites/operateur-telecom-4000143166q.htm">Opérateur télécom</a></li>
+                                                        <li><a href="/actualites/5g-4000237303q.htm">5G</a></li>
+                                                        <li><a href="/actualites/4g-4000085539q.htm">4G</a></li>
+                                                        <li><a href="/actualites/fibre-optique-4000076214q.htm">Fibre optique</a></li>
+                                                        <li><a href="/actualites/wi-fi-4000000166q.htm">Wi-Fi</a></li>
+                                                    </ul>
+                    </nav>
+                            </li>
+                    <li class="expandable">
+                <a href="/actualites/technologie-3900046190q.htm">
+                                        Technologie
+                    <span class="arrow--down"></span>                </a>
+                                    <nav class="menu">
+                        <ul>
+                                                        <li><a href="/actualites/blockchain-4000237562q.htm">Blockchain</a></li>
+                                                        <li><a href="/actualites/intelligence-artificielle-ia-4000237536q.htm">IA</a></li>
+                                                        <li><a href="/actualites/robotique-4000077666q.htm">Robotique</a></li>
+                                                        <li><a href="/actualites/voiture-autonome-4000237190q.htm">Voiture autonome</a></li>
+                                                        <li><a href="/actualites/cloud-computing-4000086220q.htm">Cloud computing</a></li>
+                                                    </ul>
+                    </nav>
+                            </li>
+                    <li class="expandable">
+                <a href="/actualites/gafam-4000238091q.htm">
+                                        Gafam
+                    <span class="arrow--down"></span>                </a>
+                                    <nav class="menu">
+                        <ul>
+                                                        <li><a href="/actualites/google-4000078309q.htm">Google</a></li>
+                                                        <li><a href="/actualites/amazon-4000094147q.htm">Amazon</a></li>
+                                                        <li><a href="/actualites/facebook-4000085268q.htm">Facebook</a></li>
+                                                        <li><a href="/actualites/apple-4000000168q.htm">Apple</a></li>
+                                                        <li><a href="/actualites/microsoft-4000078466q.htm">Microsoft</a></li>
+                                                    </ul>
+                    </nav>
+                            </li>
+            <li><a id="pzlink" href="/partenaires/">Partenaires</a></li>            </ul>
+            
+            <ul class="bar mobile ret">
+                                <li class="nav expandable siteUtils"><a>Se connecter<span class="arrow--down"></span></a>
+                    <nav class="menu">
+                        <ul>
+                                                    <li><a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet">Se connecter</a></li>
+                            <li><a href="/membres/creer/" data-modal-ajax="/membres/popup-ajax/inscription.htm" data-modal-title="Devenir membre de ZDNet">Devenir membre</a></li>
+                                                </ul>
+                    </nav>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div id="mantle_skin">
+    <div id="page" >
+                <div id="leaderTop" class="leader">
+    <div class="container">
+        <!-- ad_type : leaderboard = formatId : banner_atf -->
+<div class="prepend"><b class="caret"></b> publicit&eacute; <b class="caret"></b></div>
+<div data-ad="banner_atf"></div>
+
+    </div>
+</div>
+                            <div id="content" class="container">
+                                <div class="breakingNews">
+        <span>Guide pratique:</span> <a href="https://www.zdnet.fr/pratique/">mieux travailler au bureau et &agrave; distance avec les conseils et astuces de ZDNet</a>
+    </div>
+                                    <div id="main">
+            <div class="navSupplement">
+                                                                                                                                                                    <script type="application/ld+json">
+        {"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"\/","name":"Accueil"}},{"@type":"ListItem","position":1,"item":{"@id":"\/blogs\/","name":"Blogs"}},{"@type":"ListItem","position":1,"item":{"@id":"\/blogs\/green-si\/","name":"Green SI"}}]}
+    </script>
+            <nav id="breadcrumb">
+                            <div class="bc-child">
+                                        <a href="/">
+                        <span>Accueil</span>
+                    </a>
+                     &gt;                </div>
+                            <div class="bc-child">
+                                        <a href="/blogs/">
+                        <span>Blogs</span>
+                    </a>
+                     &gt;                </div>
+                            <div class="bc-child">
+                                        <a href="/blogs/green-si/">
+                        <span>Green SI</span>
+                    </a>
+                                    </div>
+                    </nav>
+        </div>
+        <article id="siu-container" class="post">
+                    <header class="storyHeader">
+            <h1>
+        Des Macs en entreprise: la fin d&#039;un tabou ?
+    </h1>
+            <p class="summary"><span>Prospective :</span> S'il n'y a qu'un sujet qui est tabou à la DSI, c'est bien le Mac! Mais quand Cisco ou IBM fricottent avec Apple, le DSI peut commencer à se demander s'il n'est pas temps de retourner sa veste...</p>
+        <div class="byline">
+                        <div><span class="thumb"><img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/authors/frederic-charles_60x45.png?v=202302161000" alt="Fr&eacute;d&eacute;ric Charles" width="60" height="45" class="photo" /></span></div>
+                <p class="meta">Par
+                    <span>Frédéric Charles</span> pour <a href="/blogs/green-si/">Green SI</a> |
+                            <time datetime="2015-10-18T11:41:00+02:00">Dimanche 18 Octobre 2015</time>
+            </p>
+        <div id="siu-horizontal" data-module="sharebar" data-title="Des Macs en entreprise: la fin d&#039;un tabou ?" data-summary="S&#039;il n&#039;y a qu&#039;un sujet qui est tabou à la DSI, c&#039;est bien le Mac! Mais quand Cisco ou IBM fricottent avec Apple, le DSI peut commencer à se demander s&#039;il n&#039;est pas temps de retourner sa veste..." data-url="https://www.zdnet.fr/blogs/green-si/des-macs-en-entreprise-la-fin-d-un-tabou-39826656.htm" data-short-url="" data-action="blog" data-content-id="39826656" data-story-id="zdfr_39826656" data-cmnt-count="6"></div>
+</div></header>
+                
+        
+
+        
+
+    
+                                                            <script type="application/ld+json">
+{"@context":"http:\/\/schema.org","@type":"NewsArticle","headline":"Des Macs en entreprise: la fin d'un tabou ?","description":"S'il n'y a qu'un sujet qui est tabou \u00e0 la DSI, c'est bien le Mac! Mais quand Cisco ou IBM fricottent avec Apple, le DSI peut commencer \u00e0 se demander s'il n'est pas temps de retourner sa veste...","url":"https:\/\/www.zdnet.fr\/blogs\/green-si\/des-macs-en-entreprise-la-fin-d-un-tabou-39826656.htm","mainEntityOfPage":{"@type":"WebPage","url":"https:\/\/www.zdnet.fr\/blogs\/green-si\/des-macs-en-entreprise-la-fin-d-un-tabou-39826656.htm","relatedLink":["https:\/\/www.zdnet.fr\/blogs\/green-si\/un-ipadpro-pour-l-entreprise-et-alors-39824792.htm","https:\/\/www.zdnet.fr\/actualites\/dma-les-libertes-d-interpretation-d-apple-interpellent-thierry-breton-39964824.htm","https:\/\/www.zdnet.fr\/actualites\/micosoft-surface-vs-apple-macbook-les-nouveaux-pc-ia-de-microsoft-bases-sur-arm-peuvent-ils-concurrencer-apple-39964772.htm","https:\/\/www.zdnet.fr\/actualites\/le-macbook-pro-m3-14-pouces-s-affichera-sur-deux-moniteurs-comme-le-macbook-air-m3-39964724.htm","https:\/\/www.zdnet.fr\/actualites\/ios-174-est-disponible-et-avec-elle-le-sideloading-dans-l-ue-39964720.htm"]},"datePublished":"2015-10-18T11:39:55+02:00","dateModified":"2015-10-18T11:41:00+02:00","publisher":{"@type":"Organization","name":"ZDNET France","logo":{"@type":"imageObject","name":"ZDNetFR Logo","url":"https:\/\/d1fmx1rbmqrxrr.cloudfront.net\/zdnet\/i\/logo-600px-60px.png","contentUrl":"https:\/\/d1fmx1rbmqrxrr.cloudfront.net\/zdnet\/i\/logo-600px-60px.png","description":"ZDNetFR Logo"}},"speakable":{"@type":"SpeakableSpecification","xpath":["\/html\/head\/title","\/html\/head\/meta[@name='description']\/@content"]},"author":{"@type":"Person","name":"Fr\u00e9d\u00e9ric Charles","url":"https:\/\/www.zdnet.fr\/equipe\/fr\/frederic-charles-39060093.htm"},"associatedMedia":{"@type":"imageObject","url":"https:\/\/d1fmx1rbmqrxrr.cloudfront.net\/zdnet\/optim\/i\/authors\/frederic-charles__w1200.png","width":"1200","height":"900"},"image":{"@type":"imageObject","url":"https:\/\/d1fmx1rbmqrxrr.cloudfront.net\/zdnet\/optim\/i\/authors\/frederic-charles__w1200.png","width":"1200","height":"900"}}
+</script>
+<div class="storyBody" data-poool="80" data-poool-mode="hide">
+                
+
+
+
+
+
+
+
+
+
+
+
+<p>S'il n'y a qu'un sujet qui est tabou à la DSI, c'est bien le Mac!</p><p>Quand <b>Cisco </b>ou <b>IBM </b>fricottent avec <b>Apple</b>, <font color="#CC9900"><b>le DSI peut commencer à se demander s'il n'est pas temps de retourner sa veste et de faire rentrer les Mac dans l'entreprise ! </b></font>Mais comme ce sujet de discussion peut dégénérer rapidement, GreenSI fait appel à votre curiosité pour lire ce billet jusqu'à la fin, avant de décider de le brûler pour blasphème en récitant des incantations ;-)</p><p><img src="http://2.bp.blogspot.com/-ASMgq4rKxZQ/ViNuy2YRbGI/AAAAAAAAcS8/A8r6di5h0Ms/s1600/Part%2Bde%2BPC.jpg" alt="" align="right" height="202" hspace="10" vspace="10" width="358">Bien sûr, le couple Mac/MacOS est présent dans l'entreprise, qui n'est pas équipée uniquement de postes de travail Windows. La valeur par défaut est Windows mais on peut justifier l'usage des Macs, par exemple dans les services marketing pour travailler avec les agences de communication, ou dans certains secteurs d'activités. Sans oublier les machines pour les développeurs qui demandent de la puissance, de l'autonomie, et ne sont pas toutes connectées au réseau de l'entreprise (mais qu'a internet).<br></p><p>Mais la réalité du marché est que <font color="#CC9900"><b>plus de 90% des systèmes livrés dans le monde le sont encore sous PC/Windows en 2015.</b></font><br></p><p>La raison est connue: Apple ne fait pas dans le low-cost. Donc à configurations égales, on a beau le tourner dans tous les sens, un Mac coûte plus cher à l'achat qu'un PC. </p><p>Mais dans l'entreprise qui raisonne "TCO" (total cost of ownership) incluant le coût du support et de la formation (de l'ordre de 1200-1500€/an/poste), le choix ne doit pas s'arrêter au seul prix d'achat.</p><p>Cette semaine, c'est sur Twitter avec l'effet d'une petite bombe qui a retenue l'attention de GreenSI, que <b>Fletcher Previn,</b> "Monsieur Poste de travail as a service" chez IBM, a annoncé les premiers résultats du<font color="#CC9900"><b> déploiement massif de Mac chez IBM </b></font>(au rythme de 1900 par semaine !)  suite à l'accord signé entre <b>Apple </b>et <b>IBM </b>en 2014 autour du mobile:</p><p></p><ul><li><font color="#CC9900"><b>5% des utilisateurs de Mac utilisent le service de dépannage interne (contre 40% pour les utilisateurs de PC)</b></font></li><li>98,7% des requêtes sont résolues au premier appel </li></ul><div><p>Ce qui a valu à l'influent <a href="https://en.wikipedia.org/wiki/Marc_Andreessen"><b>Marc Andreessen</b></a>, et à <b>Philip Schiller</b>, le VP marketing d'Apple, un trait d'humour pour rappeler qui avait inventé le PC ...<br></p><p> <img src="http://4.bp.blogspot.com/-XDD4JHQk0KQ/ViO4UYi8OeI/AAAAAAAAcTs/bQCu5SK8__g/s1600/mac%2Bversus%2Bpc.jpg" alt="" align="middle"   hspace="10" vspace="5"  ></p><p>Dans le contexte d'IBM (population avertie et déploiement massif), les coûts de support sur Mac sont inférieurs à ceux sur PC. C'est donc bien la fin d'une légende. Et malgré un coût d'achat plus élevé, avec une certaine durée de vie et des coûts de support plus faibles, <font color="#CC9900"><b>on peut imaginer que le choix et l'achat de Mac soit plus rentable pour l'entreprise en terme de TCO.</b></font></p><p>Sans compter qu'avec la montée en puissance de la mobilité et de l'internet mobile, <font color="#CC9900"><b>l'OS le plus utilisé en entreprise risque rapidement d'être... Android. Et éventuellement iOS avec l'iPhone ou les nouveaux iPadPro </b><font color="#000000">(<a title="" target="_blank" href="https://www.zdnet.fr/actualites/un-ipadpro-pour-l-entreprise-et-alors-39824792.htm">Un iPadPro pour l'entreprise, et alors?</a>).</font><b><br></b></font></p><p>Le dernier argument des "pro-windows" - n'avoir qu'un seul OS dans l'entreprise pour tout simplifier - est en train de tomber. L'entreprise aura de facto plusieurs OS sur ses postes de travail, assurant l'accès au SI et les fonctions de collaboration entre salariés, qui sont fixes mais aussi mobiles.<br></p><p>Comme le poste de travail, la téléphonie d'entreprise est aussi devenue fixe et mobile. Début septembre, c'est <b>Cisco </b>qui a signé un <a href="http://www.apple.com/pr/library/2015/08/31Apple-and-Cisco-Partner-to-Deliver-Fast-Lane-for-iOS-Enterprise-Users.html" style="margin: 0px; padding: 0px; border: 0px; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; font-stretch: inherit; vertical-align: baseline; cursor: pointer;">accord</a> avec Apple pour optimiser ses réseaux pour les terminaux et les applications iOS. Son objectif, pousser l’intégration de l’iPhone dans les environnements d’entreprise (notamment <b>WebEx</b>), et ses liens avec les téléphones fixes de bureau <b>Cisco</b>. La téléphonie et la collaboration autour des communications est aussi un enjeu de productivité pour l'entreprise, et Apple ne pouvait rester isolé avec son propre système - iPhone - sans mieux l'intégrer avec les infrastructures de l'entreprise. <br></p><p><img src="http://3.bp.blogspot.com/-QM7AM7ofeP8/ViN8LnZP7WI/AAAAAAAAcTY/RPRx0bdYiy8/s1600/John%2BChambers.JPG" alt="" align="left" height="228" hspace="10" vspace="10" width="340">Un Cisco, dont le président <b>John Chambers</b> est venu en France il y a 10 jours annoncer qu'il allait renforcer ses investissements (400 millions) dans les startups françaises. Et quand, au NUMA, entre deux conférences où GreenSI a pu se faufiler, on lui posa la question  sur ce qui ce qui va continuer de bouleverser le numérique et ce qu'il faut garder sur son radar, il répondit sans hésiter: <font color="#CC9900"><b>l'accord entre Cisco et Apple, qui peut-être n'a pas encore été considéré à sa juste valeur.</b></font></p><p>Dans ce contexte, la stratégie multi-plateformes de Microsoft avec Windows 10 sur tous les terminaux sera d'abord <font color="#CC9900"><b>vue par le DSI comme la possibilité de choisir Windows sur les terminaux qu'il souhaite, et non pas d'avoir Windows partout.</b></font></p><p>Microsoft en est bien conscient et met les bouchées doubles en remplaçant Linc par <b>Skype Entreprise</b> dans la communication instantanée. Car <b>Webex</b>, comme <b>Skype</b>, sont les plateformes applicatives Cloud qui amènent plus de valeur pour l'entreprise à ces terminaux. De même pour Office 365, Google Entreprise et toutes les applications comme Boxnet, maintenant déclinées en version entreprise. <br></p><p>Alors pour un DSI, faire rentrer des Macs/iOS en entreprise à la place de PC/Windows, à côté des iPhones, est un tabou qui est certainement en train de voler en éclat. <font color="#CC9900"><b>La perspective stratégique sur le poste de travail du salarié a changé avec le mobile </b></font>et doit intégrer les coûts de supports et le ratio entre le nombre d'agents au support versus la population supportée. Un ratio qui visiblement est plus faible pour Apple.<br></p><p><font color="#CC9900"><b>À Apple maintenant de mettre en place le réseau de distribution attendu par les entreprises</b></font>. GreenSI veut parler de celles qui n'achètent pas 50.000 Macs d'un coup dans le cadre d'accords stratégiques mondiaux signés dans la langue de Shakespeare ;-)<br></p></div><p></p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div id="poool-widget"></div>
+    <nav class="infoPagination">
+        </nav>
+                    <section class="module">
+    <div class="row">
+                    <div class="column-2" style="min-height: 10px;">
+                <a href="/blogs/green-si/un-ipadpro-pour-l-entreprise-et-alors-39824792.htm" class="thumb">
+                    <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/authors/frederic-charles.png?v=202302161000" alt="Un iPadPro pour l&#039;entreprise: et alors?" width="140" height="105"/>
+                </a>
+            </div>
+                <div class="column-6">
+            <b class="h3">A lire aussi :</b>
+            <div class="content">
+                <div class="h3"><a href="/blogs/green-si/un-ipadpro-pour-l-entreprise-et-alors-39824792.htm" title="Un iPadPro pour l&#039;entreprise: et alors?">Un iPadPro pour l&#039;entreprise: et alors?</a></div>
+                <p>
+                    La rumeur d'un iPad pour les Pros en novembre a été confirmée. Une tablette qui, pour GreenSI, est plus qu'un produit mais...
+                </p>
+            </div>
+        </div>
+    </div>
+</section>                <p>
+            Suivez toute l'actualité de ZDNet sur <a href="https://news.google.com/publications/CAAqBwgKMMfEoQkwyuGWAg?hl=fr&gl=FR&ceid=FR%3Afr" target="_blank"><u>Google Actualités</u></a>.        </p>
+        <div class="navSupplement">
+                <p class="relatedTopics">
+                                    Sujet:
+                                    <a href="/actualites/apple-4000000168q.htm">Apple</a>
+                                    <a href="/actualites/mac-3900046297q.htm">Mac</a>
+                                    <a href="/actualites/mac-os-x-4000175646q.htm">Mac OS X</a>
+                                    <a href="/actualites/priorites-it-4000143128q.htm">Priorités IT</a>
+                                                </p>
+            <ul class="followOptions">
+    <li>Suivre via: </li>
+    <li><a href="/blogs/green-si/rss/" title="RSS Feed" rel="nofollow"><span class="icon rss">RSS</span></a></li>
+</ul>
+        </div>
+                                                <footer class="authorBio">
+                                                <div class="thumb">
+                                            <img data-src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/authors/frederic-charles.png?v=202302161000" data-src-768="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/authors/frederic-charles.png?v=202302161000" alt="Fr&eacute;d&eacute;ric Charles" class="lazyload" width="140" height="105" />
+                                        </div>
+                                        <div class="bio">
+                            <h3>A propos de Frédéric Charles</h3>
+                            <p>Passionné de technologies, Frédéric Charles est Directeur Stratégie & Innovation chez SUEZ Smart Solutions. Il partage son analyse personnelle de la transformation numérique des entreprises et de la ville intelligente de demain.</p>
+                <div class="socialFollow">
+                                    </div>
+            </div>
+        </footer>
+                                            <div class="BeOpWidget"></div>
+            </article>
+            <section class="module">
+    
+    <div class="h3 heading"><span class="int">Articles relatifs</span></div>
+    <div class="tabsContent">
+        <div id="latestNews" class="box">
+    <ul>
+                    <li>
+                                    <div>
+                        <a href="/actualites/dma-les-libertes-d-interpretation-d-apple-interpellent-thierry-breton-39964824.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2021/09/AppleEpic__w1200.jpg" alt="DMA : Apple plie face à la Commission et rétablit l'accès d'Epic Games à son écosystème" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/actualites/dma-les-libertes-d-interpretation-d-apple-interpellent-thierry-breton-39964824.htm">DMA : Apple plie face à la Commission et rétablit l&#039;accès d&#039;Epic Games à son écosystème</a></p>
+                                                    <p class="meta">08/03/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/actualites/micosoft-surface-vs-apple-macbook-les-nouveaux-pc-ia-de-microsoft-bases-sur-arm-peuvent-ils-concurrencer-apple-39964772.htm" class="thumb">
+                            <picture>
+        <img src="https://www.zdnet.com/a/img/2023/11/30/ef68a551-ce69-4159-8cce-3e88681376d3/microsoft-surface-laptop-studio-2-2.jpg" alt="Micosoft Surface vs. Apple MacBook : Les nouveaux PC IA de Microsoft, basés sur Arm, peuvent-ils concurrencer Apple ? " width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/actualites/micosoft-surface-vs-apple-macbook-les-nouveaux-pc-ia-de-microsoft-bases-sur-arm-peuvent-ils-concurrencer-apple-39964772.htm">Micosoft Surface vs. Apple MacBook : Les nouveaux PC IA de Microsoft, basés sur Arm, peuvent-ils concurrencer Apple ? </a></p>
+                                                    <p class="meta">07/03/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/actualites/le-macbook-pro-m3-14-pouces-s-affichera-sur-deux-moniteurs-comme-le-macbook-air-m3-39964724.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2024/2023-10-31-08-22-40-140__60_45__overflow.jpg" alt="Le MacBook Pro M3 14 pouces s'affichera sur deux moniteurs, comme le MacBook Air M3 " width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/actualites/le-macbook-pro-m3-14-pouces-s-affichera-sur-deux-moniteurs-comme-le-macbook-air-m3-39964724.htm">Le MacBook Pro M3 14 pouces s&#039;affichera sur deux moniteurs, comme le MacBook Air M3 </a></p>
+                                                    <p class="meta">06/03/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/actualites/ios-174-est-disponible-et-avec-elle-le-sideloading-dans-l-ue-39964720.htm" class="thumb">
+                            <picture>
+        <img src="https://www.zdnet.com/a/img/2023/10/05/c175a0e5-2ef1-400f-b90b-8dd3cf353de4/img-1927.jpg" alt="iOS 17.4 est disponible, et avec elle le sideloading dans l’UE" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/actualites/ios-174-est-disponible-et-avec-elle-le-sideloading-dans-l-ue-39964720.htm">iOS 17.4 est disponible, et avec elle le sideloading dans l’UE</a></p>
+                                                    <p class="meta">06/03/2024</p>
+                                                            </div>
+            </li>
+                    </ul>
+</div>
+    </div>
+</section>                <section class="module featuredStories">
+            <div class="heading h2"><span class="int">Contenus partenaires</span></div>
+            <div class="row">
+<article class="column-2">
+<div>
+<a href="https://rebrand.ly/c86aru0" rel="nofollow" class="thumb js-track-click" data-track-category="article" data-track-action="partners_traffic_drivers" data-track-label="partners_traffic_drivers_1">
+<img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/edit/ne/2022/03/Nordpass_ZDNet.png" data-src-768="" alt="NordPass : la solution pour ne plus s'embêter avec les mots de passe" class="lazyload" width="140" height="105" />
+</a>
+</div>
+<p><a href="https://rebrand.ly/c86aru0" rel="nofollow" class="js-track-click" data-track-category="article" data-track-action="partners_traffic_drivers" data-track-label="partners_traffic_drivers_1">NordPass : la solution pour ne plus s'embêter avec les mots de passe</a></p>
+</article>
+<article class="column-2">
+<div>
+<a href="https://www.zdnet.fr/actualites-partenaires/testeurs-pro-experimentez-le-stockage-haute-densite-du-synology-hd6500-39958016.htm" rel="nofollow" class="thumb js-track-click" data-track-category="article" data-track-action="partners_traffic_drivers" data-track-label="partners_traffic_drivers_2">
+<img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/edit/ne/2021/04/synology-recrutement-140x105.jpg" data-src-768="" alt="Testeurs-pro : expérimentez le stockage haute densité du Synology HD6500 !" class="lazyload" width="140" height="105" />
+</a>
+</div>
+<p><a href="https://www.zdnet.fr/actualites-partenaires/testeurs-pro-experimentez-le-stockage-haute-densite-du-synology-hd6500-39958016.htm" rel="nofollow" class="js-track-click" data-track-category="article" data-track-action="partners_traffic_drivers" data-track-label="partners_traffic_drivers_2">Testeurs-pro : expérimentez le stockage haute densité du Synology HD6500 !</a></p>
+</article>
+<article class="column-2">
+<div>
+<a href="https://www.mailinblack.com/protect-3moisofferts/?utm_source=referral&utm_medium=unify&utm_campaign=protect&utm_protect=protect&utm_content=46965" rel="nofollow" class="thumb js-track-click" data-track-category="article" data-track-action="partners_traffic_drivers" data-track-label="partners_traffic_drivers_3">
+<img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/edit/ne/2022/03/proteger_140.jpg" data-src-768="" alt="Protégez votre messagerie et bénéficiez de 3 mois offerts" class="lazyload" width="140" height="105" />
+</a>
+</div>
+<p><a href="https://www.mailinblack.com/protect-3moisofferts/?utm_source=referral&utm_medium=unify&utm_campaign=protect&utm_protect=protect&utm_content=46965" rel="nofollow" class="js-track-click" data-track-category="article" data-track-action="partners_traffic_drivers" data-track-label="partners_traffic_drivers_3">Protégez votre messagerie et bénéficiez de 3 mois offerts</a></p>
+</article>
+<article class="column-2">
+<div>
+<a href="https://www.zdnet.fr/actualites-partenaires/stockage-objet-ou-en-est-on-39949854.htm" rel="nofollow" class="thumb js-track-click" data-track-category="article" data-track-action="partners_traffic_drivers" data-track-label="partners_traffic_drivers_4">
+<img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/edit/ne/2021/12/FUJI_SERVERROOM__7498%20(2).jpg" data-src-768="" alt="Stockage Objet : où en est-on ?" class="lazyload" width="140" height="105" />
+</a>
+</div>
+<p><a href="https://www.zdnet.fr/actualites-partenaires/stockage-objet-ou-en-est-on-39949854.htm" rel="nofollow" class="js-track-click" data-track-category="article" data-track-action="partners_traffic_drivers" data-track-label="partners_traffic_drivers_4">Stockage Objet : où en est-on ?</a></p>
+</article>
+</div></section>
+
+                    <section class="module featuredStories">
+                    
+    <div class="h2 heading"><span class="int">Contenus sponsorisés</span></div>
+                            <div id="taboola-below-article-thumbnails"></div>            </section>
+        <section id="comments" class="module">
+    
+    <div class="h2 heading"><span class="int">Réagissez à l'article</span></div>
+    <div class="head">
+                    <div class="commentsCount">
+                <span>6</span> réponses            </div>
+                                            <div class="fancy">
+                    <a data-modal-title="Se connecter sur ZDNet" data-modal-ajax="/membres/popup/connexion.htm" href="/membres/connexion.htm"><strong>Connectez vous</strong></a>
+                    ou
+                    <a data-modal-title="Devenir membre de ZDNet" data-modal-ajax="/membres/popup-ajax/inscription.htm" href="/membres/creer/"><strong>Enregistrez-vous</strong></a>
+                    pour rejoindre la discussion
+                </div>
+                        </div>
+    <ul class="commentsList">
+                                                                                ﻿    
+                                                <li id="comment-30313726" class="comment">
+        <div class="commentWrapper">
+                            <div class="commentBody">Soyons réalistes : le seul bastion réel qu'il reste au mac est la vidéo. Même au niveau agence de communication, on travaille sans problème sous GNU/Linux avec Inkscape et GIMP, pour faire de la charte graphique pro sous Inkscape, la découper sous Gimp, et faire de l'offset professionnel en SVG ou  XCF... Sachant que la valeur ajoutée vient toujours de l'opérateur, et non du logiciel, on peut ensuite se battre 1000 ans sur les avantages et inconvénients d'une solution ou d'une autre : mais dans les faits le mythe du mac a vécu, et c'est bien GNU/Linux qui est aujourd'hui l'OS le plus simple à utiliser, n'en déplaise aux fanboys.<br />Sinon en entreprise, le choix est vite fait : entre un GNU/Linux qui sait communiquer avec tout le monde, fait ses mises à jour sans casser les pieds, se passe d'antivirus, et propose des logiciels professionnels cohérents, et un mac qui ne sait même pas écrire en natif sur du NTFS, qui est bridé de partout, et où il faut sortir la carte bancaire à tout bout de champ, le choix est vite fait... <br />Bref, si le but de cet article est d'indiquer une porte de sortie aux déçus de windows, il ne sert à rien de quitter un dictateur pour un autre encore pire. La solution, c'est une Ubuntu MATE qui fonctionne très bien à l'usage, offre un support de 5 ans, et arrête de bouffer du temps d'administration pour rien. On rappellera sur ce dernier point que GNU/Linux reste le seul OS qui fait ses mises à jour "noyau + logiciels installés" en une seule passe - chose qu'aucun des concurrents ne fait, ce qui me fait dire que GNU/Linux est donc l'OS le plus simple et le plus rapide à entretenir. CQFD.</div>
+            <div class="commentMeta">
+                            <div class="author">
+                    <b>Hansi</b>
+                </div>
+                            <time>18 octobre, 2015 20:07</time>
+            </div>
+            <div class="commentActions">
+                                                                        <a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a>
+                                                                        </div>
+        </div>
+                                    <ul class="level">
+                                    ﻿
+                                                <li id="comment-30313746" class="comment">
+        <div class="commentWrapper">
+                            <div class="commentBody">Commentaire d'une personne qui n'a jamais eu de Mac entre les mains.<br />Vous n'avez visiblement pas compris le fond de l'article -> TCO  ; pour avoir essayer de travailler avec Linux comme poste de travail, je peux garantir que je passais mon temps au support et dans les fichiers de config. Alors plus simple...<br /><br />S'il y avait une distribution Linux dont l'expérience utilisateur était égale à OS X, ça se saurait depuis longtemps.<br /><br />La difficulté avec OS X est que la productivité apportée par l'expérience utilisateur est difficile à quantifier ; l'appel au support est un critère, mais ce n'est pas le seul argument.<br /><br />Pour une entreprise, c'est la quadrature du cercle : d'un côté la standardisation (tout Windows), permet des économies d'échelle ; d'un autre, on a une partie non négligeable de la population qui sera mécontente et ne sera pas en productivité optimale. L'idéal est de trouver un équilibre entre les OS pour optimiser la productivté de chacun sans impacter le coût total de la gestion de parc. <br /><br />Je suis en ligne avec l'article qui est que l'ère de l'OS unique pour les postes de travail (Windows) est terminée.</div>
+            <div class="commentMeta">
+                            <div class="author">
+                    <b>phherlin</b>
+                </div>
+                            <time>19 octobre, 2015 10:06</time>
+            </div>
+            <div class="commentActions">
+                                                                        <a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a>
+                                                                        </div>
+        </div>
+            </li>
+                                    ﻿
+                                                <li id="comment-30313880" class="comment">
+        <div class="commentWrapper">
+                            <div class="commentBody">Une petite question Hansi : crois-tu qu’IBM ne connait pas GNU/Linux ?<br /><br />Parce si non, tu devrais peut-être leur écrire une lettre pour leur indiquer les joies de GIMP et les bienfaits d Inkscape :o)</div>
+            <div class="commentMeta">
+                            <div class="author">
+                    <b>nolan_(Reloaded)</b>
+                </div>
+                            <time>20 octobre, 2015 09:10</time>
+            </div>
+            <div class="commentActions">
+                                                                        <a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a>
+                                                                        </div>
+        </div>
+            </li>
+                                </ul>
+                        </li>
+                                                                                    ﻿    
+                                                <li id="comment-30313772" class="comment">
+        <div class="commentWrapper">
+                            <div class="commentBody">Commentaire d'une personne qui a toujours eu des Macs entre les mains<br /><br />Excellent article qui ne prend pas parti pour le côté obscur ou clair de la force.<br />Force est toutefois de constater qu'Apple n'est plus une société alternative, mais un poids lourd qui peut peut imposer sa loi, une société qui a de plus en plus tendance à prendre ses clients pour des … poires comme disent les mauvaises langues.<br /><br />Certes, le retour en grande entreprise est une bonne chose même si Apple n'a plus de machine serveur à son catalogue aujourd'hui. Qui sait … il n'y a que les imbéciles qui ne changent jamais d'avis.<br /><br />Pour ma part, je n'ai jamais cédé aux sirènes du PC même pendant les années où la fin d'Apple - avant le retour du créateur - était quotidiennement annoncée ayant toujours dit que je changerai de monde que lorsque que je ne trouverai plus de pièce de rechange pour le PowerPC 601.<br /><br />De même, je continue à me battre pour qu'il n'y ait pas de partition Windows dans mon serveur … Apple, en cela je suis peut-être un intégriste de la première heure qui avait d'ailleurs crié au scandale quand nous avions quitté le PowerPC de Motorola pour les processeurs Intel, mais je m'assume. Je ne pense pas que mes associés et nos collaborateurs, en nombre modeste en souffrent plus que cela.<br /><br />Votre article prouve que nous sommes aujourd'hui à l'heure de l'oecuménisme en entreprise. Je m'en réjouis et apprécie l'ouverture d'esprit de mon préopinant même si d'aucuns affirment que la tolérance en informatique est un manque d'engagement.</div>
+            <div class="commentMeta">
+                            <div class="author">
+                    <b>Lelong</b>
+                </div>
+                            <time>19 octobre, 2015 13:44</time>
+            </div>
+            <div class="commentActions">
+                                                                        <a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a>
+                                                                        </div>
+        </div>
+            </li>
+                                                                ﻿    
+                                                <li id="comment-30313820" class="comment">
+        <div class="commentWrapper">
+                            <div class="commentBody">Il faut remettre cette évaluation dans son contexte, et prennent des exceptions dans certaines entreprises.<br />La réalité est que:<br />Dans les Agences de Com beaucoup travaillent avec un Mac surtout par habitude via les outils graphiques et média (Adobe After effect, Photoshop, Final Cut etc...) alors que dans la réalité la majeur partie prennent un Mac plus pour se la péter et jouer sur la forme plutôt que le fond.<br />La majorité ne savent même pas utiliser un ordinateur alors ne parlons même pas des outils graphiques où je passe mon temps à leur apprendre comment s'en servir (si certain se sentent concerner, alors il est temps de faire une introspection sérieuse et sans se mentir sur ses capacités, internet est là pour vous auto former si vous n'êtes pas assez compétent au royaume des aveugles).<br /><br />Concernant les Performances:<br />Que l'on utilise un Linux, un Mac ou Windows, un pc à performance équivalente avec un Mac coûte moins cher qu'un Mac et est tout aussi fluide si l'on sait comment utiliser sa machine. <br />Donc next out les pro linux, anti windows et pro apple car vos opinions on s'en contre-fiche étant donné qu'il n'est en rien objectif et en dit long sur la personnalité (si toute fois personnalité il y a).<br /><br />En matière de support:<br />La majorité des entreprises ont des techos dont on connait justement les machines suffisamment afin de corriger des bugs où des saletés qu'un salarié aurait placé sur sa machine, mais concrètement la majorité des cas revient surtout à un problème de configuration du parc réseau et non plus d'OS.<br /><br />Concernant le Dev :<br />Un développeur (non fashion victime) se concentrera plus sur le nécessaire plutôt que sur le bling bling.<br />Mac, c'est basé sur un noyau linux, Apple n'a rien inventé côté robustesse de la base de l'OS mais seulement ajouté des briques et notamment l'ergonomie que Linux n'a jamais eu hélas suffisamment.<br />Là un pro Linux viendra me dire : "L'ergonomie est là sous Linux c'est faux !" et comme x mille fois on lui prouverait si l'on était en face que d'une, il n'a aucune notion de ce que signifie "ergonomie" et deux qu'il n'est en rien suffisant actuellement à la demande d'un large publique.<br />Concernant les technologies web qui ont sacrément évolué, nous en revenons énormément à utilisant les lignes de commandes dans tous les sens.<br />Là un Mac et un Linux sont bien au dessus d'un Windows (quoi que Windows 10 commence enfin faire des updates attendue depuis des lustres).<br />On peut tout à fait palier à ce manque avec quelques logiciels où on pourra administrer un serveur en ligne de commande sous windows après (c'est ce que je fais tous les jours).<br /><br />Les Applications Professionnelles :<br />Une grande force aussi de Windows sur le marché pro, ce sont les multitudes d'applications indispensables pour certaines, comme le pack office etc...<br />Que l'on ne viennent pas me parler de Open Office, c'est bon pour des petites boites administratif mais rien à voir avec les possibilités et l'ergonomie qu'offre le Pack Office.<br />Gimp ???.... Quelle entreprise fonctionne avec concrètement ?! Des minorités et ne fait en rien le poids contre photoshop niveau ergonomie encore une fois et le nombre de personnes connaissant Photoshop.<br />Celui qui oserait venir dire le contraire n'a pas bien lu ce que j'ai écrit et n'a pas bien prit en compte toutes les variables en conséquence que cela engendre (recherche de profiles directement opérationnel, compétences équivalentes pour Gimp que pour Photoshop etc....).<br /><br />La partie mobile => outils professionnelles :<br />Tablette tactile, smartphone, applications mobile, synchronisation.... Android et Microsoft tiennent largement le haut du pavé comparé à Apple qui s'enterre de se côté là et qui a prit un sacré retard en rapport à ses concurrents.<br />Là, Microsoft ne fait pas émule niveau publique côté application du store assez pauvre en rapport aux autres. Pas évident lorsque l'on arrive assez tard sur le marché des app mobile en même temps c'est sûr.<br />Mais côté Pro...<br />Microsoft risque plus que de raison de mettre un bon coup de balayette à ses concurrents avec son OS Hybride (Surface Pro).<br />Une tablette c'est bien pour de la démo, du surf... Mais pas pour de l'application professionnelle dans la majorité des entreprises.<br />Un clavier tactile ? Jamais ! Lorsque vous compter le nombre de dactylo (dont j'en fais partie) comme feront-ils avec un clavier tactile ? Ce n'est pas productif (c'est pour ça que ça n'a jamais prit d'ailleurs).<br /><br />Le Duel pro se joue surtout entre Android et Microsoft, Apple ?.... Ce sera les entreprises qui ne font pas de veilles techno sérieuses et des choix personnelles plutôt que objectif et pro.<br /><br />Concernant le parc ordinateur, selon le service il sera plus profitable d'utiliser un Linux (moins coûteux qu'un mac et tout autant opérationnelle) et pour les autres un PC.<br />Un service de Com n'aurait même pas à utilisé un Mac concrètement, cela n'a aucun intérêt objectif et ni un impacte sur la productivité, car à performance équivalente un PC équipé de windows fera tout autant le boulot.<br />Ce qui va coincer c'est simple une question d'habitude, et les habitude ont la vie dure.<br />Equiper tout un parc de MAC reviendrait bien plus cher en réalité car le support dans la majorité des entreprises ne servirait qu'à changer des pièces réellement défectueuses et non du à un système d'exploitation dont le service informatique saura remettre la machine en état.<br />Le fait aussi que Apple soit le plus fermer sur sont système et sont emballage de composant pèse aussi sur la note.<br /><br />Donc l'article ne vaut pas vraiment un clou étant donné que l'on prend une exception pour en faire un majorité ? <br />Un peu de justesse et de réalité du terrain.<br /><br />"Ha regarde j'ai un Mac et toi t'en a pas :).... Tu sais mon Mac peut faire ça"....<br />"Oui sur mon PC aussi je peux faire pareil..."<br />"Ha tu as un cable pour brancher mon appareil apple et faire ma synchro ?"<br />"Non désolé je suis sous un PC et je n'ai pas Mac osx d'installer... Fait voir l'emboue... Ha non c'est typique apple. Tu aurais eu un Blackberry, un Android, un Windows ou un Linux ça aurait passé...".<br />Des exemples comme ça y en a pleins, et ce n'est pas parce qu'une marque qui fait de la qualité qu'il faut boire ses paroles sans prendre le temps de réfléchir.</div>
+            <div class="commentMeta">
+                            <div class="author">
+                    <b>legacy</b>
+                </div>
+                            <time>19 octobre, 2015 20:36</time>
+            </div>
+            <div class="commentActions">
+                                                                        <a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a>
+                                                                        </div>
+        </div>
+                                    <ul class="level">
+                                    ﻿
+                                                <li id="comment-30313876" class="comment">
+        <div class="commentWrapper">
+                            <div class="commentBody">@legacy : Ouch ... Un tel pavé pour dire autant d’âneries est à peine croyable en 2015 … :o(<br /><br />C’est étonnant de constater à quel point les anti-Mac conservent depuis 20 la même ligne argumentative sans jamais la remettre en cause, alors qu’elle contient quand même des trucs d’une absurdité sans nom.<br /><br />Je ne vais prendre qu’un exemple technique : NON, OS X n’est PAS basé sur Linux ! Non, non, et re-non !!<br /><br />OS X est basé sur un OS maison (Darwin *) lui même basé sur un noyau hybride enrichi maison (XNU **) entre le micro-noyau Mach (***) et les services BSD (****).<br /><br />Réduire le travail système d’Apple (et de NeXT avant elle) à ce que tu racontes est caractéristique de l’esprit réducteur avec lequel les anti-Mac méprisent les mac-users depuis 30 ans …<br /><br />Pour info, Éric Lévénez (je t’invite à Googler son nom et à consulter son site web *****, pour lequel il est mondialement connu, il t’en apprendra certainement beaucoup sur l’histoire des systèmes d’exploitation que tu ne pourrais l'imaginer) écrit sur son site :<br />« You may be wondering "Why does Steve Jobs appear in this unix history?". Simply because he has made the best unix computer ever : a NeXTcube powered with the NeXTSTEP operating system. And now : Mac OS X. »<br /><br />Loin de moi l'idée de rapporter la discussion sur Jobs, je vais rester sur NeXTSTEP et OS X. Donc, après la consultation de son site (pages consacrées aux UNIX et à NeXTSTEP notamment, tu peux faire un tour pas son CV pour constater qu'il a bien l'air de connaître autre chose que le Mac), crois-tu que le monsieur est du genre à ne pas savoir utiliser un ordinateur, et ne penses-tu donc pas qu’il doit te manquer deux ou trois (pour être gentil) éléments que tu n’as pas du saisir sur les raisons qui font que des utilisateurs professionnels (IBM dans cet article), universitaires et écoles (école 42 récemment) ou encore grand public (pdm du Mac qui est passée de 3% à 8-10% en une quinzaine d'années),  puissent préférer le Mac aux PC sans pour autant être taxés de « vouloir se la péter » ?<br /><br />Pour le dire simplement, ce que tu annonces comme « la majeur partie » des utilisateurs de Mac n’a certainement rien de majeure du tout. Tu te concentre sur l’anecdotique, en somme. C’est ton choix après tout, mais je t’indique qu’il me semble foncièrement réducteur.<br /><br />Un peu de lecture :<br />* https://en.wikipedia.org/wiki/Darwin_(operating_system)<br />** https://en.wikipedia.org/wiki/XNU<br />*** https://en.wikipedia.org/wiki/Mach_(kernel)<br />**** https://en.wikipedia.org/wiki/Berkeley_Software_Distribution<br />***** http://www.levenez.com/</div>
+            <div class="commentMeta">
+                            <div class="author">
+                    <b>nolan_(Reloaded)</b>
+                </div>
+                            <time>20 octobre, 2015 09:05</time>
+            </div>
+            <div class="commentActions">
+                                                                        <a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a>
+                                                                        </div>
+        </div>
+            </li>
+                                </ul>
+                        </li>
+                                        </ul>
+            
+    </section>    </div>
+    <aside id="secondary">
+                                                                                                                                                        <section class="module">
+	<div id="mpuTop">
+		<!-- ad_type : mpu = formatId : 300_atf -->
+<div class="prepend"><b class="caret"></b> publicit&eacute; <b class="caret"></b></div>
+<div data-ad="300_atf"></div>
+
+	</div>
+</section>
+                                                                                <section class="module">
+    
+    <div class="h3 heading"><span class="int">Les News de ZDNet</span></div>
+    <div id="latestNews" class="box">
+    <ul>
+                    <li>
+                                    <div>
+                        <a href="/actualites/dma-les-libertes-d-interpretation-d-apple-interpellent-thierry-breton-39964824.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2021/09/AppleEpic__w1200.jpg" alt="DMA : Apple plie face à la Commission et rétablit l'accès d'Epic Games à son écosystème" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/actualites/dma-les-libertes-d-interpretation-d-apple-interpellent-thierry-breton-39964824.htm">DMA : Apple plie face à la Commission et rétablit l&#039;accès d&#039;Epic Games à son écosystème</a></p>
+                                                    <p class="meta">08/03/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/guide-achat/test-shure-movemic-il-rehausse-la-qualite-audio-des-prises-de-vue-video-39964822.htm" class="thumb">
+                            <picture>
+        <img src="https://www.zdnet.com/a/img/2024/03/05/89935f90-3150-4efc-9102-8e0251816968/movemichero.jpg" alt="Test Shure MoveMic : il rehausse la qualité audio des prises de vue vidéo" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/guide-achat/test-shure-movemic-il-rehausse-la-qualite-audio-des-prises-de-vue-video-39964822.htm">Test Shure MoveMic : il rehausse la qualité audio des prises de vue vidéo</a></p>
+                                                    <p class="meta">08/03/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/guide-achat/ce-hub-10-en-1-est-un-produit-de-reve-pour-le-multitache-39964788.htm" class="thumb">
+                            <picture>
+        <img src="https://www.zdnet.com/a/img/2024/02/27/8e646f4f-b5f6-4364-92c9-501615a413c7/10in1hero.jpg" alt="Ce hub 10-en-1 est un produit de rêve pour le multitâche" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/guide-achat/ce-hub-10-en-1-est-un-produit-de-reve-pour-le-multitache-39964788.htm">Ce hub 10-en-1 est un produit de rêve pour le multitâche</a></p>
+                                                    <p class="meta">08/03/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/actualites/les-raccordements-a-la-fibre-cristallisent-les-tensions-entre-abonnes-et-operateurs-39964806.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2022/FibreFr__60_45__overflow.jpeg" alt="Les raccordements à la fibre cristallisent les tensions entre abonnés et opérateurs " width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/actualites/les-raccordements-a-la-fibre-cristallisent-les-tensions-entre-abonnes-et-operateurs-39964806.htm">Les raccordements à la fibre cristallisent les tensions entre abonnés et opérateurs </a></p>
+                                                    <p class="meta">08/03/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/pratique/5-conseils-pour-faire-de-meilleures-videos-avec-votre-smartphone-39964804.htm" class="thumb">
+                            <picture>
+        <img src="https://www.zdnet.com/a/img/2024/02/28/5a0e8ba9-bbc9-4bb4-a986-691e8d3ee75c/gettyimages-1636257149.jpg" alt="5 conseils pour faire de meilleures vidéos avec votre smartphone" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/pratique/5-conseils-pour-faire-de-meilleures-videos-avec-votre-smartphone-39964804.htm">5 conseils pour faire de meilleures vidéos avec votre smartphone</a></p>
+                                                    <p class="meta">08/03/2024</p>
+                                                            </div>
+            </li>
+                            <li class="moreLink"><a href="/actualites/">Voir toutes les news</a></li>
+            </ul>
+</div>
+
+</section>
+                                                                                <section class="module">
+	<div id="mpuBottom">
+		<!-- ad_type : mpu-bottom = formatId : 300_btf -->
+<div class="prepend"><b class="caret"></b> publicit&eacute; <b class="caret"></b></div>
+<div data-ad="300_btf"></div>
+
+	</div>
+</section>                                                                                <section class="facebook">
+	<div class="fb-page" data-href="https://www.facebook.com/zdnet.fr" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/zdnet.fr" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/zdnet.fr">ZDNet.fr</a></blockquote></div>
+</section>
+                                                                                <section class="keepUp">
+    
+    <div class="h3 heading"><span class="int">Le meilleur de ZDNet, chez vous</span></div>
+    <div class="box">
+        <form name="create_member" id="newsletter" method="post" action="/membres/creer/">
+            <fieldset>
+                <div class="h3">La nouvelle newsletter de ZDNET</div>
+                <p>
+                    Recevez le meilleur de l'actualité IT Pro chaque jour dans votre boîte mail
+                </p>
+                <p class="mmode-msg">
+                    Nous sommes temporairement en mode de maintenance, ce qui signifie que vous ne serez pas en mesure de s'inscrire à une newsletter. S'il vous plaît vérifier à nouveau peu de temps pour reprendre le processus d'abonnement. Merci pour votre patience.
+                </p>
+                <div class="mmode mmode-nls">
+                                            <input class="prettytextarea" type="text" name="iWantToJoinWithThisEmail" value="E-Mail" onfocus="this.value=''" id="nl_email" />
+                        <button class="button primary" type="submit">
+                            S'abonner à la newsletter
+                        </button>
+                                    </div>
+            </fieldset>
+        </form>
+    </div>
+</section>                                                                                <section id="powercenter" class="module">
+	
+    <div class="h3 heading"><span class="int">Powercenter</span></div>
+	<div class="js-non-interactive-event" 
+    data-track-category="powercenter" 
+    data-track-action="affichage" 
+    data-track-label="powercenter" 
+></div>
+<div class="carousel">
+    <div class="sliderWrapper" style="height:250px">
+                    <article>
+                <figure style="padding-bottom:130px;">
+                                            <a href="https://www.zdnet.fr/dossier/dossier-moment-de-vie-4000238108.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="3">
+                            <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/partenaire/keyyo/power-center-300x120-dell-07-11.jpg" alt="" height="120"/>
+                            <img class="large" style="display:none;" src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/partenaire/keyyo/power-center-728x125-dell-07-11.jpg" alt=""/>
+                        </a>
+                                    </figure>
+
+                <div class="overlay" style="top:120px;">
+                    <div class="content">
+                        <div class="h4"><a href="https://www.zdnet.fr/dossier/dossier-moment-de-vie-4000238108.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="3">Comment les opérateurs télécoms accompagnent les entreprises dans leurs moments de vie ?</a></div>
+                        <p>
+                            <a href="https://www.zdnet.fr/dossier/dossier-moment-de-vie-4000238108.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="3"><br /><br /> Découvrez notre dossier</a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+                    <article>
+                <figure style="padding-bottom:130px;">
+                                            <a href="https://www.zdnet.fr/livre-blanc/optimisez-le-potentiel-de-vos-equipes-pour-le-travail-hybride-63856866.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="ldlc-pro-2">
+                            <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/partenaire/power-center/power-center-300x120-LDLC.pro.jpg" alt="" height="120"/>
+                            <img class="large" style="display:none;" src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/partenaire/power-center/power-center-728x125-dell.jpg" alt=""/>
+                        </a>
+                                    </figure>
+
+                <div class="overlay" style="top:120px;">
+                    <div class="content">
+                        <div class="h4"><a href="https://www.zdnet.fr/livre-blanc/optimisez-le-potentiel-de-vos-equipes-pour-le-travail-hybride-63856866.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="ldlc-pro-2"></a></div>
+                        <p>Optimisez le potentiel de vos équipes pour le travail hybride
+                            <a href="https://www.zdnet.fr/livre-blanc/optimisez-le-potentiel-de-vos-equipes-pour-le-travail-hybride-63856866.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="ldlc-pro-2"><br /><br /> Voir le livre blanc</a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+                    <article>
+                <figure style="padding-bottom:130px;">
+                                            <a href="https://pubads.g.doubleclick.net/gampad/clk?id=5225276636&amp;iu=/229683329/zdnet_fr/cliccommand" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="inmac-wstore-1">
+                            <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/partenaire/inmacwstore/power-center-Inmac-equipement-it.jpg" alt="" height="120"/>
+                            <img class="large" style="display:none;" src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/partenaire/inmacwstore/power-center-Inmac-equipement-it.jpg" alt=""/>
+                        </a>
+                                    </figure>
+
+                <div class="overlay" style="top:120px;">
+                    <div class="content">
+                        <div class="h4"><a href="https://pubads.g.doubleclick.net/gampad/clk?id=5225276636&amp;iu=/229683329/zdnet_fr/cliccommand" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="inmac-wstore-1"></a></div>
+                        <p>Nous accompagnons les PME dans leur développement IT. Nous partageons avec vous nos témoignages clients, webinars, livres blancs...
+                            <a href="https://pubads.g.doubleclick.net/gampad/clk?id=5225276636&amp;iu=/229683329/zdnet_fr/cliccommand" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="inmac-wstore-1"><br /><br /> 5 dossiers IT à découvrir chaque mois</a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+                    <article>
+                <figure style="padding-bottom:130px;">
+                                            <a href="https://www.zdnet.fr/vie-des-tpe-pme.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="4">
+                            <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/partenaire/dell/POWER%20C%20300x120.jpg" alt="" height="120"/>
+                            <img class="large" style="display:none;" src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/partenaire/dell/POWER%20C%20300x120.jpg" alt=""/>
+                        </a>
+                                    </figure>
+
+                <div class="overlay" style="top:120px;">
+                    <div class="content">
+                        <div class="h4"><a href="https://www.zdnet.fr/vie-des-tpe-pme.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="4">TPE / PME : Solutions pour les pros</a></div>
+                        <p>Télétravail, infrastructure, astuces, innovations...
+                            <a href="https://www.zdnet.fr/vie-des-tpe-pme.htm" target="_blank" class="js-track-click" data-track-category="powercenter" data-track-action="click" data-track-label="4"><br /><br /> Découvrez notre nouvelle rubrique</a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            </div>
+</div>
+</section>                                                                                <section class="module">
+    
+    <div class="h3 heading"><span class="int">Sur le même thème</span></div>
+    <div id="latestNews" class="box">
+    <ul>
+                    <li>
+                                    <div>
+                        <a href="/blogs/green-si/nvidia-signe-d-une-nouvelle-periode-it-39964648.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/authors/frederic-charles__60_45__overflow.png" alt="NVIDIA signe d'une nouvelle période IT?" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/blogs/green-si/nvidia-signe-d-une-nouvelle-periode-it-39964648.htm">NVIDIA signe d&#039;une nouvelle période IT?</a></p>
+                                                    <p class="meta">03/03/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/blogs/green-si/quel-reseau-demain-pour-les-objets-connectes-39964316.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/authors/frederic-charles__60_45__overflow.png" alt="Quel réseau demain pour les objets connectés?" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/blogs/green-si/quel-reseau-demain-pour-les-objets-connectes-39964316.htm">Quel réseau demain pour les objets connectés?</a></p>
+                                                    <p class="meta">18/02/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/blogs/green-si/genai-que-nous-reserve-2024-39963200.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/authors/frederic-charles__60_45__overflow.png" alt="GenAI : Que nous réserve 2024?" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/blogs/green-si/genai-que-nous-reserve-2024-39963200.htm">GenAI : Que nous réserve 2024?</a></p>
+                                                    <p class="meta">07/01/2024</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/blogs/green-si/openai-la-magie-du-ctrl-z-a-t-elle-opere-39962620.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/authors/frederic-charles__60_45__overflow.png" alt="OpenAI : la magie du Ctrl-Z a t-elle opéré ?" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/blogs/green-si/openai-la-magie-du-ctrl-z-a-t-elle-opere-39962620.htm">OpenAI : la magie du Ctrl-Z a t-elle opéré ?</a></p>
+                                                    <p class="meta">26/11/2023</p>
+                                                            </div>
+            </li>
+                    <li>
+                                    <div>
+                        <a href="/blogs/green-si/pret-pour-l-ere-post-altman-a-openai-39962490.htm" class="thumb">
+                            <picture>
+        <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/authors/frederic-charles__60_45__overflow.png" alt="Prêt pour l'ère Post-Altman à OpenAI?" width="60" height="45">
+</picture>
+                        </a>
+                    </div>
+                                <div class="content">
+                                            <p><a href="/blogs/green-si/pret-pour-l-ere-post-altman-a-openai-39962490.htm">Prêt pour l&#039;ère Post-Altman à OpenAI?</a></p>
+                                                    <p class="meta">18/11/2023</p>
+                                                            </div>
+            </li>
+                    </ul>
+</div>
+
+</section>
+                                        </aside>
+                        </div>
+                <a id="stop-alert-corner"></a>
+                <div id="leaderBottom" class="leader">
+    <div class="container">
+        <!-- ad_type : leaderboard-bottom = formatId : banner_btf -->
+<div class="prepend"><b class="caret"></b> publicit&eacute; <b class="caret"></b></div>
+<div data-ad="banner_btf"></div>
+
+    </div>
+</div>
+                            <div id="slidebox" data-alert-corner-id="5" data-alert-corner-caping="1">
+    <span></span>
+    <a class="close">x</a>
+    <a href="https://www.zdnet.fr/actualites/automobile-les-constructeurs-misent-avant-tout-sur-leur-transformation-numerique-39948018.htm">
+        <img class="slidebox-img" src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2022/DigitalCars__w630.jpg"/>
+        <p>Automobile : les constructeurs misent avant tout sur leur transformation numérique</p>
+    </a>
+</div>
+            </div>
+</div>
+    <div id="catfish" data-toggle="fixate" data-window-edge="bottom">
+        <div class="container">
+            <div class="catfishBar">
+                <span class="branding">ZDNET</span>
+                <span class="social twitter"><a href="https://twitter.com/zdnetfr" class="twitter-follow-button pre-render" data-show-count="false" data-show-screen-name="true" data-lang="fr"></a></span>
+                <span class="social facebook">
+                    <div class="fb-like" data-href="https://www.facebook.com/zdnet.fr" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
+                </span>
+                <span class="social linkedin" style="padding-top: 4px;">
+                    <script type="IN/FollowCompany" data-id="3044984"></script>
+                </span>
+                <span class="services">
+                                            <a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet">Se connecter</a> | <a href="/membres/creer/" data-modal-ajax="/membres/popup-ajax/inscription.htm" data-modal-title="Devenir membre de ZDNet">Devenir membre</a>
+                                    </span>
+                <a class="close" data-action="close">Close</a>
+            </div>
+        </div>
+    </div>
+<footer role="contentinfo">
+    <div class="container">
+
+        
+                                                <div class="row footerNav">
+            <nav class="column-2 footerMap">
+                <div class="h2style">Autour de ZDNet</div>
+                <ul>
+                    <li><a href="/pratique/">Guides pratiques</a></li>
+                    <li><a href="/guide-achat/">Guides d'achat</a></li>
+                    <li><a href="/membres/">Newsletters</a></li>
+                    <li><a href="/services/rss/">Flux RSS</a></li>
+                    <li><a href="/equipe/">Signaler un contenu</a></li>
+                </ul>
+            </nav>
+            <nav class="column-2 footerMap">
+                <div class="h2style">Services</div>
+                <ul>
+                    <li><a href="/services/test-bande-passante/">Test bande passante</a></li>
+                    <li><a href="/services/5g-monitor/">5G Monitor</a></li>
+                    <li><a href="/livre-blanc/">Livres Blancs</a></li>
+                    <li><a href="/actualites/carrieres-it/">Carrières IT</a></li>
+                    <li><a href="/telecharger/">Télécharger</a></li>
+                </ul>
+            </nav>
+            <nav class="column-2 footerMap">
+                <div class="h2style">Nous connaître</div>
+                <ul>
+                    <li><a href="/equipe/">L'équipe</a></li>
+                    <li><a href="https://twitter.com/zdnetfr" target="_blank">Twitter</a></li>
+                    <li><a href="https://fr-fr.facebook.com/zdnet.fr" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/company/3044984/" target="_blank">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+
+                <p class="copyright">
+            Copyright &copy; 2024 ZDNET, A RED VENTURES COMPANY. ALL RIGHTS RESERVED. CUP Interactive SAS (France). Tous droits réservés.<br/>
+            <a href="/mentions-legales.htm" rel="nofollow">Mentions légales</a>
+            | <a href="/conditions-generales-utilisation.htm" rel="nofollow">Conditions générales d'utilisation</a>
+            | <a href="/politique-de-confidentialite.htm" rel="nofollow">Politique de protection des données personnelles</a>
+            | <a href="/politique-cookies.htm" rel="nofollow">Cookies</a>
+            | <a href="/faq-cookies.htm" rel="nofollow">Foire aux questions - Vos choix concernant l'utilisation de cookies</a>
+            | <a class="js-change-consent" href="#">Paramétrer les cookies</a>
+        </p>
+            </div>
+</footer>
+
+    <script src="/min-js/build-core.js?v=202302161000"></script>
+
+<div id="fb-root"></div>
+<script>
+    
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    
+    </script>
+    <script>
+</script>
+<!-- ZDNetFR Content Checker -->
+</body>
+</html>

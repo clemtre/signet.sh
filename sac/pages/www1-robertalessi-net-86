@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="robertalessi.net RSS" href="http://www1.robertalessi.net:86/fr/rss.xml" />
+<link rel="shortcut icon" href="http://www1.robertalessi.net:86/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>robertalessi.net</title>
+  <style type="text/css" media="all">
+@import url("http://www1.robertalessi.net:86/modules/system/system.base.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/modules/system/system.menus.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/modules/system/system.messages.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/modules/system/system.theme.css?qoznu4");
+</style>
+<style type="text/css" media="all">
+@import url("http://www1.robertalessi.net:86/sites/all/libraries/ms-Dropdown/css/msdropdown/dd.css?qoznu4");
+</style>
+<style type="text/css" media="all">
+@import url("http://www1.robertalessi.net:86/sites/all/modules/simplenews/simplenews.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/modules/comment/comment.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/date/date_api/date.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/modules/field/theme/field.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/filebrowser/css/filebrowser_style.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/footnotes/footnotes.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/modules/node/node.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/modules/search/search.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/toc_filter/toc_filter.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/modules/user/user.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/views/css/views.css?qoznu4");
+</style>
+<style type="text/css" media="all">
+@import url("http://www1.robertalessi.net:86/sites/all/modules/ctools/css/ctools.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/geshifilter/geshifilter.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/biblio/biblio.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/modules/lang_dropdown/msdropdown/css/msdropdown/ldsSkin.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/themes/tapestry/style.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/themes/tapestry/css/modoffice.css?qoznu4");
+@import url("http://www1.robertalessi.net:86/sites/all/themes/tapestry/css/suckerfish.css?qoznu4");
+</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+body { font-family: serif, Amiri, Adobe Arabic; }
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="print">
+@import url("http://www1.robertalessi.net:86/sites/all/themes/tapestry/print.css?qoznu4");
+</style>
+
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" href="http://www1.robertalessi.net:86/sites/all/themes/tapestry/css/ie6.css?qoznu4" media="all" />
+<![endif]-->
+<script type="text/javascript"></script><style type="text/css">
+  #banner, #container, #headercontainer, #header-region-container, #footer-region-container, #suckerfish-container {
+    width:850px;
+  }
+
+  #page-right, #round-right {
+    width:874px;
+  }
+
+  #sidebar-left {
+    width:210px;
+  }
+
+  #sidebar-right {
+    width:0px;
+  }
+
+  #sidebar-outside {
+    width:0px;
+  }
+
+  #inside-content {
+    width:850px;
+  }
+
+  #mainContent {
+    width:620px;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  #round-container {
+    width:812px;
+  }</style>  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+/**
+ * @licstart The following is the entire license notice for the JavaScript
+ * code in this page.
+ *
+ * Copyright (C) 2024  robertalessi.net.
+ *
+ * The JavaScript code in this page is free software: you can redistribute
+ * it and/or modify it under the terms of the GNU General Public License
+ * (GNU GPL) as published by the Free Software Foundation, either version 3
+ * of the License, or (at your option) any later version.  The code is
+ * distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU GPL
+ * for more details.
+ *
+ * As additional permission under GNU GPL version 3 section 7, you may
+ * distribute non-source (e.g., minimized or compacted) forms of that code
+ * without the copy of the GNU GPL normally required by section 4, provided
+ * you include this license notice and a URL through which recipients can
+ * access the Corresponding Source.
+ *
+ * @licend The above is the entire license notice for the JavaScript code
+ * in this page.
+ */
+
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/misc/drupal.js?qoznu4"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/misc/form.js?v=7.77"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/sites/all/modules/ctools/js/jump-menu.js?qoznu4"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/sites/all/modules/toc_filter/toc_filter.js?qoznu4"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/sites/default/files/languages/fr_Vk4JaB7CkvLskf3VG8vY_J7P-xvcM-5TMdymFsz2ulA.js?qoznu4"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/sites/all/libraries/ms-Dropdown/js/msdropdown/jquery.dd.min.js?v=3.5.2"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/sites/all/modules/entity_iframe/modules/entity_iframe_resize/js/entity-iframe-consumer.js?qoznu4"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/misc/collapse.js?v=7.77"></script>
+<script type="text/javascript" src="http://www1.robertalessi.net:86/sites/all/modules/lang_dropdown/lang_dropdown.js?qoznu4"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"fr\/","ajaxPageState":{"theme":"tapestry","theme_token":"11CWrNxmHGWBz-fJTotOwfcBdmaEzKUZjcI50JWd7mA","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/form.js":1,"sites\/all\/modules\/ctools\/js\/jump-menu.js":1,"sites\/all\/modules\/toc_filter\/toc_filter.js":1,"public:\/\/languages\/fr_Vk4JaB7CkvLskf3VG8vY_J7P-xvcM-5TMdymFsz2ulA.js":1,"sites\/all\/libraries\/ms-Dropdown\/js\/msdropdown\/jquery.dd.min.js":1,"sites\/all\/modules\/entity_iframe\/modules\/entity_iframe_resize\/js\/entity-iframe-consumer.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/lang_dropdown\/lang_dropdown.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/ms-Dropdown\/css\/msdropdown\/dd.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/filebrowser\/css\/filebrowser_style.css":1,"sites\/all\/modules\/footnotes\/footnotes.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/toc_filter\/toc_filter.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/geshifilter\/geshifilter.css":1,"sites\/all\/modules\/biblio\/biblio.css":1,"sites\/all\/modules\/lang_dropdown\/msdropdown\/css\/msdropdown\/ldsSkin.css":1,"sites\/all\/themes\/tapestry\/style.css":1,"sites\/all\/themes\/tapestry\/css\/modoffice.css":1,"sites\/all\/themes\/tapestry\/css\/suckerfish.css":1,"0":1,"sites\/all\/themes\/tapestry\/print.css":1,"sites\/all\/themes\/tapestry\/css\/ie6.css":1}},"toc_filter_smooth_scroll_duration":"","lang_dropdown":{"language":{"jsWidget":{"widget":"msdropdown","visibleRows":"5","roundedCorner":1,"animStyle":"fadeIn","event":"click","mainCSS":"ldsSkin"}}},"urlIsAjaxTrusted":{"\/":true}});
+//--><!]]>
+</script>
+<!--[if lte IE 6]>
+      <script type="text/javascript" src="sites/all/themes/tapestry/js/suckerfish.js"></script>
+    <![endif]--></head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node i18n-fr" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Aller au contenu principal</a>
+  </div>
+    
+  <div id="leaderboard">
+      </div>
+
+  <div id="header">
+   <div id="headercontainer" class="clearfix">
+                <!-- Searchbox-region-->
+        <div id="search">
+          <div class="region region-search-box">
+    <div id="block-search-form" class="block block-search unstyled-block">
+  <div ><form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Formulaire de recherche</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Rechercher </label>
+ <input title="Indiquer les termes à rechercher" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Rechercher" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-vcqf757KwfvE6dMAsd83pXi-7uHYHVYQH1hhvzFaZBs" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></div>
+</div>
+  </div>
+        </div> 
+      <!-- /Searchbox-region -->
+                <h1 class='site-name'><a href="/fr" title="Accueil">robertalessi.net</a></h1>
+            
+
+    <div class="clearfix" style="line-height:0;"></div>
+  <div id="suckerfish-container"><div id="suckerfishmenu">  <div class="region region-suckerfish">
+    <div id="block-menu-menu-menu-etiquettes" class="block block-menu unstyled-block">
+  <h2  class="element-invisible title">Menu étiquettes</h2>
+  <div ><ul class="menu"><li class="first leaf menu-4761 item-git"><a href="http://git.robertalessi.net" title="">Git</a></li>
+<li class="leaf menu-4478 item-arabluatex"><a href="/fr/etiquettes/arabluatex" title="ArabLuaTeX">ArabLuaTeX</a></li>
+<li class="leaf menu-4760 item-latex"><a href="/fr/etiquettes/latex" title="LaTeX">LaTeX</a></li>
+<li class="leaf menu-4493 item-tei_xml"><a href="/fr/etiquettes/tei-xml" title="TEI xml">TEI xml</a></li>
+<li class="expanded menu-4490 item-projets"><a href="/fr/etiquettes/projets" title="Projets">Projets</a><ul class="menu"><li class="first last leaf menu-4491 item-médecine_arabe"><a href="/fr/etiquettes/medecine-arabe" title="Médecine arabe">Médecine arabe</a></li>
+</ul></li>
+<li class="last leaf menu-4480 item-ekdosis"><a href="/fr/tags/ekdosis" title="ekdosis">ekdosis</a></li>
+</ul></div>
+</div>
+  </div>
+</div></div>
+     </div>
+  </div>
+  <div id="header-bottom" class="clearfix"></div>
+
+
+<div id="outer-container">
+<div id="page-right">
+<div id="page-left">
+
+  
+  <div id="container">
+
+                     
+    <div id="primary">
+    <ul class="menu"><li class="first last leaf menu-237 item-accueil"><a href="/fr" title="" class="active">Accueil</a></li>
+</ul>  </div>
+  
+<div class="clearfix"></div>
+<div id="inside-content">
+              <div class="clearfix">
+  <div id="sidebar-left">  <div class="region region-sidebar-first">
+    <div id="block-lang_dropdown-language" class="block block-lang-dropdown unstyled-block">
+  <div ><form class="lang_dropdown_form language" id="lang_dropdown_form_language" action="/" method="post" accept-charset="UTF-8"><div><div class="form-item form-type-select form-item-lang-dropdown-select">
+ <select class="lang-dropdown-select-element form-select" id="lang-dropdown-select-language" style="width:165px" name="lang_dropdown_select"><option value="en">Anglais</option><option value="fr" selected="selected">Français</option></select>
+</div>
+<input type="hidden" name="en" value="/en" />
+<input type="hidden" name="fr" value="/fr" />
+<noscript><div>
+<input type="submit" id="edit-submit" name="op" value="Allez" class="form-submit" />
+</div></noscript><input type="hidden" name="form_build_id" value="form-3prdRGnNMlhuBoXZxcn6xVMrVm1fJoCeZ1R5IGvI_4s" />
+<input type="hidden" name="form_id" value="lang_dropdown_form" />
+</div></form></div>
+</div>
+  </div>
+</div>  <div id="mainContent">
+      
+
+
+                    <div class="tabs"></div>
+                                      <div class="region region-content">
+    <div id="block-block-4" class="block block-block unstyled-block">
+  <div ><h2>Bienvenue sur robertalessi.net</h2>
+<!--
+<video style="width: 100&; max-width: 580px;" controls="controls" poster="https://static.fsf.org/nosvn/videos/fsf-shoetool/thumbnails/ShoeTool-Cover-1.jpg" crossorigin="anonymous"><p><source src="https://static.fsf.org/nosvn/videos/fsf-shoetool/fsf-shoetool-720p.webm" type="video/webm" /><source src="https://static.fsf.org/nosvn/videos/fsf-shoetool/fsf-shoetool-720p.ogv" type="video/ogg" /><source src="https://static.fsf.org/nosvn/videos/fsf-shoetool/fsf-shoetool-720p.mp4" type="video/mp4" /><br />
+<track kind="subtitles" label="English" srclang="en" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_en.vtt" />
+<track kind="subtitles" label="Dutch" srclang="nl" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions shoetoolfsf_nl.vtt" />
+<track kind="subtitles" label="Italian" srclang="it" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions shoetoolfsf_it.vtt" />
+<track kind="subtitles" label="Esperanto" srclang="eo" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions shoetoolfsf_eo.vtt" />
+<track kind="subtitles" label="Romanian" srclang="ro" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_ro.vtt" />
+<track kind="subtitles" label="Spanish" srclang="es" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_es.vtt" />
+<track kind="subtitles" label="Tamil" srclang="ta" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_ta.vtt" />
+<track kind="subtitles" label="French" srclang="fr" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_fr.vtt"  default="default" />
+<track kind="subtitles" label="Ukrainian" srclang="ukr" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_ukr.vtt" />
+<track kind="subtitles" label="Basque" srclang="eu" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_eu.vtt" />
+<track kind="subtitles" label="Turkish" srclang="tr" src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_tr.vtt" /></video><br />
+-->
+</div>
+</div>
+<div id="block-system-main" class="block block-system unstyled-block">
+  <div ><div id="node-14" class="node node-page node-promoted node-teaser clearfix" about="/fr/arabluatex" typeof="foaf:Document">
+
+  
+        <h2><a href="/fr/arabluatex">ArabLuaTeX</a></h2>
+    <span property="dc:title" content="ArabLuaTeX" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2018-04-23T12:18:12+02:00" datatype="xsd:dateTime" rel="sioc:has_creator">Publié par <span class="username" xml:lang="" about="/fr/users/robert-alessi" typeof="sioc:UserAccount" property="foaf:name" datatype="">Robert Alessi</span> le lun, 23/04/2018 - 12:18</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h3>Overview</h3>
+<p><a href="http://ctan.org/pkg/arabluatex" target="_top">ArabLuaTeX</a> provides for <a href="http://luatex.org" target="_top">LuaLaTeX</a> an <a href="http://ctan.org/pkg/arabtex" target="_top">ArabTeX</a>-like interface to generate Arabic writing from an ascii transliteration. It is particularly well-suited for complex documents such as technical documents or critical editions where a lot of left-to-right commands intertwine with Arabic writing. arabluatex is able to process any ArabTeX input notation. Its output can be set in the same modes of vocalization as ArabTeX, or in different roman transliterations. It further allows many typographical refinements. It will eventually interact with some other packages yet to come to produce from .tex source files, in addition to printed books, TEI xml compliant critical editions and/or lexicons that can be searched, analyzed and correlated in various ways.</p>
+</div></div></div>  </div>
+
+  <ul class="links inline"><li class="node-readmore first last"><a href="/fr/arabluatex" rel="tag" title="ArabLuaTeX">Lire la suite<span class="element-invisible"> de ArabLuaTeX</span></a></li>
+</ul>
+  
+</div>
+<div id="node-20" class="node node-page node-promoted node-teaser clearfix" about="/fr/ekdosis" typeof="foaf:Document">
+
+  
+        <h2><a href="/fr/ekdosis">ἔκδοσις</a></h2>
+    <span property="dc:title" content="ἔκδοσις" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2018-04-04T00:35:25+02:00" datatype="xsd:dateTime" rel="sioc:has_creator">Publié par <span class="username" xml:lang="" about="/fr/users/robert-alessi" typeof="sioc:UserAccount" property="foaf:name" datatype="">Robert Alessi</span> le mer, 04/04/2018 - 00:35</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h3>Présentation</h3>
+<p>ekdosis est un <em>package</em> LuaLaTeX conçu pour les éditions critiques multilingues. Il est publié sous licence GNU GPL v3.</p>
+</div></div></div>  </div>
+
+  <ul class="links inline"><li class="node-readmore first"><a href="/fr/ekdosis" rel="tag" title="ἔκδοσις">Lire la suite<span class="element-invisible"> de ἔκδοσις</span></a></li>
+<li class="translation_en last"><a href="/en/ekdosis" title="ἔκδοσις" class="translation-link" xml:lang="en"><img class="language-icon" typeof="foaf:Image" src="http://www1.robertalessi.net:86/sites/all/modules/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li>
+</ul>
+  
+</div>
+<div id="node-17" class="node node-page node-promoted node-teaser clearfix" about="/fr/node/17" typeof="foaf:Document">
+
+  
+        <h2><a href="/fr/node/17">Lexique grec-arabe-grec</a></h2>
+    <span property="dc:title" content="Lexique grec-arabe-grec" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2016-11-09T20:59:41+01:00" datatype="xsd:dateTime" rel="sioc:has_creator">Publié par <span class="username" xml:lang="" about="/fr/users/robert-alessi" typeof="sioc:UserAccount" property="foaf:name" datatype="">Robert Alessi</span> le mer, 09/11/2016 - 20:59</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h3 id="sec:introduction">Introduction</h3>
+<p>Ce projet a été présenté pour la première fois lors du <a href="http://dhant.sciencesconf.org/">colloque “DHANT”</a> qui s’est tenu à Grenoble du 2 au 4 septembre 2015, puis au “<a href="http://forum-med.sciencesconf.org/">Forum de la Méditerranée</a>” de Marseille, en mars 2016.</p>
+<p>Il est encodé en <code>TEI xml</code> et se présente sous la forme d’un index réversible grec-arabe. Actuellement, les textes sont tirés de la littérature technique médicale. L’encodage des données, réalisé avec un souci de grande précision, permettra de lancer des recherches par traité, thème, traduction ou traducteur selon des critères que chacun pourra choisir: corpus hippocratique, corpus galénique, traductions de Ḥunayn, traductions de Ḥubayš, etc.</p>
+</div></div></div>  </div>
+
+  <ul class="links inline"><li class="node-readmore first"><a href="/fr/node/17" rel="tag" title="Lexique grec-arabe-grec">Lire la suite<span class="element-invisible"> de Lexique grec-arabe-grec</span></a></li>
+<li class="translation_en last"><a href="/en/greek-arabic-lexicon" title="Greek-Arabic-Greek Lexicon" class="translation-link" xml:lang="en"><img class="language-icon" typeof="foaf:Image" src="http://www1.robertalessi.net:86/sites/all/modules/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li>
+</ul>
+  
+</div>
+</div>
+</div>
+  </div>
+
+
+  <!-- end #mainContent --></div>
+</div>
+
+
+<div id="region4-container" class="clearfix">
+  <div id="region4">
+        <div id="user10" class="width99">  <div class="region region-user10">
+    <div id="block-block-3" class="block block-block unstyled-block">
+  <div ><p><a href="/librejs/jslicense">Informations sur les licences Javascript</a></p>
+</div>
+</div>
+  </div>
+</div>
+              </div>
+  <!-- /region4 -->
+</div>
+<!-- /region4-container -->
+
+</div> <!-- /inside-content -->
+<div class="clearfix" style="clear: both;"></div>
+<div class="page-bottom clearfix"></div>
+
+
+  <div id="trailerboard">
+  <div id="footer">
+             <div id="footer-message">
+    <div class="region region-footer-message">
+    <div id="block-block-1" class="block block-block unstyled-block">
+  <div ><p>© 2014—2022 Robert Alessi<br />
+Cette page est publiée selon les termes de la <a href="http://creativecommons.org/licenses/by-nd/4.0/">Licence Creative Commons Attribution — Pas de modification 4.0 International</a>.<br /><a href="https://pgp.ocf.berkeley.edu/pks/lookup?search=0x1773e9248085c8c7">email</a> – <a href="https://pgp.ocf.berkeley.edu/pks/lookup?op=get&amp;search=0x1773E9248085C8C7">clef publique PGP</a></p>
+</div>
+</div>
+  </div>
+  </div>
+    <!-- end #footer --></div>
+
+</div>
+
+<!-- end #container --></div>
+</div></div>
+
+<div id="round-right">
+<div id="round-left">
+<div id="round-container">
+</div></div></div>
+
+</div>
+<!-- RoopleTheme Tapestry Drupal 7/8 Dev Version by Alyx Vance -->
+    <div class="region region-page-bottom">
+    <a href="/fr/librejs/jslicense" rel="jslicense" style="display: none">JavaScript license information</a>  </div>
+</body>
+</html>

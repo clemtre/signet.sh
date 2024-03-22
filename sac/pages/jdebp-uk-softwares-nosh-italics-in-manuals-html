@@ -1,0 +1,202 @@
+<html>
+<link rel="Home" href="../" title="Softwares" />
+<link rel="Up" href="index.html" title="Nosh blurb" />
+<link rel="Stylesheet" type="text/css" href="../softwares.css" title="Softwares default style" />
+<link rel="Icon" href="../favicon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Italics and colour in manual pages on a nosh user-space virtual terminal</title>
+<h1 class="Ruled">Italics and colour in manual pages on a nosh user-space virtual terminal</h1>
+
+<div class="infobox">
+nosh pages:
+<ul>
+<li> <a href="index.html">introduction and blurb</a></li>
+<li> <a href="guide.html">The <i>nosh Guide</i></a> </li>
+<li> <a href="source-package.html">source package</a></li>
+<li> <a href="freebsd-binary-packages.html">FreeBSD binary packages</a></li>
+<li> <a href="debian-binary-packages.html">Debian Linux binary packages</a></li>
+<li> <a href="openbsd-binary-packages.html">OpenBSD binary packages</a></li>
+<li> <a href="timorous-admin-installation-how-to.html">The timorous admin's installation how-to</a></li>
+<li> <a href="worked-example.html">A real-world worked example of setting up and running a service with nosh</a></li>
+<li> <a href="user-vt-screenshots.html">A quick look at nosh user-space virtual terminals</a></li>
+<li> <a href="japanese-input-methods.html">Japanese input methods in nosh user-space virtual terminals</a></li>
+<li> Italics and colour in manual pages</li>
+<li> <a href="brltty.html">Combining the nosh user-space virtual terminals with BRLTTY</a></li>
+<li> <a href="mariadb-and-mysql.html">MariaDB, MySQL, and Percona</a></li>
+<li> <a href="roadmap.html">roadmap</a></li>
+</ul>
+</div>
+
+<blockquote class="quotation">
+<p>
+Most typefaces have at least three fonts available: roman, <b>bold</b>, and <i>italic</i>. 
+Normal body copy is printed in the roman font. 
+You can change temporarily to a bold or italic font for emphasis.
+</p>
+<p style="text-align:right;">&mdash; Dale Dougherty &amp; Tim O'Reilly. <i>UNIX text processing</i>.  Sams.  1986</p>
+</blockquote>
+
+<p>
+Unix document processing tools have supported italicization since the 1970s.
+ECMA-48 defined a standard <i>Set Graphic Rendition</i> mechanism for specifying boldface, faint, underlined, and italicized text in its first edition, published in 1976.
+</p>
+
+<p>
+It is now four decades later.
+The wide array of disparate terminal types has narrowed, to the extent that people now actually get away with <em>hardwiring</em> ISO colour and attribute control sequences into their programs.
+(<a href="https://github.com/systemd/systemd/blob/40c9fe4c0862114dab390c8ed16f78cf056b9140/src/basic/terminal-util.h#L30-44">systemd does this</a>, for example.
+<a href="http://git.savannah.gnu.org/cgit/grep.git/tree/src/grep.c?id=c7526623f458084cbe947f0e1b43f328481b2ca3#n226">So too does GNU <code>grep</code></a>.)
+Support for at least 8 colours, and usually 16 colours, is now the rule rather than the exception when it comes to terminal hardwares that people use.
+GNU <code>grotty</code> (a part of the manual system that converts the page to display to a terminal character stream with control sequences) actually defaults to using ECMA-48 control sequences for boldface, underline, and italics; and ISO 8613-6:1994 control sequences for colour.
+One would think that making Unix or Linux manual pages display with italicized and coloured text would be straightforward and commonplace nowadays.
+</p>
+
+<p>
+One would be wrong.
+</p>
+
+<p>
+Four decades' worth of Unix and Linux people have decided that it is Just Not Right for manual pages to be displayed with italic text where the manual page uses (say) the <code>.I</code> roff macro &mdash; that specifies italic text.
+They have, between them, put in place quite a range of obstacles that must be overcome in order to see something, on today's machines, that was <em>nominally</em> available back in the late 1970s.
+</p>
+
+<p>
+User-space virtual terminals provided by the nosh toolset support <a href="user-vt-screenshots.html#AttributeSGR">a full set of ECMA-48 text attributes</a> and <a href="user-vt-screenshots.html#ColourSGR">ISO 8613-6 24-bit RGB colour</a>.
+Here are the contortions that will present manual pages in all of their coloured and italicized glory when viewing them on a nosh user-space virtual terminal.
+</p>
+
+<h2 class="ruled" id="grotty">
+What needs to happen, internally
+</h2>
+
+<p>
+The manual system is a suite of co&ouml;perating programs, all connected together by the <code>man</code> command, that do various pieces of processing in order to end up with a manual page displayed on one's terminal.
+The last two commands in the chain are the ones that are relevant to colour and italicization.
+</p>
+
+<ul>
+<li><p>
+<strong><code>grotty</code></strong> is a device-specific renderer.
+It is responsible for taking a "device independent" encoding of the manual page (the so-called <code>ditroff</code> form) and converting it into a sequence of text interspersed with the necessary control sequences for rendering boldface, italics, underline, and colour.
+</p><p>
+By default, <code>grotty</code> actually emits ISO 8613-6 control sequences for colour.
+It does not emit ECMA-48 control sequences for italics by default, though.
+That has to be explicitly turned on with its <code>-i</code> command-line option.
+</p><p>
+Furthermore, one has to avoid turning <code>grotty</code>'s default behaviour <em>off</em>.
+<code>grotty</code> has a fall-back compatibility mode, where it does not emit any sort of control sequence for either colours or italicization, but instead treats the terminal <em>as if it were a typewriter</em>, using backspace to overstrike characters with themselves (for boldface) or an underscore character (for underline).
+Ironically, terminals are not typewriters, and this backwards-compatible convention does not achieve the intended result if written directly to a terminal.
+Instead, it then has to be turned into proper terminal escape codes by another program, further down the pipeline.
+</p><p>
+This compatibility mode that one has to avoid is turned on in one of three ways:
+one invokes it with its <code>-c</code> command-line option; one embeds a special string (<code>tty:&nbsp;sgr&nbsp;0</code>) in the ditroff input that it receives for conversion; or one runs it with the <code>GROFF_NO_SGR</code> environment variable set and non-blank.
+</p></li>
+<li><p>
+<strong><code>less</code></strong> (and its equivalents) is a pager.
+It is responsible for taking a sequence of text interspersed with control sequences and displaying it in a scrollable form on the terminal.
+It is <code>less</code> that understands the overstrike-with-backspace convention and knows to write out the terminal control sequences for changing text attributes, instead.
+</p><p>
+It is also <code>less</code> that can be invoked with an <code>-R</code> option that causes it to recognize and pass terminal control sequences, for setting colours and attributes, straight through from its input to the terminal that it is displaying on.
+</p></li>
+</ul>
+
+<p>
+You do not need to do anything special to the <code>console-fb-realizer</code> display realizer program in the nosh toolset to make it handle italicization and colour.
+That is the default.
+You can explicitly hand proper weighted and italicized fonts to it, for best results, and it will just render them.
+But (as its manual page explains) it will resort to doubling-up and obliquing as fallback measures if it isn't supplied with such fonts.
+</p>
+
+<p>
+The <code>console-terminal-emulator</code> terminal emulator program in the nosh toolset supports the ECMA-48 and ISO 8613-6 control sequences right out of the box, no configuration required.
+</p>
+
+<h2 class="ruled" id="FreeBSD">
+FreeBSD <code>man</code> command
+</h2>
+
+<p>
+In 2011, <a href="https://svnweb.freebsd.org/base/head/usr.bin/man/man.sh?r1=222650&r2=222653">FreeBSD's <code>man</code> command gained its <code>MANCOLOR</code></a> mechanism.
+Unless the <code>MANCOLOR</code> environment variable is set and non-blank, <code>man</code> arranges for <code>grotty</code> to be invoked with its <code>-c</code> option.
+The <code>man</code> command also attempts to deduce that it needs to give the <code>-R</code> option to <code>less</code> if that is the pager that is being invoked.
+</p>
+
+<p>
+So setting the <code>MANCOLOUR</code> environment variable enables colours with little fanfare.
+It does not enable italicization, though.
+FreeBSD's <code>man</code> command does not have a similar flag to tell it to pass the <code>-i</code> command-line option to <code>grotty</code>.
+</p>
+
+<p>
+To achieve this, the following patch implements similar logic for a <code>MANITALIC</code> environment variable.
+</p>
+
+<blockquote><pre>
+--- /usr/src/usr.bin/man/man.sh.orig	2016-01-01 18:53:41.169871849 +0000
++++ /usr/src/usr.bin/man/man.sh	2016-05-16 14:26:03.474372847 +0100
+@@ -356,8 +356,10 @@
+ 		;;
+ 	esac
+ 
+-	if [ -z "$MANCOLOR" ]; then
++	if [ -z "$MANCOLOR" ] &amp;&amp; [ -z "$MANITALIC" ]; then
+ 		NROFF="$NROFF -P-c"
++	elif [ -n "$MANITALIC" ]; then
++		NROFF="$NROFF -P-i"
+ 	fi
+ 
+ 	if [ -n "${use_width}" ]; then
+</pre></blockquote>
+
+<h2 class="ruled" id="Debian">
+Debian <code>man</code> command
+</h2>
+
+<p>
+The obstacles put in the way on Debian operating systems are subtler, and undocumented.
+</p>
+
+<p>
+In 2002, <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=161104">Colin J. Watson of Debian added an undocumented flag</a> to <code>groff</code>.
+This undocumented flag is the <code>GROFF_SGR</code> environment variable.
+<em>Unless it is set</em>, roff macro code in the <code>/etc/groff/man.local</code> file forcibly and quietly emits the <code>tty:&nbsp;sgr&nbsp;0</code> control sequence into the input that is given to <code>grotty</code>.
+</p>
+
+<p>
+Setting this flag is an undocumented override that restores the behaviour of <code>grotty</code> <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=750202">that people expect from its documentation</a>.
+Debian's <code>man</code> command doesn't itself actually pass the <code>-c</code> command line flag, emit the control sequence, or set the <code>GROFF_NO_SGR</code> environment variable, and a user who didn't know to dig into a decade-and-a-half old bug report against a long since superseded version of Debian Linux could be excused being mystified by how on Earth the programs were not behaving as documented.
+</p>
+
+<p>
+It doesn't enable the non-default behaviour of <code>grotty</code> that employs real italicization, though.
+To do that, it is necessary to pass the <code>-i</code> option to <code>grotty</code>.
+This is done by passing the <code>-P-i</code> option to <code>groff</code>.
+This is in turn done by passing the <code>--&nbsp;-P-i</code> option to <code>nroff</code>.
+But the Debian <code>man</code> command is not a shell script that can be easily patched in situ, but a compiled program.
+So one has to employ the <code>MANROFFOPT</code> environment variable, setting it to "<code>--&nbsp;-P-i</code>".
+</p>
+
+<p>
+Or one can patch the offending macro code out of the <code>/etc/groff/man.local</code> file, as long as one is prepared to re-apply that patch every time that the package containing that file is upgraded/reinstalled.
+</p>
+
+<h3 class="ruled" id="Arch">
+Arch <code>man</code> command
+</h3>
+
+<p>
+It has been reported that the settings that apply on Debian also apply to Arch Linux.
+</p>
+
+<div style="clear:both;">
+<hr>
+<link rel="Author" href="../../author.html" />
+<font size=-2>
+&copy; Copyright 2016
+<a href="../../author.html">Jonathan de Boyne Pollard</a>.
+"Moral" rights asserted.
+<br>
+Permission is hereby granted to copy and to distribute this WWW page in its original, unmodified form as long as its last modification datestamp information is preserved.
+</font>
+
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head><TITLE>Latest Alpine Release Home Page</TITLE>
+<meta name="description" content="Get a new version of Alpine with new features and bug fixes">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<LINK REL="SHORTCUT ICON" href="alpine/images/favicon.ico">
+<LINK REL="stylesheet" HREF="alpine/css/newindex.css" TYPE="text/css">
+<link rel="apple-touch-icon" href="images/apple-touch-icon-iphone-60x60.png">
+<!--
+<link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-ipad-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-iphone-retina-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-ipad-retina-152x152.png">
+-->
+</head>
+<body class=release>
+<div style="display:block;">
+  <div style="float:left;width:18%;">
+     <img width="40%" height="8%" src="images/alpinelogo.gif" alt="Alpine Logo">
+  </div>
+
+  <div style="float:right;width:82%;">
+    <center>
+      <h1>Alpine Email Program</h1>
+    </center>
+  </div>
+</div>
+
+
+
+<div style="float:left;width:18%;">
+<h2>Welcome!</h2>
+
+The purpose of this page is to distribute releases of Alpine, as well as 
+to provide users with documentation on Alpine. All documentation needed to 
+configure Alpine can be found in the binary, and this page may provide 
+extra documentation. In any case, you are not required, nor encouraged to 
+access this site to run Alpine. You can run Alpine in your computer 
+without the need to ever visit this site. All documentation needed to 
+configure Alpine can be found in the binary, and can be read by either 
+pressing the &quot;?&quot; command or by pressing &quot;^G&quot in Alpine. 
+This site does not use cookies, runs javascript, or tracks you in any 
+form.
+
+<BR>&nbsp;<BR>
+<A name="PrivacyPolicy" Title="Privacy Policy"><B>Privacy Policy</B></A>
+<BR>&nbsp;<BR>
+
+Your privacy is important to me. When you access this site a log is kept 
+on the pages you visited. I have access to daily logs which are normally 
+erased, and if I do not see them, I miss them. I must login to this site 
+about twice a month, and I take a look at the site logs at that time. The 
+logs record your IP address, the date and time when you made a request to 
+the server, the exact request you made, the http status code received by 
+your server, and the browser you used. When I read the logs, I only look 
+at which pages people have accessed, and make a mental note about them, 
+and I do not make any concerted effort to associate an IP address with a 
+pattern of visits. This information is just for purposes of me knowing 
+what pages users visited, and nothing more. I have had access to this 
+information since March 2020, and no information previous to that time is 
+available to me.
+
+<BR>&nbsp;<BR>
+
+I also find it amusing to read the 404 errors. It shows people looking for 
+newer versions of Alpine, and other plugins that do not exist. I try not 
+to link to missing pages, but if I do, please report it to me so that I 
+can fix it.
+
+<BR>&nbsp;<BR>
+
+While I do not do anything to link you with your visit to this site, I do 
+not know what my free web site provider does with this information. 
+Continuing that idea, I do not know what your ISP does with this data 
+either, and if you contact me, I do not know what my email service 
+provider or your email service does with that information either. However, 
+if you contact me, I will use that information to contact you back in case 
+I need to, and I will only contact you in reference to 
+the topic of your message. I will never ask you for passwords, or 
+sensitive information that is not needed to debug an issue you might have 
+found. I normally keep records of all messages that are sent to me and 
+those that I send. I sometimes need to access those records to remind me 
+of past issues and their solutions. If you would like me to delete records 
+of my conversation with you, I will do so, but you must initiate that 
+request.
+
+<BR>&nbsp;<BR>
+
+Finally, rest assured that I will never sell or share information about 
+your visit to this site, or the fact you contacted me, with anyone.
+
+</div>
+
+<div style="float:left;width:2%">
+&nbsp;
+<!-- leave some space between left and right -->
+</div>
+
+
+<div style="float:left;width:65%;">
+<h3><B class=release>Latest Release Version 2.26</B></h3>
+
+
+<UL class=release>
+<LI class=release><B class=release>Source Code</B> 
+<A style="color:#ffff00" HREF="alpine/release/src/alpine-2.26.tar.xz"><B>alpine-2.26.tar.xz</B></A>
+   <UL>
+   <LI><span style="font-size:12pt">MD5: 0943b31c476276e924b02afbfaf98392</span>
+   <LI><span style="font-size:12pt">SHA256: c0779c2be6c47d30554854a3e14ef5e36539502b331068851329275898a9baba</span>
+   </UL>
+   GPG Signature: <A HREF="alpine/release/src/sig/alpine-2.26.tar.xz.sig">alpine-2.26.tar.xz.sig</A>.
+</span>
+<LI class=release>
+ <B class=release>Windows Binary</B> 
+  <UL class=release>
+  <LI class=release> For Windows 10 or any 64 bit version of WIndows: 
+  <A style="color:#ffff00" HREF="alpine/release/src/alpine-2.26.zip"><B>alpine-2.26.zip</B></A><BR>
+     <UL>
+	<LI><span style="font-size:12pt">MD5: c9dc33c27f05770b9604ce50b220946b</span>
+	<LI><span style="font-size:12pt">SHA256: d754c781f84e4034ddbc6e33188deef5b3566bdcd296945cad7ee955a070ae3b</span>
+     </UL>
+  <LI class=release> For an old version of Windows, such as XP, which is 32 bit: <A style="color:#ffff00" HREF="alpine/release/src/alpine-2.26_32bits.zip"><B>alpine-2.26_32bits.zip</B></A><BR>
+     <UL>
+	<LI><span style="font-size:12pt">MD5: 499b144858fbba9ceaf1efb4ca6327fc
+	<LI><span style="font-size:12pt">SHA256: 507aa9e54d02f4b588a5889e47632c71e796eb2bbb6023915de386f9ee6d0693</span>
+     </UL>
+  </UL>
+</UL>
+
+<P class=release>
+In order to check the integrity of your download, you might need my 
+<A style="color:#ffff00" HREF="alpine/gpg/alpine.chappa@yandex.com.gpg"><B>GPG public key</B></A>.
+
+<P class=release>
+This version is released under the Apache License Version 2.0.
+
+<BR>&#160;<BR>
+Version 2.26 includes several new features and bug fixes.
+
+<P class=release>
+Additions include:
+
+<UL class=release>
+
+<LI class=release> Unix version of Alpine (not including OSX). Alpine is built with password
+     file support by default. If Alpine is built with SMIME support and the
+     password file does not exist, then Alpine will create it by default and
+     encrypt it.
+
+<LI class=release> In the past Alpine did not recognize images embedded
+     in an HTML file, so now it does and a link to open them is
+     given. Additionally, Alpine did not pass these images to an
+     external browser for display using the external command, and
+     now it will.
+
+<LI class=release> Support for code_verifier and code_challenge when generating a
+     refresh token and access token in Gmail and Outlook using the
+     S256 method and plain method.
+
+<LI class=release> Change the redirect_uri scheme for Gmail, as Google is deprecating the use
+     of oob. Changed to http://localhost. Users are supposed to enter the URL
+     they see in their browser in place of the code.
+
+<LI class=release> Some servers do not allow the Drafts folder to be removed, even when
+     it is empty. Alpine, however, assumes that if the folder exists, it
+     must contain a draft message. This joint collaboration with Thomas
+     Uhle modifies alpine to not to attempt to continue a draft message if
+     the draft folder is empty.
+
+<LI class=release> Contributions by Thomas Uhle:
+<UL class=release>
+  <LI class=release> Add support to the LDAP attribute "userCertificate";
+  <LI class=release> Move voiceMailTelephoneNumber from the TCL side to ldap_translate; 
+  <LI class=release> XOAUTH2 state generator changes format specifier from %x to %02x;
+  <LI class=release> Web Alpine will not attempt to continue a postponed message if the 
+       postponed-msgs folder is empty.
+</UL>
+
+<LI class=release> Improvements to the screen that allows a user to select the client-id when
+     a user attempts to login to a server and more than one client-id
+     is available for that server. In this case additional information is
+     given: The method to use (device or authorize), a user id that uses the
+     suggested client-id or a report that the client-id has not been used.
+     
+<LI class=release> To protect the privacy of a user, the message-id of a message will be
+     generated using the domain in the From field of the message.
+
+<LI class=release> When saving to a folder in the unix format, Alpine parses the
+     destination folder to assign uids to all messages in the folder. When
+     the destination folder is large this could significantly slow down   
+     alpine. Fix based on a patch submitted to the alpine-info list by  
+     Chris Caputo.
+       
+<LI class=release> Add the LOGOUT command to the list of commands that can be
+     automatically interrupted in case the connection becomes unstable
+     during that command and Alpine times out its connection to the server.
+<LI class=release> If new mail has arrived when a user is closing a mailbox, Alpine will
+     also announce how many new messages have arrived. Suggested by Chime Hart.
+
+<LI class=release> When an invitation does not have a timezone in the date of the event,
+     but the date is in GMT, adjust the date to local time.
+</UL>
+
+<P class=release> Bugs that have been addressed include:
+
+<UL class=release> 
+
+<LI class=release> Crash when invoking Alpine from the command line and an attempt to authorize
+     alpine to use XOAUTH2 is done. Alpine crashes because of a missing optional
+     parameter -xoauth2-flow and because no screen has been configured yet. Reported
+     by Baron Fujimoto.
+     
+<LI class=release> Alpine crashes when it cannot retrieve the privacy policy due to
+     failure connecting to the external server.
+
+<LI class=release> Alpine might delete all passwords from the password file if the
+     password file is not unlocked by cancellation, or the authentication
+     for an XOAUTH2 server is cancelled, or the password of an account
+     is changed.
+
+<LI class=release> When the personal name of an address is encoded, and the personal name
+     is surrounded by quotes, these are not removed by Alpine at the time
+     to offer to take an address from a message to the addressbook. Reported
+     by David Prager Branner.
+
+<LI class=release> If a user configures the sendmail-path variable, and does not use a
+     global smtp-server, then Alpine will use the sendmail-path even when
+     the user configured a smtp-server for a role. Reported by Gregory
+     Heytings.
+
+<LI class=release> Crash in PC-Alpine when creating a mail collection and no username is
+     indicated in the server path. Reported by Sandy Schuman.
+
+<LI class=release> Crash in Alpine when running a filter that moves deleted messages the
+     INBOX in a Gmail account. Reported by Jyrki Voutilainen.
+</UL>
+
+
+<div class=release>
+In order to compile this source code you need OpenSSL version 1.0.0c or 
+later. In addition, Alpine can be compiled with recent versions of LibreSSL.
+
+<P class=release>In order to decompress use the command
+
+<BR>&#160;<BR>
+tar -Jxf alpine-2.26.tar.xz
+</div>
+
+<P class=release>This page Copyright 2022 &copy; Eduardo Chappa
+
+</div>
+
+<div style="float:left;width:2%">
+&nbsp;
+<!-- leave some space between left and right -->
+</div>
+
+<div style="float:left;width:15%;">
+<!--<div class=help><B class=release><A HREf="ruth.html"><B>Help Ruth</B></A></B></div>-->
+<div class=help><A HREF="legal/terms.html">Terms of Service</A></div>
+<div class=help><A HREF="legal/privacy.html">Alpine Privacy Policy</A></div>
+<div class=help><A HREF="alpine/contact.html">Contact Information</A></div>
+<div class=help><B class=release>Links to old releases</B></div>
+<div class=help><A HREF="alpine/release/alpine-2.25.html">Alpine 2.25</A></div>
+<div class=help><A HREF="alpine/release/alpine-2.24.html">Alpine 2.24</A></div>
+<div class=help><A HREF="alpine/release/alpine-2.23.html">Alpine 2.23</A></div>
+<div class=help><A HREF="alpine/release/alpine-2.22.html">Alpine 2.22</A></div>
+<div class=help><A HREF="alpine/release/alpine-2.21.html">Alpine 2.21</A></div>
+<div class=help><A HREF="alpine/release/alpine-2.20.html">Alpine 2.20</A></div>
+<div class=help><A HREF="alpine/release/alpine-2.11.html">Alpine 2.11</A></div>
+<div class=help><A HREF="alpine/info/alpine.html">Alpine 2.10</A></div>
+<div class=help><A HREF="alpine/release/src/Old/alpine-2.01.clean.tar.lzma">Alpine 2.01</A></div>
+<div class=help><B class=release><A  HREF="alpine/index.html">Patches for Alpine</A></B></div>
+<div class=help><B class=release>Help for Alpine</B></div>
+<div class="help"><A HREF="alpine/alpine-info/build/index.html">Compiling Alpine</A></div>
+<div class="help"><A HREF="alpine/alpine-info/misc/xoauth2.html">XOAUTH2</A></div>
+<div class=help><A HREF="scripts/ooauth2.html">ooauth2.py script</A></div>
+<div class="help"><A HREF="alpine/alpine-info/misc/smime.html">S/MIME</A></div>
+<div class="help"><A HREF="alpine/alpine-info/misc/flowed.html">Flowed Text</A></div>
+<div class="help"><A HREF="alpine/alpine-info/maildrop/index.html">Maildrops</A></div>
+<div class="help"><A HREF="alpine/alpine-info/filters/index.html">Filters</A></div>
+<div class="help"><A HREF="alpine/alpine-info/roles/index.html">Roles</A></div>
+<div class="help"><A HREF="alpine/alpine-info/scores/index.html">Scores</A></div>
+<div class="help"><A HREF="alpine/alpine-info/misc/headers.html">Headers</A></div>
+<div class="help"><A HREF="alpine/alpine-info/misc/index-format.html">Index Screen</A></div>
+<div class="help"><A HREF="alpine/alpine-info/misc/signature.html">Signature</A></div>
+<div class="help"><A HREF="alpine/alpine-info/misc/search.html">Search</A></div>
+<div class="help"><A HREF="alpine/alpine-info/misc/mime.html">Mailcap and Mime</A></div>
+<div class="help"><A HREF="alpine/alpine-info/commands/compose.html">The Compose Command</A></div>
+<div class="help"><A HREF="alpine/alpine-info/commands/reply.html">The Reply Command</A></div>
+<div class="help"><A HREF="alpine/alpine-info/collections/index.html">Folder Collections</A></div>
+<div class="help"><A HREF="alpine/alpine-info/collections/incoming-folders/index.html">Incoming Folders</A></div>
+<div class="help"><A HREF="alpine/alpine-info/collections/Mail/index.html">Mail Collection</A></div>
+<div class="help"><A HREF="alpine/alpine-info/collections/News/index.html">News Collection</A></div>
+<div class=help><B class=release>Other Links</B></div>
+<div class=help><A HREF="pine/index.html">Patches for Pine</A></div>
+<div class=help><A HREF="pine/pine-info/index.html">Help for Pine</A></div>
+<div class=help><A HREF="math/cubic.html">The Cubic Equation</A></div>
+<div class=help><A HREF="math/fqidentities.pdf">Identities for Powers of Fibonacci Numbers</A></div>
+<div class=help><A HREF="math/identities.pdf">Collection of Identities for Powers of Fibonacci Numbers</A></div>
+<div class="help"><A HREF="history.html">Old Home Page</A></div>
+<P class=release>Last Updated Sun 30 Apr 2023 08:03:50 PM MDT
+</div>
+
+
+
+
+</body>
+</html>
+

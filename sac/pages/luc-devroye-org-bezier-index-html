@@ -1,0 +1,394 @@
+<HTML>
+<HEAD>
+<LINK href="myfonts.css" rel="stylesheet" type="text/css">
+<TITLE>Bezier curves---Index Page </TITLE>
+<META name="author"
+      content="Luc Devroye">
+<META name="generator"
+      content="Written directly in html by Luc Devroye">
+<META name="description"
+content="Bezier curves---Index Page , Links to and pages on Bezier curves.">
+<META name="keywords"
+content="Bezier curves---Index Page , fonts, Bezier curves, splines, postscript, type 1, truetype, de Casteljau, Citroen, Renault">
+
+<META name="copyright" 
+      content="Luc Devroye, School of Computer Science, McGill University">
+<META name="distribution" 
+      content="global">
+<META name="language"
+      content="en-us">
+<META name="owner"
+      content="Luc Devroye">
+<META name="revisit-after" 
+      content="7 days">
+<META name="robots" 
+      content="all, index, follow">
+<META name="siteinfo" 
+      content="http://luc.devroye.org">
+<link rel="shortcut icon" type="image/x-icon" href="moose01.ico" >
+
+</head>
+
+<body bgcolor="#ffffff" >
+
+<font class="regular">
+<TABLE CELLSPACING=5 CELLPADDING=0 WIDTH=100%>
+<TR>
+<TD valign="top">
+<P><font style="font: 10pt/15pt larger sans-serif ; font-weight: bold ; font-variant: small-caps "><a href="fonts.html">TYPE DESIGN INFORMATION PAGE</a> </font> <font class="regular" ; color="#aaaaaa"> last updated on
+Tue Mar 5 04:43:38 EST 2024
+</font>
+<P> <font style="font: 10pt/15pt larger sans-serif ; font-weight: bold ; font-variant: small-caps "> <form name="input" action="cgi-bin/select.cgi" method="get"> SEARCH THIS SITE: <input type="text" name="xxxx"> <input type="submit" value="SUBMIT"> </form></font>
+<P><font style="font: 10pt/15pt larger sans-serif ; font-weight: bold ; font-variant: small-caps "> <form name="input" action="cgi-bin/imageselect.cgi" method="get"> IMAGE SEARCH: <input type="text" name="xxxx"> <input type="submit" value="SUBMIT"> </form> </font>
+<P><font style="font: 10pt/15pt larger sans-serif ; font-weight: bold ; font-variant: small-caps ">FONT RECOGNITION VIA <a href="http://fontmoose.devroye.org"><font color="FF3097">FONT MOOSE</font></a></font>
+</TD>
+<TD valign="top">
+<P align="right"><a href="fonts.html"><font style="font: 10pt/15pt larger sans-serif ; font-weight: bold ; font-variant: small-caps ">LUC DEVROYE</font></a>
+<P><a href="fonts.html"><img src="moose.gif" valign="top" align="right"></a>
+<BR clear="all">
+<P align="right"><font style="font: 10pt/15pt larger sans-serif ; font-weight: bold ; font-variant: small-caps "><a href="about.html"><font color="FF3097">ABOUT</a></font></a></font>
+</TD></TR>
+<font class="regular">
+
+<!---   HEADER  --->
+<TABLE CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR><TD><BR></TD><TD><BR></TD><TD><BR></TD></TR>
+<TR>
+<TD VALIGN=top  BGCOLOR="#cccccc" WIDTH="21%">
+<HR SIZE=1 NOSHADE>
+</TD>
+<TD VALIGN=top  BGCOLOR="#dddddd" WIDTH="58%" >
+<HR SIZE=1 NOSHADE>
+</TD>
+<TD VALIGN=top  BGCOLOR="#eeeeee" WIDTH="21%" >
+<HR SIZE=1 NOSHADE>
+</TD>
+</TR>
+
+
+<TR>
+<TD VALIGN=TOP HALIGN=RIGHT WIDTH="100%" BGCOLOR="#eeeeee" colspan="3">
+<center><P align="center" valign="middle"><font class="bold">Bezier curves <BR><BR> </font></P><BR></center>
+</TD></TR>
+<TR>
+<TD VALIGN=top  BGCOLOR="#eeeeee" WIDTH="21%" >
+<HR SIZE=1 NOSHADE>
+</TD>
+<TD VALIGN=top  BGCOLOR="#dddddd" WIDTH="58%" >
+<HR SIZE=1 NOSHADE>
+</TD>
+<TD VALIGN=top  BGCOLOR="#cccccc" WIDTH="21%">
+<HR SIZE=1 NOSHADE>
+</TD>
+</TR>
+<TR><TD><BR></TD><TD><BR></TD><TD><BR></TD></TR>
+</TABLE>
+<h3  align="right"><a href="bezier.html">SWITCH TO FULL LENGTH FILE</a></h3> <BR> 
+<TABLE CELLSPACING=0 CELLPADDING=5 WIDTH="100%">
+<COLGROUP> <COL WIDTH="21%"> <COL WIDTH="79%"> </COLGROUP>
+<TR> <TD VALIGN=top> </TD> <TD VALIGN=top > </TD> </TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-27958.html">2-D curve generation</A>   [<a href="http://www.google.com/search?hl=en&q=%222-D curve generation%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-27958.html"><font color="B2015C">More</font></a>] <a href="fonts-27958.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-104493.html">A Primer on Bezier Curves</A>   [Pomax]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Pomax%22+%22A Primer on Bezier Curves%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-104493.html"><font color="B2015C">More</font></a>] <a href="fonts-104493.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-82911.html">A Primer on Bezier Curves</A>   [Mike "Pomax" Kamermans]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Mike "Pomax" Kamermans%22+%22A Primer on Bezier Curves%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-82911.html"><font color="B2015C">More</font></a>] <a href="fonts-82911.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-41322.html">A Tribute to Pierre B&eacute;zier (1910-1999)</A>   [Pierre B&eacute;zier]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Pierre B&eacute;zier%22+%22A Tribute to Pierre B&eacute;zier (1910-1999)%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-41322.html"><font color="B2015C">More</font></a>] <a href="fonts-41322.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-41320.html">Alex Dumestre</A>   [<a href="http://www.google.com/search?hl=en&q=%22Alex Dumestre%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-41320.html"><font color="B2015C">More</font></a>] <a href="fonts-41320.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-46416.html">Apple: Digitizing Letterforms</A>   [<a href="http://www.google.com/search?hl=en&q=%22Apple  Digitizing Letterforms%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-46416.html"><font color="B2015C">More</font></a>] <a href="fonts-46416.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-51712.html">Barbara Brownie</A>   [<a href="http://www.google.com/search?hl=en&q=%22Barbara Brownie%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-51712.html"><font color="B2015C">More</font></a>] <a href="fonts-51712.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-36361.html">Barsky and B&eacute;zier</A>   [Pierre B&eacute;zier]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Pierre B&eacute;zier%22+%22Barsky and B&eacute;zier%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-36361.html"><font color="B2015C">More</font></a>] <a href="fonts-36361.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+<img class="imgsmall" style="position:static" src="Barsky-Bezier.gif" align="right" hspace="5" vspace="5" valign="top">
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-46109.html">B&eacute;zier</A>   [<a href="http://www.google.com/search?hl=en&q=%22B&eacute;zier%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-46109.html"><font color="B2015C">More</font></a>] <a href="fonts-46109.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-96520.html">B&eacute;ziers</A>   [Simon Cozens]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Simon Cozens%22+%22B&eacute;ziers%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-96520.html"><font color="B2015C">More</font></a>] <a href="fonts-96520.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-25380.html">Bezier applet</A> [<a href="fonts-25380.html"><font color="B2015C">More</font></a>] <a href="fonts-25380.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-40131.html">Bezier approximation of a circle arc</A>   [<a href="http://www.google.com/search?hl=en&q=%22Bezier approximation of a circle arc%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-40131.html"><font color="B2015C">More</font></a>] <a href="fonts-40131.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-29997.html">Bezier conversions</A>   [<a href="http://www.google.com/search?hl=en&q=%22Bezier conversions%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-29997.html"><font color="B2015C">More</font></a>] <a href="fonts-29997.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-71090.html">Bezier curve</A>   [<a href="http://www.google.com/search?hl=en&q=%22Bezier curve%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-71090.html"><font color="B2015C">More</font></a>] <a href="fonts-71090.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+<img class="imgsmall" style="position:static" src="SandC.gif" align="right" hspace="5" vspace="5" valign="top">
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-24705.html">Bezier curves tutorial</A>   [<a href="http://www.google.com/search?hl=en&q=%22Bezier curves tutorial%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-24705.html"><font color="B2015C">More</font></a>] <a href="fonts-24705.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+<img class="imgsmall" style="position:static" src="Kinch-BezierPretzel.gif" align="right" hspace="5" vspace="5" valign="top">
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-25378.html">Bezier drawing tool</A>   [<a href="http://www.google.com/search?hl=en&q=%22Bezier drawing tool%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-25378.html"><font color="B2015C">More</font></a>] <a href="fonts-25378.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-82910.html">bezierjs</A>   [Mike "Pomax" Kamermans]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Mike "Pomax" Kamermans%22+%22bezierjs%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-82910.html"><font color="B2015C">More</font></a>] <a href="fonts-82910.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-25394.html">Bill Casselman</A>   [<a href="http://www.google.com/search?hl=en&q=%22Bill Casselman%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-25394.html"><font color="B2015C">More</font></a>] <a href="fonts-25394.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-87350.html">BubbleKern</A>   [Toshi Omagari]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Toshi Omagari%22+%22BubbleKern%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-87350.html"><font color="B2015C">More</font></a>] <a href="fonts-87350.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-95720.html">caryll / shapeops</A>   [<a href="http://www.google.com/search?hl=en&q=%22caryll / shapeops%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-95720.html"><font color="B2015C">More</font></a>] <a href="fonts-95720.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-25441.html">Converting Bezier Curves to Quadratic Splines</A>   [<a href="http://www.google.com/search?hl=en&q=%22Converting Bezier Curves to Quadratic Splines%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-25441.html"><font color="B2015C">More</font></a>] <a href="fonts-25441.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-43550.html">Cornu spiral</A>   [<a href="http://www.google.com/search?hl=en&q=%22Cornu spiral%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-43550.html"><font color="B2015C">More</font></a>] <a href="fonts-43550.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+<img class="imgsmall" style="position:static" src="CornuSpiral--Small.png" align="right" hspace="5" vspace="5" valign="top">
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-95744.html">cu2qu</A>   [<a href="http://www.google.com/search?hl=en&q=%22cu2qu%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-95744.html"><font color="B2015C">More</font></a>] <a href="fonts-95744.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-95688.html">cubic2quad</A>   [<a href="http://www.google.com/search?hl=en&q=%22cubic2quad%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-95688.html"><font color="B2015C">More</font></a>] <a href="fonts-95688.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-56207.html">DIN and Klothoids</A>   [<a href="http://www.google.com/search?hl=en&q=%22DIN and Klothoids%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-56207.html"><font color="B2015C">More</font></a>] <a href="fonts-56207.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-24567.html">Drawing circles in Postscript</A>   [<a href="http://www.google.com/search?hl=en&q=%22Drawing circles in Postscript%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-24567.html"><font color="B2015C">More</font></a>] <a href="fonts-24567.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-41737.html">Fitting ellipses to points</A>   [<a href="http://www.google.com/search?hl=en&q=%22Fitting ellipses to points%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-41737.html"><font color="B2015C">More</font></a>] <a href="fonts-41737.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-103770.html">Font Mikado: Making a libre typeface and learning a lot</A>   [Simon Peter]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Simon Peter%22+%22Font Mikado  Making a libre typeface and learning a lot%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-103770.html"><font color="B2015C">More</font></a>] <a href="fonts-103770.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-36363.html">G. Scott Owen</A>   [<a href="http://www.google.com/search?hl=en&q=%22G. Scott Owen%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-36363.html"><font color="B2015C">More</font></a>] <a href="fonts-36363.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-70974.html">Geometric Modelling</A>   [Ken Joy]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Ken Joy%22+%22Geometric Modelling%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-70974.html"><font color="B2015C">More</font></a>] <a href="fonts-70974.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-25440.html">Geometry, Surfaces, Curves, Polyhedra</A>   [Paul Bourke]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Paul Bourke%22+%22Geometry, Surfaces, Curves, Polyhedra%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-25440.html"><font color="B2015C">More</font></a>] <a href="fonts-25440.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-72411.html">Guru's Lair Cubic Spline and Bezier Curves Library</A>   [<a href="http://www.google.com/search?hl=en&q=%22Guru's Lair Cubic Spline and Bezier Curves Library%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-72411.html"><font color="B2015C">More</font></a>] <a href="fonts-72411.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-49469.html">Harrisson</A>   [Open Source Publishing (or: OSP)]  
+ [<a href="fonts-49469.html"><font color="B2015C">More</font></a>] <a href="fonts-49469.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-44866.html">Jan Gerner</A>   [Yanone]  
+   <a href="https://www.myfonts.com/collections/Yanone/"><img src="MF.png" valign="top" ></a>
+ [<a href="fonts-44866.html"><font color="B2015C">More</font></a>] <a href="fonts-44866.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-70709.html">Jan Gerner</A>   [Speed Punk]  
+ [<a href="fonts-70709.html"><font color="B2015C">More</font></a>] <a href="fonts-70709.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-40130.html">Jim Fitzsimmons</A>   [<a href="http://www.google.com/search?hl=en&q=%22Jim Fitzsimmons%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-40130.html"><font color="B2015C">More</font></a>] <a href="fonts-40130.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-70974.html">Ken Joy</A>   [Geometric Modelling]  
+ [<a href="fonts-70974.html"><font color="B2015C">More</font></a>] <a href="fonts-70974.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-74230.html">Marina Lukashenko</A>   [<a href="http://www.google.com/search?hl=en&q=%22Marina Lukashenko%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-74230.html"><font color="B2015C">More</font></a>] <a href="fonts-74230.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-82910.html">Mike "Pomax" Kamermans</A>   [bezierjs]  
+ [<a href="fonts-82910.html"><font color="B2015C">More</font></a>] <a href="fonts-82910.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-82911.html">Mike "Pomax" Kamermans</A>   [A Primer on Bezier Curves]  
+ [<a href="fonts-82911.html"><font color="B2015C">More</font></a>] <a href="fonts-82911.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-49469.html">Open Source Publishing (or: OSP)</A>   [Harrisson]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Harrisson%22+%22Open Source Publishing (or  OSP)%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-49469.html"><font color="B2015C">More</font></a>] <a href="fonts-49469.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+<img class="imgsmall" style="position:static" src="OSP-UniversElse-2012.png" align="right" hspace="5" vspace="5" valign="top">
+<img class="imgsmall" style="position:static" src="KarlBassil+NadimZablit+PierreHuyghebaert+LudiLoiseau--AlfphabetCondensed-1992-2014b-Small.png" align="right" hspace="5" vspace="5" valign="top">
+<img class="imgsmall" style="position:static" src="Harrisson+LudiLoiseau+SebastienSanfilippo--LePatinHelvete-2011b-Small.png" align="right" hspace="5" vspace="5" valign="top">
+<img class="imgsmall" style="position:static" src="OSP-SansGuiltWafer-2012b-Small.png" align="right" hspace="5" vspace="5" valign="top">
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-25440.html">Paul Bourke</A>   [Geometry, Surfaces, Curves, Polyhedra]  
+ [<a href="fonts-25440.html"><font color="B2015C">More</font></a>] <a href="fonts-25440.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-26415.html">Peter Vollenweider</A>   [Rechenzentrum Universit&auml;t Z&uuml;rich]  
+ [<a href="fonts-26415.html"><font color="B2015C">More</font></a>] <a href="fonts-26415.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-41322.html">Pierre B&eacute;zier</A>   [A Tribute to Pierre B&eacute;zier (1910-1999)]  
+ [<a href="fonts-41322.html"><font color="B2015C">More</font></a>] <a href="fonts-41322.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-36361.html">Pierre B&eacute;zier</A>   [Barsky and B&eacute;zier]  
+ [<a href="fonts-36361.html"><font color="B2015C">More</font></a>] <a href="fonts-36361.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-36362.html">Pierre Etienne B&eacute;zier</A>  <a href="https://www.myfonts.com/person/Pierre_B%C3%A9zier/"><img src="MF.png" valign="top" ></a>
+   [<a href="http://www.google.com/search?hl=en&q=%22Pierre Etienne B&eacute;zier%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-36362.html"><font color="B2015C">More</font></a>] <a href="fonts-36362.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+<a href="https://www.myfonts.com/search/ Barsky  Bezier/fonts"/><img style="position:static" class="imgsmall" src="Barsky-Bezier.gif" align="right" hspace="5" vspace="5" valign="top"></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-104490.html">Polyline2bezier</A>   [Yuhta Nakajima]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Yuhta Nakajima%22+%22Polyline2bezier%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-104490.html"><font color="B2015C">More</font></a>] <a href="fonts-104490.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-104493.html">Pomax</A>   [A Primer on Bezier Curves]  
+ [<a href="fonts-104493.html"><font color="B2015C">More</font></a>] <a href="fonts-104493.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-43548.html">Raph Levien</A>   [<a href="http://www.google.com/search?hl=en&q=%22Raph Levien%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-43548.html"><font color="B2015C">More</font></a>] <a href="fonts-43548.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+<img class="imgsmall" style="position:static" src="RaphLevien-SoncinoItalic2009.gif" align="right" hspace="5" vspace="5" valign="top">
+<img class="imgsmall" style="position:static" src="RaphLevien-MuseumBible-2007-after-BruceRogers-Centaur-Small.png" align="right" hspace="5" vspace="5" valign="top">
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-26415.html">Rechenzentrum Universit&auml;t Z&uuml;rich</A>   [Peter Vollenweider]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Peter Vollenweider%22+%22Rechenzentrum Universit&auml;t Z&uuml;rich%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-26415.html"><font color="B2015C">More</font></a>] <a href="fonts-26415.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-31045.html">RZU</A>   [<a href="http://www.google.com/search?hl=en&q=%22RZU%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-31045.html"><font color="B2015C">More</font></a>] <a href="fonts-31045.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-96520.html">Simon Cozens</A>   [B&eacute;ziers]  
+ [<a href="fonts-96520.html"><font color="B2015C">More</font></a>] <a href="fonts-96520.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-103770.html">Simon Peter</A>   [Font Mikado: Making a libre typeface and learning a lot]  
+ [<a href="fonts-103770.html"><font color="B2015C">More</font></a>] <a href="fonts-103770.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-41321.html">Song Sam Liang</A>   [<a href="http://www.google.com/search?hl=en&q=%22Song Sam Liang%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-41321.html"><font color="B2015C">More</font></a>] <a href="fonts-41321.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-70709.html">Speed Punk</A>   [Jan Gerner]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Jan Gerner%22+%22Speed Punk%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-70709.html"><font color="B2015C">More</font></a>] <a href="fonts-70709.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-29770.html">Spline applet</A>   [<a href="http://www.google.com/search?hl=en&q=%22Spline applet%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-29770.html"><font color="B2015C">More</font></a>] <a href="fonts-29770.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-56216.html">Thomas W. Sederberg</A>   [<a href="http://www.google.com/search?hl=en&q=%22Thomas W. Sederberg%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-56216.html"><font color="B2015C">More</font></a>] <a href="fonts-56216.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+<img class="imgsmall" style="position:static" src="ThomasSederberg--CAGD-Coursenotes-2010-Small.png" align="right" hspace="5" vspace="5" valign="top">
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-23062.html">Tom Dukich</A>   [<a href="http://www.google.com/search?hl=en&q=%22Tom Dukich%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-23062.html"><font color="B2015C">More</font></a>] <a href="fonts-23062.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-38626.html">Tomek Zemla</A>   [<a href="http://www.google.com/search?hl=en&q=%22Tomek Zemla%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-38626.html"><font color="B2015C">More</font></a>] <a href="fonts-38626.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-87350.html">Toshi Omagari</A>   [BubbleKern]  
+ [<a href="fonts-87350.html"><font color="B2015C">More</font></a>] <a href="fonts-87350.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-30610.html">Typo-L: Bezier Curves</A>   [<a href="http://www.google.com/search?hl=en&q=%22Typo-L  Bezier Curves%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-30610.html"><font color="B2015C">More</font></a>] <a href="fonts-30610.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-71091.html">Urs Oswald</A>   [Urs Oswald: Bezier Curves]  
+ [<a href="fonts-71091.html"><font color="B2015C">More</font></a>] <a href="fonts-71091.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-71091.html">Urs Oswald: Bezier Curves</A>   [Urs Oswald]  
+ [<a href="http://www.google.com/search?hl=en&q=%22Urs Oswald%22+%22Urs Oswald  Bezier Curves%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-71091.html"><font color="B2015C">More</font></a>] <a href="fonts-71091.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-44866.html">Yanone</A>   [Jan Gerner]  
+   <a href="https://www.myfonts.com/collections/Yanone/"><img src="MF.png" valign="top" ></a>
+ [<a href="http://www.google.com/search?hl=en&q=%22Jan Gerner%22+%22Yanone%22&btnG=Google+Search&aq=f&oq="><font color="7A3856">Google</font></a>] 
+ [<a href="fonts-44866.html"><font color="B2015C">More</font></a>] <a href="fonts-44866.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+<TR><TD VALIGN=TOP ALIGN=LEFT WIDTH="100%"><P class="hangindent">
+<A HREF="fonts-104490.html">Yuhta Nakajima</A>   [Polyline2bezier]  
+ [<a href="fonts-104490.html"><font color="B2015C">More</font></a>] <a href="fonts-104490.html"><font color="B2015C" style="bold">&nbsp;&#10687;</font></a>
+</P></TD><TD VALIGN=TOP WIDTH="0%"></TD></TR>
+</font></font>
+</TABLE>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH=100%>
+<TR> <TD></TD><TD></TD></TR>
+<TR> <TD></TD><TD></TD></TR>
+<TR>
+<TD VALIGN=top  BGCOLOR="#eeeeee" WIDTH="21%">
+<HR SIZE=1 NOSHADE>
+</TD>
+<TD VALIGN=top  BGCOLOR="#cccccc" WIDTH="79%" colspan="2">
+<HR SIZE=1 NOSHADE>
+</TD>
+</TR>
+</TABLE>
+</BODY></HTML>
