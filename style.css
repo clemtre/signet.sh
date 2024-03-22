@@ -1,24 +1,15 @@
-/* h1 → Name
- * h2 → Description
- * h3 → Tags
- * h4 → Date
- * h5 → Url
- */
-:root {
-    --font-size:22px;
-    --font-size-s:calc(var(--font-size) / 1.5);
-    --line-height:24px;
-    --date-width:10ch;
-    --gutter:0px;
-    --padding:2px;
+:root{
+    --font-size:12px;
+    --line-height:16px; 
+    --gap:2px;
+    --height:calc(var(--line-height) + var(--gap) * 2);
     --height:auto;
-    --color:black;
-    --selection:purple;
-    --background:#FFF;
-    --background-2:#FEFEFE;
-    --background-bottom:black;
+    --width-number:2em;
+    --background:#FEFEFE;
+    --link:purple;
+    --text:black;
+    --selection:lightyellow
 }
-/* https://github.com/psb1558/Junicode-font/releases */
 @font-face {
     font-family: Junicode;
     src: url("Junicode-CondLight.otf") format("opentype");
@@ -32,158 +23,53 @@
     font-family: Junicode, serif;
     font-variant-numeric: lining-nums;
 }
-h1,h2,h3,h4,h5,p, a {
-    text-wrap:wrap;
-    word-break: break-word;
-    line-height:var(--line-height);
-    padding:0;
-    margin:0;
-    font-weight:normal;
-    font-size:var(--font-size);
-}
-h1,h2,h3,h5 {
-    display:inline;
-}
-nav, section, textarea {
-    padding: var(--padding) 0;
-}
-a{
-    width:100%;
-    display:block;
-    color:var(--color);
-    text-decoration:none;
-    margin:auto;
 
+textarea {width:100%;padding:0;margin:0;
+    border:1px dotted black;
+    height:var(--height)
 }
-h5 {
-text-decoration:underline }
-li:hover a {
-color:var(--selection)}
 
+.PIN date, .PIN .tags, .PIN .id {display:none}
 
+tr a{color:var(--text); text-decoration:none}
+tr a::after{
+    margin-left:5px; content:attr(href); color:var(--link);
+    text-decoration:underline}
 
-textarea{
-    position:fixed;
-    top:0;
-    left:5px;
-    z-index:10;
-    width:calc(100vw - 10px);
-    font-size:var(--font-size);
-    height:calc(var(--line-height) + var(--padding));
-}
-ol {
-    margin:0;
-    display:flex;
-    gap:var(--gutter);
-    flex-direction:column-reverse;
+li:hover a::after{display:block}
 
-}
-body {
+tbody tr:hover {background:var(--selection)}
 
-}
-footer {
-    height:100vh;
-    margin-top:50vh;
-    background:linear-gradient( var(--background), var(--background-bottom));
-    width:calc(100% + 20px - 2px);
-    margin-left:-10px;
-    margin-bottom:-10px;
-    overflow:hidden;
-}
-li {
-    font-size:var(--font-size);
-    color:rgba(0,0,0,0);
-    height:0;
-    overflow:hidden
-}
-li * {opacity:0}
-.active:nth-of-type(2n){
-    background:var(--background-2);
-
-}
-li,textarea, nav {
-
-    box-sizing:border-box;
-    border:none;
-
-}
-.active * {opacity:1}
-.active {
-    border-bottom: 1px solid black;
+td {line-height:var(--line-height); 
     height:var(--height);
-    display:list-item;
-    color:var(--color);
-    overflow:visible;
-}
-h1,h2,a {
-}
-h3{
-    opacity:.5
-}
-section{
-    padding-right:var(--date-width);
-    height:calc(var(--font-size) + 2px) ;
-    overflow:hidden;
-}
-section:hover{
-height:auto
-}
-section:hover h1, h2, h3, h5{
-    display:inline
-}
-h1 {order: 0;
-
-}
-h2 {
-font-style:italic}
-h5,h2,h3,h4 {
-    order:3
-}
-
- h3::before, h2::before, h1::after{content:'\00a0·\00a0';}
-
-h4 {
-    width:var(--date-width);
-    width:fit-content;
-    text-align: right;
-
-    position:absolute;
-    right:10px;
-}
-html{background:white}
-nav p {display:inline;
-}
-nav p:not(:first-of-type)::before{
-    content:'· ' 
-}
-nav p::after{
-    font-size:var(--font-size-s);
-    display:inline-block;
-    transform:translateY(-7px);
-    content:'\00a0(' attr(count) ')'
-}
-nav {
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-top:calc(var(--line-height) + 1px + var(--padding));
-    height:calc(var(--line-height) + var(--padding) * 2);
-    overflow:hidden;
-
-}
-nav:hover {height:auto}
-#cc {
-    display:absolute;
-    position:fixed;
-    top:0;
-    left:0;
-    z-index:10;
-    height:100vh;
-    width:100vw;
-    pointer-events:none;
-    background:linear-gradient(0deg, yellow, ivory);
-    mix-blend-mode:multiply;
-
-    /* A color correction pass, enable it by removing this line ↓ */
-    display:none
+    padding: var(--gap) 5px;
+    word-break:break-word;
 }
 
+table {
+    border-collapse:collapse; 
+    border: 1px dotted black;
+}
+
+hr{ border:none;
+    border-bottom: 1px solid black;
+}
+
+button::after {
+    content:" "attr(count);
+    position:absolute;
+    transform:translate(1px, -5px)
+}
+
+button{background:transparent;border:none}
+
+p{margin:0;display:inline}
+.desc {opacity:.5}
+
+td:last-of-type {text-align:center;min-width:8ch}
+td:first-of-type {text-align:center;width:4ch}
+td:nth-of-type(3) {text-align:center}
+
+.hidden{display:none}
+tr,table {min-width:100%}
